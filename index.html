@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-bKuh5oLqHUXF2MHjlamCQhs48Xw8hvpG736qaQUiQ6c=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
-<meta name="description" content="Spin a globe of 721 sourced facts about 241 countries and territories, then test yourself with quizzes, a daily challenge, a passport and achievements.">
+<meta name="description" content="A neon globe geography game: thousands of sourced facts about every country, with quick rounds, a daily challenge, Survival, journeys and a passport to fill.">
 <meta name="theme-color" content="#0c1518">
 <meta property="og:title" content="Curious Atlas">
-<meta property="og:description" content="Spin a globe of 721 sourced facts about 241 countries and territories, then test yourself with quizzes, a daily challenge, a passport and achievements.">
+<meta property="og:description" content="A neon globe geography game: thousands of sourced facts about every country, with quick rounds, a daily challenge, Survival, journeys and a passport to fill.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="icons/icon-512.png">
+<meta property="og:image" content="https://xentaurkg.github.io/curious-atlas/icons/icon-512.png">
+<link rel="canonical" href="https://xentaurkg.github.io/curious-atlas/">
+<meta property="og:url" content="https://xentaurkg.github.io/curious-atlas/">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -21,9 +25,24 @@ body { margin: 0; font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-seri
 img { max-width: 100%; }
 [hidden] { display: none !important; }
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Color+Emoji&display=swap">
+
+<link rel="preload" href="fonts/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/source-serif-4-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/ibm-plex-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/ibm-plex-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-display: swap; font-weight: 200 800; src: url(fonts/bricolage-grotesque-latin-ext-opsz-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-display: swap; font-weight: 200 800; src: url(fonts/bricolage-grotesque-latin-opsz-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-display: swap; font-weight: 200 900; src: url(fonts/source-serif-4-latin-ext-opsz-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-display: swap; font-weight: 200 900; src: url(fonts/source-serif-4-latin-opsz-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-display: swap; font-weight: 200 900; src: url(fonts/source-serif-4-latin-ext-opsz-italic.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-display: swap; font-weight: 200 900; src: url(fonts/source-serif-4-latin-opsz-italic.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-display: swap; font-weight: 400; src: url(fonts/ibm-plex-mono-latin-ext-400-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-display: swap; font-weight: 400; src: url(fonts/ibm-plex-mono-latin-400-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-display: swap; font-weight: 500; src: url(fonts/ibm-plex-mono-latin-ext-500-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-display: swap; font-weight: 500; src: url(fonts/ibm-plex-mono-latin-500-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Atlas Flags"; font-style: normal; font-display: swap; font-weight: 400; src: local("Noto Color Emoji"), url(fonts/atlas-flags.woff2) format("woff2"); unicode-range: U+1F1E6-1F1FF; }
+</style>
 <style>
 /* Layout: a chart table. The globe fills the left, a field-notes panel sits on the right; stacked on phones. */
 :root {
@@ -31,7 +50,7 @@ img { max-width: 100%; }
   --surface: #f6f8f8;
   --ink: #13232a;
   --muted: #56686f;
-  --font-flag: "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", sans-serif;
+  --font-flag: "Apple Color Emoji", "Atlas Flags", "Segoe UI Emoji", sans-serif;
   --rule: #cdd7da;
   --ocean: #cfe8f2;
   --ocean-edge: #8fbfd6;
@@ -221,6 +240,11 @@ main {
 .country.m1 { fill: var(--m1); } .country.m2 { fill: var(--m2); } .country.m3 { fill: var(--m3); }
 .country.m4 { fill: var(--m4); } .country.m5 { fill: var(--m5); } .country.m6 { fill: var(--m6); }
 .country.faded, .country.unstamped { fill: var(--land-dim); }
+/* My travels on the Passport globe: places you've been in gold, places you want to go in pink. */
+.country.been, .country.been:hover { fill: #ffc94d; }
+.country.want, .country.want:hover { fill: #ff6fd8; }
+.kbeen, .kwant, .knone { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 6px; }
+.kbeen { background: #ffc94d; } .kwant { background: #ff6fd8; } .knone { background: var(--land-dim); }
 /* Hover: the country's outline turns magenta, with a magenta glow (the country is raised above its
    neighbors on hover, so the whole outline shows). Expert's no-borders map overrides this. */
 .country:not(.sel):not(.wrong):hover { fill: var(--hover); stroke: var(--sw-hot, #ff3fd2); stroke-width: 2.2; filter: drop-shadow(0 0 3px rgba(255, 63, 210, 0.85)) drop-shadow(0 0 9px rgba(255, 63, 210, 0.45)); }
@@ -402,7 +426,7 @@ main {
 .seg input { position: absolute; opacity: 0; pointer-events: none; }
 .seg label:has(input:checked) { background: var(--sw-hot, var(--ink)); color: var(--sw-hot-ink, var(--bg)); }
 .seg label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
-.seg b { font: 700 0.88rem var(--font-display); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.seg b { font: 700 0.88rem var(--font-display); white-space: nowrap; max-width: 100%; }
 .seg small { font: 400 0.78rem/1.35 var(--font-body); color: var(--muted); }
 .toggle { display: flex; align-items: center; gap: 10px; font: 500 0.92rem var(--font-display); cursor: pointer; }
 .toggle input { width: 18px; height: 18px; accent-color: var(--accent); }
@@ -483,7 +507,11 @@ main {
 .cont { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; font: 500 0.92rem var(--font-display); }
 .cont .bar { grid-column: 1 / -1; }
 .cont .bar b { background: var(--stamp); }
-.cont small { font: 400 0.8rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.small { margin: 0; font-size: 0.85rem; line-height: 1.45; color: var(--muted); }
+.contnote { margin: 0; color: var(--muted); }
+.stats .wide { grid-column: 1 / -1; text-align: left; }
+.stats dd.wide { margin-bottom: 6px; }
+.cont small { white-space: nowrap; font: 400 0.8rem var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
 .pgroup { display: grid; gap: 8px; }
 .achs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
 .achs li { display: grid; gap: 2px; padding: 10px 12px; border-radius: 12px; border: 1px dashed var(--rule); color: var(--muted); min-width: 0; }
@@ -502,6 +530,14 @@ main {
   max-width: min(92vw, 420px); padding: 12px 16px; border-radius: 14px; background: var(--ink); color: var(--bg);
   font: 500 0.92rem/1.4 var(--font-display); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); animation: rise 0.35s ease both;
 }
+/* On phones messages drop in at the top, clear of Lock in, Next and Play again at the bottom. */
+/* On wider screens, messages sit at the lower left over the globe, clear of the panel's buttons. */
+@media (min-width: 861px) { .achtoast { left: 24px; right: auto; transform: none; max-width: min(420px, 40vw); } }
+@media (max-width: 860px) { .achtoast { bottom: auto; top: calc(10px + env(safe-area-inset-top, 0px)); width: max-content; font-size: 0.86rem; padding: 10px 14px; animation: drop 0.35s ease both; } }
+@keyframes drop { from { opacity: 0; transform: translate(-50%, -14px); } to { opacity: 1; transform: translate(-50%, 0); } }
+.achtoast { cursor: pointer; }
+body.nodares .daresonly { display: none; }
+body.standalone .mponly { display: none; } /* claude.ai-only features, hidden on the website */
 .achtoast b { color: inherit; text-decoration: underline; text-decoration-color: var(--stamp); text-decoration-thickness: 3px; text-underline-offset: 3px; }
 .offline {
   position: fixed; left: 0; right: 0; top: 0; z-index: 30; padding: calc(8px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) 8px max(16px, env(safe-area-inset-left, 0px));
@@ -749,12 +785,11 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .slotlabel { font: 500 0.72rem var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--sw-tag); }
 .reels { display: flex; gap: 6px; }
 .reel { width: 54px; height: 44px; overflow: hidden; border-radius: 8px; background: #0b0414; box-shadow: inset 0 0 0 2px var(--sw-edge), 0 0 12px var(--sw-glow); }
-.strip { display: flex; flex-direction: column; transform: translateY(-1200%); }
+.strip { display: flex; flex-direction: column; transform: translateY(-100%); animation: reel 1.65s cubic-bezier(0.3, 0, 0.2, 1) both; }
+.reel.gift { width: 64px; animation: giftShake 1.1s ease-in-out; }
+@keyframes giftShake { 0%, 100% { transform: rotate(0); } 15% { transform: rotate(-7deg); } 30% { transform: rotate(7deg); } 45% { transform: rotate(-6deg); } 60% { transform: rotate(6deg); } 75% { transform: rotate(-3deg); } }
 .strip span { height: 44px; display: grid; place-items: center; font: 800 1.2rem var(--font-display); color: #ffd36b; }
-.strip.s0 { animation: reel 1.05s cubic-bezier(0.2, 0.7, 0.3, 1) both; }
-.strip.s1 { animation: reel 1.35s cubic-bezier(0.2, 0.7, 0.3, 1) both; }
-.strip.s2 { animation: reel 1.65s cubic-bezier(0.2, 0.7, 0.3, 1) both; }
-@keyframes reel { 0% { transform: translateY(0); } 100% { transform: translateY(-1200%); } }
+@keyframes reel { 0%, 66% { transform: translateY(0); } 100% { transform: translateY(-100%); } }
 .slotout { font: 800 1.5rem var(--font-display); color: var(--sw-hot); min-width: 3ch; }
 .slot.landed .reel { box-shadow: inset 0 0 0 2px #ffd36b, 0 0 18px rgba(255, 211, 107, 0.6); }
 .combo { display: flex; align-items: center; gap: 10px; margin: 2px 0 10px; }
@@ -812,7 +847,7 @@ body { background: var(--sw-bg); background-color: var(--bg); }
   * { animation: none !important; transition: none !important; }
 }
 
-/* Power-ups, fever, the prize chest and the shared jackpot */
+/* Power-ups, fever, the prize chest and the shared treasure */
 .lensglow { fill: rgba(255, 211, 107, 0.16); stroke: #ffd36b; stroke-width: 2px; stroke-dasharray: 5 4; pointer-events: none; filter: drop-shadow(0 0 5px rgba(255, 200, 80, 0.8)); animation: lensMarch 1.2s linear infinite; }
 @keyframes lensMarch { to { stroke-dashoffset: -18; } }
 .power { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 10px 0 2px; padding: 10px 12px; border-radius: 14px; border: 1px solid var(--sw-edge); background: var(--sw-raise); }
@@ -829,7 +864,10 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .powerbtn.blocked { opacity: 0.45; cursor: default; box-shadow: none; transform: none; }
 .powerbtn .ptip { position: absolute; bottom: calc(100% + 8px); left: 0; width: max-content; max-width: 220px; padding: 8px 10px; border-radius: 10px; background: var(--surface); border: 1px solid var(--sw-edge); color: var(--ink); font: 400 0.8rem/1.35 var(--font-body); text-align: left; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4); opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.12s; z-index: 5; }
 .powerbtn .ptip b { display: block; margin-bottom: 2px; font-weight: 700; }
-.powerbtn:hover .ptip, .powerbtn:focus-visible .ptip { opacity: 1; visibility: visible; }
+.powerbtn:hover .ptip, .powerbtn:focus-visible .ptip, .powerbtn.armed .ptip { opacity: 1; visibility: visible; }
+.powerbtn .ptip .tapagain { display: none; margin-top: 4px; font: 700 0.78rem var(--font-display); font-style: normal; color: var(--sw-hot); }
+.powerbtn.armed .ptip .tapagain, .powerbtn.auto .ptip .tapagain { display: block; }
+.powerbtn.armed { outline: 2px solid var(--sw-hot); outline-offset: 3px; }
 .powerlive { font: 600 0.72rem var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; background: var(--neon); color: var(--neon-ink); box-shadow: 0 0 10px var(--neon-glow); }
 .powerdrop, .fevernote, .poolnote { margin: 10px 0 0; padding: 8px 12px; border-radius: 12px; border: 1px solid var(--sw-edge); background: var(--sw-raise); font-size: 0.9rem; }
 .poolnote.won { border-color: #e0a52a; background: rgba(255, 211, 107, 0.16); }
@@ -848,6 +886,39 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .feverfx[hidden] { display: none; }
 .feverfx b { font: 800 clamp(2.6rem, 1.8rem + 5vw, 5.4rem)/1 var(--font-display); letter-spacing: 0.08em; background: linear-gradient(180deg, #fff, #ff8ae6 40%, #ff3fd2 55%, #ff8a3d); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 18px rgba(255, 63, 210, 0.9)); }
 .feverfx span { margin-top: 6px; font: 700 clamp(1rem, 0.8rem + 1vw, 1.5rem)/1.2 var(--font-display); color: #ffd1f3; text-shadow: 0 0 12px rgba(255, 63, 210, 0.9); }
+/* The mystery multiplier: a single slot reel over the globe that lands on the value, then a count-up. */
+.mysteryfx { position: absolute; inset: 0; z-index: 6; pointer-events: none; display: grid; place-content: center; justify-items: center; gap: 10px; text-align: center;
+  background: radial-gradient(circle at 50% 50%, rgba(18, 4, 28, 0.72), rgba(18, 4, 28, 0.35) 45%, transparent 70%); transition: opacity 0.4s ease; }
+.mysteryfx[hidden] { display: none; }
+.mysteryfx .mtitle { font: 800 clamp(1rem, 0.85rem + 1vw, 1.5rem)/1 var(--font-display); letter-spacing: 0.16em; text-transform: uppercase; color: #ffe9fb; text-shadow: 0 0 10px rgba(255, 63, 210, 0.95), 0 0 24px rgba(255, 63, 210, 0.6); }
+.mysteryfx .mwin { position: relative; display: block; font: 800 clamp(2.6rem, 1.9rem + 4.5vw, 4.6rem)/1.15 var(--font-display); height: 1.15em; min-width: 3.4em; padding: 0 0.3em; overflow: hidden; border-radius: 0.3em;
+  border: 3px solid #ffd36b; background: linear-gradient(180deg, #12041c, #2c0b40 50%, #12041c); box-shadow: 0 0 22px rgba(255, 200, 80, 0.65), inset 0 0 18px rgba(0, 0, 0, 0.6); }
+.mysteryfx .mwin::before, .mysteryfx .mwin::after { content: ""; position: absolute; left: 0; right: 0; height: 0.32em; z-index: 1; pointer-events: none; }
+.mysteryfx .mwin::before { top: 0; background: linear-gradient(#12041c, transparent); }
+.mysteryfx .mwin::after { bottom: 0; background: linear-gradient(transparent, #12041c); }
+.mysteryfx .mstrip { display: block; }
+.mysteryfx .mstrip span { display: block; height: 1.15em; background: linear-gradient(180deg, #fff6c7, #ffd36b 45%, #e0901a 60%, #fff1a8); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 0 8px rgba(255, 200, 80, 0.7)); }
+.mysteryfx .mcount, .mysteryfx .mplus { opacity: 0; }
+.mysteryfx .mcount { display: flex; align-items: baseline; gap: 10px; font: 700 clamp(1.05rem, 0.9rem + 1vw, 1.5rem)/1 var(--font-display); color: #e9dcf5; font-variant-numeric: tabular-nums; }
+.mysteryfx .mcount b { font-weight: 800; color: #fff; text-shadow: 0 0 10px rgba(127, 249, 255, 0.85); }
+.mysteryfx .marrow { color: #ffd36b; }
+.mysteryfx .mplus { font: 800 clamp(1.3rem, 1.1rem + 1.2vw, 2rem)/1 var(--font-display); color: #ffd36b; text-shadow: 0 0 14px rgba(255, 200, 80, 0.9); }
+.mysteryfx i { position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; opacity: 0;
+  background: radial-gradient(circle at 35% 35%, #fff6c7, #ffd36b 45%, #ff3fd2); box-shadow: 0 0 8px rgba(255, 200, 80, 0.8); animation: mBurst 0.9s ease-out both; }
+.mysteryfx.go .mtitle { animation: jackpotIn 0.5s cubic-bezier(0.2, 1.6, 0.4, 1) both; }
+.mysteryfx.go .mwin { animation: jackpotIn 0.45s 0.1s cubic-bezier(0.2, 1.6, 0.4, 1) both; }
+.mysteryfx.go .mstrip { animation: mSpin 1.7s 0.35s cubic-bezier(0.1, 0.7, 0.2, 1) both; }
+.mysteryfx.landed .mwin { animation: mFlash 0.6s ease-out; border-color: #fff; }
+.mysteryfx.landed .mcount { animation: mUp 0.4s ease-out forwards; }
+.mysteryfx.landed .mplus { animation: jackpotIn 0.5s 0.25s cubic-bezier(0.2, 1.6, 0.4, 1) forwards; }
+.mysteryfx.still .mstrip { transform: translateY(var(--to)); }
+.mysteryfx.still .mcount, .mysteryfx.still .mplus { opacity: 1; animation: none; }
+@keyframes mSpin { 0% { transform: translateY(0) rotate(0); } 12% { transform: translateY(0) rotate(-8deg); } 24% { transform: translateY(0) rotate(8deg); } 36% { transform: translateY(0) rotate(-6deg); } 48% { transform: translateY(0) rotate(6deg); } 60%, 78% { transform: translateY(0) rotate(0) scale(1.08); } 100% { transform: translateY(var(--to)); } }
+@keyframes mFlash { 0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9), 0 0 22px rgba(255, 200, 80, 0.65); transform: scale(1.12); } 100% { box-shadow: 0 0 0 26px rgba(255, 255, 255, 0), 0 0 22px rgba(255, 200, 80, 0.65); transform: scale(1); } }
+@keyframes mUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes mBurst { 0% { opacity: 1; transform: translate(0, 0) scale(1); } 100% { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(0.4); } }
+@media (prefers-reduced-motion: reduce) { .mysteryfx *, .mysteryfx { animation: none !important; transition: none; } }
+.mysterynote { margin: 10px 0 0; padding: 8px 12px; border-radius: 12px; border: 1px solid #e0a52a; background: linear-gradient(135deg, rgba(255, 211, 107, 0.16), transparent 70%); font-size: 0.9rem; }
 .feverfx.go b, .feverfx.go span { animation: jackpotIn 0.6s cubic-bezier(0.2, 1.6, 0.4, 1) both, jackpotOut 0.5s 2.6s ease-in forwards; }
 .chestbox .chesthead { display: block; font: 800 1.3rem var(--font-display); }
 .chests { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 12px 0 6px; }
@@ -905,6 +976,360 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .heldp { padding: 3px 10px; border-radius: 999px; border: 1px solid var(--sw-edge); font-size: 0.82rem; }
 .loginbox .held small { color: var(--muted); }
 .power.empty small { flex: 1 1 100%; }
+/* Nothing may make the page scroll sideways (an enlarged flag, a burst of sparks). */
+html { overflow-x: clip; }
+.badge { white-space: normal; }
+/* Small text links get a finger-sized tap area on touch screens. */
+@media (pointer: coarse) { a.src, .qfact a.src { display: inline-block; padding-block: 12px; } .credit a { display: inline-block; padding: 10px 4px; } }
+.qflag.zoomflag { width: fit-content; max-width: 100%; }
+.dmile { font-size: 0.8rem; color: var(--muted); }
+/* A notice across the top: storage blocked, an old browser, an update, or something went wrong. */
+.sitenote { position: relative; z-index: 30; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 10px; padding: 10px 14px; border-radius: 14px; border: 1px solid #e0a52a; background: color-mix(in srgb, #ffd36b 14%, var(--sw-raise, #1a0b26)); color: var(--ink); font: 500 0.9rem/1.35 var(--font-display); }
+.sitenote[hidden] { display: none; }
+.sitenote p { margin: 0; flex: 1 1 16em; }
+.sitenote .btn { min-height: 40px; padding: 6px 14px; }
+.syncnote { margin: 8px 0 0; font-size: 0.86rem; color: var(--muted); }
+.syncnote b { color: var(--ink); }
+.xferbox { display: grid; gap: 8px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--rule); }
+.xferbox[hidden], .xfer[hidden] { display: none; }
+.xfer { display: grid; gap: 8px; justify-items: start; }
+.xferqr:empty { display: none; }
+.xferqr { width: min(100%, 300px); padding: 10px; border-radius: 14px; background: #fff; }
+.xferqr svg { display: block; width: 100%; height: auto; }
+/* Been there / Want to go on a country's card, and My travels in Passport. */
+.travelbtns { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-bottom: 6px; }
+.tbtn { min-height: 44px; padding: 8px 10px; border-radius: 12px; border: 1px solid var(--sw-edge); background: var(--sw-raise); color: var(--ink); font: 700 0.88rem var(--font-display); cursor: pointer; }
+.tbtn.been[aria-pressed="true"] { background: #ffc94d; border-color: #ffc94d; color: #241600; }
+.tbtn.want[aria-pressed="true"] { background: #ff6fd8; border-color: #ff6fd8; color: #2a0622; }
+.travelbox { display: grid; gap: 8px; }
+.travelbox .ttop { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.tview { display: inline-flex; padding: 3px; border-radius: 999px; border: 1px solid var(--sw-edge); }
+.tview button { min-height: 36px; padding: 4px 12px; border: 0; border-radius: 999px; background: none; color: var(--muted); font: 700 0.8rem var(--font-display); cursor: pointer; }
+.tview button[aria-pressed="true"] { background: var(--sw-hot, var(--ink)); color: var(--sw-hot-ink, var(--bg)); }
+.tsum { margin: 0; font: 500 0.95rem var(--font-display); }
+.tsum b { font-size: 1.15rem; color: #ffd36b; }
+.tkey { margin: 0; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.82rem; color: var(--muted); }
+.tlist { display: grid; gap: 6px; }
+.tchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.tchip { min-height: 36px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--sw-edge); background: var(--sw-raise); color: var(--ink); font: 600 0.84rem var(--font-display); cursor: pointer; }
+.tlist .tchip { border-color: #ff6fd8; } .tbeen .tchip { border-color: #ffc94d; }
+.tflag { margin-right: 6px; font-family: var(--font-flag); }
+.ttitle { margin: 0; display: grid; gap: 2px; }
+.ttitle b { font: 800 1.3rem var(--font-display); color: #ffd36b; }
+.ttitle small, .tconts small { color: var(--muted); font-size: 0.8rem; }
+.tconts { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.tconts span { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--sw-edge); font-size: 1.05rem; filter: grayscale(1); opacity: 0.4; }
+.tconts span.on { filter: none; opacity: 1; border-color: #ffc94d; box-shadow: 0 0 10px rgba(255, 201, 77, 0.45); }
+.tconts small { margin-left: 4px; }
+.tintro { margin: 0; }
+.tadd { display: grid; gap: 8px; }
+.tadd2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.tadd2 .btn { justify-content: center; }
+.tmsg { margin: 0; min-height: 1.2em; font: 600 0.85rem var(--font-display); color: var(--good); }
+.tmsg:empty { display: none; }
+.tmsg.warn { color: var(--accent); }
+/* The gold travel title and numbers need a darker gold on the light look. */
+:root[data-theme="light"] .ttitle b, :root[data-theme="light"] .tsum b, :root[data-theme="light"] .masterybox b { color: #8a5a00; }
+:root[data-theme="light"] .tconts span.on { border-color: #b8860b; }
+.tacts { display: flex; flex-wrap: wrap; gap: 8px; }
+.tacts .btn { flex: 1 1 calc(50% - 4px); font-size: 0.86rem; }
+.travelask { margin: 10px 0 0; display: grid; grid-template-columns: repeat(2, max-content); justify-content: start; align-items: center; gap: 6px 8px; font: 600 0.86rem var(--font-display); color: var(--muted); }
+.travelask > span { grid-column: 1 / -1; }
+.travelask .tq { min-height: 36px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--sw-edge); background: var(--sw-raise); color: var(--ink); font: 700 0.82rem var(--font-display); cursor: pointer; }
+.travelnote { margin: 8px 0 0; font: 600 0.88rem var(--font-display); color: #ff9be6; }
+.replayrow { display: flex; flex-wrap: wrap; gap: 8px; }
+.replayrow[hidden] { display: none; }
+.replayrow .btn { flex: 1 1 auto; font-size: 0.88rem; }
+.parline { margin: 0; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.parline b.over { color: var(--good); }
+.parline b.under { color: var(--accent); }
+.journeys { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.journeys li { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 12px; border: 1px solid var(--sw-edge); background: var(--sw-raise); }
+.journeys li.done { border-color: #e0a52a; }
+.journeys .jname { min-width: 0; font: 700 0.92rem var(--font-display); }
+.journeys .jname small { display: block; font: 500 0.72rem var(--font-mono); color: var(--muted); }
+.journeys .jdots { display: flex; gap: 4px; }
+.journeys .jdots i { width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--pr1); }
+.journeys .jdots i.on { background: var(--pr1); box-shadow: 0 0 6px var(--pr1); }
+.journeys .btn { min-height: 40px; padding: 6px 14px; font-size: 0.85rem; }
+@media (max-width: 420px) { .journeys li { grid-template-columns: 1fr auto; } .journeys .jdots { grid-column: 1; grid-row: 2; } .journeys .btn { grid-row: 1 / 3; grid-column: 2; } }
+.allin { width: 100%; margin: 8px 0 2px; border-color: #ff8a3d; }
+.allin.on { background: linear-gradient(135deg, #ffb347, #ff5e62); color: #14041a; border-color: transparent; }
+.buzztoggle { justify-self: start; }
+.buzztoggle::after { content: ": off"; }
+.buzztoggle[aria-pressed="true"]::after { content: ": on"; }
+.buzztoggle[hidden] { display: none; }
+.dmile b { color: #ffd36b; }
+/* The weekly event strip and the friends box on the Play screen. */
+.eventbox { display: grid; gap: 6px; padding: 10px 14px; border-radius: 14px; border: 1px solid var(--pr0); background: linear-gradient(135deg, color-mix(in srgb, var(--pr0) 14%, transparent), transparent 70%); }
+.eventbox .etop { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.eventbox h3 { margin: 0; font: 800 1rem var(--font-display); }
+.eventbox p { margin: 0; font-size: 0.85rem; color: var(--muted); }
+.eventbox .mbar { display: block; height: 8px; border-radius: 99px; background: rgba(255, 255, 255, 0.12); overflow: hidden; }
+.eventbox .mbar i { display: block; height: 100%; background: linear-gradient(90deg, var(--pr0), var(--pr1)); }
+.eventbox.done { border-color: #e0a52a; }
+.friendbox { display: grid; gap: 8px; }
+.friendbox[hidden], .eventbox[hidden] { display: none; }
+.friends { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.friends li { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 12px; border: 1px solid var(--sw-edge); background: var(--sw-raise); }
+.friends li.new { border-color: var(--pr1); box-shadow: 0 0 12px var(--sw-glow); }
+.friends .fname { flex: 1 1 auto; min-width: 0; font: 700 0.92rem var(--font-display); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.friends small { display: block; font: 500 0.72rem var(--font-mono); color: var(--muted); white-space: normal; }
+.friends .btn { flex: none; min-height: 40px; padding: 6px 14px; font-size: 0.85rem; }
+.pevents { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.pevents li { padding: 4px 10px; border-radius: 999px; border: 1px solid #e0a52a; font-size: 0.82rem; }
+/* The Play screen: four big tiles, a Today strip, and the rest folded below. */
+.tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.tile { position: relative; display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 10px; align-items: center; text-align: left; min-height: 76px; padding: 12px 14px; border-radius: 18px; border: 1px solid var(--sw-edge); background: var(--sw-raise); color: var(--ink); cursor: pointer; transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s; }
+.tile:hover, .tile:focus-visible { transform: translateY(-2px); border-color: var(--pr1); box-shadow: 0 0 16px var(--sw-glow); outline: none; }
+.tile .ticon { grid-row: 1 / 3; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, var(--pr0), var(--pr1)); color: #14041a; font: 800 1.1rem var(--font-display); }
+.tile b { font: 800 1.02rem var(--font-display); align-self: end; }
+.tile small { font: 500 0.74rem var(--font-mono); letter-spacing: 0.02em; color: var(--muted); align-self: start; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tile.quick { background: var(--sw-btn); color: var(--sw-btn-ink); border-color: transparent; }
+.tile.quick small { color: inherit; opacity: 0.8; }
+.tile.quick .ticon { background: rgba(0, 0, 0, 0.2); color: inherit; }
+.tile.daily.ready { border-color: #e0a52a; box-shadow: 0 0 12px rgba(255, 200, 80, 0.3); }
+.tile.daily .ticon { background: linear-gradient(135deg, #ffd36b, #e0a52a); }
+.tile[aria-expanded="true"] { box-shadow: 0 0 0 2px var(--ink); }
+.quickbox { display: grid; gap: 12px; padding: 14px; border-radius: 18px; border: 1px solid var(--sw-edge); background: var(--sw-raise); animation: mUp 0.2s ease-out; }
+.quickbox[hidden] { display: none; }
+.quickbox .actions { margin: 0; padding: 0; }
+.quickbox .actions .btn { flex: 1 1 auto; }
+.today { display: grid; gap: 8px; }
+.today .dailycard { padding: 10px 14px; border-radius: 14px; gap: 6px; }
+.today .dailycard h3 { font-size: 1rem; }
+.today .dailycard .dstreakn { font-size: 1.15rem; }
+.today .dailycard > p { display: none; }
+.today .loginbox, .today .missionbox { padding: 10px 14px; border-radius: 14px; border: 1px solid var(--sw-edge); }
+@media (max-width: 420px) { .tile { padding: 10px; column-gap: 8px; } .tile .ticon { width: 34px; height: 34px; font-size: 0.95rem; } .tile b { font-size: 0.92rem; } .tile small { font-size: 0.68rem; } }
+/* The power meter on the globe's dock, the choose-one-of-two cards, and the one-tap questions. */
+.pmeter { display: flex; align-items: center; gap: 8px; padding: 5px 10px; border-radius: 999px; background: color-mix(in srgb, var(--sw-raise) 88%, transparent); border: 1px solid var(--sw-edge); }
+.pmeter .pinnote-label { width: auto !important; padding: 0 !important; border: 0 !important; background: none !important; margin: 0; white-space: nowrap; }
+.pmeter .pmbar { width: 84px; height: 8px; border-radius: 99px; background: rgba(255, 255, 255, 0.12); overflow: hidden; }
+.pmeter .pmbar i { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--pr0), var(--pr1)); box-shadow: 0 0 8px var(--pr1); transition: width 0.6s cubic-bezier(0.2, 1.2, 0.4, 1); }
+.pmeter b { font: 700 0.72rem var(--font-mono); color: var(--ink); white-space: nowrap; }
+.pmeter.ready { border-color: var(--pr1); box-shadow: 0 0 14px var(--sw-glow); }
+.pmeter.ready .pmbar i { animation: pgGlow 0.9s ease-in-out infinite alternate; }
+.pmeter.capped .pmbar i { background: var(--muted); box-shadow: none; }
+.pchoose { min-height: 40px; padding: 8px 14px; border-radius: 999px; border: 0; cursor: pointer; background: linear-gradient(135deg, var(--pr0), var(--pr1)); color: #14041a; font: 800 0.85rem var(--font-display); box-shadow: 0 0 0 2px var(--sw-raise), 0 0 16px var(--sw-glow); animation: pgGlow 0.9s ease-in-out infinite alternate; }
+.powerfx.pick { pointer-events: auto; background: radial-gradient(closest-side, rgba(10, 2, 18, 0.82), rgba(10, 2, 18, 0.55) 70%, transparent); padding: 10px; }
+.powerfx .pgcards { display: grid; grid-template-columns: repeat(2, minmax(0, 190px)); gap: 12px; margin-top: 6px; }
+.powerfx .pgcard { position: relative; display: grid; justify-items: center; align-content: start; gap: 6px; padding: 14px 12px 12px; border-radius: 18px; border: 2px solid var(--sw-edge); background: var(--sw-raise); color: var(--ink); cursor: pointer; text-align: center; transition: transform 0.15s, border-color 0.15s; }
+.powerfx .pgcard:hover, .powerfx .pgcard:focus-visible { transform: translateY(-3px); border-color: var(--pr1); outline: none; box-shadow: 0 0 18px var(--sw-glow); }
+.powerfx .pgcard .pgorb { width: 60px; font-size: 1.6rem; }
+.powerfx .pgcard b { font: 800 1.02rem var(--font-display); }
+.powerfx .pgcard small { font: 500 0.8rem/1.3 var(--font-body); color: var(--muted); }
+.powerfx .pgcard em { font: 600 0.62rem var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase; font-style: normal; color: var(--pr0); }
+.powerfx .pgcard.score em { color: var(--pr1); }
+.powerfx .pgcard kbd { position: absolute; top: 8px; right: 8px; padding: 1px 6px; border-radius: 5px; border: 1px solid var(--sw-edge); font: 600 0.68rem var(--font-mono); color: var(--muted); }
+.powerfx .pglater { margin-top: 4px; padding: 8px 14px; min-height: 40px; border: 0; background: none; color: #e9dcf5; font: 600 0.85rem var(--font-display); text-decoration: underline; cursor: pointer; }
+.powerfx.go .pgcard { animation: mUp 0.4s 0.3s ease-out both; }
+@media (max-width: 860px) { .powerfx.pick { gap: 4px; padding: 6px; } .powerfx.pick .pgtitle { font-size: 1.05rem; } .powerfx.pick .pgname { font-size: 0.9rem; } .powerfx .pgcard small { font-size: 0.74rem; line-height: 1.25; } .powerfx .pglater { min-height: 32px; padding: 4px 12px; margin: 0; } .powerfx .pgcard kbd { display: none; } .powerfx .pgcards { gap: 8px; } .powerfx .pgcard { padding: 10px 8px; } .powerfx .pgcard .pgorb { width: 48px; font-size: 1.3rem; } .pmeter .pmbar { width: 56px; } }
+#qplay.onetap #qsteps, #qplay.onetap #qkb, #qplay.onetap #qlock { display: none; }
+.onetapnote { display: block; margin-top: 6px; font: 600 0.78rem var(--font-mono); letter-spacing: 0.04em; color: var(--muted); }
+/* Players who have finished a game know the steps: the chips go. */
+body.seasoned #qsteps { display: none; }
+.taptip { position: absolute; z-index: 5; left: 50%; bottom: 14px; transform: translateX(-50%); width: max-content; max-width: min(92%, 30em); margin: 0; padding: 9px 14px; border-radius: 14px; background: var(--sw-raise); border: 1px solid var(--pr1); box-shadow: 0 0 16px var(--sw-glow); font-size: 0.86rem; line-height: 1.35; text-align: center; }
+.taptip[hidden] { display: none; }
+.taptip b { margin-right: 4px; font: 700 0.68rem var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--pr1); }
+body:not(.playing) .taptip { display: none; }
+/* The end of a round is a result card: score, verdict, what was close, and Play again, all at the
+   top. Initials, high scores and sharing come after it. */
+.endcard { display: grid; gap: 10px; padding: 16px 18px; border-radius: 20px; border: 1px solid var(--pr1); background: linear-gradient(160deg, color-mix(in srgb, var(--pr1) 14%, transparent), transparent 60%), var(--sw-raise); box-shadow: 0 0 22px var(--sw-glow); }
+.endcard h2 { margin: 0; }
+.endcard .verdict { font: 800 1.15rem var(--font-display); }
+.endcard .verdict:empty, #qnudges:empty { display: none; }
+.endcard .actions { margin: 2px 0 0; padding: 0; }
+.endcard .nudges { margin: 0; }
+.hiendfold > summary .hinew { margin: 0; font-size: 0.85rem; }
+/* Explore: Another country and Copy link stay pinned to the bottom of the panel too. */
+#explore-view > .actions:has(#next) { position: sticky; bottom: 0; z-index: 6; margin: 0 -24px -20px; padding: 14px 24px 18px; background: linear-gradient(transparent, var(--sw-raise) 30%); }
+@media (max-width: 860px) {
+  #explore-view > .actions:has(#next) { margin: 0 -16px -14px; padding: 10px 16px calc(12px + env(safe-area-inset-bottom, 0px)); }
+}
+/* Party: the explanation folds away; on phones, joining with a code comes right after your name. */
+.vintro summary { cursor: pointer; font: 600 0.9rem var(--font-display); color: var(--muted); }
+.vintro p { margin: 6px 0 0; }
+@media (max-width: 860px) {
+  #vlobby { display: flex; flex-direction: column; }
+  #vlobby .vjoin { order: 1; }
+  #vlobby #party-setup { order: 2; }
+  #vlobby > .actions { order: 3; }
+}
+/* Phones: the daily card shrinks to its title, streak and button. */
+@media (max-width: 860px) {
+  .dailycard > p { display: none; }
+  /* The shared jackpot: just the pool on phones. */
+  .poolbox p { display: none; }
+}
+/* The result card's score breakdown, folding on phones. */
+.scoredetails > summary { cursor: pointer; font: 600 0.82rem var(--font-display); color: var(--muted); margin: 6px 0 2px; }
+.scoredetails[open] > summary { margin-bottom: 6px; }
+/* Folding boxes on the Quiz menu (login week, high scores). */
+.logintop { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.logintop .btn { flex: 0 1 auto; }
+.loginstate { font: 700 0.9rem var(--font-display); color: var(--good); }
+.loginbox .qfold > summary, .hibox .qfold > summary { font: 500 0.85rem var(--font-display); color: var(--muted); }
+.hibox .qfold > summary .cat { color: var(--ink); }
+.hisum { margin-left: auto; font: 500 0.8rem var(--font-mono); color: var(--muted); }
+.qfold > summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 44px; font: 600 0.92rem var(--font-display); }
+.qfold > summary::-webkit-details-marker { display: none; }
+.qfold > summary::after { content: "▾"; color: var(--muted); transition: transform 0.2s; }
+.qfold[open] > summary::after { transform: rotate(180deg); }
+/* Keyboard shortcuts (mouse and keyboard screens only): numbers on the choices and a hint line. */
+.keyhint { display: none; flex: 1 1 100%; margin: 2px 0 0; font: 500 0.72rem var(--font-mono); color: var(--muted); letter-spacing: 0.03em; }
+.keyhint kbd { display: inline-grid; place-items: center; min-width: 1.5em; padding: 0 4px; border-radius: 5px; border: 1px solid var(--sw-edge); background: var(--sw-raise); font: 600 0.7rem var(--font-mono); color: var(--muted); }
+@media (hover: hover) and (pointer: fine) and (min-width: 861px) {
+  body.playing .keyhint { display: block; }
+  /* The choices' numbers come from CSS, so the buttons' text stays just the country. */
+  #qopts { counter-reset: opt; }
+  #qopts .opt::before { counter-increment: opt; content: counter(opt); display: inline-grid; place-items: center; min-width: 1.5em; margin-right: 8px; padding: 0 4px; border-radius: 5px;
+    border: 1px solid var(--sw-edge); background: var(--sw-raise); font: 600 0.7rem var(--font-mono); color: var(--muted); vertical-align: 2px; }
+}
+#qquit.confirm { border-color: var(--wrong); color: var(--wrong); }
+/* A new power-up: the symbol drops in over the globe, sparks burst, then it flies to the dock. */
+.powerfx { position: absolute; inset: 0; z-index: 7; pointer-events: none; display: grid; place-content: center; justify-items: center; gap: 8px; text-align: center;
+  background: radial-gradient(circle, rgba(18, 4, 28, 0.6), rgba(18, 4, 28, 0.25) 45%, transparent 70%); }
+.powerfx[hidden] { display: none; }
+.powerfx .pgtitle { font: 800 clamp(1.4rem, 1.1rem + 1.6vw, 2.2rem)/1 var(--font-display); letter-spacing: 0.08em; text-transform: uppercase;
+  background: linear-gradient(180deg, #fff, var(--pr0) 45%, var(--pr1)); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 0 10px var(--sw-glow)); }
+.powerfx .pgorbs { display: flex; gap: 14px; }
+.powerfx .pgorb { display: grid; place-items: center; width: clamp(76px, 60px + 4vw, 104px); aspect-ratio: 1; border-radius: 50%; font: 800 clamp(2rem, 1.6rem + 2vw, 2.9rem)/1 var(--font-display); color: #14041a;
+  background: radial-gradient(circle at 35% 30%, #fff 0%, var(--pr0) 30%, var(--pr1) 75%); box-shadow: 0 0 0 4px var(--sw-raise), 0 0 34px var(--pr1), 0 0 70px var(--pr0); }
+.powerfx .pgname { font: 800 clamp(1.05rem, 0.9rem + 0.8vw, 1.4rem)/1.1 var(--font-display); color: #fff; text-shadow: 0 0 12px var(--sw-glow); }
+.powerfx .pgdesc { max-width: 22em; font: 500 0.92rem/1.35 var(--font-body); color: #e9dcf5; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8); }
+.powerfx i { position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; opacity: 0; background: radial-gradient(circle at 35% 35%, #fff, var(--pr0) 45%, var(--pr1)); box-shadow: 0 0 8px var(--pr1); }
+.powerfx.go .pgtitle { animation: jackpotIn 0.5s cubic-bezier(0.2, 1.6, 0.4, 1) both; }
+.powerfx.go .pgorb { animation: pgDrop 0.7s 0.08s cubic-bezier(0.2, 1.5, 0.4, 1) both, pgGlow 1.2s 0.8s ease-in-out infinite alternate; }
+.powerfx.go .pgname, .powerfx.go .pgdesc { animation: mUp 0.4s 0.45s ease-out both; }
+.powerfx.go i { animation: mBurst 0.9s 0.4s ease-out both; }
+.powerfx.fly .pgtitle, .powerfx.fly .pgname, .powerfx.fly .pgdesc { opacity: 0; transition: opacity 0.25s; }
+.powerfx.fly { background: none; transition: background 0.3s; }
+.powerfx.fly .pgorb { animation: none; transform: translate(var(--fx), var(--fy)) scale(0.45); opacity: 0.2; transition: transform 0.6s cubic-bezier(0.5, 0, 0.75, 0), opacity 0.6s ease-in; }
+@keyframes pgDrop { 0% { transform: translateY(-120px) scale(0.3) rotate(-30deg); opacity: 0; } 60% { opacity: 1; } 100% { transform: none; opacity: 1; } }
+@keyframes pgGlow { to { box-shadow: 0 0 0 4px var(--sw-raise), 0 0 50px var(--pr1), 0 0 100px var(--pr0); } }
+.powerbtn.fresh { animation: pgPulse 0.8s ease-in-out 3; }
+@keyframes pgPulse { 50% { transform: scale(1.22); box-shadow: 0 0 0 3px var(--sw-raise), 0 0 26px var(--pr1); } }
+@media (prefers-reduced-motion: reduce) { .powerfx *, .powerbtn.fresh { animation: none !important; transition: none !important; } }
+.dfreeze { margin-left: 8px; padding: 2px 8px; border-radius: 999px; border: 1px solid #7fd8ff; color: #bff0ff; font: 700 0.8rem var(--font-mono); text-shadow: none; }
+.masterybox { display: grid; gap: 6px; }
+.masterybox b { font: 800 1.8rem/1 var(--font-display); color: #ffd36b; }
+.masterybox .medals { margin-left: 8px; font: 600 0.85rem var(--font-mono); color: var(--muted); }
+.masterybox .mbar { display: block; height: 10px; border-radius: 5px; background: var(--rule); overflow: hidden; }
+.masterybox .mbar i { display: block; height: 100%; background: linear-gradient(90deg, #cd7f32, #c0c0c0, #ffd36b); }
+.masterybox small { color: var(--muted); font-size: 0.8rem; }
+.badge.boss { background: linear-gradient(90deg, #ff5a5a, #ff3fd2); color: #fff; }
+.speedrun .sptext { margin: 0; min-height: 4.5em; font: 400 1.15rem/1.4 var(--font-body); }
+.speedrun .spflash { margin: 0; min-height: 1.4em; font: 700 0.95rem var(--font-display); }
+.speedrun .spflash.ok { color: var(--good); } .speedrun .spflash.no { color: var(--wrong); }
+.speedrun .opt { min-height: 54px; font-size: 1rem; }
+#spscore { font: 700 0.8rem var(--font-mono); }
+/* Missions, collections, the league, golden hour, end-of-round nudges. */
+.missions { list-style: none; margin: 6px 0; padding: 0; display: grid; gap: 8px; }
+.missions li { display: grid; grid-template-columns: 1fr minmax(60px, 30%) auto; align-items: center; gap: 10px; font-size: 0.9rem; }
+.missions .mbar { height: 8px; border-radius: 4px; background: var(--rule); overflow: hidden; }
+.missions .mbar i { display: block; height: 100%; background: linear-gradient(90deg, var(--pr0), var(--pr1)); }
+.missions li b { font: 700 0.8rem var(--font-mono); color: var(--muted); min-width: 3.5em; text-align: right; }
+.missions li.done .mtext { color: var(--good); }
+.missions li.done b { color: var(--good); }
+.missionbox small { color: var(--muted); font-size: 0.78rem; }
+.goldenstrip { margin: 0; padding: 8px 12px; border-radius: 12px; border: 1px solid rgba(224, 165, 42, 0.45); background: rgba(255, 211, 107, 0.08); font-size: 0.85rem; color: var(--muted); }
+.goldenstrip b { color: #ffd36b; }
+.goldenstrip.on { border-color: #e0a52a; background: rgba(255, 211, 107, 0.18); color: var(--ink); box-shadow: 0 0 14px rgba(255, 200, 80, 0.35); }
+.badge.golden { background: linear-gradient(90deg, #ffd36b, #e0901a); color: #2a1600; }
+.league { list-style: none; margin: 6px 0; padding: 0; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
+.league li { display: grid; grid-template-columns: 1.6em 3.4ch 1fr; gap: 6px; align-items: baseline; }
+.league .rank { color: var(--muted); font: 500 0.75rem var(--font-mono); }
+.league .ini { font: 700 0.95rem var(--font-mono); letter-spacing: 0.12em; }
+.league .s { text-align: right; }
+.league li.me .ini, .league li.me .s { color: var(--sw-hot); }
+.hibox small { color: var(--muted); font-size: 0.78rem; }
+.nudges { padding: 10px 12px; border-radius: 12px; border: 1px solid var(--sw-edge); background: color-mix(in srgb, var(--pr1) 10%, transparent); display: grid; gap: 4px; }
+.nudges p { margin: 0; font-size: 0.92rem; }
+.nudges b { color: var(--sw-hot); }
+/* What things mean: game terms get a dotted underline; hover, focus or tap shows the explanation. */
+.term { cursor: help; text-decoration: underline dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, currentColor 55%, transparent); }
+.term:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.termtip { position: fixed; z-index: 60; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--sw-edge); background: var(--surface); color: var(--ink);
+  font: 400 0.86rem/1.4 var(--font-body); box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45), 0 0 16px var(--sw-glow); pointer-events: none; animation: mUp 0.15s ease-out; }
+.termtip[hidden] { display: none; }
+.termtip b { display: block; margin-bottom: 3px; font: 700 0.9rem var(--font-display); color: var(--sw-tag, var(--accent)); }
+@media (prefers-reduced-motion: reduce) { .termtip { animation: none; } }
+/* The clock across the top of the map: a full-width bar with the seconds and speed bonus on it. */
+.timer.ontop { position: absolute; top: 6px; left: 6px; right: 6px; z-index: 5; height: 26px; border-radius: 13px; background: color-mix(in srgb, var(--sw-raise) 82%, transparent);
+  border: 1px solid var(--sw-edge); box-shadow: 0 0 14px var(--sw-glow); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
+.timer.ontop[hidden] { display: none; }
+.timer.ontop b { background: linear-gradient(90deg, var(--good), #7ff9ff); box-shadow: 0 0 12px var(--good); }
+.timer.ontop.low b { background: linear-gradient(90deg, #ff5a5a, #ffb35c); box-shadow: 0 0 14px #ff5a5a; animation: timerLow 0.5s ease-in-out infinite alternate; }
+.timer.ontop span { font: 700 0.78rem/24px var(--font-mono); color: #fff; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); }
+@keyframes timerLow { to { filter: brightness(1.35); } }
+@media (prefers-reduced-motion: reduce) { .timer.ontop.low b { animation: none; } }
+/* Both belong to a round in play: nowhere else (Explore, the menus, the end screen). */
+body:not(.playing) .timer.ontop, body:not(.playing) .globenext { display: none; }
+/* With the clock showing, the Clues button sits just under it. */
+.globe-wrap:has(#qtimer:not([hidden])) .cluedrop { top: 40px; }
+/* Next on the globe after locking in. */
+.globenext { position: absolute; z-index: 5; left: 50%; bottom: 14px; transform: translateX(-50%); min-height: 44px; padding: 10px 18px; border-radius: 999px; border: 0; cursor: pointer;
+  background: var(--sw-btn); color: var(--sw-btn-ink); font: 700 0.95rem var(--font-display); white-space: nowrap; box-shadow: 0 0 0 2px var(--sw-raise), 0 0 18px var(--sw-glow); animation: mUp 0.2s ease-out; }
+.globenext[hidden] { display: none; }
+.globenext kbd { margin-left: 6px; padding: 1px 5px; border-radius: 5px; background: rgba(0, 0, 0, 0.18); font: 600 0.7rem var(--font-mono); }
+@media (max-width: 860px) { .globenext kbd { display: none; } .globenext { bottom: 58px; } }
+@media (prefers-reduced-motion: reduce) { .globenext { animation: none; } }
+/* Lock in beside the pin. */
+.pinlock { position: absolute; z-index: 4; left: 0; top: 0; transform: translate(16px, -50%); min-height: 40px; padding: 8px 16px; border-radius: 999px; border: 0; cursor: pointer;
+  background: var(--sw-btn); color: var(--sw-btn-ink); font: 700 0.9rem var(--font-display); white-space: nowrap; box-shadow: 0 0 0 2px var(--sw-raise), 0 0 18px var(--sw-glow); animation: mUp 0.18s ease-out; }
+.pinlock[hidden] { display: none; }
+.pinlock.flip { transform: translate(calc(-100% - 16px), -50%); }
+@media (max-width: 860px) { .pinlock { min-height: 44px; padding: 10px 16px; font-size: 0.95rem; } .pinlock kbd { display: none; } }
+.pinlock kbd { margin-left: 6px; padding: 1px 5px; border-radius: 5px; background: rgba(0, 0, 0, 0.18); font: 600 0.7rem var(--font-mono); }
+@media (prefers-reduced-motion: reduce) { .pinlock { animation: none; } }
+/* Clues on the globe: a button in the top-left corner that drops down the clue menu. */
+.cluedrop { position: absolute; left: 6px; top: 6px; z-index: 5; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; pointer-events: none; max-width: calc(100% - 12px); }
+.cluedrop[hidden] { display: none; }
+.cluedrop > * { pointer-events: auto; }
+.cluetoggle { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 14px 6px 8px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--sw-edge); background: color-mix(in srgb, var(--sw-raise) 90%, transparent); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); color: var(--ink);
+  font: 700 0.9rem var(--font-display); box-shadow: 0 0 14px var(--sw-glow); }
+.cluetoggle .bulb { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: linear-gradient(135deg, var(--pr0), var(--pr1)); font-size: 0.95rem; }
+.cluetoggle .cnt { font: 600 0.75rem var(--font-mono); color: var(--muted); letter-spacing: 0.04em; }
+.cluetoggle .chev { font-size: 0.75rem; color: var(--muted); transition: transform 0.2s; }
+.cluedrop.open .cluetoggle .chev { transform: rotate(180deg); }
+.cluedrop.cue .cluetoggle { border-color: var(--sw-hot); }
+.cluemenu { display: none; width: min(300px, 80vw); padding: 10px; border-radius: 16px; border: 1px solid var(--sw-edge);
+  background: color-mix(in srgb, var(--sw-raise) 95%, transparent); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), 0 0 18px var(--sw-glow); }
+.cluedrop.open .cluemenu { display: grid; gap: 6px; animation: mUp 0.18s ease-out; }
+.cluemenu .cluehead .pinnote-label { padding: 2px 4px 4px; margin: 0; }
+.cluemenu .cluehead[hidden] { display: none; }
+.cluemenu .hints { display: grid; gap: 6px; margin: 0; }
+.cluemenu .hints button { display: grid; grid-template-columns: 30px 1fr auto; align-items: center; gap: 10px; width: 100%; min-height: 48px; padding: 8px 10px; text-align: left;
+  border-radius: 12px; border: 1px solid transparent; background: transparent; color: var(--ink); font: 600 0.9rem var(--font-display); box-shadow: none; }
+.cluemenu .hints button[hidden] { display: none; }
+.cluemenu .hints button:hover:not(:disabled), .cluemenu .hints button:focus-visible { background: color-mix(in srgb, var(--pr1) 14%, transparent); border-color: var(--sw-edge); }
+.cluemenu .hints button::before { content: "?"; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(135deg, var(--pr0), var(--pr1)); color: #14041a; font: 800 0.85rem/1 var(--font-display); }
+.cluemenu .hints button[data-hint="continent"]::before { content: "◎"; }
+.cluemenu .hints button[data-hint="zoom"]::before { content: "⊕"; }
+.cluemenu .hints button[data-hint^="elim"]::before { content: "✕"; }
+.cluemenu .hints button .cost { font: 700 0.8rem var(--font-mono); color: var(--pick-text); white-space: nowrap; }
+.cluemenu .hints button.used { border-color: var(--neon); color: var(--neon-text); }
+.cluemenu .hints button.used .cost { color: var(--neon-text); }
+.cluemenu .hints button:disabled:not(.used) { opacity: 0.45; }
+.cluemenu > small { color: var(--muted); font-size: 0.78rem; line-height: 1.35; padding: 2px 4px 0; }
+@media (prefers-reduced-motion: reduce) { .cluedrop.open .cluemenu { animation: none; } .cluetoggle .chev { transition: none; } }
+/* On the globe: a dock in the bottom-left corner, just the symbols (and any power-up switched on),
+   over the map. Only the buttons take taps, so a pin can still go anywhere around them. */
+.power.ondock { position: absolute; left: 6px; bottom: 6px; z-index: 4; max-width: calc(100% - 70px); margin: 0; padding: 0; border: 0; background: none; box-shadow: none;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 6px; pointer-events: none; }
+.power.ondock[hidden] { display: none; }
+.power.ondock > * { pointer-events: auto; }
+.power.ondock .pinnote-label { width: auto; padding: 3px 9px; border-radius: 999px; background: color-mix(in srgb, var(--sw-raise) 85%, transparent); border: 1px solid var(--sw-edge); }
+.power.ondock small { display: none; }
+.power.ondock .powerlist { width: auto; gap: 8px; }
+.power.ondock .powerbtn { box-shadow: 0 0 0 2px var(--sw-raise), 0 0 14px var(--sw-glow); }
+.power.ondock .powerbtn .ptip { left: 0; bottom: calc(100% + 10px); }
+@media (max-width: 860px) {
+  .power.ondock .powerbtn { width: 44px; height: 44px; }
+  .power.ondock .pinnote-label { font-size: 0.7rem; }
+}
 .setbadge { margin-left: 6px; padding: 1px 8px; border-radius: 999px; background: #f5b82e; color: #2a1600; font: 700 0.68rem var(--font-mono); letter-spacing: 0.04em; }
 @media (prefers-reduced-motion: reduce) { .scatter .scring, .scatterfx.go, .lives.hit .hearts { animation: none; } }
 
@@ -916,7 +1341,7 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .hud { display: flex; flex-direction: column; }
 /* Every screen size: Lock in / Next stays pinned to the bottom of the panel, and on desktop the
    question bar (number, score, timer) stays pinned to its top, so a round never needs a scroll to act. */
-#qplay > .actions { position: sticky; bottom: 0; z-index: 6; margin: 0 -24px -20px; padding: 14px 24px 18px; background: linear-gradient(transparent, var(--sw-raise) 32%); }
+#qplay > .actions { position: sticky; bottom: -20px; z-index: 6; margin: 0 -24px -20px; padding: 14px 24px 18px; background: linear-gradient(transparent, var(--sw-raise) 32%); }
 @media (min-width: 861px) {
   body.playing #qprogress { position: sticky; top: -24px; z-index: 6; margin: -24px -24px 0; padding: 22px 24px 10px; background: var(--sw-raise); }
 }
@@ -1008,7 +1433,8 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
   .topicpick select { min-height: 40px; }
   body[data-mode="passport"] .filters { display: none; }
   /* The globe steps back on screens where the panel is the point (Party, Passport), like the Quiz menu. */
-  body[data-mode="versus"]:not(.playing) .globe-wrap, body[data-mode="passport"] .globe-wrap { height: min(70vw, 30vh); }
+  body[data-mode="passport"] .globe-wrap { height: min(70vw, 30vh); }
+  body[data-mode="versus"]:not(.playing) .globe-wrap { height: min(60vw, 22vh); }
   /* In a round: the globe gives up height on short phones so the answers clear the Lock in bar. */
   body.playing .globe-wrap { height: max(180px, min(84vw, 40vh, calc(100svh - 440px))); }
   /* Step chips wrap onto two lines instead of cutting words off. */
@@ -1040,7 +1466,7 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
   .shape { max-width: 200px; max-height: 125px; }
 }
 @media (max-width: 420px) {
-  .seg b { font-size: 0.74rem; letter-spacing: -0.01em; }
+  .seg b { font-size: 0.78rem; letter-spacing: -0.02em; }
 }
 #qsettings:not([hidden]) ~ #qback { display: none; }
 /* The shared jackpot box gets the same padding as the other boxes on the Quiz menu. */
@@ -1078,13 +1504,15 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
 .dopts .dright { animation: dPick 12s infinite; }
 .dfoot { position: relative; height: 24px; }
 .dlock, .dres { position: absolute; left: 0; top: 0; height: 24px; display: inline-flex; align-items: center; padding: 0 12px; border-radius: 999px; font: 700 0.74rem var(--font-display); }
-.dlock { background: var(--sw-btn, var(--accent)); color: var(--sw-btn-ink, #fff); animation: dLock 12s infinite; }
+/* Lock in appears beside the pin, as in the real game, and is tapped there. */
+.dpinlock { position: absolute; right: 50%; top: 38%; padding: 3px 8px; border-radius: 999px; background: var(--sw-btn, var(--accent)); color: var(--sw-btn-ink, #fff); font: 800 0.66rem var(--font-display); white-space: nowrap; box-shadow: 0 0 0 2px var(--sw-raise); opacity: 0; transform-origin: right center; animation: dPinLock 12s infinite; }
+@keyframes dPinLock { 0%, 55% { opacity: 0; transform: scale(0.6); } 58%, 62% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 2px var(--sw-raise); } 65% { transform: scale(0.88); box-shadow: 0 0 0 2px var(--sw-hot), 0 0 14px rgba(255, 63, 210, 0.8); } 68% { opacity: 1; transform: scale(1); } 71%, 100% { opacity: 0; } }
 .dres { color: var(--good); padding: 0; opacity: 0; animation: dRes 12s infinite; }
 .dsteps { grid-area: s; display: grid; gap: 8px; }
 .dchips { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; }
 .dchips i { font: 700 0.72rem var(--font-display); font-style: normal; text-align: center; padding: 5px 2px; border-radius: 999px; border: 1px solid var(--sw-edge); color: var(--muted); white-space: nowrap; }
 .dc1 { animation: dC1 12s infinite; } .dc2 { animation: dC2 12s infinite; } .dc3 { animation: dC3 12s infinite; } .dc4 { animation: dC4 12s infinite; }
-.dline { position: relative; height: 2.7em; font: 600 0.9rem/1.35 var(--font-display); }
+.dline { position: relative; height: 2.8em; font: 600 0.9rem/1.35 var(--font-display); }
 .dline span { position: absolute; left: 0; right: 0; top: 0; opacity: 0; }
 .ds1 { animation: dS1 12s infinite; } .ds2 { animation: dS2 12s infinite; } .ds3 { animation: dS3 12s infinite; } .ds4 { animation: dS4 12s infinite; }
 /* The part of the screen in play gets a ring: the clue, the choices, the globe, then Lock in. */
@@ -1115,7 +1543,7 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
 @keyframes dPts { 0%, 72% { opacity: 0; transform: translateY(6px); } 76% { opacity: 1; transform: translateY(0); } 92% { opacity: 1; transform: translateY(-8px); } 96%, 100% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) {
   .demo *, .demo { animation: none !important; }
-  .dpin, .dres, .dpts { opacity: 1; } .dlock { opacity: 0; } .dans { fill: #ff9a3d; }
+  .dpin, .dres, .dpts { opacity: 1; } .dpinlock { opacity: 0; } .dans { fill: #ff9a3d; }
   .dopts .dright { background: var(--sw-hot); color: var(--sw-hot-ink); }
   .dline { height: auto; display: grid; gap: 2px; } .dline span { position: static; opacity: 1; white-space: normal; }
 }
@@ -1127,8 +1555,9 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
 @keyframes cueStep { 50% { box-shadow: 0 0 20px rgba(255, 63, 210, 0.9); } }
 .globe-wrap.cue-pin #ocean { stroke: var(--sw-hot, #ff3fd2); stroke-width: 3px; animation: cueGlobe 1.6s ease-in-out infinite; }
 @keyframes cueGlobe { 0%, 100% { filter: drop-shadow(0 0 6px rgba(255, 63, 210, 0.7)); } 50% { filter: drop-shadow(0 0 16px rgba(255, 63, 210, 1)) drop-shadow(0 0 28px rgba(255, 63, 210, 0.5)); } }
-.cuebubble { position: absolute; left: 50%; top: 12px; transform: translateX(-50%); z-index: 7; padding: 7px 14px; border-radius: 999px; background: var(--sw-hot, #ff3fd2); color: var(--sw-hot-ink, #fff); font: 800 0.88rem var(--font-display); white-space: nowrap; box-shadow: 0 0 18px rgba(255, 63, 210, 0.85); pointer-events: none; }
+.cuebubble { position: absolute; left: 50%; bottom: 64px; top: auto; transform: translateX(-50%); z-index: 7; padding: 7px 14px; border-radius: 999px; background: var(--sw-hot, #ff3fd2); color: var(--sw-hot-ink, #fff); font: 800 0.88rem var(--font-display); white-space: nowrap; box-shadow: 0 0 18px rgba(255, 63, 210, 0.85); pointer-events: none; }
 .cuebubble[hidden] { display: none; }
+@media (max-width: 420px) { .cuebubble { font-size: 0.8rem; max-width: calc(100% - 24px); white-space: normal; text-align: center; } }
 .options.cue .opt:not(:disabled), .typeans.cue input { border-color: var(--sw-hot, var(--accent)); box-shadow: 0 0 10px var(--sw-glow); }
 #qlock.cue { box-shadow: 0 0 0 3px var(--sw-hot, #ff3fd2), 0 0 22px rgba(255, 63, 210, 0.85); animation: cueLock 1.6s ease-in-out infinite; }
 @keyframes cueLock { 50% { box-shadow: 0 0 0 3px var(--sw-hot, #ff3fd2), 0 0 34px rgba(255, 63, 210, 1); } }
@@ -1165,6 +1594,8 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
 /* First-time tutorial: a centered welcome and tips card, and a coach card beside each step. */
 .tutcard { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px; background: rgba(5, 2, 12, 0.62); backdrop-filter: blur(3px); }
 .tutcard[hidden] { display: none; }
+/* A card taller than the screen scrolls inside itself, so its buttons are always reachable. */
+.tutcard .tutbox { max-height: calc(100dvh - 32px); overflow-y: auto; overscroll-behavior: contain; }
 .tutbox { width: min(460px, 100%); display: grid; gap: 12px; padding: 22px; border-radius: 22px; background: var(--sw-raise, var(--surface)); border: 1px solid var(--sw-edge); box-shadow: 0 0 40px rgba(255, 63, 210, 0.35); color: var(--ink); }
 .tutbox h3 { margin: 0; font: 800 1.7rem/1.1 var(--font-display); }
 .tutbox p, .tutbox li { margin: 0; font: 400 1rem/1.45 var(--font-body); }
@@ -1174,9 +1605,33 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
 .coach[hidden] { display: none; }
 .coach p { margin: 0; font: 400 0.98rem/1.4 var(--font-body); }
 .coach .actions { margin: 0; }
-.coach .coachskip { justify-self: start; font-size: 0.8rem; letter-spacing: 0.04em; }
+.coach .coachskip { justify-self: start; min-height: 36px; padding: 6px 0; font-size: 0.8rem; letter-spacing: 0.04em; }
 .coachring { outline: 3px solid var(--sw-hot, #ff3fd2); outline-offset: 4px; border-radius: 14px; box-shadow: 0 0 22px rgba(255, 63, 210, 0.6); }
 #wrap.coachring { border-radius: 24px; }
+/* Tutorial: the four steps on the welcome card, the coach's progress dots, the closing tiles. While
+   it runs, the Next buttons step aside so the guide's own Next is the way on. */
+.tutflow { list-style: none; padding: 0 !important; display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px !important; counter-reset: tf; }
+.tutflow li { counter-increment: tf; display: grid; justify-items: center; gap: 2px; padding: 10px 4px 8px; border-radius: 12px; border: 1px solid var(--sw-edge); background: color-mix(in srgb, var(--pr1) 8%, transparent); text-align: center; font: 500 0.78rem/1.25 var(--font-display) !important; color: var(--muted); }
+.tutflow li::before { content: counter(tf); display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: linear-gradient(135deg, var(--pr0), var(--pr1)); color: #14041a; font: 800 0.8rem var(--font-display); }
+.tutflow li b { color: var(--ink); font-size: 0.86rem; }
+.coachstep { display: flex; align-items: center; gap: 4px; }
+.coachstep i { width: 18px; height: 4px; border-radius: 2px; background: var(--sw-edge); }
+.coachstep i.on { background: var(--sw-hot, #ff3fd2); }
+.coachstep em { margin-left: 6px; font: 600 0.68rem var(--font-mono); font-style: normal; letter-spacing: 0.06em; color: var(--muted); text-transform: uppercase; }
+.tuttiles { list-style: none; padding: 0 !important; gap: 8px !important; }
+.tuttiles li { display: grid; grid-template-columns: 36px 1fr; gap: 10px; align-items: start; padding: 10px 12px; border-radius: 14px; border: 1px solid var(--sw-edge); background: color-mix(in srgb, var(--pr1) 6%, transparent); font-size: 0.92rem !important; line-height: 1.35 !important; }
+.tuttiles .tticon { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--sw-raise); border: 1px solid var(--sw-edge); font-size: 1.1rem; }
+.tuttiles b { display: block; font: 700 0.95rem var(--font-display); }
+.scoremore { margin-top: 8px; }
+.scoremore > summary { cursor: pointer; font: 600 0.9rem var(--font-display); color: var(--muted); min-height: 40px; display: flex; align-items: center; }
+.tutmore summary::before { content: "▸"; margin-right: 8px; transition: transform 0.2s; }
+.tutmore[open] summary::before { transform: rotate(90deg); }
+.tutmore summary::-webkit-details-marker { display: none; }
+.tutmore summary { list-style: none; cursor: pointer; font: 600 0.88rem var(--font-display); color: var(--muted); min-height: 36px; display: flex; align-items: center; }
+.tutmore .tppowers { margin-top: 6px; max-height: 32vh; }
+.tutbox .tutsmall { font-size: 0.86rem; color: var(--muted); }
+body.tutoring #qnextglobe, body.tutoring #qnext, body.tutoring #qplay > .actions #qquit { visibility: hidden; }
+body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
 .tppowers { list-style: none; padding: 0 !important; max-height: 46vh; overflow-y: auto; }
 .tppowers li { display: grid; grid-template-columns: 32px 1fr; gap: 8px; align-items: start; }
 .tpicon { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, var(--pr0, #7ff9ff), var(--pr1, #ff3fd2)); color: #14041a; font: 800 0.8rem var(--font-display); }
@@ -1212,6 +1667,9 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
 .look-frost { --border-w: 1.2; --ocean: #061826; --ocean-edge: #7fd4ff; --grat: rgba(180, 230, 255, 0.08); --m1: #d6edf7; --m2: #b9dcef; --m3: #e3f3fa; --m4: #a9d2ea; --m5: #cbe7f4; --m6: #c2e3f2; --land-stroke: #4f9fd0; --river: #7fd4ff; --lake: #0b2a40; --glow: rgba(160, 220, 255, 0.45); }
 .look-ember { --border-w: 1.6; --ocean: #120806; --ocean-edge: #ff6a2a; --grat: rgba(255, 140, 80, 0.07); --m1: #b8361c; --m2: #d4521f; --m3: #9e2a16; --m4: #e0682a; --m5: #c4441d; --m6: #a83218; --land-stroke: #ffb347; --river: #ff8a3d; --lake: #2a0e08; --glow: rgba(255, 110, 40, 0.5); }
 .look-atlas { --border-w: 1.3; --border-dash: 4 2.5; --ocean: #5f7f7a; --ocean-edge: #3d3424; --grat: rgba(40, 28, 12, 0.18); --m1: #e8d8b0; --m2: #dcc79a; --m3: #efe0bb; --m4: #d6be8e; --m5: #e3cfa4; --m6: #cdb382; --land-stroke: #6b4f2a; --river: #4f7f8f; --lake: #6f8f8a; --glow: rgba(230, 200, 140, 0.3); }
+.look-aurora { --border-w: 1.2; --ocean: #050b1c; --ocean-edge: #3dffb0; --grat: rgba(120, 255, 210, 0.08); --m1: #3dffb0; --m2: #35d0ff; --m3: #7c6cff; --m4: #2be0c0; --m5: #5b8cff; --m6: #a070ff; --land-stroke: #b8fff0; --river: #d6fff5; --lake: #0a1838; --glow: rgba(90, 255, 200, 0.5); }
+.look-rosequartz { --border-w: 1.4; --ocean: #2a0f1e; --ocean-edge: #e8a06a; --grat: rgba(255, 200, 210, 0.08); --m1: #f7b7c9; --m2: #f3a3ba; --m3: #fbd0dc; --m4: #ee9bb0; --m5: #f9c4d2; --m6: #f0adc0; --land-stroke: #b9774a; --river: #ffe3ea; --lake: #3c1429; --glow: rgba(255, 170, 190, 0.45); }
+.look-diamond { --border-w: 1.1; --ocean: #030712; --ocean-edge: #7fd4ff; --grat: rgba(200, 235, 255, 0.1); --m1: #eaf6ff; --m2: #bfe3ff; --m3: #ffffff; --m4: #d6eeff; --m5: #a9d8ff; --m6: #f4fbff; --land-stroke: #7fd4ff; --river: #ffffff; --lake: #0a1a30; --glow: rgba(160, 220, 255, 0.6); }
 .look-gold { --border-w: 1.6; --ocean: #070b1f; --ocean-edge: #c9a227; --grat: rgba(255, 215, 120, 0.07); --m1: #d4a93a; --m2: #c79a2e; --m3: #e0b84a; --m4: #b98c26; --m5: #dcb042; --m6: #caa03a; --land-stroke: #3a2a05; --river: #f2d77a; --lake: #0e1638; --glow: rgba(255, 200, 80, 0.45); }
 
 /* High scores: Global and Personal lists, a tab per board. */
@@ -1267,7 +1725,9 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
 <div class="tutcard" id="tutcard" hidden></div>
 <div class="tutcard" id="skincard" hidden></div>
 <div class="coach" id="coach" role="status" hidden></div>
+<div class="termtip" id="termtip" role="tooltip" hidden></div>
 <div class="app">
+  <div class="sitenote" id="sitenote" role="status" hidden></div>
   <header>
     <div class="brand">
       <h1>Curious<span>.</span>Atlas</h1>
@@ -1350,9 +1810,11 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
         <div class="perfectflash" id="perfectflash" aria-hidden="true"></div>
         <div class="jackpotfx" id="jackpotfx" aria-hidden="true" hidden></div>
         <div class="feverfx" id="feverfx" aria-hidden="true" hidden></div>
+        <div class="mysteryfx" id="mysteryfx" aria-hidden="true" hidden></div>
+        <div class="powerfx" id="powerfx" aria-hidden="true" hidden></div>
         <div class="scatterfx" id="scatterfx" aria-hidden="true" hidden></div>
         <div class="bonusfx" id="bonusfx" aria-hidden="true" hidden></div>
-        <div class="cuebubble" id="cuebubble" aria-hidden="true" hidden>Step 2 · Drop a pin on the globe</div>
+        <div class="cuebubble" id="cuebubble" aria-hidden="true" hidden>Step 2 · Tap the country on the globe</div>
         <div class="attract" id="attract" hidden><p class="attractfact" id="attractfact"></p><button class="btn primary attractstart" id="attractstart" type="button">Press start</button></div>
         <div class="perfectstamp" id="perfectstamp" aria-hidden="true" hidden><b>PERFECT</b><span>Pin and country</span><i class="perfectbadge">+10 bonus</i></div>
         <div class="perfectplus" id="perfectplus" aria-hidden="true" hidden><b>PERFECT</b><span>+10</span></div>
@@ -1360,10 +1822,32 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
           <span><i class="spectrum"></i><b id="legend-topic">Has a fact on this topic</b></span>
           <span><i style="background: var(--land-dim)"></i>No fact on this topic</span>
         </div>
+        <div class="legend" id="legend-travel" aria-hidden="true" hidden>
+          <span><i class="kbeen"></i>Been there</span>
+          <span><i class="kwant"></i>Want to go</span>
+        </div>
         <div class="legend" id="legend-passport" aria-hidden="true" hidden>
           <span><i class="spectrum"></i>Stamped in your passport</span>
           <span><i style="background: var(--land-dim)"></i>Not yet</span>
         </div>
+        <!-- The clock, across the top of the map in timed rounds. -->
+        <div class="timer ontop" id="qtimer" role="timer" hidden><b id="qtimerbar"></b><span id="qtimertext"></span></div>
+        <!-- Next, on the globe after you lock in (where Lock in was, so the next tap is right there). -->
+        <button type="button" class="globenext" id="qnextglobe" hidden></button>
+        <p class="taptip" id="qtaptip" hidden><b>Tip</b> Tap a choice's country right on the globe to pick it and pin it in one go. <button type="button" class="linkbtn" id="qtaptipx">Got it</button></p>
+        <!-- Lock in, right beside the pin, so answering doesn't cross the screen twice. -->
+        <button type="button" class="pinlock" id="qpinlock" hidden>Lock in</button>
+        <!-- Clues: one button on the globe (top left) that drops down a menu of clues and their costs. -->
+        <div class="cluedrop" id="qcluedrop" hidden>
+          <button type="button" class="cluetoggle" id="qcluebtn" aria-expanded="false" aria-controls="qcluemenu"><span class="bulb" aria-hidden="true">💡</span>Clues <span class="cnt" id="qcluecnt"></span><span class="chev" aria-hidden="true">▾</span></button>
+          <div class="cluemenu" id="qcluemenu">
+            <div class="cluehead" id="qcluehead"><span class="pinnote-label">Need a clue? Each costs a share of this question's points</span></div>
+            <div class="hints" id="qhints" role="group" aria-label="Clues"></div>
+            <small>A second clue costs more, and so does a long streak. Clues never break a streak.</small>
+          </div>
+        </div>
+        <!-- Power-ups sit on the globe, in view while you answer (bottom left; zoom is bottom right). -->
+        <div class="power ondock" id="qpower" role="group" aria-label="Power-ups" hidden></div>
         <div class="zoom-ctl">
           <button type="button" id="zin" aria-label="Zoom in">+</button>
           <button type="button" id="zout" aria-label="Zoom out">−</button>
@@ -1394,15 +1878,33 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
         <div class="view" id="qsetup" hidden>
           <div>
             <div class="eyebrow"><span class="tag">Quiz</span><span id="qsetupnote"></span></div>
-            <h2>Set up a round</h2>
+            <h2>Play</h2>
           </div>
-          <div class="setup" id="solo-setup"></div>
-          <div class="actions"><button class="btn primary" id="qstart" type="button">Start quiz</button></div>
+          <div class="tiles" id="qtiles" role="group" aria-label="Ways to play">
+            <button type="button" class="tile quick" id="playquick" aria-expanded="false" aria-controls="qquick"><span class="ticon" aria-hidden="true">▶</span><b>Quick round</b><small id="tquick"></small></button>
+            <button type="button" class="tile daily" id="playdaily"><span class="ticon" aria-hidden="true">☀</span><b>Daily</b><small id="tdaily"></small></button>
+            <button type="button" class="tile surv" id="playsurvival"><span class="ticon" aria-hidden="true">♥</span><b>Survival</b><small id="tsurv"></small></button>
+            <button type="button" class="tile speed" id="qspeedstart"><span class="ticon" aria-hidden="true">⚡</span><b>Speed run</b><small id="tspeed"></small></button>
+          </div>
+          <div class="quickbox" id="qquick" hidden>
+            <div class="setup" id="solo-setup"></div>
+            <div class="actions"><button class="btn primary" id="qstart" type="button">Start quiz</button></div>
+            <div class="replayrow" id="qreplay" hidden></div>
+          </div>
+          <div class="today" id="qtoday">
+            <span class="cat">Today</span>
+            <div class="dailycard" id="qdailycard" hidden></div>
+            <div class="pgroup loginbox" id="qlogin" hidden></div>
+            <div class="pgroup missionbox" id="qmissions" hidden></div>
+            <div class="eventbox" id="qevent" hidden></div>
+            <p class="goldenstrip" id="qgolden" hidden></p>
+          </div>
+          <div class="pgroup friendbox" id="qfriends" hidden></div>
+          <div class="pgroup hibox" id="qjourneys" hidden></div>
           <div class="hometip" id="qhometip" role="note" hidden><p><b>Keep Curious Atlas handy:</b> on iPhone, tap <b>Share</b> and then <b>Add to Home Screen</b>. On Android, open the browser menu and tap <b>Add to Home screen</b>. It'll sit on your home screen like an app.</p><button type="button" class="linkbtn" id="qhometipx">Got it</button></div>
-          <div class="dailycard" id="qdailycard" hidden></div>
           <details class="howtoplay" id="qhowto">
             <summary>How to play</summary>
-<figure class="demo" role="img" aria-label="How a round works: read the clue, pick the country, tap the globe to drop a pin where it is, then lock in to see your points.">
+<figure class="demo" role="img" aria-label="How a round works: read the clue, choose the country, tap the globe to drop a pin where it is, then press Lock in beside your pin to see your points.">
             <div class="dglobe" aria-hidden="true">
               <svg viewBox="0 0 140 140">
                 <circle class="docean" cx="70" cy="70" r="64"></circle>
@@ -1414,20 +1916,21 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
                 <g class="dpin"><circle cx="81" cy="63" r="5"></circle></g>
                 <circle class="dtap" cx="81" cy="63" r="12"></circle>
               </svg>
-              <b class="dpts">+160</b>
+              <b class="dpinlock">Lock in</b>
+              <b class="dpts">+110</b>
             </div>
             <div class="dcard" aria-hidden="true">
               <span class="dcat">Nature</span>
               <p>Mount Etna is one of the most active volcanoes on Earth.</p>
               <div class="dopts"><span>Greece</span><span class="dright">Italy</span><span>Spain</span><span>Malta</span></div>
-              <div class="dfoot"><span class="dlock">Lock in</span><span class="dres">Right, it's Italy!</span></div>
+              <div class="dfoot"><span class="dres">Right, it's Italy! Perfect.</span></div>
             </div>
-            <figcaption class="dsteps" aria-hidden="true"><span class="dchips"><i class="dc1">1 · Read</i><i class="dc2">2 · Pick</i><i class="dc3">3 · Pin</i><i class="dc4">4 · Lock in</i></span><span class="dline"><span class="ds1">Read the clue. The country's name is hidden.</span><span class="ds2">Pick the country you think it is.</span><span class="ds3">Tap the globe to drop your pin on it.</span><span class="ds4">Lock in and see your points!</span></span></figcaption>
+            <figcaption class="dsteps" aria-hidden="true"><span class="dchips"><i class="dc1">Read</i><i class="dc2">1 · Choose</i><i class="dc3">2 · Pin</i><i class="dc4">3 · Lock in</i></span><span class="dline"><span class="ds1">Read the clue. The country's name is hidden.</span><span class="ds2">Choose the country you think it is.</span><span class="ds3">Tap (or click) it on the globe to drop your pin.</span><span class="ds4">Press Lock in, right by your pin, and see your points.</span></span></figcaption>
           </figure>
-          <button type="button" class="linkbtn tutlink" id="qtutorial">Take the tutorial: one practice question, step by step</button>
+          <button type="button" class="linkbtn tutlink" id="qtutorial">Try the 1-minute tutorial: a practice question with a guide</button>
           </details>
-          <div class="pgroup loginbox" id="qlogin" hidden></div>
           <div class="pgroup poolbox" id="qpool" hidden></div>
+          <div class="pgroup hibox" id="qleague" hidden></div>
           <div class="pgroup hibox" id="qhiscores" hidden></div>
           <details class="scoring">
             <summary>How scoring works</summary>
@@ -1435,9 +1938,13 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
             <ul>
               <li><b>Country:</b> 50 points for naming it. <b>Pin:</b> up to 50, more the closer it lands.</li>
               <li><b>Perfect:</b> the right country with your pin inside it earns a +10 bonus, multiplied like the rest. Perfects raise your rank, from Tourist to Atlas.</li>
-              <li><b>Streak:</b> each right answer in a row multiplies the next one by 1.5, up to ×4. Two-choice rounds (higher or lower, north or south) pay half for the name and count half a step.</li>
-              <li>The final question counts double. Medium pays ×1.25, Hard ×1.5 and Expert ×2.</li>
+              <li><b>Streak:</b> each right answer in a row multiplies the next one by 1.5, up to ×4. Two-choice rounds (higher or lower, north or south) are answered with one tap, no pin: they pay 40 for the name and count half a step.</li>
               <li><b>Clues</b> are optional. Each takes a percentage off that question's points. After Eliminate a wrong answer, Eliminate another clears a second one for a bigger cut.</li>
+            </ul>
+            <details class="scoremore"><summary>Everything else: levels, streak bonuses, surprises, power-ups</summary>
+            <h4>More on points</h4>
+            <ul>
+              <li>The final question counts double. Trek pays ×1.25, Expedition ×1.5 and Uncharted ×2.</li>
               <li><b>Find it:</b> just the pin. Small countries count from 500 km away; big ones need a closer pin and pay a bit less.</li>
               <li><b>Tricky facts</b> that most players miss pay up to ×1.25.</li>
               <li>Countries you miss come back in later rounds until you get them right.</li>
@@ -1445,30 +1952,33 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
             <h4>Hot streaks</h4>
             <ul>
               <li><b>Fever:</b> five perfects in a row and your next three questions pay × 2.</li>
-              <li><b>Bonus round:</b> 10 right in a row on Easy (9 on Hard, 8 on Expert) unlocks three timed bonus questions, after a 3-second countdown. Run out of time and you can continue once, for half your bonus points.</li>
-              <li><b>Free spin:</b> a perfect round, every pin inside the right country, earns one extra question with a mystery reward.</li>
-              <li><b>Prize chest:</b> play past the end of a round (a bonus round or a free spin) and you pick one of three chests.</li>
+              <li><b>Bonus round:</b> 10 right in a row on Stroll or Trek (9 on Expedition, 8 on Uncharted) unlocks three timed bonus questions, after a 3-second countdown. Run out of time and you can continue once, for half your bonus points.</li>
+              <li><b>Encore:</b> a perfect round, every pin inside the right country, earns one extra question with a gift-box multiplier.</li>
+              <li><b>Prize chest:</b> play past the end of a round (a bonus round or an encore) and you pick one of three chests.</li>
             </ul>
-            <h4>Luck</h4>
+            <h4>Surprises</h4>
             <ul>
-              <li><b>Mystery multiplier:</b> before the final question a slot spins: × 1, × 2, × 3 or, rarely, × 5.</li>
-              <li><b>Jackpot:</b> one secret country a day pays × 5 if you name it. Lucky multipliers together top out at × 5.</li>
-              <li><b>Shared jackpot:</b> a pool for everyone playing today. It grows with every game, and the first perfect pin on the secret jackpot country wins it all.</li>
+              <li><b>Mystery multiplier:</b> hidden on random questions, at least once a round. After you lock one in, a mystery box opens and multiplies the points you've banked since the last one (× 1.1 to × 2), whether that answer scored or not.</li>
+              <li><b>Treasure country:</b> one secret country a day pays × 5 if you name it. Surprise multipliers together top out at × 5.</li>
+              <li class="mponly"><b>Shared treasure:</b> a pool for everyone playing today. It grows with every game, and the first perfect pin on the secret treasure country wins it all.</li>
               <li><b>Golden landmarks:</b> sometimes a gold coin hides on the globe. Tap it before you lock in. Three in a round unlock the bonus round; in Survival, three earn an extra life.</li>
-              <li><b>Bets:</b> after each answer you can stake up to half your points on the next one.</li>
+              <li class="daresonly"><b>Dares:</b> sure of yourself? After each answer you can put up to half your points on the line for the next one: name it right and they come back as a bonus, name it wrong and they're gone.</li>
             </ul>
             <h4>Power-ups and rewards</h4>
             <ul>
-              <li><b>Power-ups:</b> everyone gets a free ↻ Second chance each day. Beyond that, a perfect answer drops one half the time, and so does every 1,000 points in a game, up to 3 a game. Hold up to three; unused ones carry over. Hover over a symbol to see what it does: ❄ Freeze (stops the clock for 10 seconds, timed games only), 🔍 Lens, ½ 50/50, 🛡 Shield (a wrong answer keeps your streak), 🧭 Compass (the continent, free), ×2 Double up, ↻ Second chance (right on the retry, the country pays half) and ♥ Extra life (Survival). Luck, Fever and Double up together top out at × 8.</li>
-              <li><b>Daily login:</b> claim power-ups once a day along a 7-day row that builds to three on day 7. Miss one day and it waits for you.</li>
-              <li><b>Passport sets:</b> stamp every place on a continent to complete its set, for a badge and two power-ups.</li>
+              <li><b>Power-ups:</b> the ⚡ power meter on the globe fills with every right answer and faster with a perfect one. When it's full, you choose one of two power-ups: one that helps you find the answer (½ 50/50, 🔦 Spotlight, or ❄ Freeze in timed games) and one for your score (×2 Double up, 🛡 Shield, ↻ Second chance, or ♥ Extra life in Survival). Up to 4 choices a round (8 in Survival). Hold up to three; they last for the round. Everyone also gets a free ↻ Second chance each day.</li>
+              <li><b>Head start:</b> rewards from outside a round (daily login, missions, collections, <span class="mponly">the weekly league, </span>a prize chest) fill your power meter before the next round begins. At 100% you start with a choice ready.</li>
+              <li><b>Daily login:</b> claim a power boost once a day along a 7-day row that builds to the biggest on day 7. Miss one day and it waits for you.</li>
+              <li><b>Passport sets:</b> stamp every place on a continent to complete its set, for a badge and a full power meter.</li>
             </ul>
             <h4>Levels and Survival</h4>
             <ul>
-              <li><b>Levels:</b> Easy asks about well-known countries, takes its wrong choices from other continents, counts a pin within 300 km as perfect and has no clock. Medium takes its choices from the same continent. Hard and Expert use the nearest countries and score pins more strictly. Expert leans toward small places, allows one clue per question and always has the clock.</li>
-              <li><b>Survival:</b> endless questions and three lives. The clock gets shorter every three questions.</li>
+              <li><b>Levels:</b> <b>Stroll</b> asks about well-known countries, takes its wrong choices from other continents, gives full pin points to any pin within 500 km and has no clock (a Perfect still needs the pin inside the border). <b>Trek</b> offers 6 choices, half from the same continent, about countries of 2 million people or more. <b>Expedition</b> has you type the name (small typos are fine) and leaves out tiny territories. <b>Uncharted</b> hides the borders, asks about every place, allows two clues per question and always has the clock. Pins are scored a little more strictly at each step.</li>
+              <li><b>Survival:</b> endless questions and three lives. It warms up with capital cities, then climbs from Stroll through Trek and Expedition to Uncharted (with a life back at the last two), and the clock loses a second every four questions, from 25 down to 12. Every tenth question is a boss worth × 3.</li>
             </ul>
           </details>
+          </details>
+          <button type="button" class="opttoggle buzztoggle" id="buzz" aria-pressed="true" hidden>Vibration on answers and taps</button>
           <div class="pgroup chbox">
             <span class="cat">Got a challenge code?</span>
             <form class="vjoin" id="chform">
@@ -1483,7 +1993,6 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
           <div class="eyebrow"><span class="tag" id="qnum">Question 1 of 10</span><span id="qscore"></span></div>
           <div class="bar qbar"><b id="qbar"></b></div>
           <div class="lives" id="qlives" hidden></div>
-          <div class="timer" id="qtimer" hidden><b id="qtimerbar"></b><span id="qtimertext"></span></div>
           <ol class="standings" id="standings" hidden></ol>
         </div>
         <div id="qplay" class="view">
@@ -1511,12 +2020,6 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
             <label class="field" for="qtype"><span>Type the country</span><input id="qtype" list="names" autocomplete="off" spellcheck="false" placeholder="Start typing a country"></label>
             <button class="btn" type="submit">Choose</button>
           </form>
-          <div class="cluehead" id="qcluehead">
-            <span class="pinnote-label"><span class="long">Need a clue? (optional)</span><span class="short">Clues</span></span>
-            <small>Each clue takes a percentage off this question's points. A second clue costs more, and so does a long streak.</small>
-          </div>
-          <div class="hints" id="qhints"></div>
-          <div class="power" id="qpower" hidden></div>
           <div class="elimopts" id="qelim" hidden></div>
           <p class="hintout" id="qhintout" hidden></p>
           <details class="kbpin" id="qkb">
@@ -1537,16 +2040,23 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
             <button class="btn primary" id="qnext" type="button" hidden>Next question</button>
             <button class="btn" id="qdrop" type="button" hidden>Continue without them</button>
             <button class="btn" id="qquit" type="button">Quiz menu</button>
+            <p class="keyhint" id="qkeys" aria-hidden="true"><kbd>1</kbd>–<kbd>6</kbd> pick · <kbd>Enter</kbd> lock in · <kbd>Space</kbd> next · <kbd>C</kbd> clues</p>
           </div>
         </div>
+        <div id="qspeed" class="view speedrun" hidden>
+          <div class="eyebrow"><span class="tag">Speed run</span><span id="spscore"></span></div>
+          <p class="sptext" id="sptext" aria-live="polite"></p>
+          <div class="options" id="spopts"></div>
+          <p class="spflash" id="spflash" role="status"></p>
+          <div class="actions"><button class="btn" id="spquit" type="button">Quiz menu</button></div>
+        </div>
         <div id="qend" class="view qend" hidden>
-          <div>
+          <div class="endcard">
             <div class="eyebrow"><span class="tag" id="qendtag">Round complete</span><span id="qbest"></span></div>
             <h2 id="qfinal"></h2>
-          </div>
-          <p id="qmsg"></p>
-          <div class="dots" id="qdots" aria-hidden="true"></div>
-          <div class="qextra" id="qextra"></div>
+            <p class="verdict" id="qverdict"></p>
+            <div class="dots" id="qdots" aria-hidden="true"></div>
+            <div id="qnudges"></div>
           <div class="actions">
             <button class="btn primary" id="qrematch" type="button" hidden>Rematch</button>
             <button class="btn primary" id="qagain" type="button">Play again</button>
@@ -1555,6 +2065,9 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
             <button class="btn" id="qsettings" type="button" hidden>Back to the quiz menu</button>
             <button class="btn" id="qback" type="button">Back to exploring</button>
           </div>
+          </div>
+          <p id="qmsg"></p>
+          <div class="qextra" id="qextra"></div>
         </div>
       </section>
 
@@ -1563,14 +2076,14 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
           <div class="eyebrow"><span class="tag">Party</span><span id="vstatus"></span></div>
           <h2>Play with friends</h2>
         </div>
-        <p class="vintro">Up to 8 players get the same questions on their own devices. Nobody sees anyone else's pin or pick until everyone has locked in, then all the answers are scored together.</p>
+        <details class="vintro"><summary>How Party works</summary><p>Up to 8 players get the same questions on their own devices. Nobody sees anyone else's pin or pick until everyone has locked in, then all the answers are scored together.</p></details>
         <p class="vnote" id="vunavail" hidden></p>
         <div class="vgroup" id="vlobby">
           <label class="field" for="vname"><span>Your name</span><input id="vname" maxlength="24" autocomplete="nickname" placeholder="Shown to the other players"></label>
           <div class="setup" id="party-setup"></div>
           <div class="actions"><button class="btn primary" id="vcreate" type="button">Start a new game</button></div>
           <form class="vjoin" id="vjoinform">
-            <label class="field" for="vcode"><span>Or join a game with its code</span><input id="vcode" maxlength="5" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="e.g. KX4QP"></label>
+            <label class="field" for="vcode"><span>Have a code? Join a friend's game</span><input id="vcode" maxlength="5" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="e.g. KX4QP"></label>
             <button class="btn" id="vjoin" type="submit">Join</button>
           </form>
         </div>
@@ -1592,10 +2105,15 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
       <section class="view" id="passport-view" hidden>
         <div>
           <div class="eyebrow"><span class="tag">Passport</span><span id="pcount"></span></div>
-          <h2>Your travels</h2>
+          <h2>Your passport</h2>
         </div>
         <p class="vintro">Name a country correctly in any quiz, daily or party game to stamp it into your passport. Stamped places glow on the globe.</p>
+        <div class="pgroup masterybox" id="pmastery"></div>
+        <div class="pgroup travelbox" id="ptravels"></div>
+        <p class="small contnote">Stamp every place on a continent for its badge and a full power meter.</p>
         <div class="contlist" id="contlist"></div>
+        <div class="pgroup"><span class="cat">Collections</span><p class="small">Stamp every place in a region for its badge and a full power meter.</p><ul class="missions colls" id="colls"></ul></div>
+        <div class="pgroup" id="peventbox" hidden><span class="cat">Journey and event badges</span><ul class="pevents" id="pevents"></ul></div>
         <div class="pgroup"><span class="cat">Achievements</span><ul class="achs" id="achs"></ul></div>
         <div class="pgroup"><span class="cat">Your stats</span><dl class="stats" id="stats"></dl></div>
         <div class="pgroup backup">
@@ -1608,11 +2126,22 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
             <div class="actions"><button class="btn primary" type="submit">Restore</button></div>
           </form>
           <p class="toast" id="bkmsg" role="status"></p>
+          <p class="syncnote" id="syncnote" role="status" hidden></p>
+          <div class="xferbox" id="xferbox" hidden>
+            <span class="cat">Move to another device</span>
+            <p class="small">Scan a QR code with your other phone or tablet, or send yourself a link. No account needed.</p>
+            <div class="actions"><button class="btn primary" id="xferopen" type="button" aria-expanded="false" aria-controls="xfer">Show my transfer QR code</button></div>
+            <div class="xfer" id="xfer" hidden>
+              <div class="xferqr" id="xferqr"></div>
+              <p class="small" id="xfermsg" aria-live="polite"></p>
+              <div class="actions"><button class="btn" id="xfercopy" type="button">Copy transfer link</button></div>
+            </div>
+          </div>
         </div>
         <div class="actions"><button class="btn" id="pback" type="button">Back to exploring</button></div>
       </section>
 
-      <p class="credit">Every fact links to the Wikipedia article it was checked against; figures are rounded. Borders from Natural Earth (1:50m, 1:10m up close) via world-atlas; they show who controls an area on the ground and aren't a position on any dispute. Country details from the world-countries dataset; population from the World Bank (2023).</p>
+      <p class="credit">Every fact links to the Wikipedia article it was checked against; figures are rounded. Borders from Natural Earth (1:50m, 1:10m up close) via world-atlas; they show who controls an area on the ground and aren't a position on any dispute. Country details from the world-countries dataset; population from the World Bank (2023). <a href="privacy.html">Privacy</a></p>
     </aside>
   </main>
   <div class="sr-only" id="sr" aria-live="polite" aria-atomic="true"></div>
@@ -1637,7 +2166,15 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 <script>
 // Works offline after the first visit: a service worker keeps a copy of the page, data and libraries.
 if ("serviceWorker" in navigator && location.protocol !== "file:") {
-  window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); });
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").then((reg) => {
+      // A new version was published: once it has downloaded, offer a reload to switch to it.
+      reg.addEventListener("updatefound", () => {
+        const w = reg.installing;
+        if (w) w.addEventListener("statechange", () => { if (w.state === "installed" && navigator.serviceWorker.controller && window.atlasSiteNote) window.atlasSiteNote("update", "<b>A new version of Curious Atlas is ready.</b>", [["Reload", () => location.reload()], ["Later", () => { const el = document.getElementById("sitenote"); if (el) el.hidden = true; }]]); });
+      });
+    }).catch(() => {});
+  });
 }
 </script>
 </body>
