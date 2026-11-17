@@ -1280,6 +1280,8 @@ body:not(.playing) .taptip { display: none; }
 body:not(.playing) .timer.ontop, body:not(.playing) .globenext { display: none; }
 /* With the clock showing, the Clues button sits just under it. */
 .globe-wrap:has(#qtimer:not([hidden])) .cluedrop { top: 40px; }
+.globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 98px; }
+@media (max-width: 860px) { .cuebubble { top: 60px; padding: 6px 12px; } .globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 94px; } }
 /* Next on the globe after locking in. */
 .globenext { position: absolute; z-index: 5; left: 50%; bottom: 14px; transform: translateX(-50%); min-height: 44px; padding: 10px 18px; border-radius: 999px; border: 0; cursor: pointer;
   background: var(--sw-btn); color: var(--sw-btn-ink); font: 700 0.95rem var(--font-display); white-space: nowrap; box-shadow: 0 0 0 2px var(--sw-raise), 0 0 18px var(--sw-glow); animation: mUp 0.2s ease-out; }
@@ -1567,7 +1569,7 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
 @keyframes cueStep { 50% { box-shadow: 0 0 20px rgba(255, 63, 210, 0.9); } }
 .globe-wrap.cue-pin #ocean { stroke: var(--sw-hot, #ff3fd2); stroke-width: 3px; animation: cueGlobe 1.6s ease-in-out infinite; }
 @keyframes cueGlobe { 0%, 100% { filter: drop-shadow(0 0 6px rgba(255, 63, 210, 0.7)); } 50% { filter: drop-shadow(0 0 16px rgba(255, 63, 210, 1)) drop-shadow(0 0 28px rgba(255, 63, 210, 0.5)); } }
-.cuebubble { position: absolute; left: 50%; bottom: 64px; top: auto; transform: translateX(-50%); z-index: 7; padding: 7px 14px; border-radius: 999px; background: var(--sw-hot, #ff3fd2); color: var(--sw-hot-ink, #fff); font: 800 0.88rem var(--font-display); white-space: nowrap; box-shadow: 0 0 18px rgba(255, 63, 210, 0.85); pointer-events: none; }
+.cuebubble { position: absolute; left: 50%; top: 66px; bottom: auto; /* under the Clues button, clear of the power meter */ transform: translateX(-50%); z-index: 7; padding: 7px 14px; border-radius: 999px; background: var(--sw-hot, #ff3fd2); color: var(--sw-hot-ink, #fff); font: 800 0.88rem var(--font-display); white-space: nowrap; box-shadow: 0 0 18px rgba(255, 63, 210, 0.85); pointer-events: none; }
 .cuebubble[hidden] { display: none; }
 @media (max-width: 420px) { .cuebubble { font-size: 0.8rem; max-width: calc(100% - 24px); white-space: normal; text-align: center; } }
 .options.cue .opt:not(:disabled), .typeans.cue input { border-color: var(--sw-hot, var(--accent)); box-shadow: 0 0 10px var(--sw-glow); }
@@ -2140,7 +2142,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         <div class="pgroup"><span class="cat">Your stats</span><dl class="stats" id="stats"></dl></div>
         <div class="pgroup backup">
           <span class="cat">Back up your progress</span>
-          <p class="small">Your passport, streaks and achievements are saved in this browser only. Copy a backup code to keep them safe, or to move them to another phone or computer.</p>
+          <p class="small" id="bkintro">Your passport, streaks and achievements are saved in this browser only. Copy a backup code to keep them safe, or to move them to another phone or computer.</p>
           <div class="actions"><button class="btn" id="bkcopy" type="button">Copy backup code</button><button class="btn" id="bkopen" type="button" aria-expanded="false" aria-controls="bkform">Restore from a code</button></div>
           <label class="field" for="bkout" id="bkoutwrap" hidden><span>Your backup code (select it all and copy)</span><textarea id="bkout" rows="3" readonly></textarea></label>
           <form class="bkform" id="bkform" hidden>
