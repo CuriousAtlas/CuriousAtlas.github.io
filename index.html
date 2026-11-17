@@ -983,6 +983,18 @@ html { overflow-x: clip; }
 @media (pointer: coarse) { a.src, .qfact a.src { display: inline-block; padding-block: 12px; } .credit a { display: inline-block; padding: 10px 4px; } }
 .qflag.zoomflag { width: fit-content; max-width: 100%; }
 .dmile { font-size: 0.8rem; color: var(--muted); }
+/* How to play: the Dares explainer, and the one-time note when Dares first appear. */
+.dareshow { display: grid; gap: 8px; margin-top: 12px; padding: 12px 14px; border-radius: 14px; border: 1px solid var(--sw-edge); background: var(--sw-raise); }
+.dareshow h4 { margin: 0; font: 800 1rem var(--font-display); }
+.dareshow p { margin: 0; font-size: 0.92rem; }
+.dareway { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 6px; }
+.dareway li { position: relative; padding-left: 26px; font-size: 0.9rem; line-height: 1.4; }
+.dareway li::before { content: "•"; position: absolute; left: 8px; color: var(--muted); }
+.dareway li.ok::before { content: "✓"; left: 4px; color: var(--good); font-weight: 800; }
+.dareway li.no::before { content: "✗"; left: 4px; color: var(--accent); font-weight: 800; }
+.dareex { padding: 8px 10px; border-radius: 10px; background: color-mix(in srgb, var(--pr1) 8%, transparent); }
+.darenew { display: block; margin: 0 0 6px; font: 600 0.86rem/1.35 var(--font-display); color: var(--ink); }
+.darenew b { color: var(--pr1); }
 /* A notice across the top: storage blocked, an old browser, an update, or something went wrong. */
 .sitenote { position: relative; z-index: 30; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 10px; padding: 10px 14px; border-radius: 14px; border: 1px solid #e0a52a; background: color-mix(in srgb, #ffd36b 14%, var(--sw-raise, #1a0b26)); color: var(--ink); font: 500 0.9rem/1.35 var(--font-display); }
 .sitenote[hidden] { display: none; }
@@ -1927,6 +1939,16 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
             </div>
             <figcaption class="dsteps" aria-hidden="true"><span class="dchips"><i class="dc1">Read</i><i class="dc2">1 · Choose</i><i class="dc3">2 · Pin</i><i class="dc4">3 · Lock in</i></span><span class="dline"><span class="ds1">Read the clue. The country's name is hidden.</span><span class="ds2">Choose the country you think it is.</span><span class="ds3">Tap (or click) it on the globe to drop your pin.</span><span class="ds4">Press Lock in, right by your pin, and see your points.</span></span></figcaption>
           </figure>
+          <div class="dareshow daresonly">
+            <h4>🎯 Risking your points: Dares</h4>
+            <p>Once you've played a couple of rounds, after each answer you can take a <b>dare</b> on the next question. Slide to put up to half the points you have on the line, before you see the next clue.</p>
+            <ul class="dareway">
+              <li class="ok"><b>Name it right</b> and those points come back to you as a bonus, as big as your dare but no bigger than what that question scores. Clues trim it. On the final question the bonus is doubled.</li>
+              <li class="no"><b>Name the wrong country</b> and the points you dared are gone (your pin still earns its own points).</li>
+              <li><b>Leave it at No dare</b> to play it safe. Only the country counts for a dare, not where your pin lands.</li>
+            </ul>
+            <p class="dareex"><b>Example:</b> you have 400 points and dare half, so 200 are on the line. The next question scores 250: you get those 250 plus a 200 bonus. Name the wrong country and you lose the 200.</p>
+          </div>
           <button type="button" class="linkbtn tutlink" id="qtutorial">Try the 1-minute tutorial: a practice question with a guide</button>
           </details>
           <div class="pgroup poolbox" id="qpool" hidden></div>
