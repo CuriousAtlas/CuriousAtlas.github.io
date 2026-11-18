@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-wDf1R6mgnO4dsIPYOWaKsmohhaesLqaLcD1heEMkGSI=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-pYsbWPlGqHGkiSM8ifRF5/mgFU9KdizCcQiKTAXjb+Q=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -1363,6 +1363,35 @@ body:not(.playing) .timer.ontop, body:not(.playing) .nextdock { display: none; }
 .exitbtn.confirm { border-color: var(--wrong); color: var(--wrong); background: var(--sw-raise); }
 @media (max-width: 400px) { .exitbtn.confirm { font-size: 0.76rem; padding: 6px 10px 6px 8px; } .globe-wrap:has(.exitbtn.confirm) .cluetoggle .cnt { display: none; } }
 body:not(.playing) .exitcorner, body.tutoring .exitcorner { display: none; }
+/* New best / world high score: a big headline over the globe, a burst of stars, gone after a few seconds or a tap. */
+.bestfx { position: absolute; inset: 0; z-index: 9; display: grid; place-content: center; justify-items: center; gap: 10px; text-align: center; padding: 16px; cursor: pointer;
+  background: radial-gradient(circle, rgba(18, 4, 28, 0.78), rgba(18, 4, 28, 0.45) 55%, transparent 80%); animation: bestIn 0.35s ease-out both; overflow: hidden; }
+.bestfx[hidden] { display: none; }
+.bestfx .bkick { font: 700 0.8rem var(--font-mono); letter-spacing: 0.22em; text-transform: uppercase; color: #ffd36b; }
+.bestfx b { font: 800 clamp(2.2rem, 1.4rem + 4.6vw, 4.6rem)/1 var(--font-display); letter-spacing: 0.01em; background: linear-gradient(180deg, #fff, #ffe08a 40%, #ff9a3d 70%, #ff3fd2); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 18px rgba(255, 180, 60, 0.7)); animation: bestPop 0.6s 0.1s cubic-bezier(0.2, 1.6, 0.4, 1) both; }
+.bestfx span.bsub { font: 700 1.05rem var(--font-display); color: #fff; text-shadow: 0 0 10px rgba(255, 63, 210, 0.8); }
+.bestfx.world b { font-size: clamp(2.6rem, 1.6rem + 5.6vw, 5.4rem); }
+.bestfx i { position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; pointer-events: none; background: #ffd36b; clip-path: polygon(50% 0, 61% 38%, 100% 50%, 61% 62%, 50% 100%, 39% 62%, 0 50%, 39% 38%);
+  animation: bestStar 1.6s var(--d, 0s) cubic-bezier(0.1, 0.8, 0.3, 1) both; }
+@keyframes bestIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes bestPop { from { transform: scale(0.4); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes bestStar { from { transform: translate(-50%, -50%) scale(0.4) rotate(0); opacity: 1; } to { transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y))) scale(var(--s, 1.4)) rotate(220deg); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .bestfx, .bestfx b { animation: none; } .bestfx i { display: none; } }
+/* The daily streak badge: small, in the corner, present but quiet. */
+.streakchip { display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 5px 12px; border-radius: 999px; border: 1px solid color-mix(in srgb, #ff8a3d 55%, var(--sw-edge)); cursor: pointer;
+  background: color-mix(in srgb, var(--sw-raise) 92%, transparent); color: var(--ink); font: 700 0.86rem var(--font-display); white-space: nowrap; box-shadow: 0 0 10px rgba(255, 138, 61, 0.25); }
+.streakchip b { font: 800 0.95rem var(--font-display); color: #ff9a3d; }
+.streakchip .sclabel { font-weight: 600; color: var(--muted); font-size: 0.78rem; }
+.streakchip.zero { box-shadow: none; border-color: var(--sw-edge); }
+.streakchip.zero b { color: var(--muted); }
+.streakchip[hidden] { display: none; }
+:root[data-theme="light"] .streakchip b { color: #b45309; }
+.streakchip.onmap { display: none; position: absolute; z-index: 7; top: 6px; right: 96px; }
+body.playing header .streakchip { display: none; }
+/* The details open as a small card under the badge. */
+.dstreak.pop { position: fixed; z-index: 45; top: 70px; right: 12px; width: min(380px, calc(100vw - 24px)); background: linear-gradient(var(--sw-raise), var(--sw-raise)), var(--bg); box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45), 0 0 18px var(--sw-glow); animation: mUp 0.18s ease-out; }
+.dstreak.pop .num { font-size: 3rem; }
 /* The clock across the top leaves room for Exit. */
 body.playing .timer.ontop { right: 92px; }
 /* The round at a glance, top middle of the map: question and points, a thin progress line, and
@@ -1601,6 +1630,11 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
      (The round's numbers moved onto the map, so the panel needs about 90px less than it did.) */
   body.playing .globe-wrap { height: max(200px, min(96vw, 48vh, calc(100svh - 360px))); }
   body.playing #qprogress:not(:has(> :not([hidden]))) { display: none; }
+  body.playing.dailyplay .streakchip.onmap:not([hidden]) { display: inline-flex; min-height: 40px; padding: 5px 10px; }
+  header .streakchip .sclabel { display: none; }
+  /* Phones: the badge sits at the end of the Quiz / Explore / Passport row, not on a row of its own. */
+  header .streakchip { order: 3; align-self: stretch; min-height: 44px; border-radius: 16px; }
+  header:has(.streakchip:not([hidden])) .modes { flex: 1 1 calc(100% - 96px); min-width: 0; }
   /* The tutorial's guide card needs the room under the map, so the map stays at its old size then. */
   body.playing.tutoring .globe-wrap { height: max(180px, min(84vw, 40vh, calc(100svh - 440px))); }
   /* Step chips wrap onto two lines instead of cutting words off. */
@@ -1911,10 +1945,12 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
       <button type="button" id="mode-passport" aria-pressed="false"><svg class="mi" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"></rect><circle cx="12" cy="10" r="3"></circle><path d="M9 16h6"></path></svg><span>Passport</span></button>
     </div>
     <button class="btn primary" id="surprise" type="button">Surprise me</button>
+    <!-- The daily streak, small and always in the corner; it opens the details below. -->
+    <button type="button" class="streakchip" id="streakchip" aria-expanded="false" aria-controls="dstreak" hidden><span aria-hidden="true">🔥</span><b>0</b><span class="sclabel">day streak</span></button>
   </header>
 
   <main>
-    <div class="dstreak" id="dstreak" hidden aria-live="polite"></div>
+    <div class="dstreak pop" id="dstreak" role="dialog" aria-label="Daily streak" hidden></div>
     <section class="stage" aria-label="Globe">
       <div class="filters" id="filters" role="group" aria-label="Topic">
         <div class="chiprow" id="chiprow"></div>
@@ -2016,6 +2052,10 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
             <div class="fevermeter" id="qfever" hidden></div>
           </div>
         </div>
+        <!-- Phones in the Daily (the header is hidden while playing): the streak beside Exit. -->
+        <button type="button" class="streakchip onmap" id="streakchipmap" aria-controls="dstreak" hidden><span aria-hidden="true">🔥</span><b>0</b></button>
+        <!-- A new personal best or a place on the world high-score list, announced over the globe. -->
+        <div class="bestfx" id="bestfx" role="status" aria-live="polite" hidden></div>
         <!-- Leaving: an Exit button in the top-right corner of the map, like closing a window. -->
         <div class="exitcorner">
           <button class="exitbtn" id="qquit" type="button" title="Leave this round and go back to the Quiz menu">Exit</button>
@@ -2356,7 +2396,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwmmlu5f";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwms1o8m";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
