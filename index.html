@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-bKuh5oLqHUXF2MHjlamCQhs48Xw8hvpG736qaQUiQ6c=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-1icYEAieytdMZhZ3MiLoCuxzaLIW4cPoeqbElMkLMyA=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -11,10 +11,13 @@
 <meta property="og:title" content="Curious Atlas">
 <meta property="og:description" content="A neon globe geography game: thousands of sourced facts about every country, with quick rounds, a daily challenge, Survival, journeys and a passport to fill.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://curiousatlas.github.io/icons/icon-512.png">
+<meta property="og:image" content="https://curiousatlas.github.io/share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Curious Atlas: a neon globe beside the words Find countries from clues on a neon globe">
 <link rel="canonical" href="https://curiousatlas.github.io/">
 <meta property="og:url" content="https://curiousatlas.github.io/">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="manifest" href="manifest.webmanifest">
@@ -2182,7 +2185,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true;</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwlgxtb2";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
