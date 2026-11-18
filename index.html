@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-xDICra6a6d14bFz2rde4DND+SO6kFFRtdIVES0dHgCs=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-wDf1R6mgnO4dsIPYOWaKsmohhaesLqaLcD1heEMkGSI=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -252,6 +252,8 @@ main {
    neighbors on hover, so the whole outline shows). Expert's no-borders map overrides this. */
 .country:not(.sel):not(.wrong):hover { fill: var(--hover); stroke: var(--sw-hot, #ff3fd2); stroke-width: 2.2; filter: drop-shadow(0 0 3px rgba(255, 63, 210, 0.85)) drop-shadow(0 0 9px rgba(255, 63, 210, 0.45)); }
 .revealed .country:not(.sel):not(.wrong) { fill: var(--land-dim); }
+/* Light look: faded land was nearly the sea's color on the answer map; a firmer grey-green tells them apart. */
+:root[data-theme="light"] .revealed .country:not(.sel):not(.wrong) { fill: #b3c4bb; stroke: #f7fcfa; }
 /* Reveal: neon red for a wrong pick, neon orange for the right country (same style as the continent glow). */
 .country.wrong, .country.wrong:hover { fill: var(--wrong); stroke: var(--wrong-core); stroke-width: 1.6px; stroke-linejoin: round;
   filter: drop-shadow(0 0 1.5px var(--wrong-core)) drop-shadow(0 0 5px var(--wrong-glow)) drop-shadow(0 0 12px var(--wrong-glow)); }
@@ -965,7 +967,7 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .startrail .stcore { stroke-width: 4px; }
 .scatter:focus-visible .sccoin { stroke: var(--neon); stroke-width: 3px; }
 @keyframes scPulse { from { transform: scale(0.7); opacity: 0.9; } to { transform: scale(1.5); opacity: 0; } }
-.scatterfx { position: absolute; top: 18%; left: 50%; transform: translateX(-50%); font: 800 2.2rem var(--font-display); color: #ffd36b; text-shadow: 0 0 16px rgba(255, 200, 80, 0.9); pointer-events: none; z-index: 6; }
+.scatterfx { position: absolute; top: 18%; left: 50%; transform: translateX(-50%); font: 800 2.2rem var(--font-display); color: #ffd36b; text-shadow: 0 0 16px rgba(255, 200, 80, 0.9); pointer-events: none; z-index: 9; } /* above the strip */
 .scatterfx.go { animation: scRise 1.3s ease-out forwards; }
 @keyframes scRise { from { opacity: 0; transform: translate(-50%, 12px) scale(0.8); } 20% { opacity: 1; } to { opacity: 0; transform: translate(-50%, -30px) scale(1.15); } }
 .scattermeter .coins { display: inline-flex; gap: 4px; }
@@ -1060,6 +1062,8 @@ html { overflow-x: clip; }
 .tmsg.warn { color: var(--accent); }
 /* The gold travel title and numbers need a darker gold on the light look. */
 :root[data-theme="light"] .ttitle b, :root[data-theme="light"] .tsum b, :root[data-theme="light"] .masterybox b { color: #8a5a00; }
+/* The daily card's gold number and milestone name, readable on the light background too. */
+:root[data-theme="light"] .dmile b, :root[data-theme="light"] .dailycard .dstreakn { color: #8a5a00; text-shadow: none; }
 :root[data-theme="light"] .tconts span.on { border-color: #b8860b; }
 .tacts { display: flex; flex-wrap: wrap; gap: 8px; }
 .tacts .btn { flex: 1 1 calc(50% - 4px); font-size: 0.86rem; }
@@ -1357,6 +1361,7 @@ body:not(.playing) .timer.ontop, body:not(.playing) .nextdock { display: none; }
 .exitbtn:hover { border-color: var(--pr1); }
 .exitbtn[hidden] { display: none; }
 .exitbtn.confirm { border-color: var(--wrong); color: var(--wrong); background: var(--sw-raise); }
+@media (max-width: 400px) { .exitbtn.confirm { font-size: 0.76rem; padding: 6px 10px 6px 8px; } .globe-wrap:has(.exitbtn.confirm) .cluetoggle .cnt { display: none; } }
 body:not(.playing) .exitcorner, body.tutoring .exitcorner { display: none; }
 /* The clock across the top leaves room for Exit. */
 body.playing .timer.ontop { right: 92px; }
@@ -1365,6 +1370,8 @@ body.playing .timer.ontop { right: 92px; }
 .mapstrip { position: absolute; z-index: 6; left: 50%; top: 8px; transform: translateX(-50%); width: min(400px, calc(100% - 340px)); min-width: 250px; display: grid; gap: 5px;
   padding: 7px 14px 8px; border-radius: 16px; background: color-mix(in srgb, var(--sw-raise) 90%, transparent); border: 1px solid var(--sw-edge); box-shadow: 0 0 12px var(--sw-glow); pointer-events: auto; }
 .mapstrip[hidden], body:not(.playing) .mapstrip { display: none; }
+.mapstrip, .exitcorner, .nextdock, .cluedrop { -webkit-user-select: none; user-select: none; } /* dragging the globe never selects their text */
+.mapstrip > * { min-width: 0; } /* long labels shrink with ellipses instead of spilling out */
 .mapstrip .eyebrow { justify-content: space-between; gap: 4px 10px; font-size: 0.66rem; }
 .mapstrip .qbar { height: 3px; margin: 0; }
 .mapstrip .striprow { display: flex; align-items: center; gap: 10px; }
@@ -1401,18 +1408,28 @@ body.playing .timer.ontop { right: 92px; }
      Next bar is up (the bar already says what you just won). */
   .mapstrip { top: 56px; width: calc(100% - 24px); min-width: 0; padding: 5px 12px 6px; gap: 3px; border-radius: 14px; }
   .mapstrip .eyebrow { flex-wrap: nowrap; font-size: 0.6rem; letter-spacing: 0.05em; white-space: nowrap; }
-  .mapstrip .eyebrow > span { overflow: hidden; text-overflow: ellipsis; }
+  .mapstrip .eyebrow > span { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .mapstrip .eyebrow > span:last-child { flex: 1 1 auto; text-align: right; }
   .mapstrip .striprow { gap: 12px; }
   .mapstrip .sstreak { font-size: 0.8rem; }
   .mapstrip .combo { flex: none; }
   .mapstrip .combo .clabel, .mapstrip .combo .cbar, .mapstrip .fevermeter .clabel { display: none; }
   .mapstrip .cval { font-size: 0.82rem; min-width: 0; }
   .globe-wrap:has(#qdock:not([hidden])) .mapstrip { display: none; }
+  /* Short phones: the clue's picture shrinks and the step chips go (the cue on the map says the next
+     step), so the answers stay above the Lock in button. */
+  @media (max-height: 720px) {
+    body.playing .qfact .shape { max-height: 84px; }
+    body.playing .qfact .qflag { font-size: 3.2rem; }
+    body.playing #qsteps { display: none; }
+  }
+  /* It's only information: a tap on it goes through to the globe (a pin on Belgium, say). */
+  .mapstrip { pointer-events: none; }
   /* Timed rounds: the strip sits beside the Clues button, under the clock. */
   .globe-wrap:has(#qtimer:not([hidden])) .mapstrip { top: 40px; left: auto; right: 12px; transform: none; width: calc(100% - 200px); }
   .perfectstamp { top: 52px; } /* the strip steps aside after an answer on phones, so the stamp sits high */
   .perfectstamp b { font-size: 1.7rem; }
-  .perfectstamp span { font-size: 0.6rem; }
+  .perfectstamp span { display: none; } /* the bar already says "Perfect"; the subtitle crowded the map */
   .perfectstamp .perfectbadge { font-size: 0.75rem; padding: 3px 10px; }
   .globe-wrap .cuebubble { top: 124px; }
   .globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 158px; }
@@ -1441,6 +1458,7 @@ body.playing .timer.ontop { right: 92px; }
 .cluemenu { display: none; width: min(300px, 80vw); padding: 10px; border-radius: 16px; border: 1px solid var(--sw-edge);
   background: color-mix(in srgb, var(--sw-raise) 95%, transparent); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), 0 0 18px var(--sw-glow); }
 .cluedrop.open .cluemenu { display: grid; gap: 6px; animation: mUp 0.18s ease-out; }
+.cluedrop.open { z-index: 9; } /* an open menu sits above the strip */
 .cluemenu .cluehead .pinnote-label { padding: 2px 4px 4px; margin: 0; }
 .cluemenu .cluehead[hidden] { display: none; }
 .cluemenu .hints { display: grid; gap: 6px; margin: 0; }
@@ -1567,8 +1585,9 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
   #surprise { display: none; }
   .search input { min-height: 44px; padding: 10px 8px 10px 32px; font-size: 0.86rem; }
   .search svg { left: 12px; }
-  .filters { flex-wrap: nowrap; align-items: center; gap: 8px; }
-  .chiprow { flex: 1 1 0; }
+  /* The topic picker gets the full width; Sound and Skin go on their own line under it when needed. */
+  .filters { flex-wrap: wrap; align-items: center; gap: 8px; }
+  .chiprow { flex: 1 1 260px; }
   .mapopts { flex: none; gap: 6px; }
   .skinname { display: none; }
   .chip, .opttoggle { min-height: 40px; padding: 8px 10px; letter-spacing: 0.04em; }
@@ -2223,9 +2242,10 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         </div>
         <div id="qspeed" class="view speedrun" hidden>
           <div class="eyebrow"><span class="tag">Speed run</span><span id="spscore"></span></div>
+          <!-- How the last answer went, above the next clue (so it can't be read as this clue's answer). -->
+          <p class="spflash" id="spflash" role="status"></p>
           <p class="sptext" id="sptext" aria-live="polite"></p>
           <div class="options" id="spopts"></div>
-          <p class="spflash" id="spflash" role="status"></p>
         </div>
         <div id="qend" class="view qend" hidden>
           <div class="endcard">
@@ -2336,7 +2356,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwmh0x42";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwmmlu5f";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
