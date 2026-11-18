@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-lQ38Y2pORqmkoNTygJudAiFBaxIZZLp8xkKywLHtZ0Y=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-xDICra6a6d14bFz2rde4DND+SO6kFFRtdIVES0dHgCs=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -956,7 +956,13 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .globe-wrap .scatter { cursor: pointer; outline: none; }
 .scatter .scring { fill: none; stroke: #ffd36b; stroke-width: 2px; opacity: 0.8; transform-box: fill-box; transform-origin: center; animation: scPulse 1.1s ease-out infinite; }
 .scatter .sccoin { fill: #f5b82e; stroke: #fff2c2; stroke-width: 2px; filter: drop-shadow(0 0 8px rgba(255, 200, 80, 0.95)); }
-.scatter .scstar { fill: #fff6d6; }
+.scatter .scstar { fill: #fff6d6; transform-box: fill-box; transform-origin: center; animation: starSpin 3s linear infinite; }
+@keyframes starSpin { to { transform: rotate(360deg); } }
+/* The shooting star's tail: a soft wide glow under a thin bright line, both fading toward the end. */
+.startrail { pointer-events: none; }
+.startrail path { fill: none; stroke: url(#trailGrad); stroke-linecap: round; stroke-linejoin: round; }
+.startrail .stglow { stroke-width: 16px; opacity: 0.45; filter: blur(3px); }
+.startrail .stcore { stroke-width: 4px; }
 .scatter:focus-visible .sccoin { stroke: var(--neon); stroke-width: 3px; }
 @keyframes scPulse { from { transform: scale(0.7); opacity: 0.9; } to { transform: scale(1.5); opacity: 0; } }
 .scatterfx { position: absolute; top: 18%; left: 50%; transform: translateX(-50%); font: 800 2.2rem var(--font-display); color: #ffd36b; text-shadow: 0 0 16px rgba(255, 200, 80, 0.9); pointer-events: none; z-index: 6; }
@@ -1354,6 +1360,64 @@ body:not(.playing) .timer.ontop, body:not(.playing) .nextdock { display: none; }
 body:not(.playing) .exitcorner, body.tutoring .exitcorner { display: none; }
 /* The clock across the top leaves room for Exit. */
 body.playing .timer.ontop { right: 92px; }
+/* The round at a glance, top middle of the map: question and points, a thin progress line, and
+   (once there's a streak) the streak, the combo multiplier and fever. */
+.mapstrip { position: absolute; z-index: 6; left: 50%; top: 8px; transform: translateX(-50%); width: min(400px, calc(100% - 340px)); min-width: 250px; display: grid; gap: 5px;
+  padding: 7px 14px 8px; border-radius: 16px; background: color-mix(in srgb, var(--sw-raise) 90%, transparent); border: 1px solid var(--sw-edge); box-shadow: 0 0 12px var(--sw-glow); pointer-events: auto; }
+.mapstrip[hidden], body:not(.playing) .mapstrip { display: none; }
+.mapstrip .eyebrow { justify-content: space-between; gap: 4px 10px; font-size: 0.66rem; }
+.mapstrip .qbar { height: 3px; margin: 0; }
+.mapstrip .striprow { display: flex; align-items: center; gap: 10px; }
+.mapstrip .striprow:not(:has(> :not([hidden]))) { display: none; }
+.mapstrip .sstreak { font: 800 0.86rem var(--font-display); color: #ff8a3d; white-space: nowrap; }
+.mapstrip .combo { flex: 1; margin: 0; gap: 8px; }
+.mapstrip .combo .clabel { font-size: 0.6rem; }
+.mapstrip .cbar { height: 7px; }
+.mapstrip .cval { font-size: 0.9rem; min-width: 3.6ch; }
+.mapstrip .fevermeter { margin: 0; gap: 6px; font-size: 0.7rem; white-space: nowrap; }
+.mapstrip .fevermeter small { display: none; }
+.mapstrip .fevermeter .pips i { width: 8px; height: 8px; }
+.globe-wrap:has(#qtimer:not([hidden])) .mapstrip { top: 40px; }
+/* The Perfect stamp lands under the strip; the step cue sits under it too. */
+.perfectstamp { top: 84px; }
+.globe-wrap .cuebubble { top: 84px; }
+.globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 116px; }
+/* The result of the answer, at the top of the Next bar. */
+.dockres { flex-basis: 100%; margin: -2px 4px 2px; font: 700 1rem var(--font-display); color: var(--good); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dockres[hidden] { display: none; }
+.dockres.no { color: var(--wrong); }
+.dockres b { color: var(--ink); margin-right: 6px; }
+.dockres .ptag { margin-left: 8px; padding: 1px 8px; border-radius: 999px; background: linear-gradient(135deg, var(--pr0), var(--pr1)); color: #14041a; font: 800 0.72rem var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; vertical-align: 2px; }
+.nextdock { flex-wrap: wrap; }
+/* New this round, on the end card: achievements, medals, missions and ranks earned while playing. */
+.newach { display: grid; gap: 6px; margin: 10px 0 4px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--sw-edge); background: color-mix(in srgb, var(--pr1) 7%, transparent); }
+.newach[hidden] { display: none; }
+.newach .cat { margin: 0; }
+.newach ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.newach li { font-size: 0.9rem; line-height: 1.35; }
+.newach li b { font-weight: 700; }
+@media (max-width: 860px) {
+  /* Phones: two slim rows (numbers only: no labels, no combo bar), and out of the way while the
+     Next bar is up (the bar already says what you just won). */
+  .mapstrip { top: 56px; width: calc(100% - 24px); min-width: 0; padding: 5px 12px 6px; gap: 3px; border-radius: 14px; }
+  .mapstrip .eyebrow { flex-wrap: nowrap; font-size: 0.6rem; letter-spacing: 0.05em; white-space: nowrap; }
+  .mapstrip .eyebrow > span { overflow: hidden; text-overflow: ellipsis; }
+  .mapstrip .striprow { gap: 12px; }
+  .mapstrip .sstreak { font-size: 0.8rem; }
+  .mapstrip .combo { flex: none; }
+  .mapstrip .combo .clabel, .mapstrip .combo .cbar, .mapstrip .fevermeter .clabel { display: none; }
+  .mapstrip .cval { font-size: 0.82rem; min-width: 0; }
+  .globe-wrap:has(#qdock:not([hidden])) .mapstrip { display: none; }
+  /* Timed rounds: the strip sits beside the Clues button, under the clock. */
+  .globe-wrap:has(#qtimer:not([hidden])) .mapstrip { top: 40px; left: auto; right: 12px; transform: none; width: calc(100% - 200px); }
+  .perfectstamp { top: 52px; } /* the strip steps aside after an answer on phones, so the stamp sits high */
+  .perfectstamp b { font-size: 1.7rem; }
+  .perfectstamp span { font-size: 0.6rem; }
+  .perfectstamp .perfectbadge { font-size: 0.75rem; padding: 3px 10px; }
+  .globe-wrap .cuebubble { top: 124px; }
+  .globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 158px; }
+  .dockres { font-size: 0.92rem; }
+}
 /* Lock in beside the pin. */
 .pinlock { position: absolute; z-index: 4; left: 0; top: 0; transform: translate(16px, -50%); min-height: 40px; padding: 8px 16px; border-radius: 999px; border: 0; cursor: pointer;
   background: var(--sw-btn); color: var(--sw-btn-ink); font: 700 0.9rem var(--font-display); white-space: nowrap; box-shadow: 0 0 0 2px var(--sw-raise), 0 0 18px var(--sw-glow); animation: mUp 0.18s ease-out; }
@@ -1410,7 +1474,7 @@ body.playing .timer.ontop { right: 92px; }
   .power.ondock .pinnote-label { font-size: 0.7rem; }
 }
 .setbadge { margin-left: 6px; padding: 1px 8px; border-radius: 999px; background: #f5b82e; color: #2a1600; font: 700 0.68rem var(--font-mono); letter-spacing: 0.04em; }
-@media (prefers-reduced-motion: reduce) { .scatter .scring, .scatterfx.go, .lives.hit .hearts { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .scatter .scring, .scatter .scstar, .scatterfx.go, .lives.hit .hearts { animation: none; } }
 
 /* ---------- Phones and narrow windows (up to 860px, where the panel stacks under the globe) ----------
    The modes become an app-style tab bar at the bottom. During a round the header, topic filters and
@@ -1514,8 +1578,12 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
   /* The globe steps back on screens where the panel is the point (Party, Passport), like the Quiz menu. */
   body[data-mode="passport"] .globe-wrap { height: min(70vw, 30vh); }
   body[data-mode="versus"]:not(.playing) .globe-wrap { height: min(60vw, 22vh); }
-  /* In a round: the globe gives up height on short phones so the answers clear the Lock in bar. */
-  body.playing .globe-wrap { height: max(180px, min(84vw, 40vh, calc(100svh - 440px))); }
+  /* In a round: the globe gives up height on short phones so the answers clear the Lock in bar.
+     (The round's numbers moved onto the map, so the panel needs about 90px less than it did.) */
+  body.playing .globe-wrap { height: max(200px, min(96vw, 48vh, calc(100svh - 360px))); }
+  body.playing #qprogress:not(:has(> :not([hidden]))) { display: none; }
+  /* The tutorial's guide card needs the room under the map, so the map stays at its old size then. */
+  body.playing.tutoring .globe-wrap { height: max(180px, min(84vw, 40vh, calc(100svh - 440px))); }
   /* Step chips wrap onto two lines instead of cutting words off. */
   body.playing .steps .step { white-space: normal; overflow: visible; text-overflow: clip; font-size: 0.72rem; letter-spacing: 0; line-height: 1.2; display: grid; place-items: center; padding: 5px 6px; border-radius: 12px; }
   /* Tap sizes: 44px for buttons, 40px for the small pill buttons. */
@@ -1839,6 +1907,12 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
       <div class="globe-wrap" id="wrap">
         <svg id="globe" role="img" tabindex="0" aria-label="Interactive globe. Drag to spin, scroll or use the buttons to zoom, click a country to read about it. In a quiz, arrow keys move your pin.">
           <defs>
+            <!-- The shooting star's tail: clear at the far end, bright gold at the star. -->
+            <linearGradient id="trailGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#ffd36b" stop-opacity="0"></stop>
+              <stop offset="0.6" stop-color="#ffd36b" stop-opacity="0.55"></stop>
+              <stop offset="1" stop-color="#fff6d6" stop-opacity="0.95"></stop>
+            </linearGradient>
             <radialGradient id="haloGrad" cx="50%" cy="50%" r="50%">
               <stop offset="80%" style="stop-color: var(--glow); stop-opacity: 1"></stop>
               <stop offset="100%" style="stop-color: var(--glow); stop-opacity: 0"></stop>
@@ -1875,7 +1949,8 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
           <path class="pin-line" id="pinline"></path>
           <g id="others"></g>
           <g class="perfect" id="perfect" aria-hidden="true" display="none"><g class="prays"><path d="M0 0 L328.0 -36.2 L328.0 36.2 Z"></path><path d="M0 0 L316.9 92.1 L289.2 159.0 Z"></path><path d="M0 0 L257.5 206.3 L206.3 257.5 Z"></path><path d="M0 0 L159.0 289.2 L92.1 316.9 Z"></path><path d="M0 0 L36.2 328.0 L-36.2 328.0 Z"></path><path d="M0 0 L-92.1 316.9 L-159.0 289.2 Z"></path><path d="M0 0 L-206.3 257.5 L-257.5 206.3 Z"></path><path d="M0 0 L-289.2 159.0 L-316.9 92.1 Z"></path><path d="M0 0 L-328.0 36.2 L-328.0 -36.2 Z"></path><path d="M0 0 L-316.9 -92.1 L-289.2 -159.0 Z"></path><path d="M0 0 L-257.5 -206.3 L-206.3 -257.5 Z"></path><path d="M0 0 L-159.0 -289.2 L-92.1 -316.9 Z"></path><path d="M0 0 L-36.2 -328.0 L36.2 -328.0 Z"></path><path d="M0 0 L92.1 -316.9 L159.0 -289.2 Z"></path><path d="M0 0 L206.3 -257.5 L257.5 -206.3 Z"></path><path d="M0 0 L289.2 -159.0 L316.9 -92.1 Z"></path></g><circle class="pring p0" r="60"></circle><circle class="pring p1" r="60"></circle><circle class="pring p2" r="60"></circle><circle class="pring p3" r="60"></circle><g transform="rotate(7)"><line class="pspark ps0" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(27)"><line class="pspark ps1" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(47)"><line class="pspark ps2" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(67)"><line class="pspark ps3" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(87)"><line class="pspark ps0" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(107)"><line class="pspark ps1" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(127)"><line class="pspark ps2" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(147)"><line class="pspark ps3" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(167)"><line class="pspark ps0" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(187)"><line class="pspark ps1" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(207)"><line class="pspark ps2" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(227)"><line class="pspark ps3" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(247)"><line class="pspark ps0" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(267)"><line class="pspark ps1" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(287)"><line class="pspark ps2" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(307)"><line class="pspark ps3" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(327)"><line class="pspark ps0" x1="0" y1="0" x2="16" y2="0"></line></g><g transform="rotate(347)"><line class="pspark ps1" x1="0" y1="0" x2="16" y2="0"></line></g><circle class="pcore" r="26"></circle></g>
-          <g class="scatter" id="scatter" display="none" tabindex="0" role="button" aria-label="Golden landmark: collect it"><circle class="scring" r="17"></circle><circle class="sccoin" r="12"></circle><path class="scstar" d="M0.0 -7.0 L1.8 -2.4 L6.7 -2.2 L2.9 0.9 L4.1 5.7 L0.0 3.0 L-4.1 5.7 L-2.9 0.9 L-6.7 -2.2 L-1.8 -2.4 Z"></path></g>
+          <g class="startrail" id="startrail" display="none" aria-hidden="true"><path class="stglow"></path><path class="stcore"></path></g>
+          <g class="scatter" id="scatter" display="none" tabindex="0" role="button" aria-label="Golden star: catch it"><circle class="scring" r="17"></circle><circle class="sccoin" r="12"></circle><path class="scstar" d="M0.0 -7.0 L1.8 -2.4 L6.7 -2.2 L2.9 0.9 L4.1 5.7 L0.0 3.0 L-4.1 5.7 L-2.9 0.9 L-6.7 -2.2 L-1.8 -2.4 Z"></path></g>
           <circle class="pin" id="pin" r="7" display="none"></circle>
           <path class="plane" id="plane" d="M0,-9 L2,-3 L9,1 L9,3 L2,1 L1.5,6 L4,8 L4,9.5 L0,8.5 L-4,9.5 L-4,8 L-1.5,6 L-2,1 L-9,3 L-9,1 L-2,-3 Z" display="none"></path>
           <circle class="ring" id="ring" r="14" display="none"></circle>
@@ -1911,6 +1986,17 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         </div>
         <!-- The clock, across the top of the map in timed rounds. -->
         <div class="timer ontop" id="qtimer" role="timer" hidden><b id="qtimerbar"></b><span id="qtimertext"></span></div>
+        <!-- The round at a glance, on the map: question, points, progress, then the streak, combo and
+             fever while they're going. (The real elements, moved here from the side panel.) -->
+        <div class="mapstrip" id="qstrip">
+          <div class="eyebrow"><span class="tag" id="qnum">Question 1 of 10</span><span id="qscore"></span></div>
+          <div class="bar qbar"><b id="qbar"></b></div>
+          <div class="striprow">
+            <span class="sstreak" id="qstreak" hidden></span>
+            <div class="combo" id="qcombo" aria-hidden="true" hidden><span class="clabel">Combo</span><span class="cbar"><i></i><b style="--at: 0.29"></b><b style="--at: 0.58"></b><b style="--at: 0.88"></b></span><span class="cval">× 1</span></div>
+            <div class="fevermeter" id="qfever" hidden></div>
+          </div>
+        </div>
         <!-- Leaving: an Exit button in the top-right corner of the map, like closing a window. -->
         <div class="exitcorner">
           <button class="exitbtn" id="qquit" type="button" title="Leave this round and go back to the Quiz menu">Exit</button>
@@ -1919,6 +2005,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         <!-- After an answer: the Dare for the next question and Next, together at the bottom of the map,
              so both are in view before moving on (no scrolling down to find them). -->
         <div class="nextdock" id="qdock" hidden>
+          <p class="dockres" id="qdockres" aria-hidden="true" hidden></p>
           <div class="dockbet" id="qdockbet"></div>
           <button class="btn primary" id="qnext" type="button" hidden>Next question</button>
         </div>
@@ -2058,7 +2145,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
               <li><b>Mystery multiplier:</b> hidden on random questions, at least once a round. After you lock one in, a mystery box opens and multiplies the points you've banked since the last one (× 1.1 to × 2), whether that answer scored or not.</li>
               <li><b>Treasure country:</b> one secret country a day pays × 5 if you name it. Surprise multipliers together top out at × 5.</li>
               <li class="mponly"><b>Shared treasure:</b> a pool for everyone playing today. It grows with every game, and the first perfect pin on the secret treasure country wins it all.</li>
-              <li><b>Golden landmarks:</b> sometimes a gold coin hides on the globe. Tap it before you lock in. Three in a round unlock the bonus round; in Survival, three earn an extra life.</li>
+              <li><b>Golden stars:</b> sometimes a golden star shoots across the globe. Catch it (tap it) before you lock in. Three in a round unlock the bonus round; in Survival, three earn an extra life.</li>
               <li class="daresonly"><b>Dares:</b> sure of yourself? After each answer you can put up to half your points on the line for the next one: name it right and they come back as a bonus, name it wrong and they're gone.</li>
             </ul>
             <h4>Power-ups and rewards</h4>
@@ -2087,16 +2174,12 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
           </div>
         </div>
         <div class="progress" id="qprogress">
-          <div class="eyebrow"><span class="tag" id="qnum">Question 1 of 10</span><span id="qscore"></span></div>
-          <div class="bar qbar"><b id="qbar"></b></div>
           <div class="lives" id="qlives" hidden></div>
           <ol class="standings" id="standings" hidden></ol>
         </div>
         <div id="qplay" class="view">
           <div class="slot" id="qslot" hidden></div>
           <div class="hud">
-          <div class="combo" id="qcombo" aria-hidden="true" hidden><span class="clabel">Combo</span><span class="cbar"><i></i><b style="--at: 0.29"></b><b style="--at: 0.58"></b><b style="--at: 0.88"></b></span><span class="cval">× 1</span></div>
-          <div class="fevermeter" id="qfever" hidden></div>
           <div class="fevermeter scattermeter" id="qscatter" hidden></div>
           </div>
           <div class="badges" id="qbadges"></div>
@@ -2149,6 +2232,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
             <div class="eyebrow"><span class="tag" id="qendtag">Round complete</span><span id="qbest"></span></div>
             <h2 id="qfinal"></h2>
             <p class="verdict" id="qverdict"></p>
+            <div class="newach" id="qnewach" hidden></div>
             <div class="dots" id="qdots" aria-hidden="true"></div>
             <div id="qnudges"></div>
           <div class="actions">
@@ -2252,7 +2336,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwmckph2";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwmh0x42";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
