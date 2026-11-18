@@ -21,7 +21,7 @@ Upload **everything in this folder, including the `icons` folder**, and keep the
 ## What works in this version
 
 - **Explore:** the globe with deep zoom to small islands, facts and country cards
-- **Play:** Quick rounds on four levels (Stroll, Trek, Expedition, Uncharted), **Survival**, a 60-second **Speed run**, and the **Daily** (the same 5 questions for everyone each day)
+- **Play:** Quick rounds on four levels (Stroll, Trek, Expedition, Uncharted), **Survival**, a 90-second **Speed run**, and the **Daily** (the same 5 questions for everyone each day)
 - **Reasons to come back:** a themed event every week, four Journeys of five linked rounds, daily missions, a login calendar, streak milestones, ghost races against your own best round, weak-spot rounds and a personal par
 - **Scoring extras:** streaks, Fever, dares, the mystery multiplier, golden landmarks, bonus rounds, encores and prize chests
 - **Power-ups:** a meter that fills as you answer, then a choice of one of two (50/50, Spotlight, Freeze, Double up, Shield, Second chance, Extra life)

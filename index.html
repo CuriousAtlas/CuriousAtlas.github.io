@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-9gE/c4ptBGlcj8CU41a6i1lfafH1ZqzexMf081lX1Jo=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-lQ38Y2pORqmkoNTygJudAiFBaxIZZLp8xkKywLHtZ0Y=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -254,16 +254,24 @@ main {
 .revealed .country:not(.sel):not(.wrong) { fill: var(--land-dim); }
 /* Reveal: neon red for a wrong pick, neon orange for the right country (same style as the continent glow). */
 .country.wrong, .country.wrong:hover { fill: var(--wrong); stroke: var(--wrong-core); stroke-width: 1.6px; stroke-linejoin: round;
-  filter: drop-shadow(0 0 1.5px var(--wrong-core)) drop-shadow(0 0 5px var(--wrong-glow)) drop-shadow(0 0 12px var(--wrong-glow)); animation: neonpulse 2.6s ease-in-out infinite; }
+  filter: drop-shadow(0 0 1.5px var(--wrong-core)) drop-shadow(0 0 5px var(--wrong-glow)) drop-shadow(0 0 12px var(--wrong-glow)); }
 .country.sel, .country.sel:hover { fill: var(--accent); stroke: var(--surface); stroke-width: 1.4; }
 .quizzing .country.sel, .quizzing .country.sel:hover { fill: var(--pick); stroke: var(--pick-core); stroke-width: 1.6px; stroke-linejoin: round;
-  filter: drop-shadow(0 0 1.5px var(--pick-core)) drop-shadow(0 0 calc(5px + 4px * var(--heat, 0)) var(--pick-glow)) drop-shadow(0 0 calc(12px + 14px * var(--heat, 0)) var(--pick-glow)); animation: neonpulse 2.6s ease-in-out infinite; }
+  filter: drop-shadow(0 0 1.5px var(--pick-core)) drop-shadow(0 0 calc(5px + 4px * var(--heat, 0)) var(--pick-glow)) drop-shadow(0 0 calc(12px + 14px * var(--heat, 0)) var(--pick-glow)); }
+/* Speed run: the answer just given, outlined for a moment (same colors as a regular reveal). */
+.country.showright, .country.showright:hover { fill: var(--pick); stroke: var(--pick-core); stroke-width: 1.6px; stroke-linejoin: round; filter: drop-shadow(0 0 1.5px var(--pick-core)) drop-shadow(0 0 6px var(--pick-glow)); }
+.country.showwrong, .country.showwrong:hover { fill: var(--wrong); stroke: var(--wrong-core); stroke-width: 1.6px; filter: drop-shadow(0 0 5px var(--wrong-glow)); }
 .rivers { fill: none; stroke: var(--river); stroke-width: 0.8; stroke-linecap: round; stroke-linejoin: round; opacity: 0.85; pointer-events: none; }
 .lakes { fill: var(--lake); stroke: var(--river); stroke-width: 0.4; pointer-events: none; }
 /* Continent hint: a purple neon line around the whole continent. */
 .contglow { fill: var(--neon-fill); stroke: var(--neon); stroke-width: 2.2px; stroke-linejoin: round; pointer-events: none;
-  filter: drop-shadow(0 0 1.5px var(--neon-core)) drop-shadow(0 0 5px var(--neon-glow)) drop-shadow(0 0 14px var(--neon-glow));
-  animation: neonpulse 2.6s ease-in-out infinite; }
+  filter: drop-shadow(0 0 1.5px var(--neon-core)) drop-shadow(0 0 5px var(--neon-glow)) drop-shadow(0 0 14px var(--neon-glow)); }
+/* The glows stay still (a pulsing glow repaints every frame and made the globe stutter), and while
+   the globe moves they drop to one light shadow, back to full the moment it stops. */
+svg.moving .country, svg.moving .country:hover, svg.moving .revlabel { filter: none !important; }
+svg.moving .country.sel { filter: drop-shadow(0 0 5px var(--pick-glow)) !important; }
+svg.moving .country.wrong { filter: drop-shadow(0 0 5px var(--wrong-glow)) !important; }
+svg.moving .contglow, svg.moving .lensglow { filter: none; animation: none; }
 .contglow.moving { filter: drop-shadow(0 0 4px var(--neon-glow)); animation: none; }
 @keyframes neonpulse { 0%, 100% { stroke-opacity: 1; } 50% { stroke-opacity: 0.72; } }
 .extra-land { fill: var(--m1); pointer-events: none; }
@@ -536,6 +544,7 @@ main {
 /* On phones messages drop in at the top, clear of Lock in, Next and Play again at the bottom. */
 /* On wider screens, messages sit at the lower left over the globe, clear of the panel's buttons. */
 @media (min-width: 861px) { .achtoast { left: 24px; right: auto; transform: none; max-width: min(420px, 40vw); } }
+@media (min-width: 861px) { body:has(#qdock:not([hidden])) .achtoast { bottom: 120px; } }
 @media (max-width: 860px) { .achtoast { bottom: auto; top: calc(10px + env(safe-area-inset-top, 0px)); width: max-content; font-size: 0.86rem; padding: 10px 14px; animation: drop 0.35s ease both; } }
 @keyframes drop { from { opacity: 0; transform: translate(-50%, -14px); } to { opacity: 1; transform: translate(-50%, 0); } }
 .achtoast { cursor: pointer; }
@@ -814,7 +823,7 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 @keyframes tick { 50% { opacity: 0.55; } }
 .continue p { grid-column: 1 / -1; margin: 0; }
 .continue .btn { grid-column: 1 / -1; justify-self: start; }
-.jackpotfx { position: absolute; inset: 0; z-index: 5; pointer-events: none; display: grid; place-content: center; text-align: center; overflow: hidden; }
+.jackpotfx { position: absolute; inset: 0; z-index: 9; pointer-events: none; display: grid; place-content: center; text-align: center; overflow: hidden; }
 .jackpotfx[hidden] { display: none; }
 .jackpotfx b { font: 800 clamp(2.6rem, 1.8rem + 5vw, 5.4rem)/1 var(--font-display); letter-spacing: 0.04em; background: linear-gradient(180deg, #fff6c7, #ffd36b 45%, #e0901a 55%, #fff1a8); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 18px rgba(255, 200, 80, 0.9)) drop-shadow(0 3px 0 #7a3e00); }
@@ -885,12 +894,12 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .badge.fever { background: linear-gradient(90deg, #ff3fd2, #ff8a3d); color: #1b0617; box-shadow: 0 0 12px rgba(255, 63, 210, 0.6); }
 .globe-wrap.fever #ocean { stroke: #ff3fd2; stroke-width: 3px; animation: feverPulse 0.9s ease-in-out infinite alternate; }
 @keyframes feverPulse { from { filter: drop-shadow(0 0 6px rgba(255, 63, 210, 0.7)); } to { filter: drop-shadow(0 0 22px rgba(255, 120, 60, 0.85)); } }
-.feverfx { position: absolute; inset: 0; z-index: 5; pointer-events: none; display: grid; place-content: center; text-align: center; }
+.feverfx { position: absolute; inset: 0; z-index: 9; pointer-events: none; display: grid; place-content: center; text-align: center; }
 .feverfx[hidden] { display: none; }
 .feverfx b { font: 800 clamp(2.6rem, 1.8rem + 5vw, 5.4rem)/1 var(--font-display); letter-spacing: 0.08em; background: linear-gradient(180deg, #fff, #ff8ae6 40%, #ff3fd2 55%, #ff8a3d); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 18px rgba(255, 63, 210, 0.9)); }
 .feverfx span { margin-top: 6px; font: 700 clamp(1rem, 0.8rem + 1vw, 1.5rem)/1.2 var(--font-display); color: #ffd1f3; text-shadow: 0 0 12px rgba(255, 63, 210, 0.9); }
 /* The mystery multiplier: a single slot reel over the globe that lands on the value, then a count-up. */
-.mysteryfx { position: absolute; inset: 0; z-index: 6; pointer-events: none; display: grid; place-content: center; justify-items: center; gap: 10px; text-align: center;
+.mysteryfx { position: absolute; inset: 0; z-index: 9; pointer-events: none; display: grid; place-content: center; justify-items: center; gap: 10px; text-align: center;
   background: radial-gradient(circle at 50% 50%, rgba(18, 4, 28, 0.72), rgba(18, 4, 28, 0.35) 45%, transparent 70%); transition: opacity 0.4s ease; }
 .mysteryfx[hidden] { display: none; }
 .mysteryfx .mtitle { font: 800 clamp(1rem, 0.85rem + 1vw, 1.5rem)/1 var(--font-display); letter-spacing: 0.16em; text-transform: uppercase; color: #ffe9fb; text-shadow: 0 0 10px rgba(255, 63, 210, 0.95), 0 0 24px rgba(255, 63, 210, 0.6); }
@@ -1144,10 +1153,6 @@ html { overflow-x: clip; }
 .onetapnote { display: block; margin-top: 6px; font: 600 0.78rem var(--font-mono); letter-spacing: 0.04em; color: var(--muted); }
 /* Players who have finished a game know the steps: the chips go. */
 body.seasoned #qsteps { display: none; }
-.taptip { position: absolute; z-index: 5; left: 50%; bottom: 14px; transform: translateX(-50%); width: max-content; max-width: min(92%, 30em); margin: 0; padding: 9px 14px; border-radius: 14px; background: var(--sw-raise); border: 1px solid var(--pr1); box-shadow: 0 0 16px var(--sw-glow); font-size: 0.86rem; line-height: 1.35; text-align: center; }
-.taptip[hidden] { display: none; }
-.taptip b { margin-right: 4px; font: 700 0.68rem var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--pr1); }
-body:not(.playing) .taptip { display: none; }
 /* The end of a round is a result card: score, verdict, what was close, and Play again, all at the
    top. Initials, high scores and sharing come after it. */
 .endcard { display: grid; gap: 10px; padding: 16px 18px; border-radius: 20px; border: 1px solid var(--pr1); background: linear-gradient(160deg, color-mix(in srgb, var(--pr1) 14%, transparent), transparent 60%), var(--sw-raise); box-shadow: 0 0 22px var(--sw-glow); }
@@ -1201,7 +1206,6 @@ body:not(.playing) .taptip { display: none; }
   #qopts .opt::before { counter-increment: opt; content: counter(opt); display: inline-grid; place-items: center; min-width: 1.5em; margin-right: 8px; padding: 0 4px; border-radius: 5px;
     border: 1px solid var(--sw-edge); background: var(--sw-raise); font: 600 0.7rem var(--font-mono); color: var(--muted); vertical-align: 2px; }
 }
-#qquit.confirm { border-color: var(--wrong); color: var(--wrong); }
 /* A new power-up: the symbol drops in over the globe, sparks burst, then it flies to the dock. */
 .powerfx { position: absolute; inset: 0; z-index: 7; pointer-events: none; display: grid; place-content: center; justify-items: center; gap: 8px; text-align: center;
   background: radial-gradient(circle, rgba(18, 4, 28, 0.6), rgba(18, 4, 28, 0.25) 45%, transparent 70%); }
@@ -1280,18 +1284,76 @@ body:not(.playing) .taptip { display: none; }
 @keyframes timerLow { to { filter: brightness(1.35); } }
 @media (prefers-reduced-motion: reduce) { .timer.ontop.low b { animation: none; } }
 /* Both belong to a round in play: nowhere else (Explore, the menus, the end screen). */
-body:not(.playing) .timer.ontop, body:not(.playing) .globenext { display: none; }
+body:not(.playing) .timer.ontop, body:not(.playing) .nextdock { display: none; }
 /* With the clock showing, the Clues button sits just under it. */
 .globe-wrap:has(#qtimer:not([hidden])) .cluedrop { top: 40px; }
 .globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 98px; }
 @media (max-width: 860px) { .cuebubble { top: 60px; padding: 6px 12px; } .globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 94px; } }
-/* Next on the globe after locking in. */
-.globenext { position: absolute; z-index: 5; left: 50%; bottom: 14px; transform: translateX(-50%); min-height: 44px; padding: 10px 18px; border-radius: 999px; border: 0; cursor: pointer;
-  background: var(--sw-btn); color: var(--sw-btn-ink); font: 700 0.95rem var(--font-display); white-space: nowrap; box-shadow: 0 0 0 2px var(--sw-raise), 0 0 18px var(--sw-glow); animation: mUp 0.2s ease-out; }
-.globenext[hidden] { display: none; }
-.globenext kbd { margin-left: 6px; padding: 1px 5px; border-radius: 5px; background: rgba(0, 0, 0, 0.18); font: 600 0.7rem var(--font-mono); }
-@media (max-width: 860px) { .globenext kbd { display: none; } .globenext { bottom: 58px; } }
-@media (prefers-reduced-motion: reduce) { .globenext { animation: none; } }
+/* After an answer: Next (and the Dare for the next question) docked at the bottom of the map. */
+.nextdock { position: absolute; z-index: 8; left: 50%; bottom: 14px; transform: translateX(-50%); width: min(560px, calc(100% - 24px)); display: flex; align-items: stretch; gap: 10px;
+  padding: 10px; border-radius: 20px; background: color-mix(in srgb, var(--sw-raise) 92%, transparent); border: 1px solid var(--sw-edge); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), 0 0 18px var(--sw-glow); animation: dockUp 0.2s ease-out; }
+/* Slides up while staying centered (a plain slide-up would drop the centering for a moment). */
+@keyframes dockUp { from { opacity: 0; transform: translate(-50%, 10px); } to { opacity: 1; transform: translate(-50%, 0); } }
+/* No hover lift in the bar: it appears under a resting pointer, and a button that moves away from
+   the pointer, then back under it, jitters. */
+.nextdock .btn:hover:not(:disabled) { transform: none; }
+.nextdock[hidden] { display: none; }
+.nextdock:not(:has(.betbox)) { width: auto; padding: 6px; border-radius: 999px; }
+.nextdock #qnext { flex: none; align-self: center; min-height: 48px; padding-inline: 22px; font-size: 1rem; white-space: nowrap; border-radius: 999px; }
+/* While the bar is up, the power meter (and its "Choose your power-up" button) sits just above it. */
+.globe-wrap:has(#qdock:not([hidden])) .power.ondock { bottom: calc(var(--docktop, 70px) + 8px); }
+.nextdock #qnext kbd { margin-left: 8px; padding: 1px 5px; border-radius: 5px; background: rgba(0, 0, 0, 0.18); font: 600 0.7rem var(--font-mono); }
+.dockbet { flex: 1 1 auto; min-width: 0; display: flex; }
+.dockbet:empty { display: none; }
+.nextdock .betbox, .nextdock .betbox.hot { flex: 1; min-width: 0; margin: 0; padding: 6px 10px; gap: 4px; border: 0; border-radius: 14px; background: none; box-shadow: none; }
+.nextdock .betbox.hot .bethead b { color: var(--pick); text-shadow: 0 0 8px var(--pick-glow); }
+.nextdock .betbox .bethead { min-width: 0; }
+.nextdock .betbox .betscale, .nextdock .betbox #qbethelp { display: none; }
+/* In the bar the odds are one short line: "Right +120 · Wrong −120". */
+.nextdock .betodds { display: flex; gap: 14px; }
+.nextdock .betodds span { display: inline-flex; gap: 6px; align-items: baseline; padding: 0; background: none; font-size: 0.76rem; }
+.nextdock .betodds span b { font-size: 0.86rem; }
+.nextdock .betbox .bethead .pinnote-label { white-space: nowrap; }
+.nextdock .betbox .darenew { font-size: 0.8rem; margin: 0; }
+.nextdock .betbox .allin { min-height: 36px; padding: 6px 10px; font-size: 0.85rem; }
+@media (max-width: 860px) {
+  /* Phones: one compact row (Dare slider, then Next) so the answer on the map stays in view. */
+  .nextdock { bottom: 54px; gap: 8px; padding: 6px 6px 6px 4px; border-radius: 18px; align-items: center; }
+  .nextdock #qnext { min-height: 48px; padding-inline: 16px; font-size: 0.95rem; }
+  .nextdock .betbox { padding: 2px 6px; gap: 2px; }
+  .nextdock .betodds { display: none; }
+  .nextdock .betbox .bethead { font-size: 0.75rem; }
+  .nextdock .betbox .bethead .pinnote-label { font-size: 0.7rem; letter-spacing: 0.06em; }
+  .nextdock .dlong { display: none; }
+  .nextdock .betbox .bethead b { font-size: 0.82rem; }
+  .nextdock .betbox .darenew { font-size: 0.74rem; line-height: 1.3; }
+  .nextdock .betbox .allin { min-height: 32px; padding: 4px 10px; font-size: 0.8rem; }
+  .nextdock:not(:has(.betbox)) { width: min(300px, calc(100% - 24px)); border-radius: 999px; padding: 5px; }
+  .nextdock:not(:has(.betbox)) #qnext { width: 100%; }
+}
+/* Phones: while the Next bar is up, the zoom buttons step aside (pinch still zooms), and notices
+   drop in just under the top row so Exit and Clues stay tappable. The power meter hides (it's back on
+   the next question) and a waiting "Choose your power-up" moves to the top right, under Exit, so the
+   answer on the map stays clear. */
+@media (max-width: 860px) {
+  .globe-wrap:has(#qdock:not([hidden])) .zoom-ctl { display: none; }
+  .globe-wrap:has(#qdock:not([hidden])) .power.ondock { top: 52px; right: 6px; bottom: auto; left: auto; max-width: calc(100% - 12px); }
+  .globe-wrap:has(#qdock:not([hidden])) .power.ondock .pmeter, .globe-wrap:has(#qdock:not([hidden])) .power.ondock .powerlive { display: none; }
+  .globe-wrap:has(#qdock:not([hidden])) .power.ondock .pchoose { min-height: 40px; font-size: 0.82rem; padding: 6px 12px; }
+  body.playing .achtoast { top: calc(52px + env(safe-area-inset-top, 0px)); }
+}
+@media (prefers-reduced-motion: reduce) { .nextdock { animation: none; } }
+/* Exit, top-right on the map while a round or Speed run is on. */
+.exitcorner { position: absolute; z-index: 7; top: 6px; right: 6px; display: flex; }
+.exitbtn { min-height: 36px; padding: 6px 14px 6px 10px; border-radius: 999px; border: 1px solid var(--sw-edge); cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+  background: color-mix(in srgb, var(--sw-raise) 90%, transparent); color: var(--ink); font: 700 0.85rem var(--font-display); box-shadow: 0 0 10px var(--sw-glow); }
+.exitbtn::before { content: "✕"; font-size: 0.8rem; opacity: 0.8; }
+.exitbtn:hover { border-color: var(--pr1); }
+.exitbtn[hidden] { display: none; }
+.exitbtn.confirm { border-color: var(--wrong); color: var(--wrong); background: var(--sw-raise); }
+body:not(.playing) .exitcorner, body.tutoring .exitcorner { display: none; }
+/* The clock across the top leaves room for Exit. */
+body.playing .timer.ontop { right: 92px; }
 /* Lock in beside the pin. */
 .pinlock { position: absolute; z-index: 4; left: 0; top: 0; transform: translate(16px, -50%); min-height: 40px; padding: 8px 16px; border-radius: 999px; border: 0; cursor: pointer;
   background: var(--sw-btn); color: var(--sw-btn-ink); font: 700 0.9rem var(--font-display); white-space: nowrap; box-shadow: 0 0 0 2px var(--sw-raise), 0 0 18px var(--sw-glow); animation: mUp 0.18s ease-out; }
@@ -1647,7 +1709,7 @@ body.seasoned #qprompt:not(.key), body.seasoned .cluehead small, body.seasoned .
 .tutmore summary { list-style: none; cursor: pointer; font: 600 0.88rem var(--font-display); color: var(--muted); min-height: 36px; display: flex; align-items: center; }
 .tutmore .tppowers { margin-top: 6px; max-height: 32vh; }
 .tutbox .tutsmall { font-size: 0.86rem; color: var(--muted); }
-body.tutoring #qnextglobe, body.tutoring #qnext, body.tutoring #qplay > .actions #qquit { visibility: hidden; }
+body.tutoring #qnext, body.tutoring .nextdock { visibility: hidden; }
 body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
 .tppowers { list-style: none; padding: 0 !important; max-height: 46vh; overflow-y: auto; }
 .tppowers li { display: grid; grid-template-columns: 32px 1fr; gap: 8px; align-items: start; }
@@ -1849,9 +1911,17 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         </div>
         <!-- The clock, across the top of the map in timed rounds. -->
         <div class="timer ontop" id="qtimer" role="timer" hidden><b id="qtimerbar"></b><span id="qtimertext"></span></div>
-        <!-- Next, on the globe after you lock in (where Lock in was, so the next tap is right there). -->
-        <button type="button" class="globenext" id="qnextglobe" hidden></button>
-        <p class="taptip" id="qtaptip" hidden><b>Tip</b> Tap a choice's country right on the globe to pick it and pin it in one go. <button type="button" class="linkbtn" id="qtaptipx">Got it</button></p>
+        <!-- Leaving: an Exit button in the top-right corner of the map, like closing a window. -->
+        <div class="exitcorner">
+          <button class="exitbtn" id="qquit" type="button" title="Leave this round and go back to the Quiz menu">Exit</button>
+          <button class="exitbtn" id="spquit" type="button" title="Leave the Speed run and go back to the Quiz menu" hidden>Exit</button>
+        </div>
+        <!-- After an answer: the Dare for the next question and Next, together at the bottom of the map,
+             so both are in view before moving on (no scrolling down to find them). -->
+        <div class="nextdock" id="qdock" hidden>
+          <div class="dockbet" id="qdockbet"></div>
+          <button class="btn primary" id="qnext" type="button" hidden>Next question</button>
+        </div>
         <!-- Lock in, right beside the pin, so answering doesn't cross the screen twice. -->
         <button type="button" class="pinlock" id="qpinlock" hidden>Lock in</button>
         <!-- Clues: one button on the globe (top left) that drops down a menu of clues and their costs. -->
@@ -2064,9 +2134,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
           <div class="qresult" id="qresult" hidden></div>
           <div class="actions">
             <button class="btn primary" id="qlock" type="button" disabled>Lock in answer</button>
-            <button class="btn primary" id="qnext" type="button" hidden>Next question</button>
             <button class="btn" id="qdrop" type="button" hidden>Continue without them</button>
-            <button class="btn" id="qquit" type="button">Quiz menu</button>
             <p class="keyhint" id="qkeys" aria-hidden="true"><kbd>1</kbd>–<kbd>6</kbd> pick · <kbd>Enter</kbd> lock in · <kbd>Space</kbd> next · <kbd>C</kbd> clues</p>
           </div>
         </div>
@@ -2075,7 +2143,6 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
           <p class="sptext" id="sptext" aria-live="polite"></p>
           <div class="options" id="spopts"></div>
           <p class="spflash" id="spflash" role="status"></p>
-          <div class="actions"><button class="btn" id="spquit" type="button">Quiz menu</button></div>
         </div>
         <div id="qend" class="view qend" hidden>
           <div class="endcard">
@@ -2185,7 +2252,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwlik08f";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwmckph2";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
