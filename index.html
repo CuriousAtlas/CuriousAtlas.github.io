@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-hrvTZB6jFsdXAulFU12RUg1N8mCGU1oky0ICG4RtAKg=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-vl1TuLhdRkl7Ioxu1/Q7gump2ErFmajh5XpyvaXjkF4=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -1424,6 +1424,33 @@ body.playing .timer.ontop { right: 92px; }
 .dockres.no { color: var(--wrong); }
 .dockres b { color: var(--ink); margin-right: 6px; }
 .dockres .ptag { margin-left: 8px; padding: 1px 8px; border-radius: 999px; background: linear-gradient(135deg, var(--pr0), var(--pr1)); color: #14041a; font: 800 0.72rem var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; vertical-align: 2px; }
+/* Phones: the Play screen's "Today" boxes (login, missions, the weekly event, golden hour) fold into four
+   small tiles that open their box (91-today-tiles.js), and the less-used sections sit behind "More". */
+.todaytiles { display: none; }
+details.more > summary { display: none; }
+.morecredit { display: none; }
+@media (max-width: 860px) {
+  .todaytiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .todaytiles[hidden] { display: none; }
+  .tt { display: grid; align-content: start; gap: 2px; min-height: 64px; padding: 10px 12px; border-radius: 14px; border: 1px solid var(--sw-edge); background: var(--sw-panel); text-align: left; color: var(--ink); font: inherit; cursor: pointer; }
+  .tt[hidden] { display: none; }
+  .tt b { display: flex; justify-content: space-between; gap: 6px; font: 700 0.92rem var(--font-display); }
+  .tt b i { font-style: normal; color: var(--muted); transition: transform 0.15s ease; }
+  .tt[aria-expanded="true"] b i { transform: rotate(90deg); }
+  .tt small { font: 500 0.72rem/1.35 var(--font-mono); color: var(--muted); letter-spacing: 0.03em; }
+  .tt.hot { border-color: var(--pr1); box-shadow: 0 0 12px var(--sw-glow); }
+  .tt.hot small { color: var(--ink); }
+  .tt[aria-expanded="true"] { border-color: var(--sw-hot); }
+  #qtoday > .tfold:not(.tshow) { display: none !important; }
+  details.more { border: 1px solid var(--sw-edge); border-radius: 14px; padding: 12px 14px; display: grid; gap: 14px; }
+  details.more > summary { display: block; list-style: none; cursor: pointer; font: 700 0.95rem var(--font-display); min-height: 44px; }
+  details.more > summary::-webkit-details-marker { display: none; }
+  details.more > summary::before { content: "▸ "; color: var(--muted); }
+  details.more[open] > summary::before { content: "▾ "; }
+  details.more > summary small { display: block; margin-top: 2px; font: 400 0.8rem/1.35 var(--font-body); color: var(--muted); }
+  details.more .morecredit { display: block; }
+  body[data-mode="quiz"]:not(.playing) .credit:not(.morecredit) { display: none; }
+}
 /* Audit, Nov 2026: on wider screens the side panel already shows the result, so the bar on the map
    doesn't repeat it; the page's credit line steps aside during a round (each clue shows its source),
    so it no longer slides under the Lock in bar. Phones: the mission bars are narrower, so the
@@ -2140,8 +2167,11 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
             <p class="goldenstrip" id="qgolden" hidden></p>
           </div>
           <div class="pgroup friendbox" id="qfriends" hidden></div>
-          <div class="pgroup hibox" id="qjourneys" hidden></div>
           <div class="hometip" id="qhometip" role="note" hidden><p><b>Keep Curious Atlas handy:</b> on iPhone, tap <b>Share</b> and then <b>Add to Home Screen</b>. On Android, open the browser menu and tap <b>Add to Home screen</b>. It'll sit on your home screen like an app.</p><button type="button" class="linkbtn" id="qhometipx">Got it</button></div>
+          <!-- Phones: the less-used sections fold behind one "More" row (open and without its row on wider screens). -->
+          <details class="more" id="qmore">
+            <summary>More<small>How to play, journeys, shared treasure, league, high scores, scoring, challenge codes, vibration, sources</small></summary>
+          <div class="pgroup hibox" id="qjourneys" hidden></div>
           <details class="howtoplay" id="qhowto">
             <summary>How to play</summary>
 <figure class="demo" role="img" aria-label="How a round works: read the clue, choose the country, tap the globe to drop a pin where it is, then press Lock in beside your pin to see your points.">
@@ -2238,6 +2268,8 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
             <p class="toast" id="chmsg"></p>
             <div id="chmine" hidden><span class="cat">Your challenges</span><ul class="chlist" id="chlist"></ul></div>
           </div>
+          <p class="credit morecredit" id="qmorecredit"></p>
+          </details>
         </div>
         <div class="progress" id="qprogress">
           <div class="lives" id="qlives" hidden></div>
@@ -2403,7 +2435,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwnnwu6k";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwnpc6g5";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
