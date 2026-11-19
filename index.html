@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-vl1TuLhdRkl7Ioxu1/Q7gump2ErFmajh5XpyvaXjkF4=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-V6xIqkk0LBzaT09c7rOvJkpyUoAjiEmR4J3UQJp7mgk=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -275,7 +275,6 @@ svg.moving .country.sel { filter: drop-shadow(0 0 5px var(--pick-glow)) !importa
 svg.moving .country.wrong { filter: drop-shadow(0 0 5px var(--wrong-glow)) !important; }
 svg.moving .contglow, svg.moving .lensglow { filter: none; animation: none; }
 .contglow.moving { filter: drop-shadow(0 0 4px var(--neon-glow)); animation: none; }
-@keyframes neonpulse { 0%, 100% { stroke-opacity: 1; } 50% { stroke-opacity: 0.72; } }
 .extra-land { fill: var(--m1); pointer-events: none; }
 .revealed .extra-land { fill: var(--land-dim); }
 .noborders .extra-land { fill: var(--m1); }
@@ -415,8 +414,6 @@ svg.moving .contglow, svg.moving .lensglow { filter: none; animation: none; }
 .pin-line { fill: none; stroke: var(--ink); stroke-width: 1.6; stroke-dasharray: 5 4; pointer-events: none; }
 .plane { fill: var(--ink); stroke: var(--surface); stroke-width: 1; pointer-events: none; }
 #dist { pointer-events: none; }
-.opp-line { fill: none; stroke: var(--rival); stroke-width: 1.6; stroke-dasharray: 2 4; stroke-linecap: round; pointer-events: none; }
-.opp-pin { fill: var(--rival); stroke: var(--surface); stroke-width: 2.5; pointer-events: none; }
 
 /* Country card (Explore) */
 .card { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; margin: 0; padding: 12px 14px; border-radius: 12px; background: var(--bg); border: 1px solid var(--rule); }
@@ -432,8 +429,7 @@ svg.moving .contglow, svg.moving .lensglow { filter: none; animation: none; }
 .seg { border: 0; margin: 0; padding: 0; min-width: 0; }
 .segtabs { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 4px; padding: 4px; border-radius: 14px; border: 1px solid var(--rule); background: var(--bg); }
 .segnote { margin: 6px 2px 0; font-size: 0.85rem; color: var(--muted); }
-.survlevel { margin-top: 8px; }
-.survlevel[hidden], .toggle[hidden] { display: none; }
+.toggle[hidden] { display: none; }
 .seg legend { padding: 0 0 6px; font: 500 0.68rem var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
 .seg label { position: relative; display: grid; place-items: center; padding: 9px 2px; border-radius: 10px; border: 1px solid transparent; cursor: pointer; min-width: 0; text-align: center; }
 .seg input { position: absolute; opacity: 0; pointer-events: none; }
@@ -596,6 +592,9 @@ body.standalone .mponly { display: none; } /* claude.ai-only features, hidden on
 :root[data-theme="dark"] .look-pastel { --m1: #4f8f84; --m2: #a78a4c; --m3: #6d64a8; --m4: #4f7aa6; --m5: #6f8c4f; --m6: #9a6b86; --ocean: #142a36; --ocean-edge: #2b5266; --land-stroke: #0b1a24; --glow: rgba(90, 140, 180, 0.2); }
 .mapopts { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-left: auto; }
 .opttoggle { font: 500 0.7rem var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); background: none; border: 1px solid var(--rule); border-radius: 999px; padding: 5px 10px; cursor: pointer; }
+.dnext { font: 500 0.78rem var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 6px 0 10px; }
+.dnext .dcount { font-size: 1.35rem; letter-spacing: 0.04em; color: var(--ink); margin-left: 6px; font-variant-numeric: tabular-nums; }
+.tile .dcount { font-variant-numeric: tabular-nums; }
 .opttoggle[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); }
 .topicpick select { font: 600 0.82rem var(--font-display); color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 999px; padding: 6px 12px; max-width: 100%; }
 .topicpick select.on { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
@@ -634,13 +633,6 @@ body.standalone .mponly { display: none; } /* claude.ai-only features, hidden on
 #vcode { text-transform: uppercase; letter-spacing: 0.18em; font-family: var(--font-mono); }
 .vcode { font: 800 clamp(2.4rem, 2rem + 2vw, 3.2rem) var(--font-mono); letter-spacing: 0.22em; line-height: 1; color: var(--accent); }
 .vwaittext { margin: 0; max-width: 44ch; }
-.vsbar { display: flex; justify-content: space-between; gap: 12px; padding-top: 2px; }
-.vs-side { display: inline-flex; align-items: center; gap: 8px; min-width: 0; font: 500 0.85rem var(--font-display); color: var(--muted); }
-.vs-side > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.vs-side b { font: 800 1.15rem var(--font-display); color: var(--ink); font-variant-numeric: tabular-nums; }
-.vs-side i { width: 10px; height: 10px; border-radius: 50%; flex: none; }
-.vs-side.me i { background: var(--accent); }
-.vs-side.opp i { background: var(--rival); }
 .oppstatus { margin: 0; font: 500 0.92rem var(--font-display); color: var(--muted); display: flex; align-items: center; gap: 8px; }
 .oppstatus::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--rival); flex: none; }
 .oppstatus.waiting::before { animation: pulse 1.2s ease-in-out infinite; }
@@ -841,7 +833,6 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .attractfact b { display: block; font: 800 1.3rem var(--font-display); color: var(--sw-hot); }
 .attractstart { pointer-events: auto; font: 800 1.1rem var(--font-display); letter-spacing: 0.18em; text-transform: uppercase; padding: 12px 28px; animation: pressstart 1.1s ease-in-out infinite; }
 @keyframes pressstart { 50% { opacity: 0.45; box-shadow: none; } }
-.hilevel { font: 500 0.68rem var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 .hiscores { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
 .hiscores li { display: grid; grid-template-columns: 1.6em 3.4ch 1fr; gap: 6px; align-items: baseline; }
 .hiscores .rank { color: var(--muted); font: 500 0.75rem var(--font-mono); }
@@ -993,7 +984,6 @@ body { background: var(--sw-bg); background-color: var(--bg); }
 .loginmsg { margin: 6px 0 0; font-size: 0.88rem; }
 .loginbox .held { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .loginbox .held .pinnote-label { width: 100%; margin: 0; }
-.heldp { padding: 3px 10px; border-radius: 999px; border: 1px solid var(--sw-edge); font-size: 0.82rem; }
 .loginbox .held small { color: var(--muted); }
 .power.empty small { flex: 1 1 100%; }
 /* Nothing may make the page scroll sideways (an enlarged flag, a burst of sparks). */
@@ -1160,7 +1150,6 @@ html { overflow-x: clip; }
 .powerfx.go .pgcard { animation: mUp 0.4s 0.3s ease-out both; }
 @media (max-width: 860px) { .powerfx.pick { gap: 4px; padding: 6px; } .powerfx.pick .pgtitle { font-size: 1.05rem; } .powerfx.pick .pgname { font-size: 0.9rem; } .powerfx .pgcard small { font-size: 0.74rem; line-height: 1.25; } .powerfx .pglater { min-height: 32px; padding: 4px 12px; margin: 0; } .powerfx .pgcard kbd { display: none; } .powerfx .pgcards { gap: 8px; } .powerfx .pgcard { padding: 10px 8px; } .powerfx .pgcard .pgorb { width: 48px; font-size: 1.3rem; } .pmeter .pmbar { width: 56px; } }
 #qplay.onetap #qsteps, #qplay.onetap #qkb, #qplay.onetap #qlock { display: none; }
-.onetapnote { display: block; margin-top: 6px; font: 600 0.78rem var(--font-mono); letter-spacing: 0.04em; color: var(--muted); }
 /* Players who have finished a game know the steps: the chips go. */
 body.seasoned #qsteps { display: none; }
 /* The end of a round is a result card: score, verdict, what was close, and Play again, all at the
@@ -1222,17 +1211,15 @@ body.seasoned #qsteps { display: none; }
 .powerfx[hidden] { display: none; }
 .powerfx .pgtitle { font: 800 clamp(1.4rem, 1.1rem + 1.6vw, 2.2rem)/1 var(--font-display); letter-spacing: 0.08em; text-transform: uppercase;
   background: linear-gradient(180deg, #fff, var(--pr0) 45%, var(--pr1)); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 0 10px var(--sw-glow)); }
-.powerfx .pgorbs { display: flex; gap: 14px; }
 .powerfx .pgorb { display: grid; place-items: center; width: clamp(76px, 60px + 4vw, 104px); aspect-ratio: 1; border-radius: 50%; font: 800 clamp(2rem, 1.6rem + 2vw, 2.9rem)/1 var(--font-display); color: #14041a;
   background: radial-gradient(circle at 35% 30%, #fff 0%, var(--pr0) 30%, var(--pr1) 75%); box-shadow: 0 0 0 4px var(--sw-raise), 0 0 34px var(--pr1), 0 0 70px var(--pr0); }
 .powerfx .pgname { font: 800 clamp(1.05rem, 0.9rem + 0.8vw, 1.4rem)/1.1 var(--font-display); color: #fff; text-shadow: 0 0 12px var(--sw-glow); }
-.powerfx .pgdesc { max-width: 22em; font: 500 0.92rem/1.35 var(--font-body); color: #e9dcf5; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8); }
 .powerfx i { position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; opacity: 0; background: radial-gradient(circle at 35% 35%, #fff, var(--pr0) 45%, var(--pr1)); box-shadow: 0 0 8px var(--pr1); }
 .powerfx.go .pgtitle { animation: jackpotIn 0.5s cubic-bezier(0.2, 1.6, 0.4, 1) both; }
 .powerfx.go .pgorb { animation: pgDrop 0.7s 0.08s cubic-bezier(0.2, 1.5, 0.4, 1) both, pgGlow 1.2s 0.8s ease-in-out infinite alternate; }
-.powerfx.go .pgname, .powerfx.go .pgdesc { animation: mUp 0.4s 0.45s ease-out both; }
+.powerfx.go .pgname { animation: mUp 0.4s 0.45s ease-out both; }
 .powerfx.go i { animation: mBurst 0.9s 0.4s ease-out both; }
-.powerfx.fly .pgtitle, .powerfx.fly .pgname, .powerfx.fly .pgdesc { opacity: 0; transition: opacity 0.25s; }
+.powerfx.fly .pgtitle, .powerfx.fly .pgname { opacity: 0; transition: opacity 0.25s; }
 .powerfx.fly { background: none; transition: background 0.3s; }
 .powerfx.fly .pgorb { animation: none; transform: translate(var(--fx), var(--fy)) scale(0.45); opacity: 0.2; transition: transform 0.6s cubic-bezier(0.5, 0, 0.75, 0), opacity 0.6s ease-in; }
 @keyframes pgDrop { 0% { transform: translateY(-120px) scale(0.3) rotate(-30deg); opacity: 0; } 60% { opacity: 1; } 100% { transform: none; opacity: 1; } }
@@ -1416,14 +1403,27 @@ body.playing .timer.ontop { right: 92px; }
 .globe-wrap:has(#qtimer:not([hidden])) .mapstrip { top: 40px; }
 /* The Perfect stamp lands under the strip; the step cue sits under it too. */
 .perfectstamp { top: 84px; }
-.globe-wrap .cuebubble { top: 84px; }
-.globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 116px; }
 /* The result of the answer, at the top of the Next bar. */
 .dockres { flex-basis: 100%; margin: -2px 4px 2px; font: 700 1rem var(--font-display); color: var(--good); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .dockres[hidden] { display: none; }
 .dockres.no { color: var(--wrong); }
 .dockres b { color: var(--ink); margin-right: 6px; }
 .dockres .ptag { margin-left: 8px; padding: 1px 8px; border-radius: 999px; background: linear-gradient(135deg, var(--pr0), var(--pr1)); color: #14041a; font: 800 0.72rem var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; vertical-align: 2px; }
+/* The round's strip sits in the panel, right above the clue, on every screen size (owner's request,
+   Nov 2026): on the map it covered the Clues button in narrow windows. It stays in view while the Next bar is up. */
+#qprogress > .mapstrip { position: static; transform: none; width: auto; min-width: 0; margin: 0 0 6px; padding: 8px 12px; pointer-events: auto; }
+#qprogress > .mapstrip[hidden], body:not(.playing) #qprogress > .mapstrip { display: none; }
+/* In the panel there's room: the label wraps to a second line instead of cutting words short. */
+#qprogress > .mapstrip .eyebrow { flex-wrap: wrap; white-space: normal; font-size: 0.66rem; letter-spacing: 0.08em; }
+@media (max-width: 860px) { #qprogress > .mapstrip .eyebrow { font-size: 0.62rem; letter-spacing: 0.02em; gap: 2px 8px; } }
+#qprogress > .mapstrip .eyebrow > span { overflow: visible; text-overflow: clip; }
+#qprogress > .mapstrip .eyebrow > span:last-child { flex: 0 1 auto; margin-left: auto; text-align: right; }
+/* The step hint ("Step 2 · Now click …") steps aside while the Clues menu is open, so it never covers it. */
+.globe-wrap:has(.cluedrop.open) .cuebubble { display: none; }
+/* Narrow laptop windows: the Next bar is as wide as the map, so zoom steps aside while it's up (as on phones). */
+@media (max-width: 1000px) { .globe-wrap:has(#qdock:not([hidden])) .zoom-ctl { display: none; } }
+/* The narrowest phones: a slimmer Clues button, so it stays clear of Exit. */
+@media (max-width: 359px) { .cluetoggle { gap: 6px; padding-right: 10px; } .cluetoggle .chev { display: none; } .cluetoggle .cnt { letter-spacing: 0; } }
 /* Phones: the Play screen's "Today" boxes (login, missions, the weekly event, golden hour) fold into four
    small tiles that open their box (91-today-tiles.js), and the less-used sections sit behind "More". */
 .todaytiles { display: none; }
@@ -1493,8 +1493,6 @@ details.more > summary { display: none; }
   .perfectstamp b { font-size: 1.7rem; }
   .perfectstamp span { display: none; } /* the bar already says "Perfect"; the subtitle crowded the map */
   .perfectstamp .perfectbadge { font-size: 0.75rem; padding: 3px 10px; }
-  .globe-wrap .cuebubble { top: 124px; }
-  .globe-wrap:has(#qtimer:not([hidden])) .cuebubble { top: 158px; }
   .dockres { font-size: 0.92rem; }
 }
 /* Lock in beside the pin. */
@@ -1681,8 +1679,8 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
   .betbox input[type="range"] { height: 12px; margin-block: 14px; }
   .betbox input[type="range"]::-webkit-slider-thumb { width: 30px; height: 30px; }
   /* Small labels: nothing under 12px. */
-  .cat, .tag, .pinnote-label, .seg legend, .clabel, .badge, .hilevel, .credit, .field > span, .src { font-size: max(0.75rem, 12px); }
-  .dcat, .dopts span, .dchips i, .dlock, .dres { font-size: 0.75rem; }
+  .cat, .tag, .pinnote-label, .seg legend, .clabel, .badge, .credit, .field > span, .src { font-size: max(0.75rem, 12px); }
+  .dcat, .dopts span, .dchips i, .dres { font-size: 0.75rem; }
   .eyebrow, .eyebrow span, .card dt, dt, .scattermeter small, .iniform label, .betbox .bethead b, .betodds, #prog, .dcard small { font-size: max(0.75rem, 12px); }
   .modes button, .chip, .opttoggle { font-size: 0.78rem; }
   .logincal li small { display: none; } /* the Claim button names the reward */
@@ -1736,7 +1734,7 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
 .dopts span { padding: 3px 6px; border-radius: 8px; border: 1px solid var(--sw-edge); font: 600 0.72rem var(--font-display); text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .dopts .dright { animation: dPick 12s infinite; }
 .dfoot { position: relative; height: 24px; }
-.dlock, .dres { position: absolute; left: 0; top: 0; height: 24px; display: inline-flex; align-items: center; padding: 0 12px; border-radius: 999px; font: 700 0.74rem var(--font-display); }
+.dres { position: absolute; left: 0; top: 0; height: 24px; display: inline-flex; align-items: center; padding: 0 12px; border-radius: 999px; font: 700 0.74rem var(--font-display); }
 /* Lock in appears beside the pin, as in the real game, and is tapped there. */
 .dpinlock { position: absolute; right: 50%; top: 38%; padding: 3px 8px; border-radius: 999px; background: var(--sw-btn, var(--accent)); color: var(--sw-btn-ink, #fff); font: 800 0.66rem var(--font-display); white-space: nowrap; box-shadow: 0 0 0 2px var(--sw-raise); opacity: 0; transform-origin: right center; animation: dPinLock 12s infinite; }
 @keyframes dPinLock { 0%, 55% { opacity: 0; transform: scale(0.6); } 58%, 62% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 2px var(--sw-raise); } 65% { transform: scale(0.88); box-shadow: 0 0 0 2px var(--sw-hot), 0 0 14px rgba(255, 63, 210, 0.8); } 68% { opacity: 1; transform: scale(1); } 71%, 100% { opacity: 0; } }
@@ -1769,7 +1767,6 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
 @keyframes dTap { 0%, 44% { opacity: 0; transform: scale(1.6); } 47% { opacity: 1; transform: scale(1); } 52%, 100% { opacity: 0; transform: scale(0.6); } }
 @keyframes dPin { 0%, 46% { opacity: 0; transform: translateY(-18px); } 50% { opacity: 1; transform: translateY(0); } 53% { transform: translateY(-3px); } 56%, 96% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
 @keyframes dPick { 0%, 25% { background: transparent; color: inherit; border-color: var(--sw-edge); } 28%, 96% { background: var(--sw-hot); color: var(--sw-hot-ink); border-color: var(--sw-hot); } 100% { background: transparent; } }
-@keyframes dLock { 0%, 60% { opacity: 1; transform: scale(1); box-shadow: none; } 62% { box-shadow: 0 0 0 2px var(--sw-hot), 0 0 14px rgba(255, 63, 210, 0.8); } 65% { transform: scale(0.9); box-shadow: 0 0 0 2px var(--sw-hot), 0 0 14px rgba(255, 63, 210, 0.8); } 68% { opacity: 1; transform: scale(1); } 71%, 100% { opacity: 0; box-shadow: none; } }
 @keyframes dRes { 0%, 70% { opacity: 0; } 73%, 96% { opacity: 1; } 100% { opacity: 0; } }
 @keyframes dAns { 0%, 70% { fill: var(--land); } 73%, 96% { fill: #ff9a3d; } 100% { fill: var(--land); } }
 @keyframes dRing { 0%, 70% { opacity: 0; transform: scale(0.4); } 72% { opacity: 1; } 84%, 100% { opacity: 0; transform: scale(2.4); } }
@@ -1931,10 +1928,8 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
 .keepplay h3 { margin: 0; font: 800 1.35rem/1.15 var(--font-display); }
 .keepplay p { margin: 0; font-size: 0.95rem; }
 .keepplay .actions { margin-top: 2px; }
-.keepplay [data-keep="quiz"], #qkeep { animation: startGlow 2s ease-in-out infinite; }
-.dailycard .dkeep { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; justify-content: flex-end; }
-.dailycard .dkeep .linkbtn { font-size: 0.8rem; letter-spacing: 0.04em; }
-@media (prefers-reduced-motion: reduce) { .keepplay [data-keep="quiz"], #qkeep { animation: none; } }
+.keepplay [data-keep="quiz"] { animation: startGlow 2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .keepplay [data-keep="quiz"] { animation: none; } }
 
 /* Flags grow when you hover over them (or focus or tap them), so the details are easy to see. */
 .zoomflag { display: inline-block; position: relative; z-index: 4; transform-origin: left center; transition: transform 0.18s ease, filter 0.18s ease; cursor: zoom-in; border-radius: 6px; }
@@ -2077,15 +2072,6 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         <div class="timer ontop" id="qtimer" role="timer" hidden><b id="qtimerbar"></b><span id="qtimertext"></span></div>
         <!-- The round at a glance, on the map: question, points, progress, then the streak, combo and
              fever while they're going. (The real elements, moved here from the side panel.) -->
-        <div class="mapstrip" id="qstrip">
-          <div class="eyebrow"><span class="tag" id="qnum">Question 1 of 10</span><span id="qscore"></span></div>
-          <div class="bar qbar"><b id="qbar"></b></div>
-          <div class="striprow">
-            <span class="sstreak" id="qstreak" hidden></span>
-            <div class="combo" id="qcombo" aria-hidden="true" hidden><span class="clabel">Combo</span><span class="cbar"><i></i><b style="--at: 0.29"></b><b style="--at: 0.58"></b><b style="--at: 0.88"></b></span><span class="cval">× 1</span></div>
-            <div class="fevermeter" id="qfever" hidden></div>
-          </div>
-        </div>
         <!-- Phones in the Daily (the header is hidden while playing): the streak beside Exit. -->
         <button type="button" class="streakchip onmap" id="streakchipmap" aria-controls="dstreak" hidden><span aria-hidden="true">🔥</span><b>0</b></button>
         <!-- A new personal best or a place on the world high-score list, announced over the globe. -->
@@ -2272,6 +2258,15 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
           </details>
         </div>
         <div class="progress" id="qprogress">
+        <div class="mapstrip" id="qstrip">
+          <div class="eyebrow"><span class="tag" id="qnum">Question 1 of 10</span><span id="qscore"></span></div>
+          <div class="bar qbar"><b id="qbar"></b></div>
+          <div class="striprow">
+            <span class="sstreak" id="qstreak" hidden></span>
+            <div class="combo" id="qcombo" aria-hidden="true" hidden><span class="clabel">Combo</span><span class="cbar"><i></i><b style="--at: 0.29"></b><b style="--at: 0.58"></b><b style="--at: 0.88"></b></span><span class="cval">× 1</span></div>
+            <div class="fevermeter" id="qfever" hidden></div>
+          </div>
+        </div>
           <div class="lives" id="qlives" hidden></div>
           <ol class="standings" id="standings" hidden></ol>
         </div>
@@ -2418,7 +2413,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         <div class="actions"><button class="btn" id="pback" type="button">Back to exploring</button></div>
       </section>
 
-      <p class="credit">Every fact links to the Wikipedia article it was checked against; figures are rounded. Borders from Natural Earth (1:50m, 1:10m up close) via world-atlas; they show who controls an area on the ground and aren't a position on any dispute. Country details from the world-countries dataset; population from the World Bank (2023), or Wikipedia where it has none.</p>
+      <p class="credit">Every fact links to the Wikipedia article it was checked against; figures are rounded. Borders from Natural Earth (1:50m, 1:10m up close) via world-atlas; they show who controls an area on the ground and aren't a position on any dispute. Country details from the world-countries dataset; population from the World Bank (2023), or Wikipedia where it has none. <a href="privacy.html">Privacy</a></p>
     </aside>
   </main>
   <div class="sr-only" id="sr" aria-live="polite" aria-atomic="true"></div>
@@ -2435,7 +2430,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwnpc6g5";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwo226pt";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
