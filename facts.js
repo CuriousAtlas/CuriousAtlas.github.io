@@ -57,7 +57,8 @@ window.ATLAS_FACTS = {
     ["Science","The first electronic digital computer was designed by John Atanasoff, whose father was born there.","John Vincent Atanasoff",1378460738],
     ["Music","Bulgarian women's choirs became world-famous through the album Le Mystère des Voix Bulgares.","Le Mystère des Voix Bulgares",1365357581],
     ["Landmarks","Rila Monastery, in the Rila Mountains, is the largest Eastern Orthodox monastery in the country.","Rila Monastery",1378538136],
-    ["People","The artist Christo, who wrapped the Reichstag in fabric, was born in Gabrovo.","Christo and Jeanne-Claude",1383870197]
+    ["People","The artist Christo, who wrapped the Reichstag in fabric, was born in Gabrovo.","Christo and Jeanne-Claude",1383870197],
+    ["Music","The horo is a fast circle dance; similar dances are found across Southeast Europe.","Hora (dance)",1352273977]
   ],
   "104": [
     ["History","More than 2,000 Buddhist temples and pagodas still stand across the plains of Bagan.","Bagan",1380017001],
@@ -69,7 +70,9 @@ window.ATLAS_FACTS = {
     ["Sports","Chinlone, a team game of keeping a rattan ball in the air without the hands, is its national sport.","National sport",1384611106],
     ["People","Aung San Suu Kyi, Nobel Peace Prize winner, was born in Rangoon, today called Yangon.","Aung San Suu Kyi",1384675856],
     ["Music","The saung, an arched harp used in traditional music, is regarded as a national musical instrument.","Saung",1363910702],
-    ["Arts","Yoke thé, a theatre of string puppets, began around 1780 under royal patronage and was later adapted for the wider public.","Yoke thé",1336910142]
+    ["Arts","Yoke thé, a theatre of string puppets, began around 1780 under royal patronage and was later adapted for the wider public.","Yoke thé",1336910142],
+    ["Animals","Hoolock gibbons, apes that live high in the treetops, are found in its forests west of the Thanlwin River.","Hoolock gibbon",1359849840],
+    ["Festivals","Thingyan, the water festival, marks the new year in April with days of splashing water on everyone in the streets.","Thingyan",1375525141]
   ],
   "108": [
     ["Culture","The Royal Drummers of Burundi are world-famous for traditional drumming on the sacred karyenda and other drums.","Burundi",1383171482],
@@ -79,7 +82,10 @@ window.ATLAS_FACTS = {
     ["Nature","Lake Tanganyika, on its western border, is the second-deepest lake in the world, after Lake Baikal.","Lake Tanganyika",1381827849],
     ["Sports","Burundi's first Olympic gold medal was won by runner Vénuste Niyongabo in the 5,000 m in 1996.","Vénuste Niyongabo",1384431302],
     ["Symbols","Its flag carries three red six-pointed stars in a white disc.","Flag of Burundi",1357757983],
-    ["People","Prince Louis Rwagasore, the hero of independence, was assassinated in 1961, only weeks after his party won the elections.","Louis Rwagasore",1384741406]
+    ["People","Prince Louis Rwagasore, the hero of independence, was assassinated in 1961, only weeks after his party won the elections.","Louis Rwagasore",1384741406],
+    ["Names","Its name means \"land of the Ikirundi speakers\"; it was adopted at independence in 1962.","List of country-name etymologies",1382950159],
+    ["Animals","Gustave, a huge Nile crocodile thought to be more than 20 feet long, became famous along the Ruzizi River and the shores of Lake Tanganyika.","Gustave (crocodile)",1386019483],
+    ["Festivals","Its royal drummers played at ceremonies such as births, funerals and the coronations of kings.","Royal Drummers of Burundi",1342847690]
   ],
   "112": [
     ["Nature","Białowieża Forest, shared with Poland, is home to Europe's largest herd of wild European bison.","Białowieża Forest",1371131919],
@@ -101,7 +107,10 @@ window.ATLAS_FACTS = {
     ["Sports","Bokator, an ancient martial art, is regarded as its national sport.","National sport",1384611106],
     ["People","King Norodom Sihanouk led the country to independence from France in 1953.","Norodom Sihanouk",1384858666],
     ["Music","Sinn Sisamouth, the star singer of 1960s Phnom Penh, died under the Khmer Rouge in circumstances that are still unclear.","Sinn Sisamouth",1386016359],
-    ["Arts","The Missing Picture, in which director Rithy Panh retells his childhood with clay figurines, was nominated for an Academy Award.","The Missing Picture",1362167831]
+    ["Film","The Missing Picture, in which director Rithy Panh retells his childhood with clay figurines, was nominated for an Academy Award.","The Missing Picture",1362167831],
+    ["Names","Its name comes from the Sanskrit Kambujadeśa; an inscription of AD 947 traces it to Kambu, a legendary sage who married a naga princess.","List of country-name etymologies",1382950159],
+    ["Animals","A small population of Irrawaddy dolphins lives in the Mekong River around Kratié.","Irrawaddy dolphin",1384660008],
+    ["Festivals","Bon Om Touk, the Water Festival, brings boat races to the river in Phnom Penh and marks the reversal of the Tonlé Sap's flow.","Bon Om Touk",1386086946]
   ],
   "120": [
     ["Land","Cameroon is nicknamed Africa in miniature, because it has beaches, rainforest, savanna, desert and mountains.","Cameroon",1383599102],
@@ -111,7 +120,10 @@ window.ATLAS_FACTS = {
     ["Music","Makossa, a dance music from the city of Douala, spread across Africa.","Makossa",1384376579],
     ["Nature","Mount Cameroon is one of Africa's most active volcanoes.","Mount Cameroon",1382831490],
     ["Sports","Its football team, the Indomitable Lions, reached the World Cup quarter-finals in 1990, a first for an African team.","Cameroon national football team",1384083482],
-    ["People","Roger Milla, born in Yaoundé, scored at the 1994 World Cup at the age of 42, making him the oldest goalscorer in the tournament's history.","Roger Milla",1381996778]
+    ["People","Roger Milla, born in Yaoundé, scored at the 1994 World Cup at the age of 42, making him the oldest goalscorer in the tournament's history.","Roger Milla",1381996778],
+    ["Names","Its name means \"shrimp\": Portuguese sailors in 1472 called a river Rio de Camarões after its huge swarms of ghost shrimp.","List of country-name etymologies",1382950159],
+    ["Animals","The goliath frog, the largest frog in the world, lives in fast-flowing rivers in its southwest and in Equatorial Guinea.","Goliath frog",1380553323],
+    ["Festivals","The Ngondo is the yearly festival of the Sawa people of Douala, held beside the Wouri River.","Ngondo",1385334216]
   ],
   "124": [
     ["Land","Canada has the longest coastline of any country, roughly 243,000 km once its islands are counted.","Geography of Canada",1379613649],
@@ -124,13 +136,19 @@ window.ATLAS_FACTS = {
     ["Language","English and French have been official languages since the Official Languages Act of 1969.","Official Languages Act (Canada)",1363690432],
     ["Money","Its one-dollar coin is called the loonie because it shows a loon.","Loonie",1381781442],
     ["Sports","By law, ice hockey is its national winter sport and lacrosse its national summer sport.","National sport",1384611106],
-    ["Nature","Its national animal is the North American beaver.","List of national animals",1384556882],
+    ["Animals","Its national animal is the North American beaver.","List of national animals",1384556882],
     ["Science","Insulin was discovered at the University of Toronto in 1921.","Insulin",1384673417],
     ["Language","Inuktitut is an official language in Nunavut.","Inuktitut",1381336956],
     ["People","Singer Justin Bieber was born in London, Ontario, and grew up in Stratford.","Justin Bieber",1384905605],
     ["Landmarks","The CN Tower in Toronto was the world's tallest free-standing structure for over 30 years.","CN Tower",1383812257],
     ["Music","Leonard Cohen, who wrote the song Hallelujah, was born in Westmount, Montreal, in 1934.","Leonard Cohen",1384415684],
-    ["Arts","Cirque du Soleil was founded in 1984 by street performers in Baie-Saint-Paul, Quebec.","Cirque du Soleil",1385377239]
+    ["Arts","Cirque du Soleil was founded in 1984 by street performers in Baie-Saint-Paul, Quebec.","Cirque du Soleil",1385377239],
+    ["Names","Its name probably comes from the Iroquoian word kanada, meaning \"village\".","List of country-name etymologies",1382950159],
+    ["Festivals","The Calgary Stampede, held every July since 1923, bills itself as \"The Greatest Outdoor Show on Earth\" with rodeo and chuckwagon races.","Calgary Stampede",1384706609],
+    ["Film","The Toronto International Film Festival, held each September, is one of the largest public film festivals in the world.","Toronto International Film Festival",1386228177],
+    ["Inventions","Basketball's inventor, James Naismith, was born in Almonte, Ontario.","James Naismith",1384928768],
+    ["Inventions","The snowmobile as we know it was invented by Joseph-Armand Bombardier of Valcourt, Quebec.","Joseph-Armand Bombardier",1382055714],
+    ["Space","Alouette 1, launched in 1962, made it the third country after the Soviet Union and the United States to design and build its own satellite.","Alouette 1",1383398217]
   ],
   "132": [
     ["History","The islands of Cabo Verde were uninhabited until Portuguese explorers arrived in the 15th century.","Cape Verde",1382443790],
@@ -151,7 +169,7 @@ window.ATLAS_FACTS = {
     ["Nature","Blue iguanas, found only on Grand Cayman, were brought back from the brink of extinction.","Blue iguana",1380906675]
   ],
   "140": [
-    ["Nature","Dzanga-Sangha's forest clearings draw dozens of forest elephants at a time to dig for minerals.","Dzanga-Sangha Special Reserve",1368922485],
+    ["Animals","Dzanga-Sangha's forest clearings draw dozens of forest elephants at a time to dig for minerals.","Dzanga-Sangha Special Reserve",1368922485],
     ["Land","The Central African Republic is landlocked, and the Ubangi River along its southern border is a key trade route.","Central African Republic",1384083370],
     ["Nature","Manovo-Gounda St. Floris National Park is a UNESCO World Heritage Site listed as in danger.","Manovo-Gounda St. Floris National Park",1362853581],
     ["Capitals","Its capital, Bangui, sits on the Ubangi River, facing DR Congo across the water.","Bangui",1374429412],
@@ -164,13 +182,15 @@ window.ATLAS_FACTS = {
     ["Records","The Sri Maha Bodhi fig tree in Anuradhapura, planted in 288 BC, is the oldest human-planted tree with a known planting date.","Jaya Sri Maha Bodhi",1377883410],
     ["Food","Sri Lanka is one of the world's largest tea exporters, famous for Ceylon tea.","Tea production in Sri Lanka",1380161752],
     ["Food","Rice and curry, a large bowl of rice with curries of fish, meat or vegetables, is its national dish.","National dish",1381943985],
-    ["Culture","At the Esala Perahera in Kandy, the Festival of the Tooth, elephants carry the Buddha's tooth relic in procession.","Kandy Esala Perahera",1378459197],
+    ["Festivals","At the Esala Perahera in Kandy, the Festival of the Tooth, elephants carry the Buddha's tooth relic in procession.","Kandy Esala Perahera",1378459197],
     ["Symbols","Its flag shows a golden lion holding a sword.","Flag of Sri Lanka",1384014971],
     ["Sports","Volleyball has been its national sport since 1991.","National sport",1384611106],
     ["Landmarks","Sigiriya is a 5th-century rock fortress topped by the ruins of a royal palace.","Sigiriya",1367952186],
     ["Music","Baila, a lively dance music whose name comes from the Portuguese word for \"to dance\", began centuries ago among the Portuguese Burghers.","Baila music",1385973061],
     ["People","Cricketer Muttiah Muralitharan, who took a record 800 Test wickets, was born in Kandy in 1972.","Muttiah Muralitharan",1386010216],
-    ["Arts","Architect Geoffrey Bawa, born in 1919, was the leading figure of the style called tropical modernism.","Geoffrey Bawa",1384050981]
+    ["Arts","Architect Geoffrey Bawa, born in 1919, was the leading figure of the style called tropical modernism.","Geoffrey Bawa",1384050981],
+    ["Names","Its name means \"holy island\" in Sanskrit; its former name, Ceylon, comes from a Pali phrase meaning \"land of the lions\".","List of country-name etymologies",1382950159],
+    ["Animals","Yala National Park is known for having one of the highest densities of leopards in the world.","Yala National Park",1377152116]
   ],
   "148": [
     ["Land","Emi Koussi, a volcano in Chad's Tibesti Mountains, is the highest point in the Sahara.","Emi Koussi",1378078116],
@@ -182,68 +202,81 @@ window.ATLAS_FACTS = {
     ["Language","Its official languages are French and Arabic.","Chad",1384635931],
     ["Music","Traditional instruments here include the kinde, a kind of bow harp, and the kakaki, a long tin horn.","Music of Chad",1374325410],
     ["Sports","Striker Japhet N'Doram, nicknamed \"the Wizard\", starred for the French club Nantes and helped it win the league in 1995.","Japhet N'Doram",1381396023],
-    ["People","Film director Mahamat-Saleh Haroun, born in Abéché, won the Jury Prize at Cannes in 2010 for A Screaming Man.","Mahamat-Saleh Haroun",1376005715]
+    ["People","Film director Mahamat-Saleh Haroun, born in Abéché, won the Jury Prize at Cannes in 2010 for A Screaming Man.","Mahamat-Saleh Haroun",1376005715],
+    ["Names","Its name means \"lake\", after the great lake in its southwest, from the Kanuri word tsade.","List of country-name etymologies",1382950159],
+    ["Animals","Zakouma National Park, once emptied of elephants by poachers, has seen its herds grow again since a new protection plan began in 2010.","Zakouma National Park",1375351588],
+    ["Festivals","The Gerewol is a courtship contest of the Wodaabe in which young men paint their faces and dance to show off their beauty to women judges.","Guérewol",1378717237]
   ],
   "152": [
     ["Nature","The Atacama Desert is one of the driest places on Earth. Some of its weather stations have never recorded rain.","Atacama Desert",1384284341],
     ["Land","Chile stretches about 4,300 km north to south but averages only about 177 km wide.","Geography of Chile",1376707824],
     ["Land","Easter Island (Rapa Nui), home of the moai statues, belongs to Chile and lies more than 3,500 km off its coast.","Easter Island",1383304481],
     ["Food","Empanadas and pastel de choclo, a baked corn dish, are among its national dishes.","National dish",1381943985],
-    ["Culture","On Fiestas Patrias in September, people dance the cueca, the national dance, in festive tents called fondas.","Fiestas Patrias (Chile)",1375219832],
+    ["Festivals","On Fiestas Patrias in September, people dance the cueca, the national dance, in festive tents called fondas.","Fiestas Patrias (Chile)",1375219832],
     ["Myths","The Trauco, a short forest creature from Chiloé folklore, is said to bewitch young women.","Trauco",1372831781],
     ["Sports","Rodeo, where pairs of riders pin a calf against a padded wall, has been its national sport since 1962.","National sport",1384611106],
     ["People","Poet Pablo Neruda, a Nobel Prize winner, was born in the town of Parral.","Pablo Neruda",1383752133],
     ["People","Poet Gabriela Mistral, the first Latin American to win the Nobel Prize in Literature, was born in Vicuña.","Gabriela Mistral",1379082005],
     ["Music","Violeta Parra, who wrote the song Gracias a la vida, pioneered the Nueva Canción folk movement.","Violeta Parra",1370953500],
     ["Science","ALMA, an array of 66 radio telescope dishes, sits on the Chajnantor plateau about 5,000 metres up in the Atacama Desert.","Atacama Large Millimeter Array",1378884387],
-    ["Arts","A Fantastic Woman, directed by Sebastián Lelio, won the Academy Award for Best Foreign Language Film.","A Fantastic Woman",1384559262]
+    ["Film","A Fantastic Woman, directed by Sebastián Lelio, won the Academy Award for Best Foreign Language Film.","A Fantastic Woman",1384559262],
+    ["Names","The origin of its name is debated; one theory traces it to a Quechua place name for the Aconcagua valley.","List of country-name etymologies",1382950159],
+    ["Animals","The huemul, or South Andean deer, appears on its national coat of arms.","South Andean deer",1384646562],
+    ["Space","The Atacama Desert's clear, dry skies make it one of the best places on Earth to watch the stars, and it hosts some of the world's largest telescopes.","Paranal Observatory",1367963722]
   ],
   "156": [
     ["Culture","China spans about five geographic time zones but runs on a single official time.","Time in China",1369694837],
-    ["History","Paper, printing, the compass and gunpowder are known as China's Four Great Inventions.","Four Great Inventions",1380273164],
+    ["Inventions","Paper, printing, the compass and gunpowder are known as China's Four Great Inventions.","Four Great Inventions",1380273164],
     ["Culture","Contrary to popular belief, the Great Wall cannot be seen from space with the naked eye.","Great Wall of China",1384301633],
     ["Food","Peking duck, known for its thin, crispy skin, has been prepared since the imperial era and is a national dish.","National dish",1381943985],
-    ["Culture","At the Lunar New Year, money is given in red envelopes, called hongbao, as a gift that brings good luck.","Red envelope",1383027490],
+    ["Festivals","At the Lunar New Year, money is given in red envelopes, called hongbao, as a gift that brings good luck.","Red envelope",1383027490],
     ["Myths","The goddess Chang'e is said to live on the Moon with a jade rabbit, remembered at the Mid-Autumn Festival.","Chang'e",1373039614],
     ["Money","The world's first paper money, jiaozi, was issued there around the 11th century.","Jiaozi (currency)",1381906771],
     ["Daily life","Leaving chopsticks standing upright in a bowl of rice is avoided, because it looks like incense at a funeral.","Chopsticks",1381891982],
     ["Sports","Table tennis is regarded as its national sport.","National sport",1384611106],
-    ["Nature","Its national animal is the giant panda.","List of national animals",1384556882],
+    ["Animals","Its national animal is the giant panda.","List of national animals",1384556882],
     ["Language","Mandarin is a tonal language with four main tones.","Mandarin Chinese",1383951482],
     ["People","Basketball star Yao Ming was born in Shanghai and stood 2.29 m tall.","Yao Ming",1384437304],
     ["Landmarks","The Forbidden City in Beijing was home to emperors for nearly 500 years.","Forbidden City",1383710986],
     ["Music","The guqin, a seven-string zither played for some 3,000 years, was the favoured instrument of scholars and of Confucius.","Guqin",1385825988],
     ["Music","The erhu is a fiddle with just two strings, played upright on the lap with a bow that passes between the strings.","Erhu",1383075843],
     ["Science","In AD 132 Zhang Heng unveiled the first seismoscope, a bronze vessel that dropped a ball to show the direction of a distant earthquake.","Zhang Heng",1384574483],
-    ["Arts","Along the River During the Qingming Festival, a painted handscroll more than five metres long, has been called this country's Mona Lisa.","Along the River During the Qingming Festival",1385975535]
+    ["Arts","Along the River During the Qingming Festival, a painted handscroll more than five metres long, has been called this country's Mona Lisa.","Along the River During the Qingming Festival",1385975535],
+    ["Names","Its English name is usually traced to the Qin state, whose dynasty first unified the country in the 3rd century BC.","List of country-name etymologies",1382950159],
+    ["Film","Ne Zha 2, a 2025 animated film about a rebellious boy god, became the highest-grossing animated film of all time.","Ne Zha 2",1386360631],
+    ["Space","Yang Liwei became its first astronaut in October 2003, aboard Shenzhou 5.","Yang Liwei",1378507897],
+    ["Space","Chang'e 4 made the first soft landing on the far side of the Moon in January 2019.","Chang'e 4",1385820948]
   ],
   "158": [
     ["Records","Taipei 101 was the tallest building in the world from 2004 to 2010.","Taipei 101",1382477104],
-    ["Food","Bubble tea was invented in Taiwan in the 1980s.","Bubble tea",1384225872],
+    ["Inventions","Bubble tea was invented in Taiwan in the 1980s.","Bubble tea",1384225872],
     ["Land","Yushan, or Jade Mountain, at about 3,950 m, is the highest peak in Taiwan.","Yushan (mountain)",1380682941],
     ["Food","Beef noodle soup is a national dish.","National dish",1381943985],
-    ["Nature","Its national animal is the Formosan black bear.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Formosan black bear.","List of national animals",1384556882],
     ["Science","It makes most of the world's most advanced computer chips, at TSMC.","TSMC",1381212658],
     ["Places","Taroko Gorge, a marble canyon carved by the Liwu River, is the heart of a national park.","Taroko National Park",1381220087],
     ["People","Film director Ang Lee, who won two Best Director Oscars, was born in Pingtung County.","Ang Lee",1381811986]
   ],
   "170": [
     ["Land","Colombia is the only South American country with coastlines on both the Pacific Ocean and the Caribbean Sea.","Colombia",1384319500],
-    ["Nature","More bird species have been recorded in Colombia than in any other country, close to 2,000.","List of birds of Colombia",1366137682],
+    ["Animals","More bird species have been recorded in Colombia than in any other country, close to 2,000.","List of birds of Colombia",1366137682],
     ["Nature","Caño Cristales is called the river of five colors. A water plant on its bed turns bright red for part of each year.","Caño Cristales",1378842064],
     ["Food","Ajiaco, a chicken and potato soup especially popular in Bogotá, is a national dish.","National dish",1381943985],
-    ["Culture","The Barranquilla Carnival is listed by UNESCO as a Masterpiece of the Oral and Intangible Heritage of Humanity.","Barranquilla Carnival",1375050827],
+    ["Festivals","The Barranquilla Carnival is listed by UNESCO as a Masterpiece of the Oral and Intangible Heritage of Humanity.","Barranquilla Carnival",1375050827],
     ["Myths","The El Dorado legend began with a ritual at Lake Guatavita, where a chief covered in gold dust dove into the water.","El Dorado",1383009623],
     ["Sports","Tejo, throwing metal discs at targets packed with gunpowder that explode on impact, is its national sport.","National sport",1384611106],
-    ["Nature","Its national bird is the Andean condor, one of the largest flying birds.","List of national animals",1384556882],
+    ["Animals","Its national bird is the Andean condor, one of the largest flying birds.","List of national animals",1384556882],
     ["People","Novelist Gabriel García Márquez was born in Aracataca, the inspiration for the village of Macondo.","Gabriel García Márquez",1383142112],
     ["Landmarks","Las Lajas Sanctuary is a Gothic church built across a river canyon near the city of Ipiales.","Sanctuary of Las Lajas",1383709945],
     ["Music","Vallenato, an accordion-led folk music from the Caribbean coast, is played with a small caja drum and a scraped guacharaca.","Vallenato",1328294545],
     ["Music","Shakira, the singer of Hips Don't Lie, was born in Barranquilla in 1977.","Shakira",1385956359],
-    ["Arts","Fernando Botero, the painter and sculptor of famously plump figures, was born in Medellín in 1932.","Fernando Botero",1384318956]
+    ["Arts","Fernando Botero, the painter and sculptor of famously plump figures, was born in Medellín in 1932.","Fernando Botero",1384318956],
+    ["Names","It is named in honour of Christopher Columbus; the name was adopted in 1863, recalling an earlier union formed by Simón Bolívar.","List of country-name etymologies",1382950159],
+    ["Film","Disney's 2021 film Encanto, about a magical family in the mountains, featured the hit song We Don't Talk About Bruno.","Encanto",1386162450],
+    ["Inventions","Neurosurgeon Salomón Hakim invented the Hakim valve, which drains fluid from the brain, and it is used all over the world.","Salomón Hakim",1374191836]
   ],
   "174": [
-    ["Nature","The coelacanth, a fish once thought extinct for millions of years, lives in the waters off the Comoros.","Coelacanth",1383121324],
+    ["Animals","The coelacanth, a fish once thought extinct for millions of years, lives in the waters off the Comoros.","Coelacanth",1383121324],
     ["Food","The Comoros is one of the world's biggest producers of ylang-ylang, a flower oil used in perfume.","Comoros",1378190061],
     ["History","The Comoros has had more than 20 coups or attempted coups since independence in 1975.","Comoros",1378190061],
     ["Capitals","Its capital, Moroni, lies at the foot of Mount Karthala, an active volcano.","Mount Karthala",1369572787],
@@ -275,7 +308,7 @@ window.ATLAS_FACTS = {
     ["Nature","Bonobos, one of humanity's two closest living relatives, live in the wild only in DR Congo.","Bonobo",1379549275],
     ["Land","DR Congo produces most of the world's cobalt, a metal used in rechargeable batteries.","Cobalt",1384321741],
     ["Food","Moambe chicken, cooked in palm nut sauce, is considered its national dish.","Moambe chicken",1352911508],
-    ["Nature","Its national animal is the okapi, a forest relative of the giraffe with zebra-like stripes on its legs.","List of national animals",1384556882],
+    ["Animals","Its national animal is the okapi, a forest relative of the giraffe with zebra-like stripes on its legs.","List of national animals",1384556882],
     ["Music","Congolese rumba, born in Kinshasa and Brazzaville, was added to UNESCO's intangible heritage list in 2021.","Congolese rumba",1384203225],
     ["History","From 1971 to 1997 the country was called Zaire.","Democratic Republic of the Congo",1384529201],
     ["Sports","In 1974, playing as Zaire, the men's football team became the first from sub-Saharan Africa to play at a World Cup.","DR Congo national football team",1385919411],
@@ -284,7 +317,7 @@ window.ATLAS_FACTS = {
     ["Arts","Painter Chéri Samba, born in 1956, is known for bright canvases that mix pictures with written comments on life in Kinshasa.","Chéri Samba",1378696536]
   ],
   "184": [
-    ["History","The Cook Islands are named after Captain James Cook, who visited in the 1770s.","Cook Islands",1383947290],
+    ["Names","The Cook Islands are named after Captain James Cook, who visited in the 1770s.","Cook Islands",1383947290],
     ["Culture","The Cook Islands govern themselves in free association with New Zealand, and Cook Islanders are New Zealand citizens.","Cook Islands",1383947290],
     ["Land","Rarotonga is the largest of the 15 Cook Islands and home to most of the population.","Cook Islands",1383947290],
     ["Language","Cook Islands Māori is an official language alongside English.","Cook Islands Māori",1384144480],
@@ -294,7 +327,7 @@ window.ATLAS_FACTS = {
   ],
   "188": [
     ["History","Costa Rica abolished its army in 1948.","Public Force of Costa Rica",1384240382],
-    ["Nature","Costa Rica covers about 0.03% of Earth's surface but is home to about 5% of its species.","Wildlife of Costa Rica",1369577582],
+    ["Animals","Costa Rica covers about 0.03% of Earth's surface but is home to about 5% of its species.","Wildlife of Costa Rica",1369577582],
     ["Nature","Costa Rica generates nearly all of its electricity from renewable sources.","Costa Rica",1384270216],
     ["Food","Its national meal, casado, is a plate of rice, black beans, plantains, salad and a tortilla, often with meat or fish.","National dish",1381943985],
     ["Heritage","Its stone spheres, carved by an ancient culture, are a UNESCO World Heritage Site.","Stone spheres of Costa Rica",1369688085],
@@ -314,7 +347,7 @@ window.ATLAS_FACTS = {
     ["Landmarks","The stone walls of Dubrovnik run nearly 2 km around the old city.","Walls of Dubrovnik",1383277198]
   ],
   "192": [
-    ["Nature","The bee hummingbird, the smallest bird in the world, lives only in Cuba. It weighs about 2 grams.","Bee hummingbird",1381435998],
+    ["Animals","The bee hummingbird, the smallest bird in the world, lives only in Cuba. It weighs about 2 grams.","Bee hummingbird",1381435998],
     ["Land","Cuba is the largest island in the Caribbean.","Cuba",1384302894],
     ["Culture","Cuba has one of the highest literacy rates in the world.","Cuba",1384302894],
     ["Food","Its national dish, ropa vieja, “old clothes”, is stewed beef with tomatoes.","Ropa vieja",1378382528],
@@ -323,7 +356,10 @@ window.ATLAS_FACTS = {
     ["Science","It has developed its own COVID-19 vaccines, including Abdala and Soberana.","Abdala (vaccine)",1382066233],
     ["People","Celia Cruz, the Queen of Salsa, was born in Havana.","Celia Cruz",1382291451],
     ["Landmarks","El Capitolio in Havana, finished in 1929, holds the third largest indoor statue in the world.","National Capitol of Cuba",1382265235],
-    ["Arts","Painter Wifredo Lam, whose best-known work is The Jungle, was born in Sagua la Grande in 1902.","Wifredo Lam",1381320721]
+    ["Arts","Painter Wifredo Lam, whose best-known work is The Jungle, was born in Sagua la Grande in 1902.","Wifredo Lam",1381320721],
+    ["Names","Its name probably comes from a Taíno word meaning \"abundant fertile land\" or \"great place\".","List of country-name etymologies",1382950159],
+    ["Film","Strawberry and Chocolate, a 1993 film about a friendship between a gay artist and a young communist in Havana, was nominated for an Academy Award.","Strawberry and Chocolate",1379111636],
+    ["Space","Arnaldo Tamayo Méndez became the first person of African descent and the first Latin American in space, in 1980.","Arnaldo Tamayo Méndez",1378496480]
   ],
   "196": [
     ["Culture","In Greek myth, the goddess Aphrodite rose from the sea at Petra tou Romiou on Cyprus's south coast.","Petra tou Romiou",1381151629],
@@ -331,15 +367,15 @@ window.ATLAS_FACTS = {
     ["Land","Cyprus is the third-largest and third-most-populous island in the Mediterranean.","Cyprus",1381867303],
     ["Food","Souvla, large pieces of meat cooked slowly on a long skewer over charcoal, is a national dish.","National dish",1381943985],
     ["Symbols","Its flag shows a copper-colored map of the island itself.","Flag of Cyprus",1375735198],
-    ["Nature","Its national animal is the mouflon, a wild sheep native to the island.","List of national animals",1384556882],
+    ["Animals","Its national animal is the mouflon, a wild sheep native to the island.","List of national animals",1384556882],
     ["History","People first arrived about 13,000 years ago, around the time its dwarf elephants and pygmy hippos died out.","Cyprus",1381867303]
   ],
   "203": [
     ["Records","Czechs drink more beer per person than anyone else in the world.","Beer in the Czech Republic",1379408686],
     ["Records","Prague Castle is one of the largest ancient castle complexes in the world.","Prague Castle",1379256464],
-    ["History","The sugar cube was invented in the Czech town of Dačice in 1841.","Dačice",1384123835],
+    ["Inventions","The sugar cube was invented in the Czech town of Dačice in 1841.","Dačice",1384123835],
     ["Food","Vepřo knedlo zelo (pork, dumpling, sauerkraut) is one of its national dishes.","Vepřo knedlo zelo",1379078073],
-    ["Culture","On Easter Monday, boys go door to door with a pomlázka, a braided whip of willow twigs, for a playful swat.","Easter whip",1377286272],
+    ["Festivals","On Easter Monday, boys go door to door with a pomlázka, a braided whip of willow twigs, for a playful swat.","Easter whip",1377286272],
     ["Myths","Legend says a rabbi of Prague made the Golem, a figure of clay brought to life, to defend the Jewish quarter from attacks.","Golem",1384403542],
     ["Arts","The writer Franz Kafka was born and lived most of his life in Prague.","Franz Kafka",1384638254],
     ["Landmarks","Charles Bridge in Prague is lined with 30 statues of saints.","Charles Bridge",1382558523],
@@ -347,19 +383,25 @@ window.ATLAS_FACTS = {
     ["Sports","Runner Emil Zátopek won the 5,000 metres, the 10,000 metres and the marathon at the 1952 Olympics in Helsinki.","Emil Zátopek",1379417042],
     ["People","Václav Havel, the playwright who became president after the Velvet Revolution of 1989, was born in Prague in 1936.","Václav Havel",1385458800],
     ["Science","Gregor Mendel worked out the basic laws of heredity by breeding pea plants in the garden of his abbey in Brno.","Gregor Mendel",1376806037],
-    ["Science","Chemist Otto Wichterle made the first soft contact lenses in 1961, on a machine he built at home from a children's construction kit.","Otto Wichterle",1372837834]
+    ["Science","Chemist Otto Wichterle made the first soft contact lenses in 1961, on a machine he built at home from a children's construction kit.","Otto Wichterle",1372837834],
+    ["Animals","The double-tailed lion, a heraldic beast from the arms of Bohemia, is its national animal.","List of national animals",1386001747],
+    ["Film","Barrandov Studios in Prague, opened in 1931, is one of the largest film studios in Europe.","Barrandov Studios",1384003331],
+    ["Film","The Mole, a little cartoon mole created by Zdeněk Miler in 1956, became loved across Europe and Asia.","The Little Mole",1372161362],
+    ["Inventions","The word robot was first used in R.U.R., a 1920 play by Karel Čapek.","R.U.R.",1384072390],
+    ["Space","Vladimír Remek, who flew on Soyuz 28 in 1978, was the first person in space from a country other than the Soviet Union or the United States.","Vladimír Remek",1379971339]
   ],
   "204": [
-    ["Culture","Benin is a birthplace of Vodun, and 10 January is a national holiday honoring it.","West African Vodún",1381595659],
+    ["Festivals","Benin is a birthplace of Vodun, and 10 January is a national holiday honoring it.","West African Vodún",1381595659],
     ["Places","Ganvié, a town of about 20,000 people built on Lake Nokoué, is known as the Venice of Africa.","Ganvie",1377352965],
     ["History","The Royal Palaces of Abomey, built by the kings of Dahomey, are a UNESCO World Heritage Site.","Royal Palaces of Abomey",1365739667],
     ["History","The Dahomey Amazons were an all-female military regiment of the Kingdom of Dahomey.","Dahomey Amazons",1374494022],
     ["Capitals","Its official capital is Porto-Novo, but the government sits mainly in Cotonou.","Porto-Novo",1383284487],
     ["History","In 1991 Mathieu Kérékou became the first president on the African mainland to lose power through an election.","Benin",1382537270],
-    ["Nature","Pendjari National Park shelters some of the last populations of big game in the region, including lions.","Pendjari National Park",1357020015],
+    ["Animals","Pendjari National Park shelters some of the last populations of big game in the region, including lions.","Pendjari National Park",1357020015],
     ["Music","Angélique Kidjo, a singer with five Grammy Awards, was born in Ouidah in 1960.","Angélique Kidjo",1384318486],
     ["Sports","The men's football team, long nicknamed the Squirrels, reached the quarter-finals of the Africa Cup of Nations in 2019.","Benin national football team",1384376333],
-    ["People","Actor Djimon Hounsou, twice nominated for an Academy Award, was born in Cotonou in 1964.","Djimon Hounsou",1382324338]
+    ["People","Actor Djimon Hounsou, twice nominated for an Academy Award, was born in Cotonou in 1964.","Djimon Hounsou",1382324338],
+    ["Names","Its name, chosen in 1975 to replace Dahomey, comes from a bay that was named after a city and kingdom now in neighbouring Nigeria.","List of country-name etymologies",1382950159]
   ],
   "208": [
     ["History","Denmark's flag, the Dannebrog, is often cited as the oldest national flag in continuous use.","Dannebrog",1381363447],
@@ -377,7 +419,7 @@ window.ATLAS_FACTS = {
     ["Culture","Dominica's Kalinago Territory is home to the island's Indigenous Kalinago people.","Kalinago",1380981422],
     ["Food","Its traditional national dish was “mountain chicken”, actually a giant frog that is now critically endangered.","National dish",1381943985],
     ["Symbols","Its flag is one of very few to use purple, on the Sisserou parrot.","Flag of Dominica",1379136060],
-    ["Nature","Its national bird is the Sisserou parrot, found nowhere else.","List of national animals",1384556882],
+    ["Animals","Its national bird is the Sisserou parrot, found nowhere else.","List of national animals",1384556882],
     ["Nature","Boiling Lake, a flooded fumarole in the rainforest, is one of the largest hot lakes in the world.","Boiling Lake",1365909691],
     ["Land","It is nicknamed the “Nature Island of the Caribbean”.","Dominica",1384140646]
   ],
@@ -391,7 +433,10 @@ window.ATLAS_FACTS = {
     ["Sports","Baseball is hugely popular, and many Major League Baseball players come from there.","Baseball in the Dominican Republic",1383024751],
     ["People","Baseball slugger David Ortiz, \"Big Papi\", was born in Santo Domingo.","David Ortiz",1378071932],
     ["Landmarks","The Alcázar de Colón in Santo Domingo was the home of Columbus's son Diego.","Alcázar de Colón",1381731842],
-    ["Arts","Fashion designer Oscar de la Renta, who dressed Jacqueline Kennedy in the 1960s, was born in Santo Domingo in 1932.","Oscar de la Renta",1382818121]
+    ["Arts","Fashion designer Oscar de la Renta, who dressed Jacqueline Kennedy in the 1960s, was born in Santo Domingo in 1932.","Oscar de la Renta",1382818121],
+    ["Names","Its name refers to its capital, founded in 1498 by Bartholomew Columbus, Christopher's brother.","List of country-name etymologies",1382950159],
+    ["Animals","The palmchat, a bird found only on Hispaniola, builds huge shared nests in royal palms and is the national bird.","Palmchat",1386482107],
+    ["Festivals","Carnival in La Vega is known for its diablos cojuelos, \"limping devils\" in masks who swat passers-by with inflated bladders.","Carnival in the Dominican Republic",1382311951]
   ],
   "218": [
     ["Records","Because Earth bulges at the equator, the summit of Chimborazo is the farthest point from Earth's center, farther than Everest's peak.","Chimborazo",1371319665],
@@ -405,7 +450,10 @@ window.ATLAS_FACTS = {
     ["Music","Pasillo, a song style born in the Andes during the wars of independence, is considered the national musical style.","Pasillo",1264367399],
     ["Sports","Race walker Jefferson Pérez, born in Cuenca, won the 20 kilometres walk at Atlanta in 1996, the nation's first Olympic medal.","Jefferson Pérez",1364184061],
     ["People","Painter Oswaldo Guayasamín, known for his images of suffering and of hands, was born in Quito in 1919.","Oswaldo Guayasamín",1380215815],
-    ["Science","In 1736 a French expedition led by scientists including Charles Marie de La Condamine arrived near Quito to measure the shape of the Earth.","French Geodesic Mission to the Equator",1385603391]
+    ["Science","In 1736 a French expedition led by scientists including Charles Marie de La Condamine arrived near Quito to measure the shape of the Earth.","French Geodesic Mission to the Equator",1385603391],
+    ["Names","Its name is the Spanish word for the equator, which passes just 25 miles north of its capital.","List of country-name etymologies",1382950159],
+    ["Animals","Galápagos giant tortoises can live for more than 100 years and weigh over 400 kilograms.","Galápagos tortoise",1386477151],
+    ["Festivals","At Inti Raymi in the Andes each June, dancers in masks celebrate the sun and the harvest around the solstice.","Inti Raymi",1382349155]
   ],
   "222": [
     ["History","In 2021 El Salvador became the first country to make Bitcoin legal tender. In 2025 it dropped the rule that businesses must accept it.","Bitcoin in El Salvador",1379480560],
@@ -421,7 +469,7 @@ window.ATLAS_FACTS = {
     ["Land","Equatorial Guinea is made up of a mainland region, Río Muni, plus islands including Bioko and Annobón.","Equatorial Guinea",1384265828],
     ["Capitals","Its capital, Malabo, is on the island of Bioko, not on the mainland.","Malabo",1383654265],
     ["Capitals","A new capital, Ciudad de la Paz, is being built in the forest of the mainland.","Ciudad de la Paz",1382072652],
-    ["Nature","Bioko Island is home to several rare primate species.","Bioko",1376288319],
+    ["Animals","Bioko Island is home to several rare primate species.","Bioko",1376288319],
     ["Money","It uses the Central African CFA franc.","Equatorial Guinea",1384265828],
     ["History","It won independence from Spain in 1968.","Equatorial Guinea",1384265828]
   ],
@@ -435,14 +483,20 @@ window.ATLAS_FACTS = {
     ["Heritage","The churches of Lalibela were carved out of solid rock in the 12th and 13th centuries.","Lalibela",1376595937],
     ["People","Distance runner Haile Gebrselassie was born in Asella.","Haile Gebrselassie",1384343314],
     ["Music","Mulatu Astatke blended jazz and Latin music with local scales to create a sound heard in the film Broken Flowers.","Mulatu Astatke",1379784360],
-    ["Sports","Abebe Bikila won the 1960 Olympic marathon in Rome running barefoot, then won it again in Tokyo four years later.","Abebe Bikila",1384645256]
+    ["Sports","Abebe Bikila won the 1960 Olympic marathon in Rome running barefoot, then won it again in Tokyo four years later.","Abebe Bikila",1384645256],
+    ["Names","Its name comes from Ancient Greek Aithiopía, \"land of the burnt-faced\", once used for all of Africa south of the Sahara.","List of country-name etymologies",1382950159],
+    ["Animals","The gelada, a grass-eating monkey with a bare red patch on its chest, lives only in its highlands.","Gelada",1343761319],
+    ["Animals","The rarest wild dog in Africa, a red-coated wolf, lives only in its Bale and Simien mountains.","Ethiopian wolf",1386484859],
+    ["Festivals","At Meskel, huge bonfires called demera are lit to celebrate the finding of the True Cross by Empress Helena.","Meskel",1377290194],
+    ["Festivals","At Timkat, the Epiphany festival in January, replicas of the Ark of the Covenant are carried in procession to water.","Timkat",1376539248],
+    ["Inventions","Legend says coffee was discovered here by Kaldi, a goatherd whose goats became lively after eating the berries.","Coffee",1385651959]
   ],
   "232": [
     ["Places","Asmara's 1930s Italian modernist buildings, including a gas station shaped like an airplane, are a UNESCO World Heritage Site.","Asmara",1382004447],
     ["Places","An Italian-built railway climbs from the port of Massawa up to Asmara, more than 2,000 m above sea level.","Eritrean Railway",1381741730],
     ["Land","The Danakil Depression, which reaches into Eritrea, is one of the hottest places on Earth.","Danakil Depression",1377731050],
     ["Food","Its national dish is zigini, a spicy stew, eaten with injera flatbread.","National dish",1381943985],
-    ["Nature","Its national animal is the Arabian camel.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Arabian camel.","List of national animals",1384556882],
     ["Places","The Dahlak Archipelago is a group of islands in the Red Sea.","Dahlak Archipelago",1363953461],
     ["Capitals","Its capital, Asmara, sits at about 2,300 m above sea level.","Asmara",1382004447]
   ],
@@ -450,8 +504,8 @@ window.ATLAS_FACTS = {
     ["Culture","Estonia offers e-residency, a digital ID that lets people anywhere in the world start an Estonian company online.","E-Residency of Estonia",1378904739],
     ["History","In 2005 Estonia became the first country to let people vote online in a nationwide election.","Electronic voting in Estonia",1383230050],
     ["Food","Kama, a flour of roasted barley, rye, oats and peas, is its national food, usually mixed with buttermilk or kefir.","National dish",1381943985],
-    ["Culture","At the song festival, tens of thousands of singers perform together on one giant stage.","Estonian Song Festival",1383682793],
-    ["Nature","Its national animal is the wolf, its national bird the barn swallow, and its national fish the Baltic herring.","List of national animals",1384556882],
+    ["Festivals","At the song festival, tens of thousands of singers perform together on one giant stage.","Estonian Song Festival",1383682793],
+    ["Animals","Its national animal is the wolf, its national bird the barn swallow, and its national fish the Baltic herring.","List of national animals",1384556882],
     ["Science","Skype was developed by Estonian engineers in Tallinn.","Skype",1384563973],
     ["Heritage","Tallinn's Old Town keeps an exceptionally intact 13th-century city plan.","Tallinn Old Town",1366156918],
     ["People","Composer Arvo Pärt, known for his spare tintinnabuli style, was born in Paide.","Arvo Pärt",1383490929]
@@ -466,7 +520,7 @@ window.ATLAS_FACTS = {
     ["Food","Ræst, fermented and dried fish and meat, is a traditional food.","Faroese cuisine",1376955233]
   ],
   "238": [
-    ["Nature","Five species of penguin breed on the Falkland Islands.","Falkland Islands",1384031203],
+    ["Animals","Five species of penguin breed on the Falkland Islands.","Falkland Islands",1384031203],
     ["Land","The 2021 census counted only 3,662 people living on the Falkland Islands.","Falkland Islands",1384031203],
     ["Land","The Falklands are made up of two main islands and 776 smaller ones.","Falkland Islands",1384031203],
     ["Sports","Rifle shooting is regarded as its national sport.","National sport",1384611106],
@@ -476,10 +530,10 @@ window.ATLAS_FACTS = {
   ],
   "239": [
     ["Nature","South Georgia supports a large colony of king penguins, along with macaroni penguins and albatrosses.","South Georgia and the South Sandwich Islands",1383893758],
-    ["Nature","A campaign that finished in 2018 cleared South Georgia of the rats that had preyed on its seabirds.","South Georgia and the South Sandwich Islands",1383893758],
+    ["Animals","A campaign that finished in 2018 cleared South Georgia of the rats that had preyed on its seabirds.","South Georgia and the South Sandwich Islands",1383893758],
     ["History","The explorer Ernest Shackleton is buried at Grytviken, the old whaling station.","Grytviken",1381388568],
     ["Nature","Its beaches are home to huge colonies of king penguins.","South Georgia",1374746707],
-    ["Nature","Its seas support some of the largest populations of seals and seabirds in the world.","South Georgia and the South Sandwich Islands",1383893758],
+    ["Animals","Its seas support some of the largest populations of seals and seabirds in the world.","South Georgia and the South Sandwich Islands",1383893758],
     ["Records","Only a very small, non-permanent population lives on South Georgia; the South Sandwich Islands are uninhabited.","South Georgia and the South Sandwich Islands",1383893758],
     ["Land","The largest of the South Sandwich Islands, Montagu Island, covers about 110 km².","South Sandwich Islands",1380290183]
   ],
@@ -502,7 +556,7 @@ window.ATLAS_FACTS = {
     ["Symbols","Its flag's blue cross on white is said to stand for its lakes and its snow.","Flag of Finland",1384606882],
     ["Myths","In the national epic, the Kalevala, the Sampo is a magic mill that grinds out flour, salt and gold.","Sampo",1374441455],
     ["Sports","Pesäpallo, a fast form of baseball where the ball is pitched straight up, is its national sport.","National sport",1384611106],
-    ["Nature","Its national animal is the brown bear, and its national bird is the whooper swan.","List of national animals",1384556882],
+    ["Animals","Its national animal is the brown bear, and its national bird is the whooper swan.","List of national animals",1384556882],
     ["People","Composer Jean Sibelius, famous for Finlandia, was born in Hämeenlinna.","Jean Sibelius",1384624790],
     ["Landmarks","Suomenlinna is a sea fortress spread over eight islands off Helsinki, six of them fortified.","Suomenlinna",1380933508]
   ],
@@ -520,8 +574,8 @@ window.ATLAS_FACTS = {
     ["Culture","On April Fools' Day, children try to stick a paper fish, a poisson d'avril, on people's backs.","April Fools' Day",1383612068],
     ["Myths","From 1764 to 1767, the “Beast of Gévaudan”, a man-eating wolf-like animal, terrorized a region of the south.","Beast of Gévaudan",1384516328],
     ["Daily life","Friends greet each other with la bise, kisses on the cheeks; the number of kisses varies by region.","Cheek kissing",1367114118],
-    ["Nature","Its national bird is the Gallic rooster.","List of national animals",1384556882],
-    ["Arts","The Cannes Film Festival awards its top prize, the Palme d'Or, each May.","Cannes Film Festival",1383387213],
+    ["Animals","Its national bird is the Gallic rooster.","List of national animals",1384556882],
+    ["Film","The Cannes Film Festival awards its top prize, the Palme d'Or, each May.","Cannes Film Festival",1383387213],
     ["Quirky","Counting its overseas territories, it uses 12 different time zones, more than any other country.","Time in France",1349654400],
     ["People","Napoleon Bonaparte was born in Ajaccio, on the island of Corsica, in 1769.","Napoleon",1384858797],
     ["Landmarks","The Eiffel Tower was built as the entrance arch to the 1889 World's Fair.","Eiffel Tower",1384328455],
@@ -529,10 +583,14 @@ window.ATLAS_FACTS = {
     ["Music","The electronic duo Daft Punk, famous for performing in robot helmets, formed in Paris in 1993.","Daft Punk",1385755609],
     ["Sports","The 24 Hours of Le Mans, first run in 1923, is the world's oldest endurance car race still held today.","24 Hours of Le Mans",1382779200],
     ["Science","Louis Pasteur, born in Dole in 1822, developed pasteurisation and a vaccine against rabies.","Louis Pasteur",1383911409],
-    ["Science","In 1783 the Montgolfier brothers, paper makers from Annonay, launched the first hot-air balloon to carry people.","Montgolfier brothers",1382388557]
+    ["Space","In 1783 the Montgolfier brothers, paper makers from Annonay, launched the first hot-air balloon to carry people.","Montgolfier brothers",1382388557],
+    ["Names","Its name means \"land of\" a Germanic people whose name may come from an old word for \"javelin\" or for \"free\".","List of country-name etymologies",1382950159],
+    ["Festivals","Bastille Day, 14 July, marks the storming of the Bastille prison in Paris in 1789, and a military parade goes down the Champs-Élysées.","Bastille Day",1383728283],
+    ["Inventions","Louis Braille, blinded as a child, invented the raised-dot reading system now used in languages worldwide.","Louis Braille",1384891716],
+    ["Space","Its first satellite, Astérix, launched in 1965, made it the third country to put a satellite in orbit on its own rocket.","Astérix (satellite)",1354828334]
   ],
   "254": [
-    ["Science","Europe's main spaceport is at Kourou, about 500 km north of the equator, a spot that lets rockets reach orbit with less energy.","Guiana Space Centre",1380301508],
+    ["Space","Europe's main spaceport is at Kourou, about 500 km north of the equator, a spot that lets rockets reach orbit with less energy.","Guiana Space Centre",1380301508],
     ["Nature","Forest covers about 98.9% of the land, much of it primeval rainforest.","French Guiana",1384337679],
     ["Heritage","Its Amazonian national park, the largest national park in the European Union, covers 41% of its territory.","French Guiana",1384337679],
     ["History","The penal colony known as Devil's Island held convicts from 1852 until it closed in 1953. Its most famous prisoner was Captain Alfred Dreyfus.","Devil's Island",1382294803],
@@ -563,7 +621,7 @@ window.ATLAS_FACTS = {
   "262": [
     ["Records","Lake Assal, about 155 m below sea level, is the lowest point in Africa and one of the saltiest lakes on Earth.","Lake Assal (Djibouti)",1366151418],
     ["Places","Djibouti hosts military bases of several countries, including the United States, France, China and Japan.","Djibouti",1382512249],
-    ["Nature","Whale sharks gather in the Gulf of Tadjoura every winter.","Gulf of Tadjoura",1383784203],
+    ["Animals","Whale sharks gather in the Gulf of Tadjoura every winter.","Gulf of Tadjoura",1383784203],
     ["Money","Its franc has been pegged to the US dollar since 1949.","Djiboutian franc",1359048252],
     ["Capitals","Its capital, Djibouti City, is home to most of its people.","Djibouti City",1382209313],
     ["Language","Its official languages are French and Arabic, while Somali and Afar are widely spoken.","Djibouti",1382512249],
@@ -586,14 +644,15 @@ window.ATLAS_FACTS = {
     ["Culture","A traditional feast, the supra, is led by a tamada, a toastmaster who proposes the toasts.","Supra (feast)",1374113998],
     ["Symbols","Its flag, the Five-Cross Flag, has one large red cross and four small ones.","Flag of Georgia (country)",1370329206],
     ["Language","Its language has its own unique alphabet, Mkhedruli, with no capital letters.","Georgian scripts",1380338283],
-    ["People","Joseph Stalin was born in the town of Gori in 1878.","Joseph Stalin",1384109891]
+    ["People","Joseph Stalin was born in the town of Gori in 1878.","Joseph Stalin",1384109891],
+    ["Food","Wine is made in qvevri, egg-shaped clay jars buried in the ground, a method UNESCO added to its intangible heritage list in 2013.","Kvevri",1368664621]
   ],
   "270": [
     ["Land","The Gambia is the smallest country on mainland Africa. It follows the Gambia River and is surrounded by Senegal except along its short coast.","The Gambia",1383965879],
     ["Places","The capital, Banjul, sits on an island and was called Bathurst in colonial times.","The Gambia",1383965879],
     ["History","Kunta Kinteh Island in the Gambia River is a UNESCO World Heritage Site linked to the Atlantic slave trade.","Kunta Kinteh Island",1379564215],
     ["Food","Domoda, a peanut stew, is its national dish.","National dish",1381943985],
-    ["Nature","Its national animal is the spotted hyena.","List of national animals",1384556882],
+    ["Animals","Its national animal is the spotted hyena.","List of national animals",1384556882],
     ["Music","The kora, a 21-string harp-lute, is played by griots, hereditary musicians and storytellers.","Kora (instrument)",1382876951],
     ["Money","Its currency is the dalasi.","Gambian dalasi",1368663224]
   ],
@@ -607,10 +666,10 @@ window.ATLAS_FACTS = {
     ["Culture","Dabke, a line dance with stamping steps, is a highlight of weddings and celebrations.","Dabke",1374466340]
   ],
   "276": [
-    ["History","Johannes Gutenberg introduced movable-type printing in Europe in Mainz around 1450.","Johannes Gutenberg",1383488206],
+    ["Inventions","Johannes Gutenberg introduced movable-type printing in Europe in Mainz around 1450.","Johannes Gutenberg",1383488206],
     ["Culture","Many stretches of the German Autobahn still have no general speed limit.","Autobahn",1377203234],
     ["Places","A total of 979 bridges cross Berlin's inner-city waterways.","Berlin",1384121780],
-    ["Culture","Oktoberfest in Munich, the world's largest beer festival, runs from mid-September to the first Sunday in October.","Oktoberfest",1383954364],
+    ["Festivals","Oktoberfest in Munich, the world's largest beer festival, runs from mid-September to the first Sunday in October.","Oktoberfest",1383954364],
     ["Myths","The Pied Piper of Hamelin is said to have lured away the town's rats, then its children, with his pipe.","Pied Piper of Hamelin",1383113573],
     ["Money","In 1923, hyperinflation made its paper money almost worthless.","Hyperinflation in the Weimar Republic",1383539260],
     ["Science","Albert Einstein was born in Ulm in 1879.","Albert Einstein",1384665341],
@@ -619,7 +678,13 @@ window.ATLAS_FACTS = {
     ["Music","Johann Sebastian Bach, composer of the Brandenburg Concertos, was born in Eisenach in 1685.","Johann Sebastian Bach",1386053631],
     ["Sports","The men's football team has won the World Cup four times: in 1954, 1974, 1990 and 2014.","Germany national football team",1385974557],
     ["Science","Wilhelm Röntgen discovered X-rays in Würzburg in 1895 and won the very first Nobel Prize in Physics, in 1901.","Wilhelm Röntgen",1381603985],
-    ["Arts","The Bauhaus school of design, founded in Weimar in 1919 by Walter Gropius, shaped modern architecture and furniture.","Bauhaus",1383411406]
+    ["Arts","The Bauhaus school of design, founded in Weimar in 1919 by Walter Gropius, shaped modern architecture and furniture.","Bauhaus",1383411406],
+    ["Names","Its English name comes from a Latin word that Julius Caesar used for all the tribes east of the Rhine.","List of country-name etymologies",1382950159],
+    ["Animals","The Bavarian Forest became its first national park in 1970, and lynx have returned to the area.","Bavarian Forest National Park",1364625039],
+    ["Film","Metropolis, Fritz Lang's 1927 silent science-fiction epic, was one of the first feature-length science-fiction films.","Metropolis (1927 film)",1386348916],
+    ["Film","The Berlin International Film Festival awards a Golden Bear as its top prize.","Berlin International Film Festival",1386101783],
+    ["Inventions","Karl Benz built the first practical car powered by a petrol engine, the Benz Patent-Motorwagen, in 1885.","Benz Patent-Motorwagen",1386004205],
+    ["Space","Sigmund Jähn became the first person from the country in space, in 1978.","Sigmund Jähn",1380281352]
   ],
   "288": [
     ["Records","Lake Volta is the largest artificial lake in the world by surface area.","Lake Volta",1383411930],
@@ -631,12 +696,17 @@ window.ATLAS_FACTS = {
     ["Music","Highlife, a guitar-and-horn dance music, began there in the early 20th century.","Highlife",1384111267],
     ["People","Kofi Annan, UN Secretary-General and Nobel Peace Prize winner, was born in Kumasi.","Kofi Annan",1384370918],
     ["Landmarks","Cape Coast Castle was a hub of the Atlantic slave trade and is now a museum.","Cape Coast Castle",1378431303],
-    ["Sports","The Black Stars reached the quarter-finals of the 2010 World Cup, only the third African team ever to get that far.","Ghana national football team",1385491994]
+    ["Sports","The Black Stars reached the quarter-finals of the 2010 World Cup, only the third African team ever to get that far.","Ghana national football team",1385491994],
+    ["Names","Its name, adopted at independence in 1957, honours a medieval empire named for the title of its ruler, meaning \"warrior king\".","List of country-name etymologies",1382950159],
+    ["Animals","Mole National Park, its largest wildlife refuge, is known for elephants that come close to the park's motel.","Mole National Park",1384089071],
+    ["Festivals","At Homowo, the Ga people celebrate the harvest; in the Ga language the name means \"to hoot at hunger\".","Homowo",1381761327],
+    ["Film","Ghallywood, the film industry based in Accra and Kumasi, grew in the 1990s with films made directly for video.","Cinema of Ghana",1368919352],
+    ["Space","Its first satellite, built by students at All Nations University, was launched in 2017.","GhanaSat-1",1375890910]
   ],
   "292": [
     ["Land","The whole territory covers just 6.8 km² and shares a land border only 1.2 km long with Spain.","Gibraltar",1384117524],
     ["Places","The airport runway crosses Winston Churchill Avenue, once the main road to Spain; pedestrians can still walk across it when the road is open.","Gibraltar International Airport",1380216816],
-    ["Nature","About 230 Barbary macaques live in the nature reserve on the Rock. Called “apes”, they are monkeys: the only wild monkeys in Europe.","Barbary macaque",1380253831],
+    ["Animals","About 230 Barbary macaques live in the nature reserve on the Rock. Called “apes”, they are monkeys: the only wild monkeys in Europe.","Barbary macaque",1380253831],
     ["History","Captured by Anglo-Dutch forces in 1704, it was ceded to Great Britain “in perpetuity” by the Treaty of Utrecht in 1713.","Gibraltar",1384117524],
     ["Places","Its Rock, a limestone mountain 426 m high, was the northern of the two ancient Pillars of Hercules.","Rock of Gibraltar",1367525675],
     ["History","In referendums in 1967 and 2002, residents overwhelmingly rejected Spanish sovereignty and then shared sovereignty.","Gibraltar",1384117524],
@@ -653,7 +723,7 @@ window.ATLAS_FACTS = {
   ],
   "300": [
     ["Land","Greece has about 6,000 islands and islets, but only around 227 are inhabited.","List of islands of Greece",1384139181],
-    ["History","The ancient Olympic Games began at Olympia, traditionally dated to 776 BC.","Ancient Olympic Games",1383228956],
+    ["Space","The ancient Olympic Games began at Olympia, traditionally dated to 776 BC.","Ancient Olympic Games",1383228956],
     ["Places","Mount Athos is a self-governing monastic community where women are not allowed.","Mount Athos",1376296944],
     ["Culture","At Easter, people crack dyed red eggs against each other; whoever's egg survives is said to have good luck.","Egg tapping",1350798892],
     ["Symbols","The nine stripes on its flag are said to match the syllables of the motto “Freedom or Death”.","Flag of Greece",1383973458],
@@ -665,7 +735,9 @@ window.ATLAS_FACTS = {
     ["Sports","Giannis Antetokounmpo, twice voted the NBA's Most Valuable Player, was born in Athens in 1994.","Giannis Antetokounmpo",1385787258],
     ["Science","Hippocrates, known as the father of medicine, was born on the island of Kos around 460 BC.","Hippocrates",1377462590],
     ["Science","The Antikythera mechanism, a geared device about 2,000 years old that was recovered from a shipwreck in 1901, modelled the movements of the Sun and Moon.","Antikythera mechanism",1385204759],
-    ["Arts","The Venus de Milo, a marble statue more than 2,000 years old, was found on the island of Milos in 1820 and now stands in the Louvre.","Venus de Milo",1377691070]
+    ["Arts","The Venus de Milo, a marble statue more than 2,000 years old, was found on the island of Milos in 1820 and now stands in the Louvre.","Venus de Milo",1377691070],
+    ["Names","Its English name comes from the Latin Graecus; the Romans are said to have named the whole people after the first tribe they met.","List of country-name etymologies",1382950159],
+    ["Animals","Loggerhead sea turtles lay their eggs on the beaches of Zakynthos, where the bay of Laganas is protected for them.","Loggerhead sea turtle",1385128775]
   ],
   "304": [
     ["Records","Greenland is the largest island in the world that is not a continent.","Greenland",1384285046],
@@ -698,7 +770,7 @@ window.ATLAS_FACTS = {
   "316": [
     ["Records","Challenger Deep, the deepest known point in any ocean, lies in the Mariana Trench southwest of Guam.","Challenger Deep",1383033397],
     ["Culture","Guam's slogan is Where America's Day Begins, because it sits west of the International Date Line.","Guam",1384282589],
-    ["Nature","Brown tree snakes, accidentally brought in after World War II, wiped out most of its native forest birds.","Brown tree snake",1383728992],
+    ["Animals","Brown tree snakes, accidentally brought in after World War II, wiped out most of its native forest birds.","Brown tree snake",1383728992],
     ["Places","Legend says two lovers tied their hair together and jumped from the cliff at Two Lovers Point.","Two Lovers Point",1378920949],
     ["Capitals","Its capital is Hagåtña.","Hagåtña, Guam",1384457568],
     ["Language","Chamorro and English are its official languages.","Guam",1384282589],
@@ -709,13 +781,14 @@ window.ATLAS_FACTS = {
     ["Food","Guatemala is one of the world's largest producers of cardamom.","Cardamom",1380994291],
     ["Nature","Volcán de Fuego, near Antigua Guatemala, is one of the most active volcanoes on Earth.","Volcán de Fuego",1384207890],
     ["Food","Pepián, a thick meat stew and one of the oldest dishes in its cuisine, is its national dish.","Pepián",1312309843],
-    ["Daily life","On the Day of the Dead, Sumpango holds a giant kite festival near the town's cemetery.","Sumpango, Sacatepéquez",1377597504],
+    ["Festivals","On the Day of the Dead, Sumpango holds a giant kite festival near the town's cemetery.","Sumpango, Sacatepéquez",1377597504],
     ["Language","More than 20 Mayan languages are spoken there.","Mayan languages",1377029353],
     ["Money","Its currency, the quetzal, is named after the national bird.","Guatemalan quetzal",1336647664],
     ["People","Rigoberta Menchú, who won the Nobel Peace Prize in 1992, was born in the village of Laj Chimel.","Rigoberta Menchú",1381634519],
     ["Music","The marimba, a xylophone with wooden bars and resonators, is the national instrument.","Marimba",1383687246],
     ["Sports","Race walker Erick Barrondo won silver in the 20 kilometres walk at London 2012, the nation's first Olympic medal.","Erick Barrondo",1364184903],
-    ["Science","Luis von Ahn, born in the capital in 1978, helped pioneer CAPTCHA tests and co-founded the language app Duolingo.","Luis von Ahn",1383704150]
+    ["Science","Luis von Ahn, born in the capital in 1978, helped pioneer CAPTCHA tests and co-founded the language app Duolingo.","Luis von Ahn",1383704150],
+    ["Names","Its name comes from the Nahuatl Cuauhtēmallān, \"place of many trees\".","List of country-name etymologies",1382950159]
   ],
   "324": [
     ["Nature","The Niger, Senegal and Gambia rivers all begin in Guinea's highlands.","Guinea",1384088395],
@@ -727,14 +800,17 @@ window.ATLAS_FACTS = {
     ["Language","French is the official language, and Susu is one of the main local languages.","Guinea",1384088395],
     ["Music","Mory Kanté's 1987 hit Yé ké yé ké was the first African single to sell more than a million copies.","Mory Kanté",1385466596],
     ["Sports","Midfielder Naby Keïta, who won the Champions League with Liverpool, was born in Conakry in 1995.","Naby Keïta",1385247164],
-    ["People","Ahmed Sékou Touré, who led the country to independence in 1958 and became its first president, was born in Faranah.","Ahmed Sékou Touré",1384891219]
+    ["People","Ahmed Sékou Touré, who led the country to independence in 1958 and became its first president, was born in Faranah.","Ahmed Sékou Touré",1384891219],
+    ["Names","The origin of its name is uncertain; one theory links it to a Berber word meaning \"burnt one\".","List of country-name etymologies",1382950159],
+    ["Animals","The hills of Bossou, in the far southeast, are famous for chimpanzees that are used to people.","Bossou",1377124119],
+    ["Festivals","Its independence day, 2 October, marks the day in 1958 when it declared independence from France.","Guinea",1386321614]
   ],
   "328": [
     ["Nature","Kaieteur Falls is one of the most powerful single-drop waterfalls in the world, with a drop about five times that of Niagara.","Kaieteur Falls",1362222525],
     ["Culture","Guyana is the only South American country where English is the official language.","Guyana",1384493383],
-    ["Nature","Guyana's national bird, the hoatzin, has chicks with claws on their wings.","Hoatzin",1381589171],
+    ["Animals","Guyana's national bird, the hoatzin, has chicks with claws on their wings.","Hoatzin",1381589171],
     ["Food","Pepperpot, a slow-cooked meat stew traditionally served at Christmas, is a national dish.","Guyanese pepperpot",1373727500],
-    ["Culture","Mashramani, a carnival with costumed street parades, celebrates Republic Day each February.","Mashramani",1372013898],
+    ["Festivals","Mashramani, a carnival with costumed street parades, celebrates Republic Day each February.","Mashramani",1372013898],
     ["Places","St. George's Cathedral in Georgetown is one of the tallest wooden churches in the world.","St. George's Cathedral, Georgetown",1363847572],
     ["Sports","Its cricketers play for the West Indies team.","West Indies cricket team",1384657832]
   ],
@@ -748,7 +824,9 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital, Port-au-Prince, was badly damaged by an earthquake in 2010.","2010 Haiti earthquake",1384030201],
     ["Sports","At the 1974 World Cup, Emmanuel Sanon scored against Italy and ended goalkeeper Dino Zoff's long unbeaten run.","Emmanuel Sanon",1385391397],
     ["People","Wyclef Jean of the Fugees was born in Croix-des-Bouquets in 1969.","Wyclef Jean",1380816514],
-    ["Arts","Hector Hyppolite, a Vodou priest and self-taught painter, at first painted on cardboard with chicken feathers because he owned no brushes.","Hector Hyppolite",1369459199]
+    ["Arts","Hector Hyppolite, a Vodou priest and self-taught painter, at first painted on cardboard with chicken feathers because he owned no brushes.","Hector Hyppolite",1369459199],
+    ["Names","Its name comes from the Taíno word Hayiti, \"mountainous land\".","List of country-name etymologies",1382950159],
+    ["Animals","The Hispaniolan trogon, a forest bird found only on its island, is the national bird.","Hispaniolan trogon",1380684277]
   ],
   "334": [
     ["Records","Mawson Peak on Heard Island is the highest mountain on Australian territory outside Antarctica.","Heard Island and McDonald Islands",1384291341],
@@ -757,7 +835,7 @@ window.ATLAS_FACTS = {
     ["Heritage","Heard Island and the McDonald Islands are a UNESCO World Heritage Site.","Heard Island and McDonald Islands",1384291341],
     ["Places","The islands are some of the most remote places on Earth, about 4,000 km from Australia.","Heard Island and McDonald Islands",1384291341],
     ["History","No one has ever lived there permanently; the first recorded landing was in 1855.","Heard Island and McDonald Islands",1384291341],
-    ["Nature","Elephant seals and penguins breed on Heard Island's beaches.","Heard Island and McDonald Islands",1384291341]
+    ["Animals","Elephant seals and penguins breed on Heard Island's beaches.","Heard Island and McDonald Islands",1384291341]
   ],
   "336": [
     ["Records","Vatican City is the smallest country in the world, covering about 0.49 km².","Vatican City",1384431202],
@@ -772,13 +850,14 @@ window.ATLAS_FACTS = {
     ["History","The writer O. Henry coined the phrase banana republic in 1904, with Honduras in mind.","Banana republic",1381915649],
     ["Food","The baleada, a flour tortilla filled with beans and cheese, is its national dish.","National dish",1381943985],
     ["Heritage","The Maya city of Copán is famous for its carved stone stairway of hieroglyphs.","Copán",1378840461],
-    ["Nature","In Yoro, a “rain of fish” is reported each year after heavy storms.","Lluvia de peces",1377985167],
+    ["Animals","In Yoro, a “rain of fish” is reported each year after heavy storms.","Lluvia de peces",1377985167],
     ["Places","Roatán, in the Bay Islands, sits on the second-largest barrier reef in the world.","Roatán",1382478136],
     ["Capitals","Toncontín Airport, serving its capital, has one of the most difficult approaches in the world.","Toncontín International Airport",1372810900],
     ["Culture","The language, dance and music of the Garifuna people on its Caribbean coast are recognized by UNESCO.","Garifuna",1377944321],
     ["Sports","The men's football team has played at three World Cups: in 1982, 2010 and 2014.","Honduras national football team",1385952202],
     ["People","Francisco Morazán, who became president of the Federal Republic of Central America, was born in Tegucigalpa in 1792.","Francisco Morazán",1378295872],
-    ["Music","Punta, a dance music with African and Arawak roots, is the best-known sound of the Garífuna people; it is also known as banguity or bunda.","Punta",1381001225]
+    ["Music","Punta, a dance music with African and Arawak roots, is the best-known sound of the Garífuna people; it is also known as banguity or bunda.","Punta",1381001225],
+    ["Names","Christopher Columbus named it with the Spanish word for \"depths\", after the deep waters off its northern coast.","List of country-name etymologies",1382950159]
   ],
   "344": [
     ["Records","Hong Kong has more skyscrapers than any other city in the world.","Hong Kong",1383990306],
@@ -787,14 +866,14 @@ window.ATLAS_FACTS = {
     ["Places","The Star Ferry has carried passengers across Victoria Harbour since 1888.","Star Ferry",1382910144],
     ["Places","Victoria Peak offers famous views over the harbor and skyline.","Victoria Peak",1383894571],
     ["Food","Dim sum, small dishes eaten with tea, is a big part of its food culture.","Dim sum",1381500119],
-    ["Culture","The Cheung Chau Bun Festival ends with a race up towers covered in buns.","Cheung Chau Bun Festival",1383675407]
+    ["Festivals","The Cheung Chau Bun Festival ends with a race up towers covered in buns.","Cheung Chau Bun Festival",1383675407]
   ],
   "348": [
     ["Records","Lake Hévíz is the largest thermal lake in the world that you can swim in.","Lake Hévíz",1382481791],
-    ["History","The Rubik's Cube was invented in 1974 by Hungarian architecture professor Ernő Rubik.","Rubik's Cube",1384063238],
+    ["Inventions","The Rubik's Cube was invented in 1974 by Hungarian architecture professor Ernő Rubik.","Rubik's Cube",1384063238],
     ["Records","Budapest's Line 1, opened in 1896, is one of the oldest underground railway lines in the world.","Metro Line M1 (Budapest Metro)",1375761897],
     ["Food","Goulash, meat and vegetables seasoned with paprika, is its national dish.","Goulash",1382585393],
-    ["Culture","At Busójárás in Mohács, busós in traditional masks parade and dance to scare away winter at the end of carnival.","Busójárás",1383679019],
+    ["Festivals","At Busójárás in Mohács, busós in traditional masks parade and dance to scare away winter at the end of carnival.","Busójárás",1383679019],
     ["Myths","The Turul, a mythical bird of prey usually shown as a falcon, is a national symbol.","Turul",1368370015],
     ["Language","Its language is not Indo-European but Uralic, distantly related to Finnish and Estonian.","Hungarian language",1382812532],
     ["Money","Its old currency, the pengő, suffered the highest rate of hyperinflation ever recorded, after World War II.","Hungarian pengő",1381248739],
@@ -809,7 +888,7 @@ window.ATLAS_FACTS = {
     ["Culture","On the last 13 nights before Christmas, 13 mischievous Yule Lads visit and leave small gifts in children's shoes.","Icelandic Christmas folklore",1380947663],
     ["Myths","Belief in huldufólk, hidden elves, runs so deep that problems during road construction have been blamed on them.","Huldufólk",1383665511],
     ["Sports","Glíma, a form of folk wrestling, is its national sport.","National sport",1384611106],
-    ["Nature","Its national bird is the gyrfalcon, the largest falcon.","List of national animals",1384556882],
+    ["Animals","Its national bird is the gyrfalcon, the largest falcon.","List of national animals",1384556882],
     ["People","Singer Björk was born and raised in Reykjavík.","Björk",1384146599],
     ["Landmarks","Hallgrímskirkja in Reykjavík was designed to resemble columns of basalt rock.","Hallgrímskirkja",1374383246],
     ["Landmarks","Þingvellir is where the country's parliament, the Althing, first met in 930.","Þingvellir",1377506479]
@@ -817,13 +896,13 @@ window.ATLAS_FACTS = {
   "356": [
     ["Culture","India's constitution recognizes 22 scheduled languages.","Eighth Schedule to the Constitution of India",1379011697],
     ["Records","Mawsynram, in Meghalaya, is one of the wettest places on Earth.","Mawsynram",1378776545],
-    ["History","Chess descends from chaturanga, a game played in India by the 6th century.","Chaturanga",1380512322],
-    ["Culture","During Holi, the festival of colors, people chase each other and drench one another with colored powder and water.","Holi",1384300049],
+    ["Inventions","Chess descends from chaturanga, a game played in India by the 6th century.","Chaturanga",1380512322],
+    ["Festivals","During Holi, the festival of colors, people chase each other and drench one another with colored powder and water.","Holi",1384300049],
     ["Symbols","The Ashoka Chakra wheel on its flag has 24 spokes, and until 2021 the flag could by law only be made of khadi, hand-spun cloth.","Flag of India",1379328773],
     ["Myths","The epic Ramayana tells of Prince Rama's quest to rescue his wife Sita from the demon king Ravana.","Ramayana",1384112615],
     ["Money","On 8 November 2016, it announced the demonetisation of all 500 and 1,000 rupee banknotes.","2016 Indian banknote demonetisation",1384080496],
-    ["Nature","Its national animal is the Bengal tiger, and its national bird is the peacock.","List of national animals",1384556882],
-    ["Arts","Bollywood, the film industry based in Mumbai, makes hundreds of films a year.","Hindi cinema",1384227923],
+    ["Animals","Its national animal is the Bengal tiger, and its national bird is the peacock.","List of national animals",1384556882],
+    ["Film","Bollywood, the film industry based in Mumbai, makes hundreds of films a year.","Hindi cinema",1384227923],
     ["Language","Its banknotes show their value in 15 or more languages.","Indian rupee",1384450818],
     ["Daily life","The dabbawalas of Mumbai deliver about 200,000 home-cooked lunches a day with almost no mistakes.","Dabbawala",1381322731],
     ["People","Mahatma Gandhi was born in the coastal town of Porbandar in 1869.","Mahatma Gandhi",1381836151],
@@ -832,14 +911,21 @@ window.ATLAS_FACTS = {
     ["Music","The tabla is a pair of small hand drums, one higher and one lower in pitch, played with the fingers and palms in Hindustani classical music.","Tabla",1378810272],
     ["Sports","Sachin Tendulkar, the only batter to score one hundred international centuries, was born in Bombay, now Mumbai, in 1973.","Sachin Tendulkar",1385116912],
     ["Science","C. V. Raman won the 1930 Nobel Prize in Physics for discovering how light changes when it is scattered, now known as the Raman effect.","C. V. Raman",1386028284],
-    ["Science","In 628 the mathematician Brahmagupta wrote down the first known rules for doing arithmetic with zero and with negative numbers.","Brahmagupta",1382087908]
+    ["Science","In 628 the mathematician Brahmagupta wrote down the first known rules for doing arithmetic with zero and with negative numbers.","Brahmagupta",1382087908],
+    ["Names","Its name comes, through Greek and Old Persian, from Sindhu, the Sanskrit name of the Indus River.","List of country-name etymologies",1382950159],
+    ["Festivals","At Diwali, the festival of lights, homes are lit with small clay lamps called diyas.","Diwali",1385743895],
+    ["Music","Bhavai is a folk dance of Rajasthan in which dancers balance a stack of earthen pots or brass pitchers on their heads.","Bhavai dance",1321081534],
+    ["Daily life","Dhobi Ghat in Mumbai is a huge open-air laundry where washermen scrub clothes by hand in concrete wash pens.","Dhobi Ghat (Mumbai)",1348680660],
+    ["Inventions","Snakes and ladders began as an ancient game called Moksha Patam, used to teach about good and bad deeds.","Snakes and ladders",1384204868],
+    ["Space","Chandrayaan-3 made the first landing near the Moon's south pole in August 2023.","Chandrayaan-3",1384830209],
+    ["Space","Its first satellite, Aryabhata, launched in 1975, was named after a 5th-century mathematician and astronomer.","Aryabhata (satellite)",1358218454]
   ],
   "360": [
     ["Land","Indonesia has more than 17,000 islands, making it the largest archipelagic country.","Indonesia",1384250539],
-    ["Nature","Komodo dragons, the largest living lizards, are found in the wild only in Indonesia.","Komodo dragon",1383701465],
+    ["Animals","Komodo dragons, the largest living lizards, are found in the wild only in Indonesia.","Komodo dragon",1383701465],
     ["Places","Indonesia is building a new capital, Nusantara, on the island of Borneo.","Nusantara",1384194665],
     ["Food","Nasi goreng, fried rice, is one of its national dishes, alongside satay, soto, rendang and gado-gado.","National dish",1381943985],
-    ["Culture","On Nyepi, the Hindu New Year in Bali, the whole island falls silent for a day: no lights, no work and even the airport closes.","Nyepi",1375132419],
+    ["Festivals","On Nyepi, the Hindu New Year in Bali, the whole island falls silent for a day: no lights, no work and even the airport closes.","Nyepi",1375132419],
     ["Myths","Nyai Roro Kidul, Queen of the Southern Sea, is said to rule the waves off Java, and some avoid wearing green on the beach.","Nyai Roro Kidul",1363994097],
     ["Language","More than 700 languages are spoken across its islands.","Languages of Indonesia",1376535941],
     ["Sports","Badminton and the martial art pencak silat are regarded as national sports.","National sport",1384611106],
@@ -848,14 +934,20 @@ window.ATLAS_FACTS = {
     ["Music","The angklung is made of bamboo tubes that sound a single note when shaken; UNESCO listed it as intangible heritage in 2010.","Angklung",1383743556],
     ["People","Sukarno, who became the first president after independence was declared in 1945, was born in Surabaya in 1901.","Sukarno",1385748277],
     ["Science","Fossils of \"Java Man\", an early human now classed as Homo erectus, were found by Eugène Dubois on the banks of the Solo River in 1891.","Java Man",1382448645],
-    ["Arts","Wayang kulit shadow plays use flat leather puppets whose shadows are thrown onto a cotton screen by a puppeteer called a dalang.","Wayang kulit",1385346100]
+    ["Arts","Wayang kulit shadow plays use flat leather puppets whose shadows are thrown onto a cotton screen by a puppeteer called a dalang.","Wayang kulit",1385346100],
+    ["Names","Its name was coined in the mid-19th century from Greek words meaning \"Indies Islands\", after its older name, the East Indies.","List of country-name etymologies",1382950159],
+    ["Arts","The kris, an asymmetrical dagger often with a wavy blade, is believed to carry spiritual power and is listed as UNESCO heritage.","Kris",1385649008],
+    ["Daily life","Pinisi, two-masted wooden sailing ships built by the Bugis and Makassar peoples, are on UNESCO's list of intangible heritage.","Pinisi",1373822011],
+    ["Film","The Raid, a 2011 action film full of the martial art pencak silat, was set almost entirely inside a single apartment block.","The Raid (2011 film)",1380701431],
+    ["Inventions","Tempeh, made by fermenting cooked soybeans into a firm cake, comes from Java.","Tempeh",1386437753],
+    ["Space","Palapa A1, launched in 1976, made it one of the first developing countries with its own communications satellite.","Palapa",1379477091]
   ],
   "364": [
     ["Food","Iran produces about 90% of the world's saffron.","Saffron",1383163176],
-    ["History","Qanats, underground channels that carry water from hills to fields, have been used in Iran for about 3,000 years.","Qanat",1382797484],
+    ["Inventions","Qanats, underground channels that carry water from hills to fields, have been used in Iran for about 3,000 years.","Qanat",1382797484],
     ["Food","Abgoosht, a meat broth stew also called dizi after the pot it's cooked in, is a national dish.","National dish",1381943985],
     ["Culture","On Chaharshanbe Suri, the eve of the last Wednesday of the year, people jump over bonfires.","Chaharshanbe Suri",1381899016],
-    ["Culture","For Nowruz, the new year in spring, families set a haft-sin table with seven items whose names start with the letter S.","Haft-sin",1381820518],
+    ["Festivals","For Nowruz, the new year in spring, families set a haft-sin table with seven items whose names start with the letter S.","Haft-sin",1381820518],
     ["Symbols","A phrase is written 22 times along the edges of its flag's green and red bands, recalling the date 22 Bahman.","Flag of Iran",1381398178],
     ["Myths","The Simurgh is a giant, benevolent bird of myth, said to be so old it has seen the destruction of the world three times.","Simurgh",1384382956],
     ["Daily life","Taarof is an elaborate etiquette of politeness, such as refusing an offer several times before accepting.","Taarof",1363690302],
@@ -865,10 +957,12 @@ window.ATLAS_FACTS = {
     ["Music","The santur, a hammered dulcimer played with light wooden mallets, is a mainstay of the country's classical music.","Santur",1372335718],
     ["People","Mathematician Maryam Mirzakhani, who in 2014 became the first woman to win the Fields Medal, was born in Tehran.","Maryam Mirzakhani",1379096009],
     ["Science","Omar Khayyam, the poet and mathematician born in Nishapur in 1048, helped design a remarkably precise solar calendar.","Omar Khayyam",1381181355],
-    ["Arts","A Separation, directed by Asghar Farhadi, won the Academy Award for Best Foreign Language Film in 2012.","A Separation",1385269421]
+    ["Film","A Separation, directed by Asghar Farhadi, won the Academy Award for Best Foreign Language Film in 2012.","A Separation",1385269421],
+    ["Names","Its name means \"Land of the Aryans\", from an ancient root meaning \"noble\" or \"free\".","List of country-name etymologies",1382950159],
+    ["Animals","The Asiatic cheetah now survives only here, with fewer than 50 left in the wild by 2017.","Asiatic cheetah",1384938104]
   ],
   "368": [
-    ["History","Cuneiform, the earliest known writing system, began in Mesopotamia, in what is now Iraq, more than 5,000 years ago.","Cuneiform",1384315853],
+    ["Inventions","Cuneiform, the earliest known writing system, began in Mesopotamia, in what is now Iraq, more than 5,000 years ago.","Cuneiform",1384315853],
     ["History","The Epic of Gilgamesh, one of the oldest known works of literature, comes from ancient Mesopotamia.","Epic of Gilgamesh",1382816348],
     ["Places","The marshes of southern Iraq, home of the Marsh Arabs, are a UNESCO World Heritage Site.","Mesopotamian Marshes",1380481040],
     ["Food","Its national dish, masgouf, is seasoned carp grilled by the fire.","Masgouf",1363145022],
@@ -878,39 +972,44 @@ window.ATLAS_FACTS = {
     ["People","Architect Zaha Hadid, the first woman to win the Pritzker Prize, was born in Baghdad.","Zaha Hadid",1383570686],
     ["Landmarks","The Ziggurat of Ur, a stepped temple about 4,000 years old, was rebuilt in part in the 1980s.","Ziggurat of Ur",1381057428],
     ["Music","Oud master Munir Bashir, born in Mosul, took the solo oud into concert halls around the world.","Munir Bashir",1381605101],
-    ["Sports","The men's football team won the Asian Cup in 2007, with captain Younis Mahmoud heading the only goal of the final.","2007 AFC Asian Cup final",1378188561]
+    ["Sports","The men's football team won the Asian Cup in 2007, with captain Younis Mahmoud heading the only goal of the final.","2007 AFC Asian Cup final",1378188561],
+    ["Names","Its name may come from the ancient city of Uruk, or more likely from the Middle Persian Ērāg, meaning \"lowlands\".","List of country-name etymologies",1382950159],
+    ["Animals","The Mesopotamian Marshes are home to the smooth-coated otter and to the Basra reed warbler, which nests there.","Basra reed warbler",1379847381],
+    ["Festivals","Each year millions of pilgrims walk to Karbala for Arbaeen, one of the largest annual gatherings of people on Earth.","Arba'in pilgrimage",1385988027]
   ],
   "372": [
-    ["Culture","Halloween traces back to Samhain, a Celtic festival marking the end of the harvest.","Samhain",1383626047],
-    ["Nature","Ireland has no native snakes.","Fauna of Ireland",1381004596],
+    ["Festivals","Halloween traces back to Samhain, a Celtic festival marking the end of the harvest.","Samhain",1383626047],
+    ["Animals","Ireland has no native snakes.","Fauna of Ireland",1381004596],
     ["Culture","Ireland's national emblem is the harp. It appears on its coins, passports and presidential seal.","Coat of arms of Ireland",1383737031],
     ["Food","Soda bread, which rises with baking soda instead of yeast, is a national dish.","National dish",1381943985],
     ["Symbols","The white band on its green, white and orange flag stands for peace between the two traditions.","Flag of Ireland",1383572588],
     ["Myths","Leprechauns, small bearded shoemakers of folklore, are said to hide their gold in a pot at the end of the rainbow.","Leprechaun",1376216777],
     ["Language","Irish is the first official language under the constitution, though English is far more widely spoken.","Irish language",1384557870],
     ["Sports","Gaelic games such as hurling and Gaelic football are its national sports.","National sport",1384611106],
-    ["Nature","Its national animal is the Irish hare.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Irish hare.","List of national animals",1384556882],
     ["People","Oscar Wilde, author of The Picture of Dorian Gray, was born in Dublin.","Oscar Wilde",1383247627],
-    ["Landmarks","The Cliffs of Moher rise up to 214 m above the Atlantic Ocean in County Clare.","Cliffs of Moher",1371526030]
+    ["Landmarks","The Cliffs of Moher rise up to 214 m above the Atlantic Ocean in County Clare.","Cliffs of Moher",1371526030],
+    ["Music","Riverdance began as an interval act at the Eurovision Song Contest in 1994.","Riverdance",1378769588]
   ],
   "376": [
     ["Records","The shore of the Dead Sea, shared with Jordan, is the lowest land on Earth, about 440 m below sea level.","Dead Sea",1384259663],
     ["Places","Masada, a desert fortress on a cliff above the Dead Sea, is a UNESCO World Heritage Site.","Masada",1379884980],
     ["Language","Hebrew, used mainly for religion for centuries, was revived as an everyday spoken language from the late 19th century.","Revival of the Hebrew language",1384643321],
     ["Places","The Dead Sea, on its border, is so salty that people float easily on its surface.","Dead Sea",1384259663],
-    ["Science","The USB flash drive was patented in 1999 by engineers at M-Systems, a company based there.","USB flash drive",1384469626],
+    ["Inventions","The USB flash drive was patented in 1999 by engineers at M-Systems, a company based there.","USB flash drive",1384469626],
     ["Food","Falafel and hummus are among its most popular foods.","Israeli cuisine",1384132121],
     ["Heritage","Tel Aviv's White City has thousands of buildings in the Bauhaus style.","White City, Tel Aviv",1378621958],
-    ["People","Actor Natalie Portman was born in Jerusalem.","Natalie Portman",1384052887]
+    ["People","Actor Natalie Portman was born in Jerusalem.","Natalie Portman",1384052887],
+    ["Space","Ilan Ramon, its first astronaut, died when the Space Shuttle Columbia broke up in 2003.","Ilan Ramon",1383234340]
   ],
   "380": [
     ["Land","Two independent countries sit entirely inside Italy: Vatican City and San Marino.","Enclave and exclave",1379038567],
     ["Records","Italy has more UNESCO World Heritage Sites than any other country, just ahead of China.","List of World Heritage Sites in Italy",1380732835],
     ["Nature","Mount Etna in Sicily is one of the most active volcanoes on Earth.","Mount Etna",1381555985],
     ["Culture","On the night before Epiphany, an old woman called La Befana is said to bring sweets to good children and coal to naughty ones.","Befana",1379611264],
-    ["Culture","Twice each summer, Siena's districts race horses bareback around the Piazza del Campo in the Palio.","Palio di Siena",1383677618],
+    ["Festivals","Twice each summer, Siena's districts race horses bareback around the Piazza del Campo in the Palio.","Palio di Siena",1383677618],
     ["Myths","Legend says Rome was founded by the twins Romulus and Remus, who were raised by a she-wolf.","Romulus and Remus",1383364366],
-    ["Nature","Its national animal is the Italian wolf.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Italian wolf.","List of national animals",1384556882],
     ["Arts","Leonardo da Vinci's Last Supper covers a wall of a convent in Milan.","The Last Supper (Leonardo)",1384290754],
     ["People","Leonardo da Vinci, painter of the Mona Lisa, was born near the Tuscan town of Vinci.","Leonardo da Vinci",1383979388],
     ["Landmarks","The Leaning Tower of Pisa began to tilt during construction, because of soft ground.","Leaning Tower of Pisa",1384372588],
@@ -918,7 +1017,13 @@ window.ATLAS_FACTS = {
     ["Music","Antonio Stradivari made his famous violins in Cremona in the 17th and 18th centuries, and hundreds of them survive.","Antonio Stradivari",1378031550],
     ["Sports","The men's football team, the Azzurri, has won the World Cup four times: in 1934, 1938, 1982 and 2006.","Italy national football team",1386025052],
     ["Science","Galileo Galilei, born in Pisa in 1564, discovered the four largest moons of Jupiter with his telescope.","Galileo Galilei",1385604897],
-    ["Science","Alessandro Volta, born in Como, invented the electric battery, and the volt is named after him.","Alessandro Volta",1384211370]
+    ["Inventions","Alessandro Volta, born in Como, invented the electric battery, and the volt is named after him.","Alessandro Volta",1384211370],
+    ["Names","Its name may come from an ancient Greek word meaning \"bull\", first used for a people at the southern tip of Calabria.","List of country-name etymologies",1382950159],
+    ["Festivals","At the Venice Carnival people wear elaborate masks, a tradition that dates back centuries.","Carnival of Venice",1383679555],
+    ["Film","The Venice Film Festival, first held in 1932, is the oldest film festival in the world; its top prize is the Golden Lion.","Venice Film Festival",1381676655],
+    ["Film","Federico Fellini's La Dolce Vita, released in 1960, gave the English language the word paparazzi.","La Dolce Vita",1381248631],
+    ["Inventions","Guglielmo Marconi of Bologna sent the first radio signals across the Atlantic in 1901.","Guglielmo Marconi",1385741940],
+    ["Space","Samantha Cristoforetti held the record for the longest single spaceflight by a European woman, nearly 200 days, in 2014 and 2015.","Samantha Cristoforetti",1378505370]
   ],
   "384": [
     ["Food","Côte d'Ivoire is the world's largest cocoa producer, growing about 40% of the global crop.","Cocoa production in Ivory Coast",1366403590],
@@ -936,7 +1041,7 @@ window.ATLAS_FACTS = {
     ["Records","Usain Bolt, who holds the 100 m world record of 9.58 seconds, is Jamaican.","Usain Bolt",1383845261],
     ["Food","Its national dish is ackee and saltfish: the ackee fruit sautéed with salted cod.","Ackee and saltfish",1367957192],
     ["Symbols","Since 2017 its black, green and gold flag has been the only national flag with no white, red or blue.","Flag of Jamaica",1373552905],
-    ["Nature","Its national bird is the red-billed streamertail, a hummingbird with very long tail feathers.","List of national animals",1384556882],
+    ["Animals","Its national bird is the red-billed streamertail, a hummingbird with very long tail feathers.","List of national animals",1384556882],
     ["Music","Reggae, made famous by Bob Marley, was added to UNESCO's intangible heritage list in 2018.","Reggae",1381658300],
     ["History","Port Royal, once a pirate haven, partly sank into the sea in an earthquake in 1692.","Port Royal",1378966458],
     ["People","Bob Marley was born in the village of Nine Mile, where he is also buried.","Bob Marley",1382853717]
@@ -945,7 +1050,7 @@ window.ATLAS_FACTS = {
     ["Land","A 2023 recount found Japan has 14,125 islands, more than double the earlier official figure.","List of islands of Japan",1373724350],
     ["History","Kongō Gumi, a temple-building firm in Osaka, traces its history back to the 6th century, making it one of the oldest companies in the world.","Kongō Gumi",1383202763],
     ["Places","Japan's Shinkansen bullet trains have run since 1964 without a passenger death from a crash or derailment.","Shinkansen",1382303775],
-    ["Culture","In spring, people hold outdoor parties under blooming cherry trees for hanami, flower viewing.","Hanami",1378645711],
+    ["Festivals","In spring, people hold outdoor parties under blooming cherry trees for hanami, flower viewing.","Hanami",1378645711],
     ["Symbols","Its flag, the Hinomaru (“circle of the sun”), is a red disc on white.","Flag of Japan",1384334080],
     ["Myths","Kappa are mischievous river creatures of folklore with a dish of water on top of their heads that must stay full.","Kappa (folklore)",1381364261],
     ["Language","Its writing uses three scripts together: hiragana, katakana and kanji.","Japanese writing system",1383455315],
@@ -953,28 +1058,41 @@ window.ATLAS_FACTS = {
     ["Daily life","Tipping isn't customary and can even be seen as rude.","Etiquette in Japan",1364352568],
     ["Daily life","Slurping noodles is not considered rude; it's seen as a sign of enjoying the meal.","Etiquette in Japan",1364352568],
     ["Sports","Sumo, an ancient form of wrestling, is regarded as a national sport, along with baseball.","National sport",1384611106],
-    ["Nature","Its national bird is the green pheasant, and its national fish is the koi.","List of national animals",1384556882],
+    ["Animals","Its national bird is the green pheasant, and its national fish is the koi.","List of national animals",1384556882],
     ["Money","The yen symbol, ¥, is also used by the Chinese yuan.","Yen and yuan sign",1381084367],
     ["Daily life","Many homes have a kotatsu, a low table with a heater and a blanket.","Kotatsu",1361593186],
     ["People","Animator Hayao Miyazaki, co-founder of Studio Ghibli, was born in Tokyo.","Hayao Miyazaki",1384279189],
     ["Landmarks","Himeji Castle is nicknamed the White Heron Castle for its brilliant white walls.","Himeji Castle",1384863560],
     ["Music","Daisuke Inoue built one of the first karaoke machines in Kobe in 1971.","Karaoke",1385564187],
     ["Music","The shamisen is a three-stringed instrument played with a large plectrum called a bachi.","Shamisen",1360859905],
-    ["Science","Isamu Akasaki, Hiroshi Amano and Shuji Nakamura won the 2014 Nobel Prize in Physics for inventing the blue LED.","Shuji Nakamura",1385489503],
+    ["Inventions","Isamu Akasaki, Hiroshi Amano and Shuji Nakamura won the 2014 Nobel Prize in Physics for inventing the blue LED.","Shuji Nakamura",1385489503],
     ["Arts","Hokusai's woodblock print The Great Wave off Kanagawa, made around 1831, shows Mount Fuji beneath a towering wave.","The Great Wave off Kanagawa",1384133786],
-    ["Arts","Akira Kurosawa's 1954 epic Seven Samurai was remade in Hollywood as the western The Magnificent Seven.","Seven Samurai",1385439997]
+    ["Arts","Akira Kurosawa's 1954 epic Seven Samurai was remade in Hollywood as the western The Magnificent Seven.","Seven Samurai",1385439997],
+    ["Names","Its English name comes from Marco Polo's rendering of a Chinese name meaning \"sun-origin\", which is why it is called the Land of the Rising Sun.","List of country-name etymologies",1382950159],
+    ["Festivals","At Tanabata in July, people write wishes on strips of paper and hang them on bamboo branches.","Tanabata",1384480226],
+    ["Daily life","Mochitsuki is the pounding of steamed rice into sticky rice cakes with a large wooden mallet, a New Year tradition.","Mochi",1385943105],
+    ["Sports","Yabusame is a ritual of archery on horseback, in which mounted archers shoot at three wooden targets.","Yabusame",1333402972],
+    ["Film","Studio Ghibli's Spirited Away, released in 2001, won the Academy Award for Best Animated Feature.","Spirited Away",1384987609],
+    ["Film","Godzilla first stomped onto cinema screens in 1954, in a film that drew on fears of nuclear weapons.","Godzilla (1954 film)",1384709356],
+    ["Inventions","Momofuku Ando invented instant noodles in 1958, and later the Cup Noodles.","Momofuku Ando",1385736253],
+    ["Inventions","The QR code was invented in 1994 by Masahiro Hara of Denso Wave to track car parts.","QR code",1386207351],
+    ["Inventions","The first emoji set was created in 1999 by Shigetaka Kurita for a mobile internet service.","Emoji",1386299444],
+    ["Space","The Hayabusa probe brought back the first samples from an asteroid, Itokawa, in 2010.","Hayabusa",1352120720]
   ],
   "398": [
     ["Records","Kazakhstan is the largest landlocked country in the world.","Kazakhstan",1384323977],
     ["Food","Wild apples from the mountains near Almaty are the ancestors of nearly all apples eaten today.","Malus sieversii",1367788493],
     ["Food","Beshbarmak, “five fingers”, meat with noodles in an onion broth, is its national dish.","National dish",1381943985],
     ["Culture","Eagle hunters still ride out on horseback with golden eagles to hunt red foxes and corsac foxes.","Hunting with eagles",1364946485],
-    ["Science","Baikonur Cosmodrome, the world's first spaceport, launched Sputnik and Yuri Gagarin.","Baikonur Cosmodrome",1377848069],
+    ["Space","Baikonur Cosmodrome, the world's first spaceport, launched Sputnik and Yuri Gagarin.","Baikonur Cosmodrome",1377848069],
     ["Capitals","Its capital, Astana, has been renamed several times, including Akmola and Nur-Sultan.","Astana",1383088855],
     ["Land","Lake Balkhash is fresh water in its western half and salty in its eastern half.","Lake Balkhash",1384371640],
     ["Music","Singer Dimash Qudaibergen, known for his exceptionally wide vocal range, was born in Aktobe in 1994.","Dimash Qudaibergen",1384818872],
     ["Sports","Gennady Golovkin, the hard-hitting middleweight boxing champion known as GGG, was born in Karaganda.","Gennady Golovkin",1379671840],
-    ["People","Abai Qunanbaiuly, a poet, composer and philosopher, was born in 1845 in the village of Karauyl, in a region that is now named after him.","Abai Qunanbaiuly",1382054197]
+    ["People","Abai Qunanbaiuly, a poet, composer and philosopher, was born in 1845 in the village of Karauyl, in a region that is now named after him.","Abai Qunanbaiuly",1382054197],
+    ["Names","Its name joins a Turkic word meaning \"nomad\" or \"free\" with the Persian -stan, \"land\".","List of country-name etymologies",1382950159],
+    ["Festivals","At Nauryz, the spring new year on 22 March, families make nauryz kozhe, a traditional drink.","Nowruz",1384396359],
+    ["Space","Toktar Aubakirov, a former air force pilot born in the Karaganda Region, became its first person in space in 1991.","Toktar Aubakirov",1378506951]
   ],
   "400": [
     ["History","The Nabataeans carved the city of Petra into rose-colored sandstone cliffs more than 2,000 years ago.","Petra",1384402518],
@@ -987,10 +1105,12 @@ window.ATLAS_FACTS = {
     ["Music","At weddings people link arms for dabke, a stomping line dance.","Dabke",1374466340],
     ["Sports","Ahmad Abughaush won taekwondo gold at Rio 2016, the nation's first Olympic medal of any kind.","Ahmad Abughaush",1361014578],
     ["People","King Hussein, who reigned from 1952 to 1999, was born in Amman in 1935.","Hussein of Jordan",1385839092],
-    ["Arts","Theeb, a 2014 adventure film about a Bedouin boy, was filmed in Wadi Rum and nominated for an Academy Award.","Theeb",1366871951]
+    ["Film","Theeb, a 2014 adventure film about a Bedouin boy, was filmed in Wadi Rum and nominated for an Academy Award.","Theeb",1366871951],
+    ["Names","It is named after its river, whose name may come from a Hebrew and Canaanite root meaning \"descend\".","List of country-name etymologies",1382950159],
+    ["Festivals","The Jerash Festival for Culture and Arts is held each year in the ancient city of Jerash.","Jerash Festival",1334674451]
   ],
   "404": [
-    ["History","M-Pesa, launched in Kenya in 2007, made it one of the first countries where people paid for everyday things by text message.","M-Pesa",1384070261],
+    ["Inventions","M-Pesa, launched in Kenya in 2007, made it one of the first countries where people paid for everyday things by text message.","M-Pesa",1384070261],
     ["Land","The country takes its name from Mount Kenya, Africa's second-highest mountain.","Mount Kenya",1380754426],
     ["Records","Lake Turkana is the world's largest permanent desert lake.","Lake Turkana",1384107281],
     ["Food","Ugali, maize flour cooked into a stiff, dough-like porridge, eaten with sukuma wiki greens, is a national dish.","National dish",1381943985],
@@ -1000,27 +1120,34 @@ window.ATLAS_FACTS = {
     ["People","Wangari Maathai, the first African woman to win the Nobel Peace Prize, was born in Ihithe.","Wangarĩ Maathai",1384882509],
     ["Music","Benga, a fast guitar pop style, grew from Luo guitarists imitating the melodies of the nyatiti, an eight-string lyre.","Benga music",1382811038],
     ["Science","Turkana Boy, a nearly complete Homo erectus skeleton about 1.6 million years old, was found near Lake Turkana in 1984.","Turkana Boy",1354473935],
-    ["Arts","Artist Wangechi Mutu, known for her collages and for bronze figures made for the front of New York's Metropolitan Museum, was born in Nairobi in 1972.","Wangechi Mutu",1384277698]
+    ["Arts","Artist Wangechi Mutu, known for her collages and for bronze figures made for the front of New York's Metropolitan Museum, was born in Nairobi in 1972.","Wangechi Mutu",1384277698],
+    ["Names","It is named after its highest mountain, probably from the Kikuyu words Kere Nyaga, \"White Mountain\".","List of country-name etymologies",1382950159],
+    ["Animals","Each year more than a million wildebeest cross the Mara River in the Great Migration between the Serengeti and the Maasai Mara.","Maasai Mara",1384733800],
+    ["Festivals","The Lamu Cultural Festival celebrates the island's Swahili heritage with donkey races and dhow sailing races.","Lamu Island",1384920795],
+    ["Film","Actor Lupita Nyong'o, who won an Academy Award for 12 Years a Slave, grew up in Nairobi.","Lupita Nyong'o",1386304845],
+    ["Space","The Broglio Space Centre, an Italian spaceport off its coast near Malindi, launched satellites from platforms at sea.","Broglio Space Center",1383924115]
   ],
   "408": [
     ["Places","The Pyongyang Metro runs about 100 m underground, among the deepest metro systems in the world.","Pyongyang Metro",1383587231],
     ["Places","The Ryugyong Hotel in Pyongyang, 330 m tall, has stood unfinished since construction began in 1987.","Ryugyong Hotel",1384389683],
     ["History","The Korean Demilitarized Zone, about 4 km wide, has divided the Korean peninsula since 1953.","Korean Demilitarized Zone",1383834477],
     ["Food","Raengmyŏn, long thin noodles in a tangy iced broth, is a national dish. It originated in the north.","National dish",1381943985],
-    ["Nature","Its national animal is the Qianlima, a mythical winged horse.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Qianlima, a mythical winged horse.","List of national animals",1384556882],
     ["Quirky","It counts years in the Juche calendar, starting from the birth of Kim Il Sung in 1912.","Juche calendar",1379643835],
     ["Culture","Pyongyang's Mass Games were tightly drilled gymnastics shows with very large numbers of performers.","Mass games",1377075592],
     ["Music","The Moranbong Band, the country's first all-female band, plays pop, rock and fusion and made its debut in July 2012.","Moranbong Band",1380634425],
     ["Sports","At the 1966 World Cup in England the men's football team stunned Italy 1–0 with a goal by Pak Doo-ik.","Pak Doo-ik",1382708618],
     ["People","Kim Il Sung, the founding leader, was born in 1912 at Mangyongdae, near Pyongyang.","Kim Il Sung",1386012425],
-    ["Arts","The Arirang Mass Games filled Pyongyang's May Day Stadium with tens of thousands of gymnasts and a human mosaic of coloured cards.","Arirang Mass Games",1383679692]
+    ["Arts","The Arirang Mass Games filled Pyongyang's May Day Stadium with tens of thousands of gymnasts and a human mosaic of coloured cards.","Arirang Mass Games",1383679692],
+    ["Festivals","The Day of the Sun, 15 April, the birthday of its founding leader, is its most important public holiday.","Day of the Sun",1381918394],
+    ["Film","Its former leader Kim Jong Il loved film so much that he had a director from the South kidnapped in 1978 to make films for him.","Shin Sang-ok",1383798144]
   ],
   "410": [
-    ["History","The Korean alphabet, Hangul, was created in 1443 under King Sejong to make reading easier for ordinary people.","Hangul",1383838698],
+    ["Inventions","The Korean alphabet, Hangul, was created in 1443 under King Sejong to make reading easier for ordinary people.","Hangul",1383838698],
     ["Culture","In 2023 South Korea officially dropped its traditional age-counting system, making many people a year or two younger overnight.","East Asian age reckoning",1374602841],
     ["Food","Kimjang, the tradition of making kimchi together for winter, is on UNESCO's intangible heritage list.","Gimjang",1382625582],
     ["Food","Kimchi, salted and fermented vegetables, usually cabbage, is a national dish served with nearly every meal.","National dish",1381943985],
-    ["Culture","At Chuseok, the harvest festival, families make half-moon rice cakes called songpyeon.","Chuseok",1383774993],
+    ["Festivals","At Chuseok, the harvest festival, families make half-moon rice cakes called songpyeon.","Chuseok",1383774993],
     ["Symbols","Its flag, the Taegukgi, shows a red and blue taegeuk circle surrounded by four black trigrams.","Flag of South Korea",1377626318],
     ["Myths","In legend, the first kingdom was founded by Dangun, whose mother was a bear who became a woman by living in a cave.","Tan'gun",1383622923],
     ["Sports","Taekwondo was officially designated its national sport in 2018.","National sport",1384611106],
@@ -1030,8 +1157,10 @@ window.ATLAS_FACTS = {
     ["People","Footballer Son Heung-min was born in Chuncheon.","Son Heung-min",1384823710],
     ["Landmarks","Gyeongbokgung was the main royal palace of the Joseon dynasty in Seoul.","Gyeongbokgung",1356452765],
     ["Science","Jikji, a Buddhist text printed in 1377, is the oldest surviving book printed with movable metal type.","Jikji",1357219523],
-    ["Arts","Parasite, directed by Bong Joon Ho, was the first film not in English to win the Academy Award for Best Picture.","Parasite (2019 film)",1385869757],
-    ["Arts","Squid Game, a 2021 drama in which adults in debt play deadly versions of playground games, became Netflix's most-watched series.","Squid Game",1383799503]
+    ["Film","Parasite, directed by Bong Joon Ho, was the first film not in English to win the Academy Award for Best Picture.","Parasite (2019 film)",1385869757],
+    ["Film","Squid Game, a 2021 drama in which adults in debt play deadly versions of playground games, became Netflix's most-watched series.","Squid Game",1383799503],
+    ["Animals","The Demilitarized Zone along its northern border, left untouched since 1953, has become an accidental refuge for rare cranes and other wildlife.","Korean Demilitarized Zone",1386176797],
+    ["Space","Yi So-yeon became its first astronaut in 2008.","Yi So-yeon",1378507989]
   ],
   "414": [
     ["Records","The Kuwaiti dinar is the highest-valued currency unit in the world.","Kuwaiti dinar",1384045701],
@@ -1056,9 +1185,9 @@ window.ATLAS_FACTS = {
     ["Places","The Plain of Jars is scattered with thousands of ancient stone jars.","Plain of Jars",1384035232],
     ["Places","The old town of Luang Prabang is a UNESCO World Heritage Site.","Luang Prabang",1381501885],
     ["Food","Larb, a minced meat salad, is its national dish, along with green papaya salad and sticky rice.","Larb",1380030075],
-    ["Nature","Its national animal is the Asian elephant.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Asian elephant.","List of national animals",1384556882],
     ["Money","Its currency is the kip.","Lao kip",1375834868],
-    ["Culture","At Boun Pi Mai, the new year in April, people splash each other with water.","Lao New Year",1303442776],
+    ["Festivals","At Boun Pi Mai, the new year in April, people splash each other with water.","Lao New Year",1303442776],
     ["Landmarks","Pha That Luang is a large gold-covered Buddhist stupa in Vientiane.","Pha That Luang",1367242149]
   ],
   "422": [
@@ -1083,10 +1212,10 @@ window.ATLAS_FACTS = {
   ],
   "428": [
     ["Places","About a third of central Riga's buildings are Art Nouveau, one of the largest collections of the style in the world.","Art Nouveau architecture in Riga",1375102841],
-    ["Culture","The Latvian Song and Dance Festival is on UNESCO's list of intangible cultural heritage.","Latvian Song and Dance Festival",1383682450],
+    ["Festivals","The Latvian Song and Dance Festival is on UNESCO's list of intangible cultural heritage.","Latvian Song and Dance Festival",1383682450],
     ["Nature","Forests cover about half of Latvia.","Latvia",1384338214],
     ["Food","Layered rye bread, a dessert of rye breadcrumbs, berry jam and whipped cream, is a national dish.","Layered rye bread",1252654990],
-    ["Culture","At Jāņi, the midsummer festival, people wear wreaths of flowers and oak leaves and stay up through the shortest night.","Jāņi",1346549196],
+    ["Festivals","At Jāņi, the midsummer festival, people wear wreaths of flowers and oak leaves and stay up through the shortest night.","Jāņi",1346549196],
     ["Symbols","Its flag is a distinctive dark carmine red, with a thin white stripe.","Flag of Latvia",1379745791],
     ["Money","It replaced its currency, the lats, with the euro in 2014.","Latvian lats",1358261296],
     ["People","Painter Mark Rothko was born in Dvinsk, today called Daugavpils.","Mark Rothko",1384342124]
@@ -1123,9 +1252,10 @@ window.ATLAS_FACTS = {
     ["Places","The Hill of Crosses near Šiauliai holds more than 100,000 crosses.","Hill of Crosses",1365086051],
     ["Land","The Curonian Spit, a 98 km sand dune peninsula, is shared with Russia.","Curonian Spit",1382252656],
     ["Food","Cepelinai, large potato dumplings stuffed with meat and named after zeppelin airships, are a national dish.","National dish",1381943985],
-    ["Culture","Užgavėnės, the carnival before Lent, begins with an effigy of winter, usually named Morė, being burnt.","Užgavėnės",1376363017],
+    ["Festivals","Užgavėnės, the carnival before Lent, begins with an effigy of winter, usually named Morė, being burnt.","Užgavėnės",1376363017],
     ["Sports","Basketball is regarded as its national sport.","National sport",1384611106],
-    ["History","In 1990 it became the first Soviet republic to declare independence.","Act of the Re-Establishment of the State of Lithuania",1375253969]
+    ["History","In 1990 it became the first Soviet republic to declare independence.","Act of the Re-Establishment of the State of Lithuania",1375253969],
+    ["Festivals","On Joninės, the midsummer night, people search for a magical fern flower that is said to bloom only that night.","Saint Jonas's Festival",1381507262]
   ],
   "442": [
     ["Records","In 2020 Luxembourg became the first country to make all public transport free.","Transport in Luxembourg",1384150499],
@@ -1147,18 +1277,19 @@ window.ATLAS_FACTS = {
   ],
   "450": [
     ["Nature","About 90% of Madagascar's wildlife is found nowhere else on Earth.","Wildlife of Madagascar",1381336005],
-    ["Nature","Lemurs are native only to Madagascar, where around 100 species live.","Lemur",1380253826],
+    ["Animals","Lemurs are native only to Madagascar, where around 100 species live.","Lemur",1380253826],
     ["Nature","The Avenue of the Baobabs is a road in western Madagascar lined with towering Grandidier's baobabs.","Avenue of the Baobabs",1371624285],
     ["Food","Romazava, a stew of greens and zebu meat served with rice, is its national dish.","Romazava",1291529677],
-    ["Culture","At famadihana, the turning of the bones, families bring their ancestors' bodies out of the crypt, rewrap them in fresh cloth and dance with them.","Famadihana",1382112104],
+    ["Festivals","At famadihana, the turning of the bones, families bring their ancestors' bodies out of the crypt, rewrap them in fresh cloth and dance with them.","Famadihana",1382112104],
     ["Money","Its currency, the ariary, isn't decimal: one ariary is five iraimbilanja.","Malagasy ariary",1353897304],
-    ["Nature","Its national animal is the ring-tailed lemur.","List of national animals",1384556882],
+    ["Animals","Its national animal is the ring-tailed lemur.","List of national animals",1384556882],
     ["Music","The valiha, a tube zither made from bamboo, is considered the national instrument.","Valiha",1385708083],
     ["Sports","Moraingy is a bare-fisted fighting sport from the west coast, held to music at open-air matches.","Moraingy",1336386727],
-    ["People","Ranavalona I, queen from 1828 to 1861, worked to keep European powers out of the island.","Ranavalona I",1369688606]
+    ["People","Ranavalona I, queen from 1828 to 1861, worked to keep European powers out of the island.","Ranavalona I",1369688606],
+    ["Names","Its name is a garbled form of Mogadishu, made popular by Marco Polo.","List of country-name etymologies",1382950159]
   ],
   "454": [
-    ["Records","Lake Malawi has more fish species than any other lake in the world, most of them colorful cichlids.","Lake Malawi",1381099903],
+    ["Animals","Lake Malawi has more fish species than any other lake in the world, most of them colorful cichlids.","Lake Malawi",1381099903],
     ["Nature","Lake Malawi National Park was the world's first freshwater national park.","Lake Malawi National Park",1372228901],
     ["Culture","Malawi is nicknamed the Warm Heart of Africa.","Malawi",1381451356],
     ["Music","Gule Wamkulu is a masked ritual dance of the Chewa people.","Gulewamkulu",1380757887],
@@ -1167,7 +1298,9 @@ window.ATLAS_FACTS = {
     ["Food","Chambo, a fish similar to bream, is one of Lake Malawi's favorite catches.","Malawi",1381451356],
     ["Sports","The national netball team, nicknamed the Queens, beat New Zealand, then ranked second in the world, at the 2018 Commonwealth Games.","Malawi national netball team",1385249079],
     ["People","Hastings Banda, the first president, who led the country for three decades, was born near Kasungu.","Hastings Banda",1385248388],
-    ["Science","As a teenager William Kamkwamba built a windmill from scrap to power his family's home, a story told in The Boy Who Harnessed the Wind.","William Kamkwamba",1383849196]
+    ["Science","As a teenager William Kamkwamba built a windmill from scrap to power his family's home, a story told in The Boy Who Harnessed the Wind.","William Kamkwamba",1383849196],
+    ["Names","Its name may come from a native word meaning \"flaming water\", after the sun's dazzling reflections on its great lake.","List of country-name etymologies",1382950159],
+    ["Festivals","The Lake of Stars music festival has been held on the shore of its great lake since 2004.","Lake of Stars Festival",1383722076]
   ],
   "458": [
     ["Records","The Petronas Towers in Kuala Lumpur were the tallest buildings in the world from 1998 to 2004.","Petronas Towers",1384424020],
@@ -1176,10 +1309,14 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish is nasi lemak: rice cooked in coconut milk and pandan leaf.","Nasi lemak",1382726955],
     ["Symbols","Its flag, Jalur Gemilang (“Stripes of Glory”), has 14 red and white stripes.","Flag of Malaysia",1376897667],
     ["Sports","Sepak takraw, a kind of volleyball played with the feet, knees and head, is its national sport.","National sport",1384611106],
-    ["Nature","Its national animal is the tiger.","List of national animals",1384556882],
+    ["Animals","Its national animal is the tiger.","List of national animals",1384556882],
     ["People","Actor Michelle Yeoh, the first Asian woman to win the Best Actress Oscar, was born in Ipoh.","Michelle Yeoh",1383680082],
     ["Music","Dikir barat is a form of group singing popular in Kelantan, performed by a chorus sitting cross-legged on a platform.","Dikir barat",1351495897],
-    ["Arts","Shoe designer Jimmy Choo was born in Penang in 1948 into a family of shoemakers.","Jimmy Choo",1382498721]
+    ["Arts","Shoe designer Jimmy Choo was born in Penang in 1948 into a family of shoemakers.","Jimmy Choo",1382498721],
+    ["Names","Its name joins the name of its largest people to the Latin and Greek ending -sia, \"land\".","List of country-name etymologies",1382950159],
+    ["Festivals","At Thaipusam, thousands of Hindu devotees gather at the Batu Caves near Kuala Lumpur, many carrying ornate frames called kavadi.","Thaipusam",1382840120],
+    ["Film","Upin & Ipin, an animated series about twin boys in a village, has been one of the most popular children's shows in the region since 2007.","Upin & Ipin",1384834807],
+    ["Space","Sheikh Muszaphar Shukor, an orthopaedic surgeon, flew to the International Space Station in 2007 and celebrated the end of Ramadan in orbit.","Sheikh Muszaphar Shukor",1386220331]
   ],
   "462": [
     ["Records","The Maldives is the lowest-lying country in the world, with an average height of about 1.5 m above sea level.","Maldives",1384071630],
@@ -1200,17 +1337,19 @@ window.ATLAS_FACTS = {
     ["Culture","The Dogon people built their villages along the cliffs of Bandiagara.","Bandiagara Escarpment",1368495831],
     ["People","Singer Salif Keita, the Golden Voice of Africa, was born in the village of Djoliba.","Salif Keita",1371757390],
     ["Sports","The men's football team, Les Aigles (the Eagles), finished runners-up at the Africa Cup of Nations in 1972.","Mali national football team",1383438121],
-    ["Arts","Yeelen, a 1987 film by Souleymane Cissé based on an old Bambara legend, won the Jury Prize at Cannes.","Yeelen",1358126996]
+    ["Film","Yeelen, a 1987 film by Souleymane Cissé based on an old Bambara legend, won the Jury Prize at Cannes.","Yeelen",1358126996],
+    ["Names","It is named after an ancient West African kingdom; the word means \"hippopotamus\" in Bamana.","List of country-name etymologies",1382950159]
   ],
   "470": [
     ["History","Malta's Ġgantija temples, more than 5,500 years old, are older than the pyramids of Egypt.","Ġgantija",1379287136],
     ["History","Malta was awarded the George Cross in 1942 for its resistance under siege in World War II.","Siege of Malta (World War II)",1383325228],
     ["Food","Its national dish is stuffat tal-fenek, a slow-cooked rabbit stew with wine and tomatoes.","Stuffat tal-Fenek",1361385211],
     ["Language","Its language is the only Semitic official language of the European Union and is written in the Latin alphabet.","Maltese language",1384360014],
-    ["Nature","Its national dog breed is the Pharaoh Hound.","List of national animals",1384556882],
+    ["Animals","Its national dog breed is the Pharaoh Hound.","List of national animals",1384556882],
     ["Capitals","Its capital, Valletta, was built by the Knights of St John after the Great Siege of 1565.","Valletta",1381541439],
     ["Places","Mdina, a walled medieval city on a hilltop, is nicknamed the Silent City.","Mdina",1382376772],
-    ["Landmarks","The Ħal Saflieni Hypogeum is an underground prehistoric burial site cut into rock.","Ħal Saflieni Hypogeum",1383223419]
+    ["Landmarks","The Ħal Saflieni Hypogeum is an underground prehistoric burial site cut into rock.","Ħal Saflieni Hypogeum",1383223419],
+    ["Sports","In ġostra, a game played at village feasts, competitors run up a greased pole jutting out over the sea to grab a flag.","Greasy pole",1374658865]
   ],
   "474": [
     ["History","On 8 May 1902, Mount Pelée erupted and destroyed the city of Saint-Pierre; about 28,000 people died.","1902 eruption of Mount Pelée",1373880060],
@@ -1229,7 +1368,7 @@ window.ATLAS_FACTS = {
     ["Places","Chinguetti, an old desert trading town, keeps family libraries of ancient manuscripts.","Chinguetti",1380602306],
     ["Money","Its currency, the ouguiya, isn't decimal: one ouguiya is five khoums.","Mauritanian ouguiya",1376884633],
     ["Language","Arabic is its official language, and Hassaniya Arabic is widely spoken.","Hassaniya Arabic",1376490852],
-    ["Nature","Banc d'Arguin National Park shelters huge numbers of migrating birds.","Banc d'Arguin National Park",1376198423],
+    ["Animals","Banc d'Arguin National Park shelters huge numbers of migrating birds.","Banc d'Arguin National Park",1376198423],
     ["History","In 1981 it became the last country in the world to abolish slavery.","Slavery in Mauritania",1383756557]
   ],
   "480": [
@@ -1247,19 +1386,22 @@ window.ATLAS_FACTS = {
     ["Culture","Mexico has the largest Spanish-speaking population in the world.","Hispanophone",1382773763],
     ["Land","Parts of Mexico City sink tens of centimeters a year as groundwater is pumped from the old lakebed beneath it.","Mexico City",1384028840],
     ["Food","Tacos, mole poblano and chiles en nogada are its national dishes.","National dish",1381943985],
-    ["Culture","For the Day of the Dead, families build ofrendas, altars decorated with marigolds and the favorite foods of loved ones who have died.","Day of the Dead",1380361744],
+    ["Festivals","For the Day of the Dead, families build ofrendas, altars decorated with marigolds and the favorite foods of loved ones who have died.","Day of the Dead",1380361744],
     ["Symbols","Its flag shows an eagle on a cactus devouring a snake, from the legend of the founding of Tenochtitlan.","Flag of Mexico",1380594452],
     ["Myths","La Llorona, “the weeping woman”, is a ghost said to wander near water, crying for her lost children.","La Llorona",1384524998],
     ["Language","The government recognizes 63 indigenous languages, including Nahuatl and Mayan.","Languages of Mexico",1382521683],
     ["Sports","Charrería, the horsemanship and roping skills of the charros, has been its national sport since 1933.","National sport",1384611106],
-    ["Nature","Its national dog is the hairless Xoloitzcuintli, and the tiny vaquita porpoise is among its national animals.","List of national animals",1384556882],
+    ["Animals","Its national dog is the hairless Xoloitzcuintli, and the tiny vaquita porpoise is among its national animals.","List of national animals",1384556882],
     ["People","Painter Frida Kahlo was born in Coyoacán, in the Blue House that is now her museum.","Frida Kahlo",1383366941],
     ["Landmarks","At Chichén Itzá, the setting sun at the equinoxes makes a shadow serpent slide down El Castillo's stairs.","Chichen Itza",1381289591],
     ["Music","Mariachi bands, with violins, trumpets and the big bass guitarrón, come from the western state of Jalisco.","Mariachi",1384002482],
     ["Science","Chemist Mario Molina shared the 1995 Nobel Prize in Chemistry for showing how CFC gases threaten the ozone layer.","Mario Molina",1384045311],
-    ["Science","Guillermo González Camarena, an electrical engineer born in 1917, invented an early colour television system.","Guillermo González Camarena",1385304228],
+    ["Inventions","Guillermo González Camarena, an electrical engineer born in 1917, invented an early colour television system.","Guillermo González Camarena",1385304228],
     ["Arts","Muralist Diego Rivera, born in Guanajuato in 1886, covered public walls with huge scenes of workers and history.","Diego Rivera",1385086848],
-    ["Arts","Guillermo del Toro, who won the Best Director Oscar for The Shape of Water, was born in Guadalajara in 1964.","Guillermo del Toro",1385574610]
+    ["Film","Guillermo del Toro, who won the Best Director Oscar for The Shape of Water, was born in Guadalajara in 1964.","Guillermo del Toro",1385574610],
+    ["Names","Its name comes from the people who built the Aztec capital; some take it to be an old Nahuatl word for the sun.","List of country-name etymologies",1382950159],
+    ["Inventions","Chocolate drinks were first made by the Olmec, Maya and Aztec peoples from cacao beans.","Chocolate",1386021637],
+    ["Space","Rodolfo Neri Vela, an engineer, became its first astronaut in 1985, flying on the Space Shuttle Atlantis.","Rodolfo Neri Vela",1380375539]
   ],
   "492": [
     ["Records","Monaco is the most densely populated sovereign country in the world.","Monaco",1384370684],
@@ -1275,10 +1417,12 @@ window.ATLAS_FACTS = {
     ["Culture","Mongolia's herds of horses and other livestock outnumber its people.","Mongolian horse",1368500688],
     ["History","Genghis Khan founded the Mongol Empire, the largest contiguous land empire in history.","Mongol Empire",1383148070],
     ["Food","Buuz, steamed dumplings filled with meat, are its national dish and a must at the Lunar New Year.","National dish",1381943985],
-    ["Culture","Naadam, held at midsummer, centers on the “three games of men”: wrestling, horse racing and archery.","Naadam",1372336911],
+    ["Festivals","Naadam, held at midsummer, centers on the “three games of men”: wrestling, horse racing and archery.","Naadam",1372336911],
     ["Symbols","The Soyombo, a column of symbols including fire, sun and moon, appears on its flag.","Flag of Mongolia",1375778602],
     ["Myths","The death worm is said to live under the sands of the Gobi Desert.","Mongolian death worm",1381886835],
-    ["Landmarks","A 40 m stainless steel statue of Genghis Khan on horseback stands east of Ulaanbaatar.","Equestrian statue of Genghis Khan",1376486239]
+    ["Landmarks","A 40 m stainless steel statue of Genghis Khan on horseback stands east of Ulaanbaatar.","Equestrian statue of Genghis Khan",1376486239],
+    ["Daily life","A ger, the round felt tent of herding families, can be taken down and loaded onto camels or yaks in an hour or two.","Yurt",1383220938],
+    ["Space","Jügderdemidiin Gürragchaa flew aboard Soyuz 39 in 1981, becoming the first person from the country in space.","Jügderdemidiin Gürragchaa",1378501050]
   ],
   "498": [
     ["Records","The Mileștii Mici wine cellars hold the largest wine collection in the world, in about 200 km of underground tunnels.","Mileștii Mici (winery)",1373344325],
@@ -1306,21 +1450,22 @@ window.ATLAS_FACTS = {
     ["Capitals","Since Plymouth was abandoned, the government has worked from Brades.","Brades",1377573797],
     ["Places","An exclusion zone around the volcano still covers much of the south of the island.","Montserrat",1382247675],
     ["Symbols","Its flag shows Erin, a symbol of Ireland, holding a harp.","Flag of Montserrat",1368036353],
-    ["Nature","Its national bird, the Montserrat oriole, lives nowhere else.","Montserrat oriole",1379921144]
+    ["Animals","Its national bird, the Montserrat oriole, lives nowhere else.","Montserrat oriole",1379921144]
   ],
   "504": [
-    ["Records","The University of al-Qarawiyyin in Fez, founded in 859, is considered the oldest continuously operating university in the world.","University of al-Qarawiyyin",1383382860],
+    ["Space","The University of al-Qarawiyyin in Fez, founded in 859, is considered the oldest continuously operating university in the world.","University of al-Qarawiyyin",1383382860],
     ["Places","Chefchaouen, in the Rif Mountains, is famous for its blue-painted streets and houses.","Chefchaouen",1378889847],
     ["Land","Morocco has the largest phosphate reserves in the world.","Morocco",1384371183],
     ["Food","Couscous and tagine, a slow-cooked stew, are its national dishes.","National dish",1381943985],
     ["Food","Mint tea, green tea with fresh mint and plenty of sugar, is poured from high above the glass as a welcome to guests.","Maghrebi mint tea",1379046066],
     ["Language","Its Amazigh languages are written in an ancient script called Tifinagh.","Tifinagh",1384493064],
-    ["Nature","Its national animal is the Barbary lion.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Barbary lion.","List of national animals",1384556882],
     ["Landmarks","The Hassan II Mosque in Casablanca rises above the Atlantic Ocean, with a minaret 210 m tall.","Hassan II Mosque",1382499358],
     ["Music","Gnawa music, with its three-stringed bass lute and iron castanets, fills the seaside town of Essaouira during a festival each year.","Gnawa music",1379388234],
     ["Sports","At the 2022 World Cup the men's football team became the first from Africa to reach a semi-final.","Morocco national football team",1385759292],
     ["People","Runner Hicham El Guerrouj, whose 1999 world record for the mile still stands, was born in Berkane.","Hicham El Guerrouj",1378906700],
-    ["Arts","Atlas Studios, founded in 1983 in the desert just west of Ouarzazate, keeps its old film sets standing and gives guided tours of them.","Atlas Corporation Studios",1358626134]
+    ["Film","Atlas Studios, founded in 1983 in the desert just west of Ouarzazate, keeps its old film sets standing and gives guided tours of them.","Atlas Corporation Studios",1358626134],
+    ["Names","Its English name comes, through Portuguese, from the city of Marrakesh, possibly from Berber words meaning \"land of God\".","List of country-name etymologies",1382950159]
   ],
   "508": [
     ["Nature","The Bazaruto Archipelago is one of the last places on the East African coast with a population of dugongs.","Bazaruto Archipelago",1363901835],
@@ -1332,7 +1477,11 @@ window.ATLAS_FACTS = {
     ["History","It joined the Commonwealth in 1995 without ever having been a British colony.","Mozambique",1384716781],
     ["People","Footballer Eusébio, the Black Panther, was born in Lourenço Marques, today's Maputo.","Eusébio",1383918586],
     ["Sports","Maria Mutola, the 800 metres champion at the Sydney Olympics in 2000, was born in Maputo.","Maria Mutola",1375206295],
-    ["Arts","Painter and poet Malangatana Ngwenya was born in Matalana in 1936 and worked as a ball boy at a tennis club before he became an artist.","Malangatana Ngwenya",1342212274]
+    ["Arts","Painter and poet Malangatana Ngwenya was born in Matalana in 1936 and worked as a ball boy at a tennis club before he became an artist.","Malangatana Ngwenya",1342212274],
+    ["Names","It is named after a small island, probably after Mussa Ben Mbiki, its Arab ruler when Vasco da Gama arrived in 1498.","List of country-name etymologies",1382950159],
+    ["Animals","Gorongosa National Park lost most of its large animals during the civil war and has been restocked since 2004.","Gorongosa National Park",1362737290],
+    ["Festivals","On 25 June, Independence Day marks the end of Portuguese rule in 1975.","Mozambique",1386529098],
+    ["Film","Licínio Azevedo's 2016 film The Train of Salt and Sugar follows a perilous train journey during the civil war.","The Train of Salt and Sugar",1341668948]
   ],
   "512": [
     ["History","Frankincense from the trees of Dhofar in southern Oman was traded across the ancient world.","Dhofar",1381015490],
@@ -1370,11 +1519,13 @@ window.ATLAS_FACTS = {
     ["Myths","The yeti, an ape-like creature of the Himalayas, appears in local folklore.","Yeti",1383688113],
     ["Daily life","Its official calendar, Vikram Samvat, is about 57 years ahead of the Gregorian calendar.","Vikram Samvat",1384595560],
     ["Sports","Volleyball became its national sport in 2017.","National sport",1384611106],
-    ["Nature","Its national animal is the cow, and its national bird is the colorful Himalayan monal.","List of national animals",1384556882],
+    ["Animals","Its national animal is the cow, and its national bird is the colorful Himalayan monal.","List of national animals",1384556882],
     ["Landmarks","Boudhanath in Kathmandu is one of the largest spherical stupas in the world.","Boudha Stupa",1382094786],
     ["Music","The madal, a hand drum, is one of the most popular and widely used instruments in folk music here.","Madal",1374792868],
     ["People","Kami Rita Sherpa, born in the village of Thame, has climbed Mount Everest more times than anyone else.","Kami Rita",1369392875],
-    ["Arts","Araniko, a 13th-century artist from the Kathmandu Valley, impressed Kublai Khan and built the White Stupa that still stands in Beijing.","Araniko",1380713884]
+    ["Arts","Araniko, a 13th-century artist from the Kathmandu Valley, impressed Kublai Khan and built the White Stupa that still stands in Beijing.","Araniko",1380713884],
+    ["Names","Its name is linked to a people of the Kathmandu Valley whose name may mean \"those who domesticate cattle\".","List of country-name etymologies",1382950159],
+    ["Festivals","Dashain, the longest festival of the year, lasts 15 days and is marked by giant bamboo swings and kites.","Dashain",1386481040]
   ],
   "528": [
     ["Land","About a quarter of the Netherlands lies below sea level.","Netherlands",1383757644],
@@ -1390,7 +1541,14 @@ window.ATLAS_FACTS = {
     ["Music","Tiësto, one of the most famous DJs in the world, was born in Breda in 1969.","Tiësto",1381699879],
     ["Sports","Johan Cruyff, the star of \"Total Football\" and three-time winner of the Ballon d'Or, was born in Amsterdam in 1947.","Johan Cruyff",1384321201],
     ["Science","Antonie van Leeuwenhoek of Delft was the first person to see bacteria, using microscopes he made himself.","Antonie van Leeuwenhoek",1381835242],
-    ["Science","Christiaan Huygens invented the pendulum clock and discovered Titan, the largest moon of Saturn.","Christiaan Huygens",1385566277]
+    ["Inventions","Christiaan Huygens invented the pendulum clock and discovered Titan, the largest moon of Saturn.","Christiaan Huygens",1385566277],
+    ["Names","Its name means \"low countries\" or \"lowlands\", from words meaning \"down\" or \"below\".","List of country-name etymologies",1382950159],
+    ["Animals","The Oostvaardersplassen, a nature reserve on land reclaimed from the sea, was stocked with red deer, Konik horses and Heck cattle.","Oostvaardersplassen",1381153849],
+    ["Festivals","On King's Day, 27 April, people dress in orange and the streets turn into one big flea market.","Koningsdag",1384370968],
+    ["Sports","Fierljeppen is a Frisian sport of vaulting over a canal on a long pole, landing on the far bank without falling in.","Fierljeppen",1382683327],
+    ["Daily life","At its cheese markets, porters in coloured straw hats carry the cheeses on barrows, and buyers and sellers seal deals by clapping hands.","Dutch cheese markets",1365920994],
+    ["Film","Big Brother, the reality show in which a group of people live together watched by cameras, began here in 1999.","Big Brother (franchise)",1386416814],
+    ["Inventions","Philips and Sony developed the compact disc together, and it went on sale in 1982.","Compact disc",1384075308]
   ],
   "531": [
     ["Food","Curaçao liqueur is flavored with the dried peel of the laraha, a bitter orange grown on the island.","Curaçao (liqueur)",1382903776],
@@ -1431,7 +1589,7 @@ window.ATLAS_FACTS = {
   ],
   "540": [
     ["Nature","New Caledonia's lagoons are among the largest in the world and are a UNESCO World Heritage Site.","New Caledonian barrier reef",1366155569],
-    ["Nature","The kagu, a flightless bird found only in New Caledonia, has flaps covering its nostrils, unique among birds.","Kagu",1380740123],
+    ["Animals","The kagu, a flightless bird found only in New Caledonia, has flaps covering its nostrils, unique among birds.","Kagu",1380740123],
     ["Land","New Caledonia holds a large share of the world's known nickel reserves.","New Caledonia",1384394053],
     ["Records","Its barrier reef is the longest continuous barrier reef in the world.","New Caledonian barrier reef",1366155569],
     ["Capitals","Its capital is Nouméa.","Nouméa",1382027387],
@@ -1457,12 +1615,12 @@ window.ATLAS_FACTS = {
     ["Myths","In legend, the demigod Māui fished up the North Island with a magic hook.","Māui (Māori mythology)",1360179290],
     ["Daily life","The hongi is a traditional Māori greeting made by pressing noses and foreheads together.","Hongi",1378470927],
     ["Sports","Rugby union is regarded as its national sport.","National sport",1384611106],
-    ["Nature","Its national bird is the kiwi, a flightless bird.","List of national animals",1384556882],
+    ["Animals","Its national bird is the kiwi, a flightless bird.","List of national animals",1384556882],
     ["People","Edmund Hillary, one of the first two people to reach the top of Everest, was born in Auckland.","Edmund Hillary",1384847084],
     ["Landmarks","Auckland's Sky Tower is 328 m tall, one of the tallest freestanding structures in the Southern Hemisphere.","Sky Tower (Auckland)",1384418069]
   ],
   "558": [
-    ["Nature","Bull sharks swim up the San Juan River into Lake Nicaragua, one of the few freshwater lakes with sharks.","Lake Nicaragua",1366263907],
+    ["Animals","Bull sharks swim up the San Juan River into Lake Nicaragua, one of the few freshwater lakes with sharks.","Lake Nicaragua",1366263907],
     ["Land","Nicaragua is the largest country in Central America by area.","Nicaragua",1384417801],
     ["Culture","The poet Rubén Darío, father of the Spanish-language modernismo movement, was Nicaraguan.","Rubén Darío",1383538795],
     ["Food","Gallo pinto, rice and beans fried together, is its national dish. Its neighbor to the south claims it too.","Gallo pinto",1373500410],
@@ -1480,22 +1638,27 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Niamey, on the Niger River.","Niamey",1378113383],
     ["Music","Bombino, a Tuareg guitarist and singer from the Agadez region, plays the style often called desert blues.","Bombino (musician)",1352592511],
     ["Sports","Abdoul Razak Issoufou won a silver medal in taekwondo at Rio 2016, the nation's first Olympic medal since 1972.","Abdoul Razak Issoufou",1362556344],
-    ["People","Hamani Diori, a former teacher born in Soudouré, became the first president at independence in 1960.","Hamani Diori",1350644917]
+    ["People","Hamani Diori, a former teacher born in Soudouré, became the first president at independence in 1960.","Hamani Diori",1350644917],
+    ["Names","It is named after its great river, whose name may come from a Tuareg phrase meaning \"flowing water\".","List of country-name etymologies",1382950159],
+    ["Animals","Kouré, about 80 km southeast of the capital, is home to the last self-sustaining herd of West African giraffes.","West African giraffe",1357103465],
+    ["Festivals","The Cure Salée, or \"Festival of the Nomads\", gathers Tuareg and Wodaabe herders at In-Gall each year, where they bring their herds to the salt flats.","Cure Salee",1378838348]
   ],
   "566": [
     ["Records","Nigeria is Africa's most populous country, with more than 200 million people.","Nigeria",1384402286],
-    ["History","The first feature film made in Nigeria, Palaver, came out in 1926.","Cinema of Nigeria",1379695316],
+    ["Film","The first feature film made in Nigeria, Palaver, came out in 1926.","Cinema of Nigeria",1379695316],
     ["Food","Jollof rice and pounded yam with egusi soup are among its national dishes.","National dish",1381943985],
-    ["Culture","At the Argungu Fishing Festival, thousands of men race into the river to catch the biggest fish by hand.","Argungu Fishing Festival",1383678105],
+    ["Festivals","At the Argungu Fishing Festival, thousands of men race into the river to catch the biggest fish by hand.","Argungu Fishing Festival",1383678105],
     ["Language","More than 520 native languages are spoken there.","Languages of Nigeria",1379358797],
-    ["Nature","Its national bird is the black crowned crane.","List of national animals",1384556882],
-    ["Arts","Nollywood, its film industry, is one of the largest in the world by number of films.","Nollywood",1384122590],
+    ["Animals","Its national bird is the black crowned crane.","List of national animals",1384556882],
+    ["Film","Nollywood, its film industry, is one of the largest in the world by number of films.","Nollywood",1384122590],
     ["Capitals","Abuja replaced Lagos as the capital in 1991.","Abuja",1384662273],
     ["People","Chinua Achebe, author of Things Fall Apart, was born in Ogidi.","Chinua Achebe",1381462048],
     ["Landmarks","Zuma Rock, a huge natural monolith near Abuja, is pictured on the 100-naira note.","Zuma Rock",1369749399],
     ["Music","Fela Kuti created Afrobeat, blending funk, jazz and highlife with West African rhythms, and ran a famous nightclub in Lagos.","Fela Kuti",1385817003],
     ["Music","Burna Boy, who won a Grammy for his album Twice as Tall, was born in Port Harcourt in 1991.","Burna Boy",1382192213],
-    ["Sports","The men's football team, the Super Eagles, won Olympic gold at Atlanta in 1996.","Nigeria national football team",1385719551]
+    ["Sports","The men's football team, the Super Eagles, won Olympic gold at Atlanta in 1996.","Nigeria national football team",1385719551],
+    ["Names","It is named after the great river that flows through its west and on into the ocean.","List of country-name etymologies",1382950159],
+    ["Inventions","Philip Emeagwali won the Gordon Bell Prize in 1989 for using thousands of linked processors to model oil reservoirs.","Philip Emeagwali",1385092692]
   ],
   "570": [
     ["Nature","Niue was the first country to be named a Dark Sky Nation, for its starry night skies.","Niue",1384396100],
@@ -1520,11 +1683,11 @@ window.ATLAS_FACTS = {
     ["Places","The Svalbard Global Seed Vault, dug into an Arctic mountain, stores backup seeds from almost every country.","Svalbard Global Seed Vault",1380455475],
     ["Nature","Tromsø has polar night for about two months each winter, when the sun never rises.","Tromsø",1382074554],
     ["Food","Its national dish is fårikål: pieces of mutton and cabbage cooked for hours with whole black pepper.","Fårikål",1378734883],
-    ["Culture","Graduating students celebrate russefeiring for weeks in colored overalls, often riding around in decorated buses.","Russefeiring",1364416358],
+    ["Festivals","Graduating students celebrate russefeiring for weeks in colored overalls, often riding around in decorated buses.","Russefeiring",1364416358],
     ["Myths","In folklore, trolls are slow-witted giants who turn to stone if caught in sunlight.","Troll",1380111183],
     ["Daily life","Friluftsliv, “free air life”, is the cherished habit of spending time outdoors in nature.","Freedom to roam",1373160730],
     ["Sports","Cross-country skiing is regarded as its national sport.","National sport",1384611106],
-    ["Nature","Its national animal is the moose, and its national bird the white-throated dipper.","List of national animals",1384556882],
+    ["Animals","Its national animal is the moose, and its national bird the white-throated dipper.","List of national animals",1384556882],
     ["Language","It has two official written forms of its language: Bokmål and Nynorsk.","Norwegian language",1383844642],
     ["People","Roald Amundsen, leader of the first expedition to reach the South Pole, was born in Borge.","Roald Amundsen",1384757607],
     ["Landmarks","Bryggen, the old harbor district of Bergen, was a trading post of the Hanseatic League.","Bryggen",1375184269],
@@ -1558,10 +1721,10 @@ window.ATLAS_FACTS = {
     ["Money","It uses the US dollar.","Marshall Islands",1384364849]
   ],
   "585": [
-    ["Nature","In 2009 Palau created the world's first shark sanctuary, banning commercial shark fishing in its waters.","Palau",1382887240],
+    ["Animals","In 2009 Palau created the world's first shark sanctuary, banning commercial shark fishing in its waters.","Palau",1382887240],
     ["Heritage","The Rock Islands, with Jellyfish Lake, are a UNESCO World Heritage Site.","Rock Islands",1379540528],
     ["Capitals","Its capital, Ngerulmud, is the least-populous capital of any sovereign nation.","Ngerulmud",1381852377],
-    ["Nature","Jellyfish Lake is home to millions of golden jellyfish that migrate across it each day.","Jellyfish Lake",1373995790],
+    ["Animals","Jellyfish Lake is home to millions of golden jellyfish that migrate across it each day.","Jellyfish Lake",1373995790],
     ["Money","Palau's official currency is the United States dollar.","Palau",1382887240],
     ["Culture","In 2017 it became the first country to ask visitors for an eco-promise, the Palau Pledge, stamped into their passports.","Palau",1382887240],
     ["History","The Battle of Peleliu was fought there in 1944.","Battle of Peleliu",1377053303]
@@ -1574,11 +1737,15 @@ window.ATLAS_FACTS = {
     ["Culture","Trucks are covered in brightly painted, elaborate decoration, a folk art called truck art.","Truck art in South Asia",1381592605],
     ["Symbols","The white stripe on its flag stands for religious minorities.","Flag of Pakistan",1383757613],
     ["Sports","Field hockey is regarded as its national sport.","National sport",1384611106],
-    ["Nature","Its national animal is the markhor, a wild goat with spiraling horns.","List of national animals",1384556882],
+    ["Animals","Its national animal is the markhor, a wild goat with spiraling horns.","List of national animals",1384556882],
     ["People","Malala Yousafzai, the youngest Nobel Peace Prize winner, was born in Mingora.","Malala Yousafzai",1384022037],
     ["Landmarks","The Badshahi Mosque in Lahore was built by the Mughal emperor Aurangzeb in 1673.","Badshahi Mosque",1382667703],
     ["Music","Nusrat Fateh Ali Khan, the great singer of qawwali, a Sufi devotional music, was born in the city now called Faisalabad.","Nusrat Fateh Ali Khan",1386037733],
-    ["Science","Abdus Salam shared the 1979 Nobel Prize in Physics for showing that the electromagnetic and weak forces are two sides of one force.","Abdus Salam",1385552944]
+    ["Science","Abdus Salam shared the 1979 Nobel Prize in Physics for showing that the electromagnetic and weak forces are two sides of one force.","Abdus Salam",1385552944],
+    ["Names","Its name means \"Land of the Pure\". It was coined in 1933 by Choudhry Rahmat Ali in a pamphlet called Now or Never.","List of country-name etymologies",1382950159],
+    ["Festivals","Basant, the spring kite festival of Lahore, filled the sky with kites until it was banned because of injuries from sharpened kite strings.","Basant (festival)",1369383979],
+    ["Film","Lollywood, its Urdu film industry, takes its name from Lahore, where it is based.","Lollywood",1382503867],
+    ["Inventions","The ancient city of Mohenjo-daro had covered drains and one of the earliest public baths, the Great Bath.","Mohenjo-daro",1386288839]
   ],
   "591": [
     ["Places","The locks of the Panama Canal lift ships about 26 m to Gatún Lake and lower them again on the other side.","Panama Canal",1384443333],
@@ -1586,7 +1753,7 @@ window.ATLAS_FACTS = {
     ["Culture","Panama uses the US dollar alongside its own currency, the balboa.","Panama",1383708592],
     ["Food","Sancocho, a hearty stew, is its national dish.","National dish",1381943985],
     ["Culture","The pollera, a skirt and outfit with elaborate embroidery and lace, is the national folk costume.","Pollera",1384396356],
-    ["Nature","Its national bird is the harpy eagle, and the golden frog is a national animal.","List of national animals",1384556882],
+    ["Animals","Its national bird is the harpy eagle, and the golden frog is a national animal.","List of national animals",1384556882],
     ["History","It separated from Colombia in 1903.","Panama",1383708592]
   ],
   "598": [
@@ -1594,11 +1761,13 @@ window.ATLAS_FACTS = {
     ["Culture","Tok Pisin, an English-based creole, is the most widely used language in Papua New Guinea.","Tok Pisin",1384064650],
     ["Symbols","Its flag shows a bird-of-paradise and the stars of the Southern Cross.","Flag of Papua New Guinea",1372259223],
     ["Sports","Rugby league is regarded as its national sport.","National sport",1384611106],
-    ["Nature","Its national marine mammal is the dugong.","List of national animals",1384556882],
+    ["Animals","Its national marine mammal is the dugong.","List of national animals",1384556882],
     ["History","It became independent from Australia in 1975.","Papua New Guinea",1384387052],
     ["Places","The Kokoda Track crosses the Owen Stanley Range and was a World War II battleground.","Kokoda Track",1381619281],
     ["Music","The kundu, an hourglass-shaped drum with a head of lizard skin, appears on the national coat of arms.","Kundu (drum)",1337218628],
-    ["People","Michael Somare, known as the father of the nation and its first prime minister in 1975, was born in Rabaul in 1936.","Michael Somare",1386009368]
+    ["People","Michael Somare, known as the father of the nation and its first prime minister in 1975, was born in Rabaul in 1936.","Michael Somare",1386009368],
+    ["Names","The first part of its name may come from a Malay word describing the hairstyles of its people.","List of country-name etymologies",1382950159],
+    ["Festivals","At the Goroka Show, about 100 tribes gather to show off their music, dance and culture.","Goroka Show",1374927573]
   ],
   "600": [
     ["Culture","Most Paraguayans speak Guaraní, an Indigenous language that is official alongside Spanish.","Guarani language",1384078791],
@@ -1608,23 +1777,27 @@ window.ATLAS_FACTS = {
     ["Food","Tereré, mate prepared with ice-cold water and herbs, is shared from one cup in the heat.","Tereré",1384566620],
     ["Symbols","Its flag has a different emblem on each side: the national seal on the front, the treasury seal on the back.","Flag of Paraguay",1379459886],
     ["Capitals","Its capital is Asunción.","Asunción",1384662445],
-    ["People","Novelist Augusto Roa Bastos, author of I, the Supreme, was born in Asunción.","Augusto Roa Bastos",1370134206]
+    ["People","Novelist Augusto Roa Bastos, author of I, the Supreme, was born in Asunción.","Augusto Roa Bastos",1370134206],
+    ["Music","In the bottle dance, women in ankle-length skirts dance with glass bottles balanced on their heads.","Paraguayan bottle dance",1365359925]
   ],
   "604": [
     ["Food","The potato was domesticated in the Andes, and Peru grows more than 3,000 varieties of it.","Potato",1383735624],
     ["History","Machu Picchu was built in the 15th century, most likely as an estate for the Inca emperor Pachacuti.","Machu Picchu",1383799600],
     ["Records","Lake Titicaca, on the Peru–Bolivia border at about 3,800 m, is often called the highest navigable lake in the world.","Lake Titicaca",1381116398],
     ["Food","Ceviche, raw fish marinated in citrus juice, is its national dish, along with pollo a la brasa, rotisserie chicken.","National dish",1381943985],
-    ["Culture","Every June in Cusco, the Inti Raymi festival re-enacts the Inca celebration of the sun god.","Inti Raymi",1382349155],
+    ["Festivals","Every June in Cusco, the Inti Raymi festival re-enacts the Inca celebration of the sun god.","Inti Raymi",1382349155],
     ["Myths","Inca legend says Manco Cápac, the first Inca, rose from the waters of Lake Titicaca.","Manco Cápac",1368317122],
     ["Language","Quechua, the language of the Inca Empire, is still spoken by millions there.","Quechuan languages",1379321277],
     ["Sports","Paleta frontón, played with wooden paddles against a wall, is regarded as its national sport.","National sport",1384611106],
-    ["Nature","Its national animal is the vicuña, and its national bird the Andean cock-of-the-rock.","List of national animals",1384556882],
+    ["Animals","Its national animal is the vicuña, and its national bird the Andean cock-of-the-rock.","List of national animals",1384556882],
     ["People","Novelist Mario Vargas Llosa, a Nobel Prize winner, was born in Arequipa.","Mario Vargas Llosa",1384235645],
     ["Music","The cajón, a wooden box drum that the player sits on, was developed by enslaved Africans on the coast and later found its way into flamenco.","Cajón",1370226718],
     ["Music","El Cóndor Pasa, the Andean tune made world-famous by Simon and Garfunkel, was composed in 1913 by Daniel Alomía Robles.","El Cóndor Pasa (song)",1380769165],
     ["Science","The Inca kept records without writing, on quipus: sets of knotted cords in which the knots stood for numbers.","Quipu",1383319086],
-    ["Arts","The Cusco School painters of the 17th and 18th centuries mixed European religious scenes with local plants and animals and plenty of gold leaf.","Cusco school",1382572758]
+    ["Arts","The Cusco School painters of the 17th and 18th centuries mixed European religious scenes with local plants and animals and plenty of gold leaf.","Cusco school",1382572758],
+    ["Names","The origin of its name is obscure: one theory says it comes from a native word, biru, meaning \"river\".","List of country-name etymologies",1382950159],
+    ["Film","The Milk of Sorrow, directed by Claudia Llosa, won the Golden Bear at the Berlin Film Festival in 2009.","The Milk of Sorrow",1370936751],
+    ["Space","The Nazca Lines, huge figures drawn in the desert, can be seen properly only from the air or from nearby hills.","Nazca lines",1382732546]
   ],
   "608": [
     ["Land","The Philippines is made up of more than 7,600 islands.","Philippines",1384431743],
@@ -1633,13 +1806,18 @@ window.ATLAS_FACTS = {
     ["Food","Adobo, meat marinated in vinegar, soy sauce and garlic, then braised, is regarded as a national dish.","Adobo (Filipino dish)",1382670846],
     ["Myths","The aswang is a name for shape-shifting creatures of folklore, such as vampires and witches.","Aswang",1379641158],
     ["Sports","Arnis, a martial art fought with sticks, became its national sport and martial art in 2009.","National sport",1384611106],
-    ["Nature","Its national animal is the carabao, a water buffalo, and its national bird the Philippine eagle.","List of national animals",1384556882],
+    ["Animals","Its national animal is the carabao, a water buffalo, and its national bird the Philippine eagle.","List of national animals",1384556882],
     ["Language","Some 130 to 195 languages are spoken there, depending on how they're counted.","Languages of the Philippines",1380515843],
     ["People","Boxer Manny Pacquiao, champion in eight weight divisions, was born in Kibawe.","Manny Pacquiao",1384674370],
     ["Music","Tinikling dancers step nimbly in and out of two bamboo poles that are clapped together to the beat.","Tinikling",1382182165],
     ["Music","Lea Salonga, who created the role of Kim in Miss Saigon and sang for Disney's Jasmine and Mulan, was born in Manila in 1971.","Lea Salonga",1385391300],
     ["Science","IR8, the high-yielding \"miracle rice\" of the Green Revolution, was bred in the 1960s at the International Rice Research Institute in Los Baños.","International Rice Research Institute",1378441104],
-    ["Arts","Painter Juan Luna won a gold medal in Madrid in 1884 for his huge canvas Spoliarium.","Spoliarium",1382774514]
+    ["Arts","Painter Juan Luna won a gold medal in Madrid in 1884 for his huge canvas Spoliarium.","Spoliarium",1382774514],
+    ["Names","The islands were named in 1543 by the explorer Ruy López de Villalobos in honour of the prince who later became king of Spain.","List of country-name etymologies",1382950159],
+    ["Festivals","The Sinulog festival in Cebu honours the Santo Niño; its name comes from a word meaning \"water current\", after the dance's movements.","Sinulog",1378620633],
+    ["Festivals","The Ati-Atihan festival in Kalibo, with dancers in black face paint, is sometimes called the mother of the islands' festivals.","Ati-Atihan",1372008526],
+    ["Film","Ang Probinsyano, a police action drama, ran for nearly seven years on television, from 2015 to 2022.","Ang Probinsyano",1362914670],
+    ["Inventions","Diosdado Banatao helped design chips that made fast personal computers possible, and grew up in the farming town of Iguig.","Dado Banatao",1381107282]
   ],
   "612": [
     ["History","Most of the few dozen people on the Pitcairn Islands descend from the mutineers of HMS Bounty.","Pitcairn Islands",1381045534],
@@ -1648,7 +1826,7 @@ window.ATLAS_FACTS = {
     ["Daily life","Its people speak Pitkern, a creole that mixes English and Tahitian.","Pitkern",1381937187],
     ["Records","Henderson Island, an uninhabited coral atoll, is a UNESCO World Heritage Site.","Henderson Island (Pitcairn Islands)",1380133448],
     ["Capitals","Its only settlement, Adamstown, is its capital.","Adamstown, Pitcairn Islands",1383622925],
-    ["History","It is named after Robert Pitcairn, the 15-year-old midshipman who first sighted it.","Pitcairn Islands",1381045534]
+    ["Names","It is named after Robert Pitcairn, the 15-year-old midshipman who first sighted it.","Pitcairn Islands",1381045534]
   ],
   "616": [
     ["Places","In the Wieliczka Salt Mine, worked since the 13th century, miners carved whole chapels and chandeliers out of salt.","Wieliczka Salt Mine",1383450685],
@@ -1657,12 +1835,17 @@ window.ATLAS_FACTS = {
     ["Food","Bigos, a “hunter's stew” of meats and sauerkraut, and pierogi dumplings are national dishes.","National dish",1381943985],
     ["Culture","On Easter Monday, Śmigus-dyngus, people try to drench each other with buckets of water.","Śmigus-dyngus",1377289572],
     ["Myths","Legend says the Wawel Dragon of Kraków was killed by a shoemaker's apprentice who fed it a lamb stuffed with sulphur.","Wawel Dragon",1383452985],
-    ["Nature","Its national animal is the European bison, and its national birds the white-tailed eagle and white stork.","List of national animals",1384556882],
+    ["Animals","Its national animal is the European bison, and its national birds the white-tailed eagle and white stork.","List of national animals",1384556882],
     ["Landmarks","Wawel Castle on a hill above the Vistula in Kraków was home to the country's kings for centuries.","Wawel Castle",1384429892],
     ["Music","Frédéric Chopin, who wrote polonaises and mazurkas for the piano, was born in Żelazowa Wola in 1810.","Frédéric Chopin",1385134010],
     ["Sports","Robert Lewandowski, born in Warsaw, once scored five goals in nine minutes for Bayern Munich.","Robert Lewandowski",1385913725],
     ["People","Pope John Paul II was born Karol Wojtyła in the town of Wadowice in 1920.","Pope John Paul II",1386013426],
-    ["Arts","Andrzej Sapkowski, author of the Witcher fantasy books, was born in Łódź in 1948.","Andrzej Sapkowski",1384721449]
+    ["Arts","Andrzej Sapkowski, author of the Witcher fantasy books, was born in Łódź in 1948.","Andrzej Sapkowski",1384721449],
+    ["Names","Its name comes from an early tribe whose name probably comes from the word pole, meaning \"field\".","List of country-name etymologies",1382950159],
+    ["Festivals","On Fat Thursday, the last Thursday before Lent, people eat doughnuts called pączki.","Fat Thursday",1340758221],
+    ["Film","Andrzej Wajda received an honorary Academy Award in 2000 for his lifetime of films.","Andrzej Wajda",1379191681],
+    ["Inventions","Ignacy Łukasiewicz built one of the first modern oil refineries and invented the kerosene lamp in 1853.","Ignacy Łukasiewicz",1354612450],
+    ["Space","Mirosław Hermaszewski flew on Soyuz 30 in 1978, the only person from the country in space until 2025.","Mirosław Hermaszewski",1378503228]
   ],
   "620": [
     ["History","The Anglo-Portuguese alliance, dating to 1373, is the oldest alliance in the world still in force.","Anglo-Portuguese Alliance",1383676998],
@@ -1676,7 +1859,11 @@ window.ATLAS_FACTS = {
     ["Landmarks","Belém Tower in Lisbon is a symbol of Europe's Age of Discoveries.","Belém Tower",1384722154],
     ["Music","Amália Rodrigues, known as the Queen of Fado, was born in Lisbon in 1920.","Amália Rodrigues",1385661792],
     ["Sports","The men's football team won the European Championship in 2016, beating hosts France in the final with an extra-time goal by Eder.","UEFA Euro 2016 final",1383845037],
-    ["Arts","Novelist José Saramago, born in the village of Azinhaga in 1922, won the Nobel Prize in Literature in 1998.","José Saramago",1385025906]
+    ["Arts","Novelist José Saramago, born in the village of Azinhaga in 1922, won the Nobel Prize in Literature in 1998.","José Saramago",1385025906],
+    ["Names","Its name comes from a Roman name for the area at the mouth of the Douro, where its second city and Gaia now stand.","List of country-name etymologies",1382950159],
+    ["Animals","The Iberian wolf, one of its national animals, survives mainly in the mountains of the north.","Iberian wolf",1384915052],
+    ["Festivals","St John's Night in its second city has been called one of Europe's liveliest street festivals.","Saint John's Eve",1386256194],
+    ["Inventions","The caravel, a small, fast sailing ship, let its explorers sail far along the coast of Africa in the 15th century.","Caravel",1383336462]
   ],
   "624": [
     ["Nature","The Bijagós archipelago has been a UNESCO Biosphere Reserve since 1996.","Bijagós Islands",1365322327],
@@ -1711,7 +1898,7 @@ window.ATLAS_FACTS = {
     ["Land","Qatar is a peninsula whose only land border is with Saudi Arabia.","Qatar",1381713840],
     ["Food","Machboos, rice cooked with meat and spices, is its national dish.","National dish",1381943985],
     ["Symbols","Its maroon and white flag has nine points and is about 2.5 times as wide as it is tall.","Flag of Qatar",1380991689],
-    ["Nature","Its national animal is the Arabian oryx.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Arabian oryx.","List of national animals",1384556882],
     ["Sports","It hosted the FIFA World Cup in 2022, the first held in the Middle East.","2022 FIFA World Cup",1383879770],
     ["History","Before oil, pearl diving was the backbone of its economy.","Qatar",1384638416]
   ],
@@ -1721,7 +1908,7 @@ window.ATLAS_FACTS = {
     ["Places","The Cirque de Mafate has no roads: its villages are reached on foot or by helicopter.","Mafate",1347373300],
     ["Music","Maloya, music rooted in the songs of enslaved Africans and Malagasy and of Indian indentured workers, was once banned and joined UNESCO's intangible heritage list in 2009.","Maloya",1366160149],
     ["Heritage","Its volcanic peaks, cirques and cliffs became a UNESCO World Heritage Site in 2010.","Réunion National Park",1362902837],
-    ["Science","In 1841 Edmond Albius, an enslaved 12-year-old, invented a quick way to hand-pollinate vanilla orchids that is still used today.","Edmond Albius",1374599788],
+    ["Inventions","In 1841 Edmond Albius, an enslaved 12-year-old, invented a quick way to hand-pollinate vanilla orchids that is still used today.","Edmond Albius",1374599788],
     ["Sports","Aviator Roland Garros, born in Saint-Denis, made the first non-stop flight across the Mediterranean; the French Open's stadium is named after him.","Roland Garros (aviator)",1381088687],
     ["History","The island was uninhabited until French settlers and enslaved people arrived in the 17th century. Before 1848 it was called Île Bourbon.","Réunion",1383202436],
     ["Money","It and Mayotte are the only places in the Southern Hemisphere that use the euro.","Réunion",1383202436]
@@ -1731,21 +1918,26 @@ window.ATLAS_FACTS = {
     ["Places","Bran Castle in Transylvania is marketed as Dracula's castle, although its link to the novel is loose.","Bran Castle",1380002599],
     ["Nature","The Danube Delta, mostly in Romania, is the best-preserved river delta in Europe.","Danube Delta",1381672833],
     ["Food","Mămăligă, maize porridge, and sarmale, cabbage rolls, are national dishes.","National dish",1381943985],
-    ["Culture","On 1 March, people give a mărțișor, a red-and-white string token, to welcome spring.","Mărțișor",1368248942],
+    ["Festivals","On 1 March, people give a mărțișor, a red-and-white string token, to welcome spring.","Mărțișor",1368248942],
     ["Symbols","Its blue, yellow and red flag is nearly identical to Chad's.","Flag of Romania",1381181738],
     ["Myths","In folklore, strigoi are troubled spirits said to rise from the grave.","Strigoi",1379929437],
     ["Sports","Oină, a bat-and-ball game, is regarded as its national sport.","National sport",1384611106],
     ["People","Nadia Comăneci, the first gymnast to score a perfect 10 at the Olympics, was born in Onești.","Nadia Comăneci",1379227350],
     ["Music","George Enescu, the composer and violinist who taught the young Yehudi Menuhin, was born in the village of Liveni in 1881.","George Enescu",1382180070],
-    ["Science","Petrache Poenaru patented a fountain pen in Paris in 1827.","Petrache Poenaru",1361438223],
-    ["Arts","Constantin Brâncuși, sculptor of Bird in Space and the Endless Column, was born in the village of Hobița in 1876.","Constantin Brâncuși",1383153235]
+    ["Inventions","Petrache Poenaru patented a fountain pen in Paris in 1827.","Petrache Poenaru",1361438223],
+    ["Arts","Constantin Brâncuși, sculptor of Bird in Space and the Endless Column, was born in the village of Hobița in 1876.","Constantin Brâncuși",1383153235],
+    ["Names","Its name was chosen to stress that its language and people descend from those of ancient Rome.","List of country-name etymologies",1382950159],
+    ["Animals","The Carpathians are home to the largest population of brown bears in Europe outside Russia.","Carpathian Mountains",1382516442],
+    ["Film","4 Months, 3 Weeks and 2 Days, Cristian Mungiu's film set in the last years of communism, won the Palme d'Or at Cannes in 2007.","4 Months, 3 Weeks and 2 Days",1379881009],
+    ["Inventions","Henri Coandă built the Coandă-1910, an early aircraft with a ducted-fan engine, and discovered the Coandă effect.","Henri Coandă",1372279206],
+    ["Space","Dumitru Prunariu flew to the Salyut 6 space station in 1981.","Dumitru Prunariu",1384701905]
   ],
   "643": [
     ["Records","Russia spans 11 time zones.","Time in Russia",1379421792],
     ["Nature","Lake Baikal is the world's deepest lake, at about 1,640 m, and holds about 22% of the planet's fresh surface water.","Lake Baikal",1384282010],
     ["Records","The Trans-Siberian Railway from Moscow to Vladivostok runs about 9,289 km, the longest railway line in the world.","Trans-Siberian Railway",1383347505],
     ["Food","Borscht, pelmeni dumplings, blini and beef Stroganoff are among its national dishes.","National dish",1381943985],
-    ["Culture","Maslenitsa, the week before Lent, is celebrated with pancakes called blini and by burning a straw effigy of winter.","Maslenitsa",1384318425],
+    ["Festivals","Maslenitsa, the week before Lent, is celebrated with pancakes called blini and by burning a straw effigy of winter.","Maslenitsa",1384318425],
     ["Myths","Baba Yaga, a witch of folklore, lives in a hut that stands on chicken legs.","Baba Yaga",1384599922],
     ["Sports","Bandy, a kind of hockey played with a ball on a big ice field, is regarded as its national sport.","National sport",1384611106],
     ["Money","The ruble is the second-oldest currency still in circulation, after the British pound.","Russian ruble",1379892158],
@@ -1756,7 +1948,15 @@ window.ATLAS_FACTS = {
     ["Science","Dmitri Mendeleev published his periodic table of the elements in 1869 and left gaps for elements that had not yet been discovered.","Dmitri Mendeleev",1383664647],
     ["Science","Ivan Pavlov, born in Ryazan in 1849, won the 1904 Nobel Prize and is famous for his experiments on the reflexes of dogs.","Ivan Pavlov",1383961712],
     ["Arts","The jeweller Peter Carl Fabergé made jewelled Easter eggs for the tsars between 1885 and 1917.","Fabergé egg",1383621201],
-    ["Arts","Andrei Rublev's Trinity, an icon of three angels painted in the 15th century, is the most famous icon in the country.","Trinity (Andrei Rublev)",1375680604]
+    ["Arts","Andrei Rublev's Trinity, an icon of three angels painted in the 15th century, is the most famous icon in the country.","Trinity (Andrei Rublev)",1375680604],
+    ["Names","Its name means \"Land of the Rus'\", a Viking people thought to be named after the Roslagen coast of Sweden, from Old Norse for \"rowers\".","List of country-name etymologies",1382950159],
+    ["Animals","Lake Baikal is home to the Baikal seal, one of the few seals in the world that live only in fresh water.","Baikal seal",1360413281],
+    ["Film","Sergei Eisenstein's 1925 silent film Battleship Potemkin is famous for its massacre scene on the Odessa Steps.","Battleship Potemkin",1385902572],
+    ["Film","Masha and the Bear, an animated series about a mischievous girl and a gentle bear, has billions of views on YouTube.","Masha and the Bear",1383296118],
+    ["Inventions","Alexey Pajitnov created the game Tetris in 1984 while working at the Soviet Academy of Sciences in Moscow.","Tetris",1386321529],
+    ["Space","Sputnik 1, the first artificial satellite, was launched on 4 October 1957.","Sputnik 1",1384954992],
+    ["Space","Valentina Tereshkova became the first woman in space in June 1963, flying alone in Vostok 6.","Valentina Tereshkova",1381719809],
+    ["Space","Laika, a stray dog from the streets of Moscow, became the first animal to orbit the Earth, aboard Sputnik 2 in 1957.","Laika",1384602357]
   ],
   "646": [
     ["Records","Rwanda's parliament has the highest share of women of any country, more than 60% of seats in the lower house.","Women in Rwanda",1369741011],
@@ -1764,11 +1964,13 @@ window.ATLAS_FACTS = {
     ["Culture","On Umuganda, the last Saturday of each month, Rwandans join in community service.","Umuganda",1384231867],
     ["Food","Isombe, a stew made with cassava leaves, is a national dish.","National dish",1381943985],
     ["Capitals","Its capital, Kigali, is known as one of the cleanest cities in Africa.","Kigali",1383882144],
-    ["Nature","Volcanoes National Park is home to mountain gorillas.","Volcanoes National Park",1362946374],
+    ["Animals","Volcanoes National Park is home to mountain gorillas.","Volcanoes National Park",1362946374],
     ["Language","English, French and Swahili are official languages, alongside the national language.","Rwanda",1382721649],
     ["Music","The inanga, a string instrument a little like a lyre, has been played by many of the country's best-known musicians.","Music of Rwanda",1334791252],
     ["Sports","In 2025 Kigali hosted cycling's Road World Championships, the first time they had been held in Africa.","2025 UCI Road World Championships",1380666612],
-    ["People","Paul Kagame, president since 2000, was born in 1957 and grew up as a refugee in Uganda.","Paul Kagame",1385936673]
+    ["People","Paul Kagame, president since 2000, was born in 1957 and grew up as a refugee in Uganda.","Paul Kagame",1385936673],
+    ["Names","Its name means \"large\" or \"big\", from a word meaning \"to expand\".","List of country-name etymologies",1382950159],
+    ["Festivals","Kwita Izina is a yearly ceremony in which baby mountain gorillas are given names.","Kwita Izina",1373530123]
   ],
   "652": [
     ["History","Saint Barthélemy belonged to Sweden for nearly a century, from 1784 to 1878.","Saint Barthélemy",1383874501],
@@ -1782,7 +1984,7 @@ window.ATLAS_FACTS = {
   "654": [
     ["History","Napoleon died in exile on Saint Helena in 1821.","Saint Helena",1384458971],
     ["Places","Jacob's Ladder in Jamestown is a stairway of 699 steps up a steep valley side.","Jacob's Ladder (Saint Helena)",1363395408],
-    ["Nature","Jonathan, a giant tortoise living there, is thought to be the oldest living land animal.","Jonathan (tortoise)",1383371583],
+    ["Animals","Jonathan, a giant tortoise living there, is thought to be the oldest living land animal.","Jonathan (tortoise)",1383371583],
     ["Places","Its capital, Jamestown, lies in a narrow valley on the coast.","Jamestown, Saint Helena",1381553195],
     ["Money","Tristan da Cunha doesn't use the local Saint Helena pound: sterling is used directly.","Tristan da Cunha",1384505465],
     ["Records","The island of Tristan da Cunha is considered the most remote inhabited place in the world.","Tristan da Cunha",1384505465],
@@ -1810,7 +2012,7 @@ window.ATLAS_FACTS = {
     ["Nature","The Pitons, two volcanic spires rising from the sea, are a UNESCO World Heritage Site.","Pitons (Saint Lucia)",1362894682],
     ["Places","Saint Lucia's Sulphur Springs is billed as the world's only drive-in volcano.","Saint Lucia",1383134264],
     ["Culture","Saint Lucia has produced two Nobel Prize winners, the poet Derek Walcott and the economist Arthur Lewis.","Saint Lucia",1383134264],
-    ["Nature","Its national bird is the Saint Lucia amazon, a parrot found only there.","List of national animals",1384556882],
+    ["Animals","Its national bird is the Saint Lucia amazon, a parrot found only there.","List of national animals",1384556882],
     ["Places","Sulphur Springs is an active geothermal area inside an ancient volcano's caldera.","Qualibou",1369611871],
     ["Capitals","Its capital is Castries.","Castries",1375332329],
     ["History","It switched between British and French rule so often that it was called the “Helen of the West”, after Helen of Troy.","Saint Lucia",1383134264]
@@ -1837,7 +2039,7 @@ window.ATLAS_FACTS = {
     ["Nature","La Soufrière volcano on Saint Vincent erupted explosively in 2021.","La Soufrière (Saint Vincent)",1369425463],
     ["Places","Scenes of Pirates of the Caribbean were filmed on Saint Vincent.","Saint Vincent (Saint Vincent and the Grenadines)",1376365836],
     ["Land","Saint Vincent and the Grenadines is made up of 32 islands and cays.","Saint Vincent and the Grenadines",1383095941],
-    ["Nature","Its national bird is the Saint Vincent amazon, a parrot found only there.","List of national animals",1384556882],
+    ["Animals","Its national bird is the Saint Vincent amazon, a parrot found only there.","List of national animals",1384556882],
     ["Places","The Tobago Cays, five small islands with coral reefs, are a protected marine park.","Tobago Cays",1374587982],
     ["Capitals","Its capital is Kingstown.","Kingstown",1380110911],
     ["History","In 1797 the British deported thousands of Garifuna people from Saint Vincent to Central America.","Garifuna",1377944321]
@@ -1870,7 +2072,10 @@ window.ATLAS_FACTS = {
     ["Money","Its riyal has been pegged to the US dollar since 1986.","Saudi riyal",1369090327],
     ["Music","The ardah is a sword dance performed by rows of men to drums and chanted poetry.","Ardah",1333186864],
     ["People","Rayyanah Barnawi, a biomedical researcher born in 1988, flew to the International Space Station in May 2023, the first woman from the country to go into space.","Rayyanah Barnawi",1378504385],
-    ["Arts","Wadjda, a 2012 film about a girl in Riyadh who longs for a green bicycle, was the first feature film shot entirely in the country.","Wadjda",1374308835]
+    ["Film","Wadjda, a 2012 film about a girl in Riyadh who longs for a green bicycle, was the first feature film shot entirely in the country.","Wadjda",1374308835],
+    ["Names","It is named after its ruling family, whose founder's name means \"happiness\".","List of country-name etymologies",1382950159],
+    ["Animals","The oryx, a white antelope with long straight horns that roams its deserts, may have inspired the legend of the unicorn.","Arabian oryx",1378638033],
+    ["Space","Prince Sultan bin Salman became the first Muslim in space, aboard the Space Shuttle Discovery in 1985.","Sultan bin Salman Al Saud",1378506417]
   ],
   "686": [
     ["Nature","Lac Rose near Dakar turns pink because of salt-loving algae in its water.","Lake Retba",1366268208],
@@ -1881,16 +2086,19 @@ window.ATLAS_FACTS = {
     ["Sports","Laamb, a traditional wrestling, has the status of national sport.","Senegalese wrestling",1384672355],
     ["Language","Wolof is spoken by most people, though French is official.","Wolof language",1376534165],
     ["People","Singer Youssou N'Dour was born in Dakar and became the country's culture minister.","Youssou N'Dour",1375680222],
-    ["Arts","Ousmane Sembène, often called the father of African film, was born in Ziguinchor in 1923.","Ousmane Sembène",1371381496]
+    ["Film","Ousmane Sembène, often called the father of African film, was born in Ziguinchor in 1923.","Ousmane Sembène",1371381496],
+    ["Names","It is named after its river, whose name probably comes from the Zenaga, a Berber people who lived to the north.","List of country-name etymologies",1382950159],
+    ["Animals","Nearly three million birds of 395 species have been recorded at the Djoudj bird sanctuary in the north, including pelicans and flamingos.","Djoudj National Bird Sanctuary",1380851553],
+    ["Festivals","The Grand Magal of Touba brings millions of pilgrims to the city of Touba each year to honour Sheikh Amadou Bamba.","Grand Magal of Touba",1371158764]
   ],
   "688": [
     ["Food","Serbia is one of the world's largest raspberry exporters.","Agriculture in Serbia",1370310389],
     ["History","The Nikola Tesla Museum in Belgrade holds more than 160,000 of his original documents and is his final resting place.","Nikola Tesla Museum",1366996069],
     ["Places","Belgrade sits where the Sava River flows into the Danube.","Belgrade",1384005166],
     ["Food","Ćevapi, small grilled rolls of minced meat, are considered a national dish.","Ćevapi",1382762392],
-    ["Culture","Each family celebrates its slava, the feast day of its patron saint, passed down from father to son.","Slava (tradition)",1380406156],
+    ["Festivals","Each family celebrates its slava, the feast day of its patron saint, passed down from father to son.","Slava (tradition)",1380406156],
     ["Science","The inventor Nikola Tesla was born to a Serbian family.","Nikola Tesla",1384403367],
-    ["Music","EXIT, one of Europe's biggest music festivals, is held each summer in a fortress in Novi Sad.","Exit (festival)",1383678349],
+    ["Festivals","EXIT, one of Europe's biggest music festivals, is held each summer in a fortress in Novi Sad.","Exit (festival)",1383678349],
     ["People","Novak Djokovic, winner of a record 24 Grand Slam singles titles, was born in Belgrade.","Novak Djokovic",1384355068]
   ],
   "690": [
@@ -1904,9 +2112,9 @@ window.ATLAS_FACTS = {
   ],
   "694": [
     ["Records","The Star of Sierra Leone, found in 1972, weighed 968.9 carats, making it the fourth-largest gem-quality diamond ever found.","Star of Sierra Leone",1326338622],
-    ["Nature","Its national animal is the chimpanzee.","List of national animals",1384556882],
+    ["Animals","Its national animal is the chimpanzee.","List of national animals",1384556882],
     ["Capitals","Its capital, Freetown, was founded in 1792 as a settlement for freed slaves.","Freetown",1375881140],
-    ["Nature","Tiwai Island is home to pygmy hippos and many species of primates.","Tiwai Island",1365740955],
+    ["Animals","Tiwai Island is home to pygmy hippos and many species of primates.","Tiwai Island",1365740955],
     ["Language","Krio, an English-based creole, is the common language.","Krio language",1379683412],
     ["Music","Palm-wine music, played on guitars, grew up there and in its neighbors.","Palm-wine music",1342096976],
     ["Food","Cassava leaf stew is one of its best-loved dishes.","Sierra Leonean cuisine",1336390855]
@@ -1933,15 +2141,19 @@ window.ATLAS_FACTS = {
     ["Records","Son Doong is the largest known cave passage in the world. Where its roof has collapsed, sunlight lets trees grow inside.","Hang Sơn Đoòng",1369093718],
     ["Food","Vietnam is the world's second-largest coffee producer.","Coffee production in Vietnam",1360631521],
     ["Nature","Ha Long Bay has about 1,600 limestone islands and islets.","Hạ Long Bay",1375665069],
-    ["Culture","For Tết, the Lunar New Year, families make bánh chưng, cakes of glutinous rice, mung beans and pork wrapped in leaves.","Bánh chưng",1371959132],
+    ["Festivals","For Tết, the Lunar New Year, families make bánh chưng, cakes of glutinous rice, mung beans and pork wrapped in leaves.","Bánh chưng",1371959132],
     ["Myths","In legend, its people descend from the dragon lord Lạc Long Quân and the fairy Âu Cơ, who laid a sac of 100 eggs.","Lạc Long Quân",1381897668],
-    ["Nature","Its national animal is the water buffalo.","List of national animals",1384556882],
+    ["Animals","Its national animal is the water buffalo.","List of national animals",1384556882],
     ["Language","Its language is written in the Latin alphabet with many accent marks, a system introduced by missionaries.","Vietnamese alphabet",1380487733],
     ["Landmarks","Hanoi's Temple of Literature was home to the country's first university, founded in 1076.","Temple of Literature, Hanoi",1379704775],
     ["People","Ho Chi Minh was born in Nghệ An province in 1890.","Ho Chi Minh",1384860997],
     ["Music","The đàn bầu is a zither with a single string, whose pitch the player bends with a flexible rod.","Đàn bầu",1336646534],
     ["Sports","Shooter Hoàng Xuân Vinh won the nation's first Olympic gold medal at Rio 2016, in the 10 metre air pistol.","Hoàng Xuân Vinh",1363608615],
-    ["Arts","Water puppetry began in the flooded rice fields of the Red River Delta; the puppeteers stand waist-deep in water behind a screen.","Water puppetry",1365231343]
+    ["Arts","Water puppetry began in the flooded rice fields of the Red River Delta; the puppeteers stand waist-deep in water behind a screen.","Water puppetry",1365231343],
+    ["Names","Its name reverses the name of a kingdom of the 2nd century BC; the word nam, \"south\", set it apart from other kingdoms of the same people.","List of country-name etymologies",1382950159],
+    ["Film","Kong: Skull Island was filmed in Ninh Bình province, among towering karst hills.","Kong: Skull Island",1383392126],
+    ["Inventions","Flappy Bird, the hit phone game of 2014, was made in Hanoi by Dong Nguyen in just a few days.","Flappy Bird",1384622942],
+    ["Space","Phạm Tuân became the first person of Asian origin in space in 1980, flying on Soyuz 37.","Phạm Tuân",1378504169]
   ],
   "705": [
     ["Nature","Forests cover more than half of Slovenia.","Slovenia",1384266195],
@@ -1960,17 +2172,19 @@ window.ATLAS_FACTS = {
     ["Food","Bariis iskukaris, rice and stew cooked together in one pan, is its national dish.","National dish",1381943985],
     ["Language","Its language has been written in the Latin alphabet since 1972.","Somali language",1383459265],
     ["Capitals","Its capital is Mogadishu.","Mogadishu",1383927528],
-    ["Nature","It has one of the largest camel populations in the world.","Somalia",1384464330],
+    ["Animals","It has one of the largest camel populations in the world.","Somalia",1384464330],
     ["People","Runner Mo Farah, winner of four Olympic gold medals, was born in Mogadishu.","Mo Farah",1381198018],
     ["Music","K'naan, whose song Wavin' Flag became an anthem of the 2010 World Cup, was born in Mogadishu.","K'naan",1379990902],
     ["Sports","In 1987 Abdi Bile became world champion in the 1500 metres, the first runner from the country to win a world title.","Abdi Bile",1379213824],
-    ["Arts","Novelist Nuruddin Farah, author of the novel Maps, was born in Baidoa in 1945.","Nuruddin Farah",1376224737]
+    ["Arts","Novelist Nuruddin Farah, author of the novel Maps, was born in Baidoa in 1945.","Nuruddin Farah",1376224737],
+    ["Names","Its people's name may come from sac maal, \"cattle herders\", or from a legendary ancestor named Samaale.","List of country-name etymologies",1382950159],
+    ["Festivals","Istunka, mock stick fights held in Afgooye to mark the new year, dates back to the medieval Ajuran period.","Istunka",1333521027]
   ],
   "710": [
     ["Culture","South Africa has three capital cities: Pretoria, Cape Town and Bloemfontein.","South Africa",1383571507],
     ["Culture","South Africa has 12 official languages. Sign language was added in 2023.","Languages of South Africa",1382118819],
     ["History","The world's first human heart transplant was carried out in Cape Town in 1967.","Christiaan Barnard",1373378869],
-    ["Culture","Heritage Day, 24 September, is popularly celebrated as National Braai Day, a day for barbecuing together.","Regional variations of barbecue",1383414495],
+    ["Festivals","Heritage Day, 24 September, is popularly celebrated as National Braai Day, a day for barbecuing together.","Regional variations of barbecue",1383414495],
     ["Symbols","Its six-color flag, with a Y shape, was adopted in 1994.","Flag of South Africa",1383290587],
     ["Nature","Kruger National Park, in the northeast, covers about 19,623 km².","Kruger National Park",1383888783],
     ["Food","Bobotie, spiced minced meat baked under an egg topping, is a national dish.","Bobotie",1384609358],
@@ -1979,10 +2193,14 @@ window.ATLAS_FACTS = {
     ["Music","Miriam Makeba, the singer of Pata Pata and The Click Song, was born in Johannesburg in 1932.","Miriam Makeba",1385292727],
     ["Sports","The Springboks have won the Rugby World Cup a record four times: in 1995, 2007, 2019 and 2023.","South Africa national rugby union team",1385941907],
     ["Science","The Taung Child, a fossil skull found in 1924 and described by Raymond Dart, showed that early human relatives lived on this continent.","Taung Child",1383358813],
-    ["Arts","Charlize Theron, who won an Oscar for the film Monster, was born in Benoni in 1975.","Charlize Theron",1385927656]
+    ["Film","Charlize Theron, who won an Oscar for the film Monster, was born in Benoni in 1975.","Charlize Theron",1385927656],
+    ["Animals","Boulders Beach near Cape Town is home to a colony of penguins that waddle among swimmers.","Boulders Beach",1380317863],
+    ["Music","The gumboot dance was created by miners who slapped their rubber boots to communicate in the dark mines, where they were not allowed to talk.","Gumboot dance",1310183468],
+    ["Inventions","Allan Cormack, born in Johannesburg, shared the 1979 Nobel Prize for the theory behind the CT scanner.","Allan MacLeod Cormack",1381480071],
+    ["Space","Mark Shuttleworth, a businessman from Welkom, paid to fly to the International Space Station in 2002, the first person from the continent in space.","Mark Shuttleworth",1383609760]
   ],
   "716": [
-    ["History","The country is named after Great Zimbabwe, a medieval stone city built without mortar.","Great Zimbabwe",1381423922],
+    ["Names","The country is named after Great Zimbabwe, a medieval stone city built without mortar.","Great Zimbabwe",1381423922],
     ["Nature","The spray from Victoria Falls, shared with Zambia, can be seen from tens of kilometers away. Locals call it the smoke that thunders.","Victoria Falls",1378459043],
     ["Records","Zimbabwe has 16 official languages, more than any other country.","Zimbabwe",1384438249],
     ["Food","Sadza, maize flour cooked into a stiff, dough-like porridge, is its national dish.","National dish",1381943985],
@@ -1991,17 +2209,20 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Harare.","Harare",1383090425],
     ["Music","The mbira, a wooden board with metal tines that are plucked with the thumbs, is traditional to the Shona people.","Mbira",1384674372],
     ["Sports","Swimmer Kirsty Coventry, born in Harare, won seven Olympic medals and in 2025 was elected president of the International Olympic Committee.","Kirsty Coventry",1384218554],
-    ["People","Novelist Tsitsi Dangarembga, author of Nervous Conditions, was born in Mutoko in 1959.","Tsitsi Dangarembga",1371705581]
+    ["People","Novelist Tsitsi Dangarembga, author of Nervous Conditions, was born in Mutoko in 1959.","Tsitsi Dangarembga",1371705581],
+    ["Names","Its name comes from Shona words meaning \"house of stones\", after a great medieval stone city.","List of country-name etymologies",1382950159],
+    ["Animals","Hwange National Park, its largest, is known for its huge herds of elephants.","Hwange National Park",1384495124],
+    ["Festivals","HIFA, the Harare International Festival of the Arts, became one of the largest arts festivals in Africa.","Harare International Festival of the Arts",1345626996]
   ],
   "724": [
     ["Food","Spain is the world's largest producer of olive oil.","Olive oil",1383649933],
     ["Land","Spain's cities of Ceuta and Melilla sit on the African mainland, bordering Morocco.","Ceuta",1383955201],
-    ["Culture","Every August, the town of Buñol holds La Tomatina, where tens of thousands of people throw tomatoes at each other.","La Tomatina",1380510558],
+    ["Festivals","Every August, the town of Buñol holds La Tomatina, where tens of thousands of people throw tomatoes at each other.","La Tomatina",1380510558],
     ["Food","Its national dish is tortilla de patatas, an omelette of eggs and potatoes.","National dish",1381943985],
     ["Culture","In Catalonia, teams build human towers called castells; the tallest ever built had ten levels of people.","Castell",1377413785],
     ["Language","Basque, spoken in the north, is a language isolate: it isn't related to any other living language.","Basque language",1383900744],
     ["Daily life","The siesta, a short nap after lunch, is a well-known tradition.","Siesta",1384050348],
-    ["Nature","Its national animal is the bull.","List of national animals",1384556882],
+    ["Animals","Its national animal is the bull.","List of national animals",1384556882],
     ["Music","Flamenco, an art of song, guitar and dance from Andalusia, is on UNESCO's intangible heritage list.","Flamenco",1383403988],
     ["Daily life","Tapas, small dishes shared with drinks, are a social way of eating.","Tapas",1378820845],
     ["People","Pablo Picasso, co-founder of Cubism, was born in the port city of Málaga.","Pablo Picasso",1384398868],
@@ -2010,19 +2231,25 @@ window.ATLAS_FACTS = {
     ["Sports","Rafael Nadal, born in Manacor on the island of Mallorca, won the French Open a record 14 times.","Rafael Nadal",1385938392],
     ["Science","Santiago Ramón y Cajal, regarded as the father of modern neuroscience, shared the 1906 Nobel Prize for his studies of nerve cells.","Santiago Ramón y Cajal",1381693756],
     ["Arts","Las Meninas, painted by Diego Velázquez in 1656, hangs in the Prado Museum in Madrid.","Las Meninas",1384372018],
-    ["Arts","Film director Pedro Almodóvar was born in the small town of Calzada de Calatrava in 1949.","Pedro Almodóvar",1380986601]
+    ["Film","Film director Pedro Almodóvar was born in the small town of Calzada de Calatrava in 1949.","Pedro Almodóvar",1380986601],
+    ["Names","Its name may come from a Punic phrase meaning \"island of hyraxes\": Phoenician sailors probably mistook its rabbits for hyraxes.","List of country-name etymologies",1382950159],
+    ["Festivals","Gigantes y cabezudos, giant figures and big-headed dancers made of papier-mâché, parade through the streets at town fiestas.","Processional giant",1386358481],
+    ["Inventions","The Chupa Chups lollipop was created in 1958 by Enric Bernat; its logo was designed by Salvador Dalí.","Chupa Chups",1384243275],
+    ["Inventions","Narcís Monturiol built the Ictíneo, one of the first submarines driven by an engine that did not need air.","Narcís Monturiol",1380201638],
+    ["Space","The Gran Telescopio Canarias on La Palma has the largest single-aperture optical telescope in the world.","Gran Telescopio Canarias",1380218783]
   ],
   "728": [
     ["History","South Sudan became independent in 2011, making it the newest country in the world.","South Sudan",1384482060],
     ["Nature","The Sudd is one of the largest wetlands in the world.","Sudd",1383549500],
     ["Nature","Boma National Park sees one of the largest mammal migrations in Africa.","Boma National Park",1366160248],
     ["Capitals","Its capital is Juba, on the White Nile.","Juba",1384637084],
-    ["Nature","Huge herds of antelope, including white-eared kob, migrate across its plains.","Kob",1384684246],
+    ["Animals","Huge herds of antelope, including white-eared kob, migrate across its plains.","Kob",1384684246],
     ["Language","Unlike its northern neighbor, it uses English as its official language.","South Sudan",1384638733],
     ["Culture","The Dinka are agro-pastoral people whose lives center on their cattle.","Dinka people",1382570024],
     ["Music","Emmanuel Jal, a former child soldier, became an international hip hop artist.","Emmanuel Jal",1385801582],
     ["Sports","The men's basketball team, the Bright Stars, played at its first Olympic Games in Paris in 2024 and won its opening game against Puerto Rico.","South Sudan men's national basketball team",1360415460],
-    ["People","Manute Bol, a Dinka listed at up to 7 ft 7 in and one of the two tallest players in NBA history, was born in the village of Turalei.","Manute Bol",1385831453]
+    ["People","Manute Bol, a Dinka listed at up to 7 ft 7 in and one of the two tallest players in NBA history, was born in the village of Turalei.","Manute Bol",1385831453],
+    ["Festivals","Independence Day on 9 July marks the day in 2011 when it split from its northern neighbour.","July 9",1381169992]
   ],
   "729": [
     ["History","Sudan has more pyramids than Egypt, built by the kings of ancient Kush.","Nubian pyramids",1383915787],
@@ -2035,7 +2262,9 @@ window.ATLAS_FACTS = {
     ["Landmarks","More than 200 pyramids stand at Meroë, the old capital of the Kingdom of Kush.","Meroë",1380753731],
     ["Music","Singer and songwriter Mohammed Wardi, born in 1932, performed in both Arabic and his native Nubian language.","Mohammed Wardi",1383506690],
     ["Sports","The first Africa Cup of Nations was held in Khartoum in 1957, and the home team went on to win the title in 1970.","Sudan national football team",1386043494],
-    ["People","Novelist Tayeb Salih, author of Season of Migration to the North, was born in a village on the Nile in 1929.","Tayeb Salih",1374878664]
+    ["People","Novelist Tayeb Salih, author of Season of Migration to the North, was born in a village on the Nile in 1929.","Tayeb Salih",1374878664],
+    ["Names","Its name comes from an Arabic phrase meaning \"land of the Black people\", once used for most of the Sahel.","List of country-name etymologies",1382950159],
+    ["Animals","The secretarybird, a long-legged bird of prey that stamps on snakes to kill them, is the national bird.","Secretarybird",1386473052]
   ],
   "732": [
     ["Places","A sand wall known as the Berm, built by Morocco in the 1980s, runs about 2,700 km across Western Sahara.","Moroccan Western Sahara wall",1367488357],
@@ -2060,7 +2289,7 @@ window.ATLAS_FACTS = {
     ["Culture","Eswatini is one of the last absolute monarchies in the world.","Eswatini",1380745431],
     ["Culture","At Umhlanga, the reed dance, thousands of young women bring cut reeds to the queen mother.","Umhlanga (ceremony)",1382944183],
     ["Capitals","It has two capitals: Mbabane for government and Lobamba for the royal family and parliament.","Eswatini",1380745431],
-    ["Culture","Incwala, the most important ceremony of the year, celebrates kingship.","Incwala",1342455470],
+    ["Festivals","Incwala, the most important ceremony of the year, celebrates kingship.","Incwala",1342455470],
     ["Money","Its currency, the lilangeni, is pegged to the South African rand.","Swazi lilangeni",1331225389],
     ["Places","Sibebe Rock is the second-largest monolith in the world.","Sibebe",1376458580]
   ],
@@ -2070,7 +2299,7 @@ window.ATLAS_FACTS = {
     ["Culture","Under Sweden's right of public access, anyone may walk and camp on most private land.","Freedom to roam",1373160730],
     ["Food","Meatballs are among its national dishes, as is surströmming, fermented Baltic herring famous for its smell.","National dish",1381943985],
     ["Daily life","Fika, a coffee break with buns or pastries, is a daily social ritual.","Coffee in Sweden",1383553393],
-    ["Nature","Its national animal is the moose, and its national bird the Eurasian blackbird.","List of national animals",1384556882],
+    ["Animals","Its national animal is the moose, and its national bird the Eurasian blackbird.","List of national animals",1384556882],
     ["Money","Its central bank, the Riksbank, is the oldest central bank still in operation.","Sveriges Riksbank",1382699063],
     ["People","Alfred Nobel, the inventor of dynamite who founded the Nobel Prizes, was born in Stockholm.","Alfred Nobel",1381990409],
     ["Landmarks","The warship Vasa sank on its first voyage in 1628 and now stands in a museum in Stockholm.","Vasa (ship)",1384638132],
@@ -2079,7 +2308,10 @@ window.ATLAS_FACTS = {
     ["Sports","Tennis player Björn Borg, born in Stockholm, won Wimbledon five times in a row from 1976 to 1980.","Björn Borg",1385435051],
     ["Science","Anders Celsius, an astronomer at Uppsala, proposed the temperature scale that bears his name in 1742.","Anders Celsius",1374931604],
     ["Science","Carl Linnaeus, who gave living things their two-part Latin names, was born in Råshult in 1707.","Carl Linnaeus",1385567325],
-    ["Arts","Film director Ingmar Bergman, who made The Seventh Seal, was born in Uppsala in 1918.","Ingmar Bergman",1385793766]
+    ["Film","Film director Ingmar Bergman, who made The Seventh Seal, was born in Uppsala in 1918.","Ingmar Bergman",1385793766],
+    ["Names","Its name goes back to the Old English Sweoðeod; the last part, þjoð, means \"people\".","List of country-name etymologies",1382950159],
+    ["Festivals","At Midsummer, people dance around a maypole; the festival is so important that some have proposed making it the national day.","Midsummer",1381166117],
+    ["Inventions","The three-point seat belt, now in every car, was invented by Nils Bohlin of Volvo in 1959.","Nils Bohlin",1384660383]
   ],
   "756": [
     ["Culture","Switzerland has four national languages: German, French, Italian and Romansh.","Languages of Switzerland",1380357926],
@@ -2089,7 +2321,7 @@ window.ATLAS_FACTS = {
     ["Culture","At Zurich's Sechseläuten, a snowman figure called the Böögg is burned: a quick explosion of its head promises a warm, sunny summer.","Sechseläuten",1381462453],
     ["Symbols","Its flag is square, instead of the rectangular shape typical of national flags.","Flag of Switzerland",1376743370],
     ["Myths","Legend says William Tell shot an apple off his son's head with a crossbow.","William Tell",1383687856],
-    ["Science","The World Wide Web was invented at CERN, near Geneva, by Tim Berners-Lee in 1989.","World Wide Web",1383774564],
+    ["Inventions","The World Wide Web was invented at CERN, near Geneva, by Tim Berners-Lee in 1989.","World Wide Web",1383774564],
     ["People","Tennis great Roger Federer was born in Basel and learned the game at a club there.","Roger Federer",1384005766],
     ["Landmarks","Lucerne's wooden Chapel Bridge, built in the 14th century, is among the oldest covered bridges in Europe.","Kapellbrücke",1304995471]
   ],
@@ -2103,7 +2335,10 @@ window.ATLAS_FACTS = {
     ["Food","Aleppo pepper, a mild chili, is named after its largest city.","Aleppo pepper",1383629627],
     ["Music","A hymn to the goddess Nikkal, found on a clay tablet at Ugarit, is the oldest surviving substantially complete piece of written music in the world.","Hurrian songs",1367722129],
     ["Sports","Ghada Shouaa won the heptathlon at Atlanta in 1996, the nation's first Olympic gold medal.","Ghada Shouaa",1370763505],
-    ["People","Poet Nizar Qabbani, famous for his love poems, was born in Damascus in 1923.","Nizar Qabbani",1380111498]
+    ["People","Poet Nizar Qabbani, famous for his love poems, was born in Damascus in 1923.","Nizar Qabbani",1380111498],
+    ["Animals","The northern bald ibis, thought extinct in the Middle East, was rediscovered near Palmyra in 2002.","Northern bald ibis",1386481529],
+    ["Festivals","The Damascus International Fair, first held in 1954, was once one of the biggest trade fairs in the Middle East.","Damascus International Fair",1383695598],
+    ["Space","Muhammed Faris, an air force pilot from Aleppo, flew to the Mir space station in 1987.","Muhammed Faris",1378503289]
   ],
   "762": [
     ["Land","More than 90% of Tajikistan is mountainous.","Tajikistan",1384494394],
@@ -2114,12 +2349,15 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Dushanbe.","Dushanbe",1384661035],
     ["Money","Its currency is the somoni.","Tajikistani somoni",1379806579],
     ["Music","Falak is a distinctive folk music of the south, played at weddings and other celebrations.","Music of Tajikistan",1348209675],
-    ["People","Rudaki, regarded as the first major poet to write in New Persian, was born around 858 in the village of Panjrud.","Rudaki",1375393287]
+    ["People","Rudaki, regarded as the first major poet to write in New Persian, was born around 858 in the village of Panjrud.","Rudaki",1375393287],
+    ["Names","Its people's name comes, through Persian, from a word that originally meant \"Arab\", from the Tayy tribe.","List of country-name etymologies",1382950159],
+    ["Animals","The markhor, a wild goat with corkscrew horns, lives in its southern mountains, where community hunting reserves have helped it recover.","Markhor",1384659597],
+    ["Festivals","At Navruz, women take turns stirring a big pot of sumalak, a sweet paste of sprouted wheat, singing and making wishes.","Samanu",1386005414]
   ],
   "764": [
     ["History","Thailand is the only Southeast Asian country never colonized by a European power.","Thailand",1384495585],
     ["Records","Bangkok's full ceremonial name is one of the longest place names in the world.","Bangkok",1383316417],
-    ["Culture","Songkran, the Thai New Year in April, is celebrated with huge water fights.","Songkran (Thailand)",1382856241],
+    ["Festivals","Songkran, the Thai New Year in April, is celebrated with huge water fights.","Songkran (Thailand)",1382856241],
     ["Food","Som tam, a green papaya salad, and tom yum, a hot and sour soup, are among its national dishes.","National dish",1381943985],
     ["Culture","At Loy Krathong, people float small decorated baskets with candles on rivers and canals.","Loy Krathong",1384128949],
     ["Myths","Every October, glowing “Naga fireballs” are said to rise from the Mekong River.","Naga fireball",1379333559],
@@ -2127,12 +2365,14 @@ window.ATLAS_FACTS = {
     ["Daily life","The wai, a slight bow with palms pressed together, is the usual greeting.","Wai (gesture)",1370594757],
     ["Daily life","Its official calendar counts years from the Buddha's death, 543 years ahead of the Gregorian count.","Thai solar calendar",1365731718],
     ["Sports","Muay Thai, the “art of eight limbs”, is its national sport.","National sport",1384611106],
-    ["Nature","Its national animal is the Asian elephant, and its national aquatic animal the Siamese fighting fish.","List of national animals",1384556882],
+    ["Animals","Its national animal is the Asian elephant, and its national aquatic animal the Siamese fighting fish.","List of national animals",1384556882],
     ["Landmarks","Wat Arun, the Temple of Dawn, stands on the west bank of the Chao Phraya River in Bangkok.","Wat Arun",1381578196],
     ["Music","Khon is a masked dance drama that acts out episodes of the Ramakien, the local version of the Ramayana.","Khon",1369866526],
     ["People","Lisa of the K-pop group Blackpink was born Pranpriya Manobal in Buriram province in 1997.","Lisa (rapper)",1385887210],
     ["Science","The energy drink Red Bull grew out of Krating Daeng, a tonic created in 1976 by Chaleo Yoovidhya.","Krating Daeng",1383593044],
-    ["Arts","Director Apichatpong Weerasethakul won the Palme d'Or at Cannes in 2010 for Uncle Boonmee Who Can Recall His Past Lives.","Apichatpong Weerasethakul",1380702004]
+    ["Film","Director Apichatpong Weerasethakul won the Palme d'Or at Cannes in 2010 for Uncle Boonmee Who Can Recall His Past Lives.","Apichatpong Weerasethakul",1380702004],
+    ["Names","Its name means \"land of\" its main people; a popular but doubtful story says their name means \"freedom\".","List of country-name etymologies",1382950159],
+    ["Daily life","Many homes and businesses have a spirit house, a small shrine on a pillar where offerings are left for the guardian spirits of the land.","Spirit house",1386274636]
   ],
   "768": [
     ["Land","Togo is less than 115 km wide, squeezed between Ghana and Benin.","Togo",1383777036],
@@ -2153,12 +2393,12 @@ window.ATLAS_FACTS = {
     ["Sports","Rugby union is its national sport.","Rugby union in Tonga",1349253809]
   ],
   "780": [
-    ["Culture","The steelpan, made from oil drums, was invented in Trinidad in the 20th century.","Steelpan",1383400273],
+    ["Inventions","The steelpan, made from oil drums, was invented in Trinidad in the 20th century.","Steelpan",1383400273],
     ["Records","Pitch Lake in Trinidad is the largest natural deposit of asphalt in the world.","Pitch Lake",1331383851],
     ["Food","Doubles, curried chickpeas served on two pieces of fried bread, are a national dish and a favorite breakfast.","National dish",1381943985],
     ["Music","The steelpan, calypso and soca all come from its Carnival culture.","Soca music",1382176730],
     ["Capitals","Its capital is Port of Spain, on Trinidad.","Port of Spain",1383999435],
-    ["Nature","The Caroni Swamp is the largest roosting place of the scarlet ibis, one of its national birds.","Caroni Swamp",1366460605],
+    ["Animals","The Caroni Swamp is the largest roosting place of the scarlet ibis, one of its national birds.","Caroni Swamp",1366460605],
     ["Arts","Writer V. S. Naipaul, born there, won the 2001 Nobel Prize in Literature.","V. S. Naipaul",1382081594],
     ["People","Rapper Nicki Minaj was born in Port of Spain and moved to New York as a child.","Nicki Minaj",1384329835]
   ],
@@ -2172,11 +2412,13 @@ window.ATLAS_FACTS = {
     ["Sports","In camel racing, robot jockeys now ride the camels.","Camel racing",1377901846],
     ["Music","In the yowlah, or Al Ayyala, two rows of about twenty men face each other holding thin bamboo sticks, moving to drums and chanted poetry.","Yowlah",1354476286],
     ["People","Sheikh Zayed bin Sultan Al Nahyan, born in 1918, became the first president when the country was formed in 1971.","Zayed bin Sultan Al Nahyan",1378232750],
-    ["Science","The Hope probe, launched in 2020, went into orbit around Mars in February 2021 to study the planet's weather.","Emirates Mars Mission",1383687551],
-    ["Arts","The Louvre Abu Dhabi, opened in 2017, sits beneath a huge dome by architect Jean Nouvel that lets in a \"rain of light\".","Louvre Abu Dhabi",1384508307]
+    ["Space","The Hope probe, launched in 2020, went into orbit around Mars in February 2021 to study the planet's weather.","Emirates Mars Mission",1383687551],
+    ["Arts","The Louvre Abu Dhabi, opened in 2017, sits beneath a huge dome by architect Jean Nouvel that lets in a \"rain of light\".","Louvre Abu Dhabi",1384508307],
+    ["Animals","Falcons are so prized that they have their own passports and a hospital in Abu Dhabi.","Abu Dhabi Falcon Hospital",1382821105],
+    ["Space","Hazza Al Mansouri became its first astronaut in 2019, spending eight days on the International Space Station.","Hazza Al Mansouri",1386301308]
   ],
   "788": [
-    ["Places","Cave homes in Matmata were used as Luke Skywalker's home on Tatooine in Star Wars.","Matmata, Tunisia",1349049891],
+    ["Film","Cave homes in Matmata were used as Luke Skywalker's home on Tatooine in Star Wars.","Matmata, Tunisia",1349049891],
     ["History","The ancient city of Carthage, rival of Rome, lies on the outskirts of modern Tunis.","Carthage",1383005843],
     ["Places","The Amphitheatre of El Jem, which held about 35,000 spectators, is one of the biggest Roman amphitheatres.","Amphitheatre of El Jem",1378651984],
     ["Food","Couscous and brik, a thin pastry often filled with egg and tuna, are its national dishes.","National dish",1381943985],
@@ -2185,7 +2427,10 @@ window.ATLAS_FACTS = {
     ["Culture","The village of Sidi Bou Said is known for its blue-and-white architecture.","Sidi Bou Said",1377589425],
     ["Music","Ma'luf is a classical music tradition that was introduced by refugees from al-Andalus, the Muslim-ruled part of medieval Spain.","Ma'luf",1379695629],
     ["Sports","Ons Jabeur, born in Ksar Hellal, in 2022 became the first Arab and first African woman to reach a Grand Slam singles final, at Wimbledon.","Ons Jabeur",1385189293],
-    ["People","Hannibal, the general who crossed the Alps with war elephants, was most likely born in Carthage, in 247 BC.","Hannibal",1385925002]
+    ["People","Hannibal, the general who crossed the Alps with war elephants, was most likely born in Carthage, in 247 BC.","Hannibal",1385925002],
+    ["Names","It is named after its capital, whose name may come from the Phoenician goddess Tanith or a Berber word meaning \"to rest\".","List of country-name etymologies",1382950159],
+    ["Animals","Ichkeul Lake is a key winter stop for hundreds of thousands of ducks, geese and storks migrating from Europe.","Lake Ichkeul",1372225609],
+    ["Festivals","The International Festival of the Sahara in Douz celebrates desert life with camel races and Bedouin poetry.","Douz",1378769397]
   ],
   "792": [
     ["Land","Istanbul spans two continents, Europe and Asia, divided by the Bosphorus strait.","Istanbul",1384465789],
@@ -2195,16 +2440,21 @@ window.ATLAS_FACTS = {
     ["Culture","At Kırkpınar, the oldest wrestling competition still held, wrestlers cover themselves in olive oil.","Kırkpınar",1383677613],
     ["Myths","Nasreddin Hodja, a wise fool of folk tales, stars in thousands of funny stories with a moral.","Nasreddin",1378388272],
     ["Sports","Oil wrestling and cirit, a game of throwing blunt javelins on horseback, are national sports.","National sport",1384611106],
-    ["Nature","Its national animal is the gray wolf, and its national cat the Angora.","List of national animals",1384556882],
+    ["Animals","Its national animal is the gray wolf, and its national cat the Angora.","List of national animals",1384556882],
     ["People","Novelist Orhan Pamuk, a Nobel Prize winner, was born in Istanbul.","Orhan Pamuk",1374815871],
     ["Landmarks","Hagia Sophia in Istanbul was built as a church in 537 and has also been a mosque and a museum.","Hagia Sophia",1383906981],
     ["Music","The Mevlevi \"whirling dervishes\" of Konya spin in a ceremony called the sema, to the sound of the ney, a reed flute.","Mevlevi Order",1383516530],
     ["Science","Aziz Sancar, born in Savur in 1946, shared the 2015 Nobel Prize in Chemistry for mapping how cells repair damaged DNA.","Aziz Sancar",1382076767],
-    ["Arts","Ebru is the art of marbling paper: colours are floated on thickened water, swirled into patterns and lifted off on a sheet.","Paper marbling",1381595005]
+    ["Arts","Ebru is the art of marbling paper: colours are floated on thickened water, swirled into patterns and lifted off on a sheet.","Paper marbling",1381595005],
+    ["Names","Its name means \"land of\" its main people, whose own name, Türk, is said to mean \"created\".","List of country-name etymologies",1382950159],
+    ["Food","Simit, a ring of bread crusted with sesame seeds, is sold on the streets from carts and from trays carried on vendors' heads.","Simit",1382038011],
+    ["Film","Muhteşem Yüzyıl, a hit TV drama about Sultan Suleiman the Magnificent and his wife Hürrem, was broadcast around the world.","Muhteşem Yüzyıl",1379690169],
+    ["Inventions","Coffee houses spread in Istanbul in the 16th century; the coffee is brewed unfiltered in a small long-handled pot called a cezve.","Turkish coffee",1381330199],
+    ["Space","Alper Gezeravcı became its first astronaut in 2024, on the Axiom Mission 3 to the International Space Station.","Alper Gezeravcı",1378495914]
   ],
   "795": [
     ["Places","The Darvaza gas crater, nicknamed the Door to Hell, has been burning in the Karakum Desert since about 1971.","Darvaza gas crater",1383679391],
-    ["Nature","Akhal-Teke horses, known for their metallic-looking coats, are a national symbol of Turkmenistan.","Akhal-Teke",1365609003],
+    ["Animals","Akhal-Teke horses, known for their metallic-looking coats, are a national symbol of Turkmenistan.","Akhal-Teke",1365609003],
     ["Land","The Karakum Desert covers most of Turkmenistan.","Karakum Desert",1365882422],
     ["Symbols","Its flag includes five traditional carpet patterns, one for each major tribe.","Flag of Turkmenistan",1376570981],
     ["Quirky","Its capital, Ashgabat, holds the record for the most white marble buildings.","Ashgabat",1383903152],
@@ -2231,16 +2481,18 @@ window.ATLAS_FACTS = {
     ["Money","It uses the Australian dollar alongside its own coins.","Tuvaluan dollar",1376055447]
   ],
   "800": [
-    ["Nature","About half of the world's mountain gorillas live in Uganda's Bwindi Impenetrable Forest.","Bwindi Impenetrable National Park",1362705911],
+    ["Animals","About half of the world's mountain gorillas live in Uganda's Bwindi Impenetrable Forest.","Bwindi Impenetrable National Park",1362705911],
     ["Land","The town of Jinja, on Lake Victoria, is known as the source of the White Nile.","Jinja, Uganda",1379313998],
     ["Land","The Rwenzori Mountains are thought to be the Mountains of the Moon described by ancient writers.","Rwenzori Mountains",1373860309],
     ["Food","Matoke, steamed and mashed green bananas, is its national dish.","Matoke",1364798360],
-    ["Nature","Its national bird is the grey crowned crane, and its national animal the Ugandan kob.","List of national animals",1384556882],
+    ["Animals","Its national bird is the grey crowned crane, and its national animal the Ugandan kob.","List of national animals",1384556882],
     ["Capitals","Its capital is Kampala, built on hills near Lake Victoria.","Kampala",1384661568],
     ["Places","At Murchison Falls the Nile forces its way through a gap only about 7 m wide.","Murchison Falls",1366110737],
     ["Music","Kadongo kamu, meaning \"one little guitar\", is both a style of music and a storytelling tradition.","Kadongo Kamu",1364811010],
     ["Sports","John Akii-Bua won the 400 metres hurdles at the 1972 Munich Olympics in world-record time, the nation's first Olympic gold.","John Akii-Bua",1381717148],
-    ["People","Chess player Phiona Mutesi, who grew up in the Katwe slum of Kampala, inspired the Disney film Queen of Katwe.","Phiona Mutesi",1380171196]
+    ["People","Chess player Phiona Mutesi, who grew up in the Katwe slum of Kampala, inspired the Disney film Queen of Katwe.","Phiona Mutesi",1380171196],
+    ["Names","It is named after an old kingdom in its central region, whose name comes from a word meaning \"a bundle\".","List of country-name etymologies",1382950159],
+    ["Festivals","Each 3 June, pilgrims gather at Namugongo, where 22 Catholic converts were burned alive in 1886; a basilica was built there in 1968.","Uganda Martyrs",1376817384]
   ],
   "804": [
     ["Records","Kyiv's Arsenalna station, about 105 m underground, is the deepest metro station in the world.","Arsenalna (Kyiv Metro)",1378403687],
@@ -2254,7 +2506,11 @@ window.ATLAS_FACTS = {
     ["Music","Carol of the Bells is based on Shchedryk, a New Year's song arranged by the composer Mykola Leontovych.","Carol of the Bells",1367910024],
     ["Sports","Pole vaulter Sergey Bubka, born in Luhansk, was the first to clear 6 metres and broke the world record 35 times.","Sergey Bubka",1372638783],
     ["Science","Igor Sikorsky, a pioneer of the helicopter, was born in Kyiv in 1889.","Igor Sikorsky",1371316298],
-    ["Science","Sergei Korolev, the chief designer behind Sputnik and Yuri Gagarin's flight, was born in Zhytomyr in 1907.","Sergei Korolev",1384972165]
+    ["Science","Sergei Korolev, the chief designer behind Sputnik and Yuri Gagarin's flight, was born in Zhytomyr in 1907.","Sergei Korolev",1384972165],
+    ["Names","Its name is usually explained as \"edge\" or \"borderland\", from a Slavic word for land.","List of country-name etymologies",1382950159],
+    ["Animals","Przewalski's horses were released into the Chernobyl Exclusion Zone in 1998, and their numbers have grown in the abandoned land.","Przewalski's horse",1386367218],
+    ["Festivals","On Ivan Kupala night, young people jump over bonfires and float wreaths of flowers on rivers.","Kupala Night",1385202475],
+    ["Inventions","Ivan Puluj studied X-rays before Röntgen published his discovery, and made some of the first X-ray images.","Ivan Puluj",1372013920]
   ],
   "807": [
     ["Nature","Lake Ohrid, shared with Albania, is one of the oldest lakes in Europe, more than a million years old.","Lake Ohrid",1381100620],
@@ -2270,7 +2526,7 @@ window.ATLAS_FACTS = {
     ["Land","About 95% of Egyptians live along the Nile valley and delta, on roughly 5% of the country's land.","Egypt",1384120090],
     ["History","The Suez Canal, opened in 1869, links the Mediterranean Sea and the Red Sea.","Suez Canal",1384487045],
     ["Food","Ful medames, a stew of fava beans with olive oil and cumin, is a national dish.","Ful medames",1369831009],
-    ["Culture","Sham el-Nessim, a spring festival dating back to ancient times, is celebrated with picnics and salted fish called fesikh.","Sham Ennessim",1371981519],
+    ["Festivals","Sham el-Nessim, a spring festival dating back to ancient times, is celebrated with picnics and salted fish called fesikh.","Sham Ennessim",1371981519],
     ["Symbols","The emblem on its flag is the Eagle of Saladin.","Flag of Egypt",1380143619],
     ["Myths","In myth, the sun god Ra crossed the sky by day in a boat and sailed through the underworld at night.","Ra",1377934882],
     ["Language","The Rosetta Stone, carved in 196 BC, was the key to reading its ancient hieroglyphs.","Rosetta Stone",1383715042],
@@ -2278,7 +2534,10 @@ window.ATLAS_FACTS = {
     ["Music","Singer Umm Kulthum was so loved that millions of people filled the streets of Cairo for her funeral in 1975.","Umm Kulthum",1384278344],
     ["Sports","The men's football team, the Pharaohs, has won the Africa Cup of Nations a record seven times.","Egypt national football team",1386023988],
     ["Science","Eratosthenes, chief librarian at the Library of Alexandria, was the first known person to calculate the Earth's circumference, using the Sun's shadows.","Eratosthenes",1385632656],
-    ["Arts","Actor Omar Sharif, star of Lawrence of Arabia and Doctor Zhivago, was born in Alexandria in 1932.","Omar Sharif",1385465183]
+    ["Film","Actor Omar Sharif, star of Lawrence of Arabia and Doctor Zhivago, was born in Alexandria in 1932.","Omar Sharif",1385465183],
+    ["Names","Its name comes through Greek Aígyptos from an ancient name of Memphis meaning \"home of the ka of Ptah\".","List of country-name etymologies",1382950159],
+    ["Animals","In ancient times millions of cats were mummified here, many as offerings to the cat goddess Bastet.","Cats in ancient Egypt",1375404110],
+    ["Inventions","Papyrus, a writing material made from reeds along the Nile, was first made here as far back as the 3rd millennium BC.","Papyrus",1377614265]
   ],
   "826": [
     ["Records","The London Underground, opened in 1863, is the oldest underground railway in the world.","London Underground",1383922208],
@@ -2295,10 +2554,17 @@ window.ATLAS_FACTS = {
     ["Daily life","Afternoon tea, with sandwiches, scones and cakes, became popular in the 1840s.","Tea (meal)",1384058012],
     ["People","William Shakespeare was born in Stratford-upon-Avon and is buried there too.","William Shakespeare",1383380297],
     ["Landmarks","Big Ben is the nickname of the Great Bell in the clock tower at the Palace of Westminster.","Big Ben",1382333981],
-    ["Music","Glastonbury Festival began in 1970 on a dairy farm in Somerset.","Glastonbury Festival",1383676505],
+    ["Festivals","Glastonbury Festival began in 1970 on a dairy farm in Somerset.","Glastonbury Festival",1383676505],
     ["Science","Alexander Fleming discovered penicillin in 1928 at St Mary's Hospital, where his laboratory is now a museum.","Alexander Fleming",1375868973],
     ["Science","Charles Darwin, who set out the theory of evolution by natural selection, was born in Shrewsbury in 1809.","Charles Darwin",1382397901],
-    ["Arts","Banksy, the anonymous street artist, emerged from the graffiti scene in Bristol.","Banksy",1385757227]
+    ["Arts","Banksy, the anonymous street artist, emerged from the graffiti scene in Bristol.","Banksy",1385757227],
+    ["Animals","At least six ravens are kept at the Tower in its capital, where legend says the realm will fall if they ever leave.","Ravens of the Tower of London",1386183409],
+    ["Festivals","In Olney, women have run a pancake race on Shrove Tuesday since 1445, flipping a pancake in a frying pan as they go.","Pancake",1386302221],
+    ["Film","James Bond first appeared on screen in Dr. No in 1962, played by Sean Connery.","Dr. No (film)",1385296609],
+    ["Film","Doctor Who, first broadcast in 1963, is the longest-running science-fiction television series in the world.","Doctor Who",1385792883],
+    ["Inventions","George Stephenson's Rocket won the Rainhill Trials of 1829, held to choose the engines for a new railway.","Stephenson's Rocket",1382431573],
+    ["Inventions","John Logie Baird gave the first public demonstration of television in 1926.","John Logie Baird",1385185413],
+    ["Space","Helen Sharman, a chemist from Sheffield, became the first person from the country in space in 1991 after answering a radio advert.","Helen Sharman",1380359965]
   ],
   "831": [
     ["Culture","Victor Hugo lived at Hauteville House on Guernsey from 1856 to 1870, during his exile from France.","Hauteville House",1351199864],
@@ -2338,7 +2604,10 @@ window.ATLAS_FACTS = {
     ["Music","Bongo Flava, a blend of hip hop with local styles such as taarab and dansi, grew up in Dar es Salaam in the 1990s.","Bongo Flava",1366474820],
     ["Sports","Filbert Bayi set a world record for the 1500 metres at the 1974 Commonwealth Games, leading the race from the start.","Filbert Bayi",1364241427],
     ["People","Julius Nyerere, the first president, known as Mwalimu or \"teacher\", was born in the village of Butiama in 1922.","Julius Nyerere",1384641792],
-    ["Science","At Laetoli, footprints left in volcanic ash by early humans about 3.7 million years ago were found by Mary Leakey and her team in 1976.","Laetoli",1384115101]
+    ["Science","At Laetoli, footprints left in volcanic ash by early humans about 3.7 million years ago were found by Mary Leakey and her team in 1976.","Laetoli",1384115101],
+    ["Names","Its name was made in 1964 by blending the names of Tanganyika and Zanzibar, which united to form the country.","List of country-name etymologies",1382950159],
+    ["Animals","The Ngorongoro Crater, a collapsed volcano, holds about 25,000 large animals, including one of the densest populations of lions.","Ngorongoro Conservation Area",1382376882],
+    ["Festivals","Sauti za Busara, a music festival held each February in Stone Town, Zanzibar, features artists from across Africa.","Sauti za Busara",1344447878]
   ],
   "840": [
     ["Records","Alaska is the westernmost, northernmost and, strangely, easternmost US state. Its Aleutian Islands cross the 180° meridian into the Eastern Hemisphere.","List of extreme points of the United States",1378365557],
@@ -2350,7 +2619,7 @@ window.ATLAS_FACTS = {
     ["Myths","Bigfoot, a large, hairy ape-like creature, is said to roam the forests of the Pacific Northwest.","Bigfoot",1384225561],
     ["Money","The word “dollar” comes from the thaler, a silver coin first minted in Bohemia.","Dollar",1381346205],
     ["Daily life","Tipping restaurant servers about 15 to 20 percent is expected.","Gratuity",1375273378],
-    ["Nature","Its national bird is the bald eagle, and its national mammal the American bison.","List of national animals",1384556882],
+    ["Animals","Its national bird is the bald eagle, and its national mammal the American bison.","List of national animals",1384556882],
     ["Money","The US dollar is the world's main reserve currency.","United States dollar",1384559348],
     ["People","Martin Luther King Jr. was born in Atlanta, where his childhood home is now a national historical park.","Martin Luther King Jr.",1384383746],
     ["Landmarks","The Statue of Liberty was a gift from France and was dedicated in 1886.","Statue of Liberty",1383719217],
@@ -2359,7 +2628,13 @@ window.ATLAS_FACTS = {
     ["Sports","Basketball was invented in 1891 by James Naismith at a YMCA school in Springfield, Massachusetts, with peach baskets for goals.","James Naismith",1384928768],
     ["Sports","The first Super Bowl was played in Los Angeles in January 1967, when the Green Bay Packers beat the Kansas City Chiefs.","Super Bowl I",1379957633],
     ["Science","The Wright brothers made the first controlled, powered aeroplane flights in December 1903 near Kitty Hawk, North Carolina.","Wright brothers",1385333340],
-    ["Arts","The Hollywood Sign first read Hollywoodland and was put up in 1923 to advertise a housing development.","Hollywood Sign",1385654063]
+    ["Arts","The Hollywood Sign first read Hollywoodland and was put up in 1923 to advertise a housing development.","Hollywood Sign",1385654063],
+    ["Festivals","Thanksgiving, on the fourth Thursday of November, is traditionally celebrated with a roast turkey.","Thanksgiving (United States)",1386487864],
+    ["Film","The first Academy Awards ceremony was held in Hollywood in 1929 and lasted just 15 minutes.","Academy Awards",1386184439],
+    ["Film","Walt Disney's Snow White and the Seven Dwarfs, released in 1937, was the first cel-animated feature film.","Snow White and the Seven Dwarfs (film)",1385006693],
+    ["Inventions","Thomas Edison's laboratory at Menlo Park, New Jersey, produced the phonograph in 1877.","Thomas Edison",1386281248],
+    ["Inventions","The first working transistor was built at Bell Labs in 1947 by John Bardeen, Walter Brattain and William Shockley.","Transistor",1386451050],
+    ["Space","Apollo 11 landed the first people on the Moon on 20 July 1969, in the Sea of Tranquility.","Apollo 11",1386189273]
   ],
   "850": [
     ["History","The United States bought these islands from Denmark in 1917.","United States Virgin Islands",1383337973],
@@ -2371,7 +2646,7 @@ window.ATLAS_FACTS = {
     ["Culture","Transfer Day, 31 March, marks the handover from Denmark to the United States in 1917.","Transfer Day",1354354877]
   ],
   "854": [
-    ["Culture","Ouagadougou hosts FESPACO, a pan-African film festival held every two years since 1969.","Panafrican Film and Television Festival of Ouagadougou",1379214494],
+    ["Film","Ouagadougou hosts FESPACO, a pan-African film festival held every two years since 1969.","Panafrican Film and Television Festival of Ouagadougou",1379214494],
     ["Culture","The country's name means land of upright people.","Burkina Faso",1383913219],
     ["Food","Riz gras, a rich rice dish, is its national dish.","National dish",1381943985],
     ["Heritage","The Ruins of Loropéni, stone walls over 1,000 years old, are a UNESCO World Heritage Site.","Ruins of Loropéni",1365739670],
@@ -2380,7 +2655,9 @@ window.ATLAS_FACTS = {
     ["Arts","The International Festival of Masks and Arts, FESTIMA, is held every two years in Dédougou.","Burkina Faso",1384752048],
     ["Music","Singer-songwriter Victor Démé, the son of a tailor, was born in Bobo-Dioulasso.","Victor Démé",1344426437],
     ["Sports","Triple jumper Hugues Fabrice Zango won bronze at the Tokyo Olympics, the nation's first Olympic medal.","Hugues Fabrice Zango",1381202359],
-    ["People","Thomas Sankara, the young revolutionary president who gave the country its present name in 1984, was born in Yako.","Thomas Sankara",1386035667]
+    ["People","Thomas Sankara, the young revolutionary president who gave the country its present name in 1984, was born in Yako.","Thomas Sankara",1386035667],
+    ["Names","Its name means \"Land of Honest Men\", joining words from two of its languages, Mooré and Dioula.","List of country-name etymologies",1382950159],
+    ["Festivals","SIAO, held every two years in the capital since 1984, is one of Africa's most important arts and crafts fairs.","International Art & Craft Fair",1358732118]
   ],
   "858": [
     ["History","Uruguay hosted and won the first FIFA World Cup, in 1930.","1930 FIFA World Cup",1379114380],
@@ -2403,7 +2680,10 @@ window.ATLAS_FACTS = {
     ["Music","Shashmaqam, a classical tradition whose name means \"six maqams\", grew up in the city of Bukhara.","Shashmaqam",1336817994],
     ["Sports","Kurash is a traditional style of wrestling in which the aim is to throw the opponent off their feet.","Kurash",1384849472],
     ["Science","The words algorithm and algebra both come from the 9th-century mathematician al-Khwarizmi, whose name means \"from Khwarazm\".","Al-Khwarizmi",1385606532],
-    ["Arts","Suzani are large embroidered cloths, traditionally stitched by brides for their dowry; the name comes from the Persian word for needle.","Suzani (textile)",1381783798]
+    ["Arts","Suzani are large embroidered cloths, traditionally stitched by brides for their dowry; the name comes from the Persian word for needle.","Suzani (textile)",1381783798],
+    ["Names","Its name is often explained as \"home of the free\", from Turkic words for \"self\" and \"master\" and the Persian -stan, \"land of\".","List of country-name etymologies",1382950159],
+    ["Animals","The Bukhara deer, a red deer of Central Asia, had fallen to no more than 400 animals by 1999.","Bactrian deer",1384718415],
+    ["Space","Ulugh Beg built a great observatory in Samarkand in the 1420s and made a star catalogue of more than 1,000 stars.","Ulugh Beg Observatory",1386517949]
   ],
   "862": [
     ["Records","Angel Falls is the world's highest uninterrupted waterfall, dropping about 979 m.","Angel Falls",1378883448],
@@ -2411,13 +2691,15 @@ window.ATLAS_FACTS = {
     ["Records","Venezuela has the largest proven oil reserves in the world.","Venezuela",1383749751],
     ["Food","Pabellón criollo, shredded beef with rice, black beans and fried plantain, is its national dish.","Pabellón criollo",1362244085],
     ["Symbols","An eighth star was added to its flag in 2006.","Flag of Venezuela",1381178906],
-    ["Nature","Its national bird is the troupial.","List of national animals",1384556882],
+    ["Animals","Its national bird is the troupial.","List of national animals",1384556882],
     ["Places","The Mérida cable car climbs to one of the highest cable car stations in the world.","Mérida cable car",1363343437],
     ["People","Simón Bolívar, who led much of South America to independence, was born in Caracas.","Simón Bolívar",1384843952],
     ["Music","El Sistema, founded in 1975 by José Antonio Abreu, gives young people free instruments and orchestra training; conductor Gustavo Dudamel came through it.","El Sistema",1383852973],
     ["Sports","Shortstop Luis Aparicio, born in Maracaibo, in 1984 became the first player from the country elected to baseball's Hall of Fame.","Luis Aparicio",1384828193],
     ["Science","Baruj Benacerraf, born in Caracas in 1920, shared the 1980 Nobel Prize in Medicine for work on the immune system.","Baruj Benacerraf",1381480040],
-    ["Arts","Carlos Cruz-Diez, a pioneer of kinetic and op art, was born in Caracas in 1923.","Carlos Cruz-Diez",1383618886]
+    ["Arts","Carlos Cruz-Diez, a pioneer of kinetic and op art, was born in Caracas in 1923.","Carlos Cruz-Diez",1383618886],
+    ["Names","Its name means \"Little Venice\": explorers saw stilt houses on Lake Maracaibo that reminded them of Venice.","List of country-name etymologies",1382950159],
+    ["Festivals","At Corpus Christi in San Francisco de Yare, the Dancing Devils dance in red costumes and big painted masks.","Dancing devils of Corpus Christi",1383692620]
   ],
   "876": [
     ["Culture","Wallis and Futuna, a French territory, is still divided among three traditional kingdoms.","Wallis and Futuna",1384098066],
@@ -2447,11 +2729,13 @@ window.ATLAS_FACTS = {
     ["Culture","Many men wear the janbiya, a curved dagger, on their belt.","Jambiya",1369752153],
     ["Music","The qanbus, a short-necked lute that originated here, spread throughout the Arabian Peninsula before the oud took its place.","Qanbūs",1383372074],
     ["Sports","It first competed at the Summer Olympic Games in 1992 and has not yet won an Olympic medal.","Yemen at the Olympics",1368647222],
-    ["People","Journalist Tawakkol Karman shared the 2011 Nobel Peace Prize, the first Arab woman to win it.","Tawakkol Karman",1384028057]
+    ["People","Journalist Tawakkol Karman shared the 2011 Nobel Peace Prize, the first Arab woman to win it.","Tawakkol Karman",1384028057],
+    ["Names","Its name may come from the Arabic yamīn, \"right-hand side\", meaning south, or from yumn, \"happiness\".","List of country-name etymologies",1382950159],
+    ["Animals","Socotra's dragon's blood trees shelter reptiles and birds found nowhere else, and about a third of its plants are endemic.","Socotra",1386070229]
   ],
   "894": [
     ["Places","In the dry season, swimmers can sit in Devil's Pool, a rock pool right at the edge of Victoria Falls.","Victoria Falls",1378459043],
-    ["Nature","From October to December nearly ten million fruit bats gather in Kasanka National Park, the largest mammal migration in the world.","Kasanka National Park",1362778759],
+    ["Animals","From October to December nearly ten million fruit bats gather in Kasanka National Park, the largest mammal migration in the world.","Kasanka National Park",1362778759],
     ["Records","Lake Kariba, shared with Zimbabwe, is the largest artificial lake in the world by volume.","Lake Kariba",1375435195],
     ["Food","Nshima, maize flour cooked into a stiff, dough-like porridge, is its national dish.","National dish",1381943985],
     ["Nature","Victoria Falls is known locally as Mosi-oa-Tunya, “the smoke that thunders”.","Victoria Falls",1378459043],
@@ -2459,30 +2743,35 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Lusaka.","Lusaka",1381447899],
     ["Music","In the 1970s bands such as WITCH and Amanaz fused psychedelic rock and funk with traditional music.","Zamrock",1378387893],
     ["Sports","The men's football team won the 2012 Africa Cup of Nations in Libreville, close to where a 1993 plane crash had killed most of the national squad.","2012 Africa Cup of Nations final",1345000844],
-    ["People","Kenneth Kaunda, the first president, who led the country from 1964 to 1991, was born at Lubwa Mission near Chinsali.","Kenneth Kaunda",1384335766]
+    ["People","Kenneth Kaunda, the first president, who led the country from 1964 to 1991, was born at Lubwa Mission near Chinsali.","Kenneth Kaunda",1384335766],
+    ["Names","It is named after the great river that flows through its east and forms its border with Zimbabwe.","List of country-name etymologies",1382950159],
+    ["Festivals","At the Kuomboka, the king of the Lozi moves to higher ground in a great royal barge when the river plain floods.","Kuomboka",1351431741]
   ],
   "076": [
     ["Land","Brazil borders every South American country except Chile and Ecuador.","Brazil",1384220523],
     ["Food","Brazil has been the world's largest coffee producer for more than 150 years.","Coffee production in Brazil",1383251726],
     ["Nature","About 60% of the Amazon rainforest lies inside Brazil.","Amazon rainforest",1383154506],
     ["Food","Feijoada, a stew of black beans with pork and beef, is its national dish.","Feijoada (Brazilian dish)",1373613571],
-    ["Culture","During Carnival in Rio de Janeiro, samba schools parade through the Sambadrome in a contest.","Rio Carnival",1373765721],
+    ["Festivals","During Carnival in Rio de Janeiro, samba schools parade through the Sambadrome in a contest.","Rio Carnival",1373765721],
     ["Symbols","Its flag shows the night sky over Rio de Janeiro on 15 November 1889, with the motto “Ordem e Progresso”.","Flag of Brazil",1383020194],
     ["Myths","The Curupira, a forest guardian of folklore, has backward-facing feet to confuse hunters.","Curupira",1372864012],
     ["Daily life","The “OK” hand gesture is considered offensive there.","OK gesture",1384456188],
     ["Sports","Capoeira, a martial art that blends dance, acrobatics and music, is regarded as a national sport, along with football.","National sport",1384611106],
-    ["Nature","Its national animal is the jaguar.","List of national animals",1384556882],
+    ["Animals","Its national animal is the jaguar.","List of national animals",1384556882],
     ["Music","Samba, the music and dance of Carnival, has roots in Afro-Brazilian communities of Bahia.","Samba",1380788548],
     ["Capitals","Brasília, built from scratch in the shape of an airplane, became the capital in 1960.","Brasília",1384234017],
     ["People","Pelé, the only player to win three World Cups, was born in Três Corações.","Pelé",1384642199],
     ["Landmarks","Christ the Redeemer stands 30 m tall on top of Corcovado mountain above Rio de Janeiro.","Christ the Redeemer (statue)",1384036869],
     ["Science","Alberto Santos-Dumont flew his 14-bis aeroplane before a crowd in Paris in 1906 and is honoured at home as the father of aviation.","Alberto Santos-Dumont",1385988813],
     ["Arts","Architect Oscar Niemeyer, born in Rio de Janeiro in 1907, designed the curving modernist buildings of the purpose-built capital.","Oscar Niemeyer",1381840879],
-    ["Arts","City of God, a 2002 crime film directed by Fernando Meirelles, follows two boys growing up in a tough suburb of Rio de Janeiro.","City of God (2002 film)",1385873438]
+    ["Film","City of God, a 2002 crime film directed by Fernando Meirelles, follows two boys growing up in a tough suburb of Rio de Janeiro.","City of God (2002 film)",1385873438],
+    ["Names","Its name comes from a tree whose red wood was prized for dye; the word is linked to the Portuguese for red-hot embers.","List of country-name etymologies",1382950159],
+    ["Inventions","Roberto Landell de Moura, a priest from Porto Alegre, experimented with sending the human voice by radio in 1893 and 1894.","Roberto Landell de Moura",1383529980],
+    ["Space","Marcos Pontes, an air force pilot, became its first astronaut when he flew to the International Space Station in 2006.","Marcos Pontes",1385503680]
   ],
   "032": [
     ["Records","Aconcagua, at about 6,967 m, is the highest mountain outside Asia.","Aconcagua",1373517716],
-    ["History","In 1892 Argentine police solved a murder using fingerprints, one of the first cases of its kind, thanks to the work of Juan Vucetich.","Juan Vucetich",1375183148],
+    ["Inventions","In 1892 Argentine police solved a murder using fingerprints, one of the first cases of its kind, thanks to the work of Juan Vucetich.","Juan Vucetich",1375183148],
     ["Land","Ushuaia, on Tierra del Fuego, is widely billed as the southernmost city in the world.","Ushuaia",1383225435],
     ["Food","Asado, a barbecue that is also a social event, is a national dish.","National dish",1381943985],
     ["Food","Mate, a caffeinated herbal drink, is sipped through a metal straw called a bombilla from a shared gourd.","Mate (drink)",1379966397],
@@ -2493,31 +2782,39 @@ window.ATLAS_FACTS = {
     ["Landmarks","The Obelisk of Buenos Aires stands in the Plaza de la República, on Avenida 9 de Julio.","Obelisco de Buenos Aires",1381758692],
     ["Science","In 1947 Bernardo Houssay, born in Buenos Aires, became the first Latin American to win a Nobel Prize in the sciences.","Bernardo Houssay",1371975591],
     ["Arts","Jorge Luis Borges, the writer of the story collections Ficciones and The Aleph, was born in Buenos Aires in 1899.","Jorge Luis Borges",1385300528],
-    ["Arts","The Secret in Their Eyes, directed by Juan José Campanella, won the Academy Award for Best Foreign Language Film in 2010.","The Secret in Their Eyes",1382725963]
+    ["Film","The Secret in Their Eyes, directed by Juan José Campanella, won the Academy Award for Best Foreign Language Film in 2010.","The Secret in Their Eyes",1382725963],
+    ["Names","Its name comes from the Latin word for silver; it first appeared for the region on a Venetian map in 1536.","List of country-name etymologies",1382950159],
+    ["Animals","The rufous hornero, the national bird, builds an oven-shaped nest out of mud.","Rufous hornero",1376218919],
+    ["Animals","Southern right whales gather each winter in the bays of Península Valdés to breed.","Valdés Peninsula",1366157252],
+    ["Festivals","The National Grape Harvest Festival in Mendoza crowns a national harvest queen in the first week of March.","Fiesta Nacional de la Vendimia",1344840022],
+    ["Inventions","László Bíró, who had moved to Buenos Aires, patented the ballpoint pen there in 1943.","László Bíró",1363796003]
   ],
   "068": [
     ["Records","Salar de Uyuni is the world's largest salt flat, covering about 10,500 km². After rain it becomes a giant mirror.","Salar de Uyuni",1369101391],
     ["Culture","Bolivia has two capitals: Sucre is the constitutional capital and La Paz is the seat of government.","Bolivia",1384272449],
     ["Records","Mi Teleférico, La Paz's cable car network, is the longest urban cable car system in the world and works as everyday public transit.","Mi Teleférico",1375022081],
     ["Food","Salteñas, baked pastries filled with meat in a sweet, slightly spicy sauce, are a national dish.","National dish",1381943985],
-    ["Culture","The Carnival of Oruro, famous for the Diablada dance of devils, is a UNESCO Masterpiece of Oral and Intangible Heritage.","Carnaval de Oruro",1374786630],
+    ["Festivals","The Carnival of Oruro, famous for the Diablada dance of devils, is a UNESCO Masterpiece of Oral and Intangible Heritage.","Carnaval de Oruro",1374786630],
     ["Symbols","Alongside its red, yellow and green flag, the checkered rainbow Wiphala is an official national symbol.","Flag of Bolivia",1379991796],
     ["Language","Its constitution recognizes 37 official languages, most of them indigenous.","Languages of Bolivia",1383242202],
     ["Landmarks","Tiwanaku, near Lake Titicaca, was home to perhaps 10,000 to 20,000 people around AD 800.","Tiwanaku",1383136978],
     ["Music","The charango, a small lute with ten strings, was traditionally made from the shell of an armadillo.","Charango",1385490783],
     ["Sports","The men's football team won the South American championship in 1963, as hosts; it is still the country's only Copa América title.","1963 South American Championship",1364170334],
-    ["People","Evo Morales, a former leader of the coca growers' union, was born in Isallawi in 1959 and became president in 2006.","Evo Morales",1385973786]
+    ["People","Evo Morales, a former leader of the coca growers' union, was born in Isallawi in 1959 and became president in 2006.","Evo Morales",1385973786],
+    ["Names","It is named in honour of Simón Bolívar, a leader of the wars of independence from Spain.","List of country-name etymologies",1382950159],
+    ["Animals","Lake Titicaca is home to the Titicaca water frog, nicknamed the scrotum frog for its baggy, wrinkled skin.","Telmatobius culeus",1385594653],
+    ["Sports","The Fighting Cholitas are Aymara women who wrestle in the ring in El Alto, drawing crowds of over a thousand.","Fighting Cholitas",1377515213]
   ],
   "064": [
     ["Culture","Bhutan measures its progress by Gross National Happiness.","Gross National Happiness",1384111623],
     ["Nature","Bhutan's forests absorb more carbon dioxide each year than the whole country produces.","Bhutan",1383326684],
     ["Records","Gangkhar Puensum, at 7,570 m, is thought to be the highest unclimbed mountain. Bhutan bans climbing peaks above 6,000 m.","Gangkhar Puensum",1375451787],
     ["Food","Its national dish, ema datshi, is a spicy stew of hot chili peppers and cheese.","Ema datshi",1375574957],
-    ["Culture","At tshechu festivals, monks perform cham, costumed and masked dances that tell moral tales.","Tshechu",1355974532],
+    ["Festivals","At tshechu festivals, monks perform cham, costumed and masked dances that tell moral tales.","Tshechu",1355974532],
     ["Symbols","Its flag shows Druk, the thunder dragon, holding jewels in its claws.","Flag of Bhutan",1377676342],
     ["Myths","Druk, the thunder dragon, gives its name to the country: Druk Yul, “Land of the Thunder Dragon”.","Druk",1356721979],
     ["Sports","Archery is its national sport, played at targets about 145 meters away.","National sport",1384611106],
-    ["Nature","Its national animal is the takin, nicknamed the gnu goat, and its mythical national creature is the Druk.","List of national animals",1384556882],
+    ["Animals","Its national animal is the takin, nicknamed the gnu goat, and its mythical national creature is the Druk.","List of national animals",1384556882],
     ["Landmarks","Paro Taktsang, the Tiger's Nest monastery, clings to a cliff about 900 m above the valley floor.","Paro Taktsang",1382202266]
   ],
   "050": [
@@ -2525,14 +2822,18 @@ window.ATLAS_FACTS = {
     ["History","International Mother Language Day, on 21 February, honors students killed during Bangladesh's 1952 Language Movement.","International Mother Language Day",1364465419],
     ["Records","Bangladesh is one of the most densely populated countries in the world.","Bangladesh",1384502442],
     ["Food","Its national food is rice and fish, above all the ilish, a fish related to the herring.","National dish",1381943985],
-    ["Culture","On Pohela Boishakh, the Bengali New Year, a huge parade called Mangal Shobhajatra fills the streets of Dhaka.","Pohela Boishakh",1382867458],
+    ["Festivals","On Pohela Boishakh, the Bengali New Year, a huge parade called Mangal Shobhajatra fills the streets of Dhaka.","Pohela Boishakh",1382867458],
     ["Sports","Kabaddi, where a raider tags opponents without taking a breath, is its national sport.","National sport",1384611106],
     ["Places","Cox's Bazar has one of the longest natural sea beaches in the world.","Cox's Bazar",1384348671],
     ["People","Muhammad Yunus, Nobel Peace Prize winner for microcredit, was born near Chittagong.","Muhammad Yunus",1380588295],
     ["Landmarks","The National Parliament House in Dhaka was designed by architect Louis Kahn.","Jatiya Sangsad Bhaban",1371228520],
     ["Music","Baul singers are wandering mystic minstrels whose songs are on UNESCO's list of intangible cultural heritage.","Baul",1371821524],
     ["Science","Jagadish Chandra Bose, a pioneer of radio and of plant science, was born in Mymensingh in 1858.","Jagadish Chandra Bose",1386011763],
-    ["Arts","Painter Zainul Abedin, born in Kishoreganj in 1914, became famous for his stark sketches of the famine of 1943.","Zainul Abedin",1374123909]
+    ["Arts","Painter Zainul Abedin, born in Kishoreganj in 1914, became famous for his stark sketches of the famine of 1943.","Zainul Abedin",1374123909],
+    ["Names","Its name, \"Country of Bengal\", was used in patriotic songs by Rabindranath Tagore and Kazi Nazrul Islam in the early 20th century.","List of country-name etymologies",1382950159],
+    ["Film","Its film industry, based in Dhaka, is nicknamed Dhallywood.","Cinema of Bangladesh",1379664717],
+    ["Inventions","Fazlur Rahman Khan, born in Dhaka, devised the tube structure that made skyscrapers such as Chicago's Willis Tower possible.","Fazlur Rahman Khan",1385243668],
+    ["Space","Its first communications satellite was launched on a SpaceX rocket in 2018.","Bangladesh Satellite-1",1384857255]
   ],
   "036": [
     ["Records","The Great Barrier Reef is the largest coral reef system in the world.","Great Barrier Reef",1381928932],
@@ -2542,7 +2843,7 @@ window.ATLAS_FACTS = {
     ["Symbols","The large Commonwealth Star on its flag has seven points.","Flag of Australia",1381180536],
     ["Myths","The bunyip is a creature from Aboriginal folklore said to lurk in swamps, creeks and waterholes.","Bunyip",1383974540],
     ["Money","In 1988 it became the first country to issue banknotes made of plastic polymer.","Polymer banknote",1378507737],
-    ["Nature","Its national animal is the red kangaroo, and its national bird is the emu.","List of national animals",1384556882],
+    ["Animals","Its national animal is the red kangaroo, and its national bird is the emu.","List of national animals",1384556882],
     ["Capitals","Canberra was built as the capital as a compromise between rivals Sydney and Melbourne.","Canberra",1382572761],
     ["Language","Hundreds of Aboriginal languages were spoken before colonization.","Australian Aboriginal languages",1381610084],
     ["People","Actor Cate Blanchett was born in Melbourne.","Cate Blanchett",1384123297],
@@ -2550,9 +2851,13 @@ window.ATLAS_FACTS = {
     ["Music","The didgeridoo, a wind instrument made from a tree trunk hollowed out by termites, was developed by Aboriginal peoples of the north.","Didgeridoo",1385657808],
     ["Music","The rock band AC/DC was formed in Sydney in 1973 by the brothers Malcolm and Angus Young.","AC/DC",1385986451],
     ["Sports","Cricketer Don Bradman finished his career with a Test batting average of 99.94, far ahead of anyone else.","Don Bradman",1385996471],
-    ["Science","David Warren, inventor of the \"black box\" flight recorder, worked at the Aeronautical Research Laboratories in Melbourne from 1952.","David Warren (inventor)",1372830876],
+    ["Inventions","David Warren, inventor of the \"black box\" flight recorder, worked at the Aeronautical Research Laboratories in Melbourne from 1952.","David Warren (inventor)",1372830876],
     ["Science","Graeme Clark led the Melbourne team that gave a patient the first multi-channel cochlear implant, or \"bionic ear\", in 1978.","Graeme Clark (doctor)",1384130041],
-    ["Arts","Heath Ledger, who won an Oscar for playing the Joker in The Dark Knight, was born in Perth in 1979.","Heath Ledger",1385985074]
+    ["Film","Heath Ledger, who won an Oscar for playing the Joker in The Dark Knight, was born in Perth in 1979.","Heath Ledger",1385985074],
+    ["Names","Its name means \"Southern Land\", after a legendary unknown southern continent; the explorer Matthew Flinders made it popular.","List of country-name etymologies",1382950159],
+    ["Festivals","On Anzac Day, 25 April, dawn services remember soldiers who landed at Gallipoli in 1915.","Anzac Day",1386444428],
+    ["Inventions","Wi-Fi grew out of work by a team at CSIRO led by John O'Sullivan.","CSIRO",1386171473],
+    ["Space","The Parkes radio telescope helped receive the live television pictures of the Apollo 11 Moon landing in 1969.","Parkes Observatory",1385784973]
   ],
   "012": [
     ["Records","Algeria is the largest country in Africa by area.","Algeria",1384252481],
@@ -2561,23 +2866,29 @@ window.ATLAS_FACTS = {
     ["Food","Couscous, small steamed granules of semolina served with a stew on top, is its national dish.","National dish",1381943985],
     ["Music","Raï, a popular folk music, began in the city of Oran.","Raï",1384406859],
     ["Capitals","Its capital is Algiers, on the Mediterranean coast.","Algiers",1384456454],
-    ["Nature","The fennec fox, a small desert fox with huge ears, is its national animal.","Fennec fox",1380846494],
+    ["Animals","The fennec fox, a small desert fox with huge ears, is its national animal.","Fennec fox",1380846494],
     ["People","Writer Albert Camus, author of The Stranger, was born in Mondovi, today's Dréan.","Albert Camus",1384113961],
     ["Sports","Hassiba Boulmerka won the 1500 metres at Barcelona in 1992, the nation's first Olympic gold medal.","Hassiba Boulmerka",1373529130],
-    ["Arts","Chronicle of the Years of Fire, directed by Mohammed Lakhdar-Hamina, won the Palme d'Or at Cannes in 1975.","Chronicle of the Years of Fire",1383397289]
+    ["Film","Chronicle of the Years of Fire, directed by Mohammed Lakhdar-Hamina, won the Palme d'Or at Cannes in 1975.","Chronicle of the Years of Fire",1383397289],
+    ["Names","It is named after its capital, whose Arabic name, al-Jazāʼir, means \"the Islands\", after four islands off its coast.","List of country-name etymologies",1382950159],
+    ["Festivals","Yennayer, the Berber new year in January, became a national holiday in 2018.","Yennayer",1381428633],
+    ["Space","Alsat-1, launched in 2002, was the first satellite of the Disaster Monitoring Constellation.","AlSAT-1",1338363805]
   ],
   "004": [
     ["Culture","Buzkashi, where riders on horseback compete to carry a goat carcass to a goal, is Afghanistan's national sport.","Buzkashi",1380932846],
     ["Nature","The deep-blue lakes of Band-e Amir became Afghanistan's first national park.","Band-e Amir National Park",1381052028],
     ["Places","The Minaret of Jam, about 65 m tall, was built in the 12th century.","Minaret of Jam",1377843147],
     ["Food","Its national dish is kabuli palaw, a pilaf of rice cooked with meat, carrots and raisins.","National dish",1381943985],
-    ["Nature","Its national animal is the snow leopard.","List of national animals",1384556882],
+    ["Animals","Its national animal is the snow leopard.","List of national animals",1384556882],
     ["Capitals","Its capital is Kabul.","Kabul",1383209049],
     ["History","The giant Buddhas of Bamiyan, carved into a cliff, were destroyed in 2001.","Buddhas of Bamiyan",1382210186],
     ["People","The poet Rumi was born in or near Balkh in the 13th century.","Rumi",1382808974],
     ["Music","The rubab, a lute carved from the trunk of a mulberry tree with a goatskin head, is the national instrument.","Rubab (instrument)",1381749189],
     ["Sports","Rohullah Nikpai won the nation's first Olympic medal, a bronze in taekwondo, at Beijing in 2008.","Rohullah Nikpai",1375411425],
-    ["Arts","Khaled Hosseini, author of The Kite Runner, was born in Kabul in 1965.","Khaled Hosseini",1381398996]
+    ["Arts","Khaled Hosseini, author of The Kite Runner, was born in Kabul in 1965.","Khaled Hosseini",1381398996],
+    ["Names","Its name is first attested in the 4th century AD in Bactrian, probably meaning \"people from a distant land\".","List of country-name etymologies",1382950159],
+    ["Film","Osama, released in 2003, was the first film shot entirely in the country after the fall of the Taliban, and won a Golden Globe.","Osama (film)",1383823761],
+    ["Space","Abdul Ahad Mohmand spent nine days on the Mir space station in 1988, becoming the first person from the country in space.","Abdul Ahad Momand",1381151721]
   ],
   "040": [
     ["Records","Vienna's Schönbrunn Zoo, founded in 1752, is the oldest zoo still operating.","Schönbrunn Zoo",1361796642],
@@ -2588,40 +2899,47 @@ window.ATLAS_FACTS = {
     ["Symbols","Legend says its red-white-red flag comes from a duke whose white surcoat was soaked in blood in battle, except under his belt.","Flag of Austria",1382988610],
     ["Daily life","Since 2011, Viennese coffee house culture has been listed as intangible cultural heritage.","Viennese coffee house culture",1381703073],
     ["Landmarks","Schönbrunn Palace in Vienna was the summer home of the Habsburg rulers and has 1,441 rooms.","Schönbrunn Palace",1382155507],
-    ["People","Composer Joseph Haydn, the father of the symphony, was born in Rohrau.","Joseph Haydn",1383473780]
+    ["People","Composer Joseph Haydn, the father of the symphony, was born in Rohrau.","Joseph Haydn",1383473780],
+    ["Daily life","Chimney sweeps are seen as bringers of good luck, and people touch them or their buttons for luck at New Year.","Chimney sweep",1385543108]
   ],
   "056": [
-    ["History","The saxophone was invented by Belgian instrument maker Adolphe Sax in the 1840s.","Adolphe Sax",1384471762],
+    ["Inventions","The saxophone was invented by Belgian instrument maker Adolphe Sax in the 1840s.","Adolphe Sax",1384471762],
     ["Land","In the town of Baarle, the Belgian–Dutch border runs through houses, cafés and shops.","Baarle-Hertog",1375646116],
     ["Places","The Atomium in Brussels was built for the 1958 World's Fair.","Atomium",1376830069],
     ["Food","Fries are a national dish, often served with mussels or steak.","National dish",1381943985],
-    ["Culture","At the Carnival of Binche, costumed Gilles dance through town and throw oranges to the crowd.","Carnival of Binche",1383682557],
+    ["Festivals","At the Carnival of Binche, costumed Gilles dance through town and throw oranges to the crowd.","Carnival of Binche",1383682557],
     ["Language","It has three official languages: Dutch, French and German.","Languages of Belgium",1370417256],
     ["Arts","Tintin, the comic-strip reporter, was created by Hergé.","The Adventures of Tintin",1384007359],
     ["People","Film star Audrey Hepburn was born in Ixelles, a district of Brussels.","Audrey Hepburn",1384120343],
     ["Landmarks","The Atomium in Brussels is shaped like an iron crystal magnified 165 billion times.","Atomium",1376830069],
     ["Music","Singer Jacques Brel, who wrote Ne me quitte pas, was born in Schaerbeek, Brussels, in 1929.","Jacques Brel",1385641299],
     ["Sports","Cyclist Eddy Merckx, nicknamed \"the Cannibal\", won the Tour de France five times.","Eddy Merckx",1383820793],
-    ["Science","Georges Lemaître, a Catholic priest and physicist born in Charleroi, first proposed what became known as the Big Bang theory.","Georges Lemaître",1384360422]
+    ["Science","Georges Lemaître, a Catholic priest and physicist born in Charleroi, first proposed what became known as the Big Bang theory.","Georges Lemaître",1384360422],
+    ["Names","Its name comes from a Celtic tribe that gave its name to a Roman province in the north of Gaul.","List of country-name etymologies",1382950159],
+    ["Animals","Its national animal is a heraldic lion that was once drawn in the shape of a map of the Low Countries.","Leo Belgicus",1325166250],
+    ["Film","The brothers Jean-Pierre and Luc Dardenne have won the Palme d'Or at Cannes twice, for Rosetta and The Child.","Dardenne brothers",1386406979],
+    ["Inventions","Leo Baekeland, born in Ghent, invented Bakelite, the first plastic made from synthetic components, in 1907.","Bakelite",1384382232]
   ],
   "072": [
     ["Nature","The Okavango Delta is a huge inland delta. Its river spreads out and evaporates in the Kalahari without reaching the sea.","Okavango Delta",1382625506],
     ["Land","The Makgadikgadi Pan is one of the largest salt flats in the world.","Makgadikgadi Pan",1371447474],
     ["History","Diamonds discovered after independence helped turn Botswana from one of the world's poorest countries into a middle-income one.","Botswana",1383230915],
     ["Food","Its national dish, seswaa, is beef or goat meat boiled until soft and then pounded.","National dish",1381943985],
-    ["Nature","Its national animal is the plains zebra.","List of national animals",1384556882],
+    ["Animals","Its national animal is the plains zebra.","List of national animals",1384556882],
     ["Heritage","The Okavango Delta became the 1,000th site on UNESCO's World Heritage List in 2014.","Okavango Delta",1382625506],
-    ["Money","Its currency, the pula, means “rain”, which is precious in a dry land.","Botswana pula",1367626750]
+    ["Money","Its currency, the pula, means “rain”, which is precious in a dry land.","Botswana pula",1367626750],
+    ["Daily life","The mokoro, a dugout canoe pushed along with a long pole, is the traditional way to travel through the channels of the Okavango Delta.","Mokoro",1303198578]
   ],
   "051": [
     ["History","In 301 Armenia became the first country to adopt Christianity as its state religion.","Religion in Armenia",1376921650],
     ["Places","Khor Virap monastery sits at the foot of Mount Ararat, just across the border from Turkey.","Khor Virap",1378765791],
     ["Culture","The Armenian alphabet was created by Mesrop Mashtots around 405.","Armenian alphabet",1382348180],
     ["Food","Khorovats, grilled meat generally reserved for festive occasions, is a national dish.","National dish",1381943985],
-    ["Culture","On Vardavar, a summer festival, people throw water on each other in the streets.","Vardavar",1365962861],
+    ["Festivals","On Vardavar, a summer festival, people throw water on each other in the streets.","Vardavar",1365962861],
     ["Capitals","Its capital, Yerevan, is one of the world's oldest continuously inhabited cities.","Yerevan",1384650629],
     ["Nature","Lake Sevan is one of the largest freshwater alpine lakes in Eurasia.","Lake Sevan",1379857134],
-    ["Landmarks","Geghard Monastery is partly carved out of the mountain rock it stands against.","Geghard",1380715525]
+    ["Landmarks","Geghard Monastery is partly carved out of the mountain rock it stands against.","Geghard",1380715525],
+    ["Food","Lavash, a soft thin bread baked against the inside wall of a clay oven called a tonir, is on UNESCO's intangible heritage list.","Lavash",1365668943]
   ],
   "031": [
     ["Nature","Yanar Dag near Baku is a hillside that has burned for decades, fed by natural gas seeping from the ground.","Yanar Dagh",1375493309],
@@ -2634,7 +2952,10 @@ window.ATLAS_FACTS = {
     ["People","Chess champion Garry Kasparov was born in Baku.","Garry Kasparov",1384446751],
     ["Landmarks","The three Flame Towers in Baku are covered in LED screens that show the movement of fire.","Flame Towers",1384572428],
     ["Sports","The Baku City Circuit, which first hosted Formula One in 2016, runs past the walls of the medieval old city.","Baku City Circuit",1371902663],
-    ["Science","Physicist Lev Landau, winner of the 1962 Nobel Prize, was born in Baku in 1908.","Lev Landau",1383790071]
+    ["Science","Physicist Lev Landau, winner of the 1962 Nobel Prize, was born in Baku in 1908.","Lev Landau",1383790071],
+    ["Names","Its name means \"land of Atropates\", a king who ruled the region in the time of Alexander's successors.","List of country-name etymologies",1382950159],
+    ["Animals","The Karabakh horse, a mountain-steppe breed known for its golden coat, is the national horse.","Karabakh horse",1383120989],
+    ["Festivals","At Novruz, the spring new year, people jump over bonfires and kids knock on doors with an empty hat or basket to be filled with treats.","Novruz in Azerbaijan",1376106491]
   ],
   "008": [
     ["History","Under Enver Hoxha, Albania built more than 170,000 concrete bunkers across the country.","Bunkers in Albania",1383300116],
@@ -2650,10 +2971,10 @@ window.ATLAS_FACTS = {
     ["Places","On Big Major Cay in the Exumas, a colony of pigs swims out to meet visiting boats.","Pig Beach",1379518836],
     ["Land","The Bahamas has about 700 islands and more than 2,000 cays.","The Bahamas",1383476233],
     ["Nature","Dean's Blue Hole, about 202 m deep, is one of the deepest blue holes in the world.","Dean's Blue Hole",1361755992],
-    ["Nature","Its national bird is the flamingo, and its national fish is the blue marlin.","List of national animals",1384556882],
+    ["Animals","Its national bird is the flamingo, and its national fish is the blue marlin.","List of national animals",1384556882],
     ["Capitals","Its capital is Nassau, on New Providence.","Nassau, Bahamas",1380021837],
     ["History","Christopher Columbus made his first landfall in the Americas on San Salvador in 1492.","San Salvador Island",1376767636],
-    ["Culture","Junkanoo, a Christmas-time street parade of music and costumes, dates back to the 1700s there.","Junkanoo",1383676856]
+    ["Festivals","Junkanoo, a Christmas-time street parade of music and costumes, dates back to the 1700s there.","Junkanoo",1383676856]
   ],
   "010": [
     ["Records","The coldest temperature ever recorded on Earth's surface, −89.2 °C, was measured at Vostok Station in 1983.","Vostok Station",1383326208],
@@ -2680,11 +3001,11 @@ window.ATLAS_FACTS = {
     ["Records","The Belize Barrier Reef is the second-largest barrier reef system in the world.","Belize Barrier Reef",1362699112],
     ["Food","Rice and beans is its national dish.","National dish",1381943985],
     ["Symbols","Two men with tools beside a mahogany tree appear on its flag, recalling the logging industry.","Flag of Belize",1380431342],
-    ["Nature","Its national animal is Baird's tapir, and its national bird is the keel-billed toucan.","List of national animals",1384556882],
+    ["Animals","Its national animal is Baird's tapir, and its national bird is the keel-billed toucan.","List of national animals",1384556882],
     ["Capitals","Its capital, Belmopan, replaced Belize City after a hurricane in 1961.","Belmopan",1380351540]
   ],
   "024": [
-    ["Nature","The giant sable antelope, Angola's national symbol, was feared extinct during the civil war until trap cameras photographed a herd in 2004.","Giant sable antelope",1380740015],
+    ["Animals","The giant sable antelope, Angola's national symbol, was feared extinct during the civil war until trap cameras photographed a herd in 2004.","Giant sable antelope",1380740015],
     ["Nature","Kalandula Falls is one of the largest waterfalls in Africa by volume.","Kalandula Falls",1362222554],
     ["History","Luanda was founded by the Portuguese in 1576.","Luanda",1379129982],
     ["Food","Moambe chicken, cooked in a sauce made from palm nuts, is considered its national dish.","Moambe chicken",1352911508],
@@ -2692,7 +3013,8 @@ window.ATLAS_FACTS = {
     ["Music","Kizomba, a slow, close dance, began there in the 1980s.","Kizomba",1378498782],
     ["Capitals","Its capital is Luanda.","Luanda",1379129982],
     ["Sports","The men's basketball team long dominated AfroBasket, the continent's championship, taking its 11th title in 13 tournaments in 2013.","Angola men's national basketball team",1367346864],
-    ["People","Agostinho Neto, a poet and doctor, became the first president at independence in 1975.","Agostinho Neto",1382196128]
+    ["People","Agostinho Neto, a poet and doctor, became the first president at independence in 1975.","Agostinho Neto",1382196128],
+    ["Names","Its name comes from ngola, the title of the kings of Ndongo, which the Portuguese mistook for a place name.","List of country-name etymologies",1382950159]
   ],
   "090": [
     ["History","The Battle of Guadalcanal, fought here in 1942–43, was a turning point of the Pacific war in World War II.","Guadalcanal campaign",1381511461],
@@ -2794,13 +3116,13 @@ window.ATLAS_FACTS = {
     ["Sports","In 2004 it hosted the first Formula One race in the Middle East.","Bahrain Grand Prix",1382204381]
   ],
   "IndianOceanTer": [
-    ["Nature","An estimated 43.7 million red crabs once lived on Christmas Island; each year they migrate to the sea to lay their eggs.","Christmas Island red crab",1383974947],
+    ["Animals","An estimated 43.7 million red crabs once lived on Christmas Island; each year they migrate to the sea to lay their eggs.","Christmas Island red crab",1383974947],
     ["Places","The Cocos (Keeling) Islands are two coral atolls far out in the Indian Ocean.","Cocos (Keeling) Islands",1383690796],
     ["Places","Christmas Island is named for the day it was first sighted, Christmas Day 1643.","Christmas Island",1383117952],
     ["Capitals","Flying Fish Cove is the main settlement of Christmas Island.","Flying Fish Cove",1370710978],
     ["History","Christmas Island was transferred from Singapore to Australia in 1958.","Christmas Island",1383117952],
     ["Language","Many people on the Cocos Islands speak Cocos Malay.","Cocos (Keeling) Islands",1383690796],
-    ["Nature","Abbott's booby, a rare seabird, nests only on Christmas Island.","Abbott's booby",1382381282]
+    ["Animals","Abbott's booby, a rare seabird, nests only on Christmas Island.","Abbott's booby",1382381282]
   ],
   "028": [
     ["Places","Antigua is said to have 365 beaches, one for every day of the year.","Antigua and Barbuda",1384205899],
