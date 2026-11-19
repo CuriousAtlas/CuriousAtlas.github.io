@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-hGQFVyVTFcXCM6o3A+0EDwZnkXpyReH2tQT+wJqn2Rc=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-hrvTZB6jFsdXAulFU12RUg1N8mCGU1oky0ICG4RtAKg=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -1424,6 +1424,12 @@ body.playing .timer.ontop { right: 92px; }
 .dockres.no { color: var(--wrong); }
 .dockres b { color: var(--ink); margin-right: 6px; }
 .dockres .ptag { margin-left: 8px; padding: 1px 8px; border-radius: 999px; background: linear-gradient(135deg, var(--pr0), var(--pr1)); color: #14041a; font: 800 0.72rem var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; vertical-align: 2px; }
+/* Audit, Nov 2026: on wider screens the side panel already shows the result, so the bar on the map
+   doesn't repeat it; the page's credit line steps aside during a round (each clue shows its source),
+   so it no longer slides under the Lock in bar. Phones: the mission bars are narrower, so the
+   mission names fit on fewer lines and the Play screen is shorter. */
+@media (min-width: 861px) { .dockres { display: none; } body.playing .credit { display: none; } }
+@media (max-width: 860px) { .missions li { grid-template-columns: 1fr 48px auto; gap: 8px; } .missions li b { min-width: 2.6em; } }
 .nextdock { flex-wrap: wrap; }
 /* New this round, on the end card: achievements, medals, missions and ranks earned while playing. */
 .newach { display: grid; gap: 6px; margin: 10px 0 4px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--sw-edge); background: color-mix(in srgb, var(--pr1) 7%, transparent); }
@@ -2380,7 +2386,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         <div class="actions"><button class="btn" id="pback" type="button">Back to exploring</button></div>
       </section>
 
-      <p class="credit">Every fact links to the Wikipedia article it was checked against; figures are rounded. Borders from Natural Earth (1:50m, 1:10m up close) via world-atlas; they show who controls an area on the ground and aren't a position on any dispute. Country details from the world-countries dataset; population from the World Bank (2023). <a href="privacy.html">Privacy</a></p>
+      <p class="credit">Every fact links to the Wikipedia article it was checked against; figures are rounded. Borders from Natural Earth (1:50m, 1:10m up close) via world-atlas; they show who controls an area on the ground and aren't a position on any dispute. Country details from the world-countries dataset; population from the World Bank (2023), or Wikipedia where it has none.</p>
     </aside>
   </main>
   <div class="sr-only" id="sr" aria-live="polite" aria-atomic="true"></div>
@@ -2397,7 +2403,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwn2xcyx";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwnnwu6k";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
