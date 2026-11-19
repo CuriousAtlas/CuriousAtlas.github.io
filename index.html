@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-IrbRW8gNre+ztA4+0McLZEHs0xZk84zUKfZvi0jRDpY=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-crMmnucDIAAWocNxwDRWZ0EKGr/1FB+ragSRac0XQpY=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -1618,7 +1618,7 @@ body.playing .stage { grid-template-rows: minmax(0, 1fr); }
   .filters { flex-wrap: wrap; align-items: center; gap: 8px; }
   .chiprow { flex: 1 1 260px; }
   .mapopts { flex: none; gap: 6px; }
-  .skinname { display: none; }
+  .skinname, .volrest { display: none; }
   .chip, .opttoggle { min-height: 40px; padding: 8px 10px; letter-spacing: 0.04em; }
   .topicpick select { padding-inline: 10px; }
   .topicpick select { min-height: 40px; }
@@ -1956,6 +1956,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
         <div class="chiprow" id="chiprow"></div>
         <div class="mapopts">
           <button type="button" class="opttoggle" id="sound" aria-pressed="false">Sound</button>
+          <button type="button" class="opttoggle" id="vol">Volume · Normal</button>
           <button type="button" class="opttoggle skinbtn" id="skinbtn" aria-haspopup="dialog">Skin · Neon Night</button>
         </div>
       </div>
@@ -2396,7 +2397,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwmxkp5i";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwn2bz7a";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>

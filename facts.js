@@ -58,7 +58,10 @@ window.ATLAS_FACTS = {
     ["Music","Bulgarian women's choirs became world-famous through the album Le Mystère des Voix Bulgares.","Le Mystère des Voix Bulgares",1365357581],
     ["Landmarks","Rila Monastery, in the Rila Mountains, is the largest Eastern Orthodox monastery in the country.","Rila Monastery",1378538136],
     ["People","The artist Christo, who wrapped the Reichstag in fabric, was born in Gabrovo.","Christo and Jeanne-Claude",1383870197],
-    ["Music","The horo is a fast circle dance; similar dances are found across Southeast Europe.","Hora (dance)",1352273977]
+    ["Music","The horo is a fast circle dance; similar dances are found across Southeast Europe.","Hora (dance)",1352273977],
+    ["Heritage","The Thracian Tomb of Kazanlak, from the fourth century BC, has been a UNESCO World Heritage Site since 1979.","Thracian Tomb of Kazanlak",1365740847],
+    ["Festivals","Martenitsi, red and white tokens given on 1 March, are worn until the wearer sees a stork, a swallow or a tree in blossom.","Martenitsa",1384552832],
+    ["Myths","One old story links the first martenitsi to Khan Asparuh's victory over the Byzantines in the 7th century.","Martenitsa",1384552832]
   ],
   "104": [
     ["History","More than 2,000 Buddhist temples and pagodas still stand across the plains of Bagan.","Bagan",1380017001],
@@ -85,7 +88,8 @@ window.ATLAS_FACTS = {
     ["People","Prince Louis Rwagasore, the hero of independence, was assassinated in 1961, only weeks after his party won the elections.","Louis Rwagasore",1384741406],
     ["Names","Its name means \"land of the Ikirundi speakers\"; it was adopted at independence in 1962.","List of country-name etymologies",1382950159],
     ["Animals","Gustave, a huge Nile crocodile thought to be more than 20 feet long, became famous along the Ruzizi River and the shores of Lake Tanganyika.","Gustave (crocodile)",1386019483],
-    ["Festivals","Its royal drummers played at ceremonies such as births, funerals and the coronations of kings.","Royal Drummers of Burundi",1342847690]
+    ["Festivals","Its royal drummers played at ceremonies such as births, funerals and the coronations of kings.","Royal Drummers of Burundi",1342847690],
+    ["Quirky","Its national anthem is sung in Kirundi, a language spoken by nearly everyone in the country.","Burundi",1386520181]
   ],
   "112": [
     ["Nature","Białowieża Forest, shared with Poland, is home to Europe's largest herd of wild European bison.","Białowieża Forest",1371131919],
@@ -95,7 +99,11 @@ window.ATLAS_FACTS = {
     ["Heritage","Białowieża Forest, shared with Poland, is one of the last parts of the primeval forest that once covered Europe.","Białowieża Forest",1371131919],
     ["Heritage","The Mir Castle Complex is a UNESCO World Heritage Site.","Mir Castle Complex",1366155269],
     ["Capitals","Its capital, Minsk, was largely rebuilt after being almost destroyed in World War II.","Minsk",1384673437],
-    ["People","Painter Marc Chagall was born near Vitebsk, a town that appears in many of his paintings.","Marc Chagall",1383886463]
+    ["People","Painter Marc Chagall was born near Vitebsk, a town that appears in many of his paintings.","Marc Chagall",1383886463],
+    ["Myths","Kupalle, the midsummer festival, has young people search the woods for a fern flower said to bloom only that night.","Kupala Night",1385202475],
+    ["Sports","Ice hockey is one of its most popular sports, and Minsk hosted the 2014 Ice Hockey World Championship.","2014 IIHF World Championship",1384021211],
+    ["Space","Pyotr Klimuk, born near Brest in 1942, was the first person from the country to fly in space, in 1973.","Pyotr Klimuk",1378504255],
+    ["Festivals","Kupala Night, the midsummer festival, is celebrated on the night between 6 and 7 July, following the old Julian calendar.","Kupala Night",1385202475]
   ],
   "116": [
     ["Records","Angkor Wat is the largest religious monument in the world, and it appears on Cambodia's flag.","Angkor Wat",1384369638],
@@ -123,7 +131,8 @@ window.ATLAS_FACTS = {
     ["People","Roger Milla, born in Yaoundé, scored at the 1994 World Cup at the age of 42, making him the oldest goalscorer in the tournament's history.","Roger Milla",1381996778],
     ["Names","Its name means \"shrimp\": Portuguese sailors in 1472 called a river Rio de Camarões after its huge swarms of ghost shrimp.","List of country-name etymologies",1382950159],
     ["Animals","The goliath frog, the largest frog in the world, lives in fast-flowing rivers in its southwest and in Equatorial Guinea.","Goliath frog",1380553323],
-    ["Festivals","The Ngondo is the yearly festival of the Sawa people of Douala, held beside the Wouri River.","Ngondo",1385334216]
+    ["Festivals","The Ngondo is the yearly festival of the Sawa people of Douala, held beside the Wouri River.","Ngondo",1385334216],
+    ["Quirky","It is called \"Africa in miniature\" because it has almost every kind of landscape on the continent.","Cameroon",1386520226]
   ],
   "124": [
     ["Land","Canada has the longest coastline of any country, roughly 243,000 km once its islands are counted.","Geography of Canada",1379613649],
@@ -157,7 +166,12 @@ window.ATLAS_FACTS = {
     ["Music","Morna, a melancholy song style made famous by Cesária Évora, is on UNESCO's intangible heritage list.","Morna (music)",1364613349],
     ["Capitals","Its capital, Praia, is on the island of Santiago.","Praia",1382731411],
     ["Language","Most people speak Cape Verdean Creole, though Portuguese is the official language.","Cape Verdean Creole",1383930029],
-    ["Sports","Its national football team is nicknamed the Blue Sharks.","Cape Verde national football team",1384608488]
+    ["Sports","Its national football team is nicknamed the Blue Sharks.","Cape Verde national football team",1384608488],
+    ["People","Cesária Évora, the \"barefoot diva\" who sang morna, was born in Mindelo.","Cesária Évora",1365288920],
+    ["Heritage","Cidade Velha, the first European colonial town in the tropics, became a UNESCO World Heritage Site in 2009.","Cidade Velha",1375645454],
+    ["Daily life","More of its people live abroad than at home.","Cape Verde",1386520280],
+    ["Festivals","Carnival in Mindelo, on São Vicente, is the biggest party of the year, with samba-style parades.","Mindelo",1376770892],
+    ["Places","Sal island is named after its salt, which was once dug from the flooded crater at Pedra de Lume.","Pedra de Lume",1377359102]
   ],
   "136": [
     ["Culture","The Cayman Islands have no direct taxes on income.","Cayman Islands",1384239957],
@@ -166,7 +180,12 @@ window.ATLAS_FACTS = {
     ["Money","The Cayman Islands dollar is worth more than the US dollar.","Cayman Islands dollar",1367763976],
     ["Quirky","It has no direct taxation, which helped make it a major financial center.","Economy of the Cayman Islands",1384239973],
     ["Places","Seven Mile Beach on Grand Cayman is its most famous beach.","Seven Mile Beach, Grand Cayman",1378096012],
-    ["Nature","Blue iguanas, found only on Grand Cayman, were brought back from the brink of extinction.","Blue iguana",1380906675]
+    ["Nature","Blue iguanas, found only on Grand Cayman, were brought back from the brink of extinction.","Blue iguana",1380906675],
+    ["Festivals","Pirates Week, a festival with mock pirate landings, is held every November.","Cayman Islands",1386404622],
+    ["Land","One of the deepest trenches in its sea lies just to the south of the islands.","Cayman Trough",1382253323],
+    ["History","A legend says it earned its tax-free status after islanders rescued sailors from ten wrecked ships in 1794.","Wreck of the Ten Sail",1371298796],
+    ["Places","Hell, a patch of black limestone rocks on its largest island, has a post office from which visitors send postcards.","Hell, Grand Cayman",1337754948],
+    ["Animals","Sea turtles were once so common that Columbus called the islands Las Tortugas.","Cayman Islands",1386404622]
   ],
   "140": [
     ["Animals","Dzanga-Sangha's forest clearings draw dozens of forest elephants at a time to dig for minerals.","Dzanga-Sangha Special Reserve",1368922485],
@@ -175,7 +194,13 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital, Bangui, sits on the Ubangi River, facing DR Congo across the water.","Bangui",1374429412],
     ["History","In 1977 its leader, Jean-Bédel Bokassa, crowned himself emperor in a lavish ceremony.","Jean-Bédel Bokassa",1381444840],
     ["Language","Sango is a national language, spoken by most people as a common tongue.","Sango language",1357428990],
-    ["Symbols","Its flag was designed by Barthélemy Boganda, its first prime minister, joining colors for France and for Africa with a red band for unity.","Flag of the Central African Republic",1371825991]
+    ["Symbols","Its flag was designed by Barthélemy Boganda, its first prime minister, joining colors for France and for Africa with a red band for unity.","Flag of the Central African Republic",1371825991],
+    ["Animals","Dzanga-Sangha is one of the best places to see western lowland gorillas.","Dzanga-Sangha Special Reserve",1368922485],
+    ["Music","The Aka pygmies' polyphonic singing is on UNESCO's list of intangible heritage.","Aka people",1385338394],
+    ["Land","It sits on a plateau between the basins of the Ubangi and Lake Chad, far from any sea.","Central African Republic",1386520553],
+    ["Animals","The Dzanga-Sangha reserve, set up in 1990, protects about 6,865 km² of rainforest in the Congo Basin.","Dzanga-Sangha Special Reserve",1368922485],
+    ["Heritage","Its Dzanga-Sangha forests form one of three parks of the Sangha Trinational, shared with two neighbours and agreed in 2000.","Dzanga-Sangha Special Reserve",1368922485],
+    ["Places","Bayanga, on the Sangha River, is the gateway to the Dzanga-Sangha reserve and national park.","Dzanga-Sangha Special Reserve",1368922485]
   ],
   "144": [
     ["History","In 1960 Sirimavo Bandaranaike of Sri Lanka became the world's first female prime minister.","Sirimavo Bandaranaike",1383232431],
@@ -255,7 +280,11 @@ window.ATLAS_FACTS = {
     ["Animals","Its national animal is the Formosan black bear.","List of national animals",1384556882],
     ["Science","It makes most of the world's most advanced computer chips, at TSMC.","TSMC",1381212658],
     ["Places","Taroko Gorge, a marble canyon carved by the Liwu River, is the heart of a national park.","Taroko National Park",1381220087],
-    ["People","Film director Ang Lee, who won two Best Director Oscars, was born in Pingtung County.","Ang Lee",1381811986]
+    ["People","Film director Ang Lee, who won two Best Director Oscars, was born in Pingtung County.","Ang Lee",1381811986],
+    ["Festivals","At the Pingxi Sky Lantern Festival, thousands of paper lanterns carrying wishes are released into the night.","Pingxi District",1377374168],
+    ["Daily life","Night markets, such as Shilin in Taipei, are packed with food stalls every evening.","Shilin Night Market",1383395248],
+    ["Myths","Mazu, goddess of the sea, is honoured with a nine-day pilgrimage each spring.","Mazu",1385944399],
+    ["Animals","The Formosan landlocked salmon lives only in a few mountain streams.","Oncorhynchus masou formosanus",1382212657]
   ],
   "170": [
     ["Land","Colombia is the only South American country with coastlines on both the Pacific Ocean and the Caribbean Sea.","Colombia",1384319500],
@@ -282,7 +311,13 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital, Moroni, lies at the foot of Mount Karthala, an active volcano.","Mount Karthala",1369572787],
     ["Language","Its official languages are Comorian, French and Arabic.","Comorian languages",1381068169],
     ["Records","It is the only Arab League member that lies entirely in the Southern Hemisphere.","Comoros",1378190061],
-    ["Land","At 1,659 km², it is Africa's third-smallest country by area.","Comoros",1378190061]
+    ["Land","At 1,659 km², it is Africa's third-smallest country by area.","Comoros",1378190061],
+    ["Animals","Livingstone's fruit bat, one of the world's largest bats, lives only on two of its islands.","Livingstone's fruit bat",1384394340],
+    ["Daily life","Women often wear a paste of sandalwood and coral called msinzano on their faces to protect their skin.","Masonjoany",1352079389],
+    ["Animals","The Mongoose lemur is found on its islands, the only place outside Madagascar where lemurs live in the wild.","Mongoose lemur",1356979850],
+    ["History","Mayotte, one of the four islands, voted to stay French when the others became independent in 1975.","Comoros",1386520893],
+    ["Records","With fewer than a million people on small islands, it is one of the most densely populated countries in the world.","Comoros",1386520893],
+    ["History","Its islands were first settled by Austronesian-speaking Malagasy peoples, Bantu speakers from East Africa and Arab traders.","Comoros",1386520893]
   ],
   "175": [
     ["History","It was the only island of its archipelago to vote in 1974 and 1976 to stay with France rather than become independent.","Mayotte",1384469663],
@@ -292,7 +327,12 @@ window.ATLAS_FACTS = {
     ["Language","Besides French, its people speak Shimaore, a dialect of Comorian, and Kibushi, which came from Madagascar.","Maore dialect",1381758408],
     ["Places","Its airport is not on the main island, Grande-Terre, but on the smaller Petite-Terre.","Mayotte",1384469663],
     ["Nature","Cyclone Chido, in December 2024, was the most powerful storm to strike it in at least 90 years.","Cyclone Chido",1371505095],
-    ["Culture","After its sugar industry ended, fragrant plants were grown instead, especially ylang-ylang, which became one of the symbols of the island.","Mayotte",1384469663]
+    ["Culture","After its sugar industry ended, fragrant plants were grown instead, especially ylang-ylang, which became one of the symbols of the island.","Mayotte",1384469663],
+    ["Daily life","Women paint their faces with msindzano, a yellow paste of sandalwood.","Masonjoany",1352079389],
+    ["Daily life","Most of its people are Muslims, and many speak Shimaore, a language close to Swahili.","Maore dialect",1381758408],
+    ["Places","Petite-Terre, a small island, holds the airport and the town of Dzaoudzi.","Pamanzi",1364105704],
+    ["Names","It is also known as Maore, the native name of its main island.","Mayotte",1384469663],
+    ["Records","With about 320,000 people on 374 km², it is very densely populated.","Mayotte",1384469663]
   ],
   "178": [
     ["Records","Brazzaville and Kinshasa, the capitals of two different countries, face each other directly across the Congo River.","Brazzaville",1378477766],
@@ -301,7 +341,13 @@ window.ATLAS_FACTS = {
     ["Food","Poulet moambé, chicken in palm nut sauce, is considered its national dish.","Moambe chicken",1352911508],
     ["Music","Congolese rumba was added to UNESCO's intangible heritage list in 2021.","Congolese rumba",1384203225],
     ["Capitals","Its capital, Brazzaville, is named after the explorer Pierre Savorgnan de Brazza.","Brazzaville",1378477766],
-    ["Language","Lingala and Kituba are national languages, and French is the official one.","Republic of the Congo",1384752533]
+    ["Language","Lingala and Kituba are national languages, and French is the official one.","Republic of the Congo",1384752533],
+    ["Heritage","The Sangha Trinational, a rainforest shared with Cameroon and the Central African Republic, is a UNESCO World Heritage Site.","Sangha Trinational",1375663570],
+    ["Daily life","Sapeurs, members of La Sape, wear elegant designer suits and colourful outfits as a way of life.","La Sape",1380257891],
+    ["History","The explorer Pierre Savorgnan de Brazza signed a treaty with King Makoko of the Teke in 1880.","Pierre Savorgnan de Brazza",1382197852],
+    ["Animals","Lowland gorillas and forest elephants live in Nouabalé-Ndoki National Park, one of the most untouched rainforests in Africa.","Nouabalé-Ndoki National Park",1363484006],
+    ["Land","Its northern forests are dotted with natural clearings called bais, where elephants and gorillas gather.","Sangha Trinational",1375663570],
+    ["Heritage","The Sangha Trinational was created after the Yaoundé Declaration of 17 March 1999.","Sangha Trinational",1375663570]
   ],
   "180": [
     ["Records","The Congo River is the deepest river in the world, with depths of more than 220 m.","Congo River",1368990427],
@@ -314,7 +360,9 @@ window.ATLAS_FACTS = {
     ["Sports","In 1974, playing as Zaire, the men's football team became the first from sub-Saharan Africa to play at a World Cup.","DR Congo national football team",1385919411],
     ["People","Dikembe Mutombo, an eight-time NBA All-Star famous for wagging his finger after blocking a shot, was born in Kinshasa.","Dikembe Mutombo",1385703866],
     ["Science","The Ishango bone, a notched bone tool about 20,000 years old, has been described as the oldest mathematical tool of humankind.","Ishango bone",1370228107],
-    ["Arts","Painter Chéri Samba, born in 1956, is known for bright canvases that mix pictures with written comments on life in Kinshasa.","Chéri Samba",1378696536]
+    ["Arts","Painter Chéri Samba, born in 1956, is known for bright canvases that mix pictures with written comments on life in Kinshasa.","Chéri Samba",1378696536],
+    ["Land","Virunga National Park ranges from 680 metres in the Semliki valley to 5,109 metres in the Rwenzori Mountains.","Virunga National Park",1362946291],
+    ["Animals","More than 3,000 plant and animal species have been recorded in Virunga, including eastern gorillas and golden monkeys.","Virunga National Park",1362946291]
   ],
   "184": [
     ["Names","The Cook Islands are named after Captain James Cook, who visited in the 1770s.","Cook Islands",1383947290],
@@ -323,7 +371,13 @@ window.ATLAS_FACTS = {
     ["Language","Cook Islands Māori is an official language alongside English.","Cook Islands Māori",1384144480],
     ["Capitals","Its capital, Avarua, is on the island of Rarotonga.","Avarua",1373505631],
     ["Money","It issues its own coins, including a triangular two-dollar coin.","Cook Islands dollar",1382969912],
-    ["Places","Aitutaki, with its large turquoise lagoon, is one of its best-known islands.","Aitutaki",1383292928]
+    ["Places","Aitutaki, with its large turquoise lagoon, is one of its best-known islands.","Aitutaki",1383292928],
+    ["Animals","The kakerori, or Rarotonga monarch, was saved from extinction by controlling rats; it had fallen to 29 birds in 1989.","Rarotonga monarch",1379847740],
+    ["Land","Rarotonga, its largest island, is ringed by a single road about 32 km long.","Rarotonga",1385799566],
+    ["Animals","Its waters became a shark sanctuary in 2012.","Shark sanctuary",1361884774],
+    ["Land","Its 15 islands have a total land area of about 237 km², but its waters cover nearly 2 million km² of ocean.","Cook Islands",1385792656],
+    ["History","Spanish explorers in 1606 called Rakahanga, one of its islands, Gente Hermosa, \"beautiful people\".","Cook Islands",1385792656],
+    ["Daily life","About 28,000 of its islanders live in Australia.","Cook Islands",1385792656]
   ],
   "188": [
     ["History","Costa Rica abolished its army in 1948.","Public Force of Costa Rica",1384240382],
@@ -333,7 +387,11 @@ window.ATLAS_FACTS = {
     ["Heritage","Its stone spheres, carved by an ancient culture, are a UNESCO World Heritage Site.","Stone spheres of Costa Rica",1369688085],
     ["Nature","About a quarter of its land is protected in national parks and reserves.","Costa Rica",1384270216],
     ["Culture","“Pura vida”, pure life, is one of its best-known phrases.","Costa Rica",1384270216],
-    ["Landmarks","Arenal Volcano was one of the most active volcanoes in the country until 2010.","Arenal Volcano",1380828000]
+    ["Landmarks","Arenal Volcano was one of the most active volcanoes in the country until 2010.","Arenal Volcano",1380828000],
+    ["Festivals","Brightly painted ox-carts, once used to carry coffee, are honoured as a national symbol.","Oxcart",771595081],
+    ["Animals","Sloths are found in its rainforests, and the resplendent quetzal lives in its cloud forests.","Monteverde Cloud Forest Reserve",1362859034],
+    ["Places","Monteverde Cloud Forest Reserve has rope bridges through the treetops.","Monteverde Cloud Forest Reserve",1362859034],
+    ["Heritage","Cocos Island, far out in the Pacific, is a World Heritage Site famous for hammerhead sharks.","Cocos Island",1379538261]
   ],
   "191": [
     ["History","The necktie traces back to the scarves of Croatian soldiers in 17th-century France. The French word cravate comes from Croate.","Cravat (early)",1370927134],
@@ -344,7 +402,11 @@ window.ATLAS_FACTS = {
     ["Arts","Dubrovnik's old town walls stood in for King's Landing in Game of Thrones.","Dubrovnik",1384652946],
     ["Nature","Plitvice Lakes National Park is a chain of lakes joined by waterfalls.","Plitvice Lakes National Park",1380284140],
     ["People","Inventor Nikola Tesla was born in the village of Smiljan in 1856.","Nikola Tesla",1384403367],
-    ["Landmarks","The stone walls of Dubrovnik run nearly 2 km around the old city.","Walls of Dubrovnik",1383277198]
+    ["Landmarks","The stone walls of Dubrovnik run nearly 2 km around the old city.","Walls of Dubrovnik",1383277198],
+    ["Heritage","The Diocletian's Palace, built for a Roman emperor around 300 AD, now forms the heart of the city of Split.","Diocletian's Palace",1367804337],
+    ["Inventions","The mechanical pencil was patented by Slavoljub Penkala, who also made an early fountain pen.","Slavoljub Eduard Penkala",1355533905],
+    ["Daily life","The Dalmatian klapa, a cappella singing by small groups, is on UNESCO's intangible heritage list.","Klapa",1370829492],
+    ["Inventions","The modern torpedo was developed in Rijeka in 1866.","Torpedo",1384691962]
   ],
   "192": [
     ["Animals","The bee hummingbird, the smallest bird in the world, lives only in Cuba. It weighs about 2 grams.","Bee hummingbird",1381435998],
@@ -368,7 +430,13 @@ window.ATLAS_FACTS = {
     ["Food","Souvla, large pieces of meat cooked slowly on a long skewer over charcoal, is a national dish.","National dish",1381943985],
     ["Symbols","Its flag shows a copper-colored map of the island itself.","Flag of Cyprus",1375735198],
     ["Animals","Its national animal is the mouflon, a wild sheep native to the island.","List of national animals",1384556882],
-    ["History","People first arrived about 13,000 years ago, around the time its dwarf elephants and pygmy hippos died out.","Cyprus",1381867303]
+    ["History","People first arrived about 13,000 years ago, around the time its dwarf elephants and pygmy hippos died out.","Cyprus",1381867303],
+    ["Heritage","The painted churches of the Troodos Mountains are a UNESCO World Heritage Site.","Painted Churches in the Troodos Region",1366155803],
+    ["History","Its capital, Nicosia, is the last divided capital in Europe, split by a buffer zone since 1974.","Nicosia",1384758458],
+    ["Heritage","Choirokoitia, a stone village of the Neolithic period, is a World Heritage Site.","Khirokitia",1365403123],
+    ["Daily life","Halloumi, a firm cheese that can be grilled without melting, is its best-known food.","Halloumi",1380527444],
+    ["Places","Kourion, an ancient city on a cliff, has a Greco-Roman theatre still used for concerts.","Kourion",1374724518],
+    ["Heritage","The Tombs of the Kings at Paphos were carved out of rock in the 4th century BC.","Tombs of the Kings (Paphos)",1380585188]
   ],
   "203": [
     ["Records","Czechs drink more beer per person than anyone else in the world.","Beer in the Czech Republic",1379408686],
@@ -401,7 +469,8 @@ window.ATLAS_FACTS = {
     ["Music","Angélique Kidjo, a singer with five Grammy Awards, was born in Ouidah in 1960.","Angélique Kidjo",1384318486],
     ["Sports","The men's football team, long nicknamed the Squirrels, reached the quarter-finals of the Africa Cup of Nations in 2019.","Benin national football team",1384376333],
     ["People","Actor Djimon Hounsou, twice nominated for an Academy Award, was born in Cotonou in 1964.","Djimon Hounsou",1382324338],
-    ["Names","Its name, chosen in 1975 to replace Dahomey, comes from a bay that was named after a city and kingdom now in neighbouring Nigeria.","List of country-name etymologies",1382950159]
+    ["Names","Its name, chosen in 1975 to replace Dahomey, comes from a bay that was named after a city and kingdom now in neighbouring Nigeria.","List of country-name etymologies",1382950159],
+    ["Heritage","Ouidah's Door of No Return marks the spot where enslaved Africans were shipped across the Atlantic.","Ouidah",1371134186]
   ],
   "208": [
     ["History","Denmark's flag, the Dannebrog, is often cited as the oldest national flag in continuous use.","Dannebrog",1381363447],
@@ -412,7 +481,11 @@ window.ATLAS_FACTS = {
     ["Myths","Holger Danske, a legendary warrior, is said to sleep beneath Kronborg Castle until the country needs him.","Ogier the Dane",1373087343],
     ["Science","Physicist Niels Bohr, a founder of quantum theory, won the 1922 Nobel Prize in Physics.","Niels Bohr",1378921180],
     ["People","Hans Christian Andersen, who wrote The Little Mermaid, was born in Odense.","Hans Christian Andersen",1376782167],
-    ["Landmarks","The Little Mermaid statue has sat on a rock by the Copenhagen waterfront since 1913.","The Little Mermaid (statue)",1379390764]
+    ["Landmarks","The Little Mermaid statue has sat on a rock by the Copenhagen waterfront since 1913.","The Little Mermaid (statue)",1379390764],
+    ["Space","Tycho Brahe built his observatory, Uraniborg, on the island of Ven in the 1570s.","Tycho Brahe",1385564332],
+    ["Heritage","Kronborg Castle at Helsingør was the setting of Shakespeare's Hamlet.","Kronborg",1377507327],
+    ["Space","In 1572 the astronomer Tycho Brahe noticed a brilliant new star, now known as supernova SN 1572.","Tycho Brahe",1385564332],
+    ["Space","Tycho Brahe showed that comets travel beyond the Moon and are not part of the atmosphere.","Tycho Brahe",1385564332]
   ],
   "212": [
     ["Nature","Morne Trois Pitons National Park, with its volcanoes and hot springs, is a UNESCO World Heritage Site.","Morne Trois Pitons National Park",1375523368],
@@ -421,7 +494,12 @@ window.ATLAS_FACTS = {
     ["Symbols","Its flag is one of very few to use purple, on the Sisserou parrot.","Flag of Dominica",1379136060],
     ["Animals","Its national bird is the Sisserou parrot, found nowhere else.","List of national animals",1384556882],
     ["Nature","Boiling Lake, a flooded fumarole in the rainforest, is one of the largest hot lakes in the world.","Boiling Lake",1365909691],
-    ["Land","It is nicknamed the “Nature Island of the Caribbean”.","Dominica",1384140646]
+    ["Land","It is nicknamed the “Nature Island of the Caribbean”.","Dominica",1384140646],
+    ["Animals","The Sisserou parrot, found only here, appears on its flag.","Imperial amazon",1347303827],
+    ["Daily life","It is home to the last remaining people of the Kalinago, who have their own territory.","Kalinago Territory",1377400656],
+    ["Film","Parts of Pirates of the Caribbean: Dead Man's Chest were filmed there.","Dominica",1386459387],
+    ["Land","It has a river, the locals say, for every day of the year.","Dominica",1386459387],
+    ["Animals","Sperm whales live in its waters all year round.","Dominica",1386459387]
   ],
   "214": [
     ["History","Santo Domingo, founded in the 1490s, is the oldest continuously inhabited European-founded city in the Americas.","Santo Domingo",1384464179],
@@ -462,7 +540,13 @@ window.ATLAS_FACTS = {
     ["Heritage","Joya de Cerén, a farming village buried by a volcano around 600 AD, is called the “Pompeii of the Americas”.","Joya de Cerén",1373778366],
     ["Nature","Its volcanoes earned it the nickname “Land of Volcanoes”.","El Salvador",1384540914],
     ["Money","In 2001 it replaced its currency, the colón, with the US dollar.","El Salvador",1384540914],
-    ["Language","Its Indigenous name, Cuzcatlán, is said to mean “the place of precious jewels”.","El Salvador",1384540914]
+    ["Language","Its Indigenous name, Cuzcatlán, is said to mean “the place of precious jewels”.","El Salvador",1384540914],
+    ["Festivals","In Nejapa, people throw balls of fire at each other every 31 August.","Nejapa",1378590885],
+    ["Places","Lake Coatepeque is a crater lake whose water sometimes turns turquoise.","Coatepeque Caldera",1380850942],
+    ["Heritage","Tazumal, a Maya site in Chalchuapa, has a stepped pyramid.","Tazumal",1375570736],
+    ["People","Óscar Romero, an archbishop killed in 1980, was made a saint in 2018.","Óscar Romero",1384896571],
+    ["Festivals","The fireball fight of Nejapa recalls a volcanic eruption that forced villagers to move in 1658.","Nejapa",1378590885],
+    ["Land","Lake Coatepeque fills a caldera formed by eruptions between about 72,000 and 57,000 years ago.","Coatepeque Caldera",1380850942]
   ],
   "226": [
     ["Culture","Equatorial Guinea is the only country in Africa with Spanish as an official language.","Equatorial Guinea",1384265828],
@@ -471,7 +555,13 @@ window.ATLAS_FACTS = {
     ["Capitals","A new capital, Ciudad de la Paz, is being built in the forest of the mainland.","Ciudad de la Paz",1382072652],
     ["Animals","Bioko Island is home to several rare primate species.","Bioko",1376288319],
     ["Money","It uses the Central African CFA franc.","Equatorial Guinea",1384265828],
-    ["History","It won independence from Spain in 1968.","Equatorial Guinea",1384265828]
+    ["History","It won independence from Spain in 1968.","Equatorial Guinea",1384265828],
+    ["History","Its president, Teodoro Obiang, has ruled since 1979, one of the longest rules of any living leader.","Teodoro Obiang Nguema Mbasogo",1386330882],
+    ["Daily life","Most of its people are Fang, and the Bubi live on Bioko.","Equatorial Guinea",1386219100],
+    ["Places","Pico Basilé, on Bioko, is its highest point at 3,011 metres.","Pico Basilé",1369598672],
+    ["Land","Annobón, a small island far to the south, is home to a people who speak a Portuguese creole.","Annobón",1381374663],
+    ["Animals","Bioko's beaches are nesting grounds for leatherback and green turtles.","Bioko",1376288319],
+    ["Daily life","Most of its income comes from oil, found offshore in the 1990s.","Equatorial Guinea",1386219100]
   ],
   "231": [
     ["Culture","Ethiopia uses its own calendar with 13 months. It runs about seven to eight years behind the Gregorian calendar.","Ethiopian calendar",1382467054],
@@ -498,7 +588,13 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish is zigini, a spicy stew, eaten with injera flatbread.","National dish",1381943985],
     ["Animals","Its national animal is the Arabian camel.","List of national animals",1384556882],
     ["Places","The Dahlak Archipelago is a group of islands in the Red Sea.","Dahlak Archipelago",1363953461],
-    ["Capitals","Its capital, Asmara, sits at about 2,300 m above sea level.","Asmara",1382004447]
+    ["Capitals","Its capital, Asmara, sits at about 2,300 m above sea level.","Asmara",1382004447],
+    ["Daily life","Coffee is served in a long ceremony, roasted and brewed in front of guests in a clay pot called a jebena.","Coffee ceremony of Ethiopia and Eritrea",1383447410],
+    ["Animals","The Dahlak Archipelago's waters have dugongs and many kinds of fish.","Dahlak Archipelago",1363953461],
+    ["Sports","Cycling is hugely popular, a legacy of the Italian colonial period; Biniam Girmay won a stage of the Tour de France in 2024.","Biniam Girmay",1383816618],
+    ["Daily life","Injera, a spongy flatbread, is eaten with stews at almost every meal.","Injera",1385163167],
+    ["Places","Massawa, a Red Sea port, has Ottoman and Egyptian-era coral-stone buildings.","Massawa",1381774694],
+    ["History","It became independent from Ethiopia in 1993 after a 30-year war.","Eritrea",1386524695]
   ],
   "233": [
     ["Culture","Estonia offers e-residency, a digital ID that lets people anywhere in the world start an Estonian company online.","E-Residency of Estonia",1378904739],
@@ -508,7 +604,11 @@ window.ATLAS_FACTS = {
     ["Animals","Its national animal is the wolf, its national bird the barn swallow, and its national fish the Baltic herring.","List of national animals",1384556882],
     ["Science","Skype was developed by Estonian engineers in Tallinn.","Skype",1384563973],
     ["Heritage","Tallinn's Old Town keeps an exceptionally intact 13th-century city plan.","Tallinn Old Town",1366156918],
-    ["People","Composer Arvo Pärt, known for his spare tintinnabuli style, was born in Paide.","Arvo Pärt",1383490929]
+    ["People","Composer Arvo Pärt, known for his spare tintinnabuli style, was born in Paide.","Arvo Pärt",1383490929],
+    ["Daily life","It has more saunas than cars, by some counts, and smoke saunas are on UNESCO's intangible heritage list.","Finnish sauna",1386242151],
+    ["Myths","Kalevipoeg, a giant hero, is the subject of the national epic poem.","Kalevipoeg",1384224694],
+    ["Animals","Brown bears, wolves and lynx still roam its forests.","Estonia",1385195643],
+    ["Heritage","The Struve Geodetic Arc, a chain of survey points used to measure the Earth, passes through it.","Struve Geodetic Arc",1381487393]
   ],
   "234": [
     ["Culture","The name Faroe Islands is usually translated as sheep islands.","Faroe Islands",1384136231],
@@ -517,7 +617,13 @@ window.ATLAS_FACTS = {
     ["Symbols","Its flag, Merkið, is a red Nordic cross outlined in blue on white.","Flag of the Faroe Islands",1373743746],
     ["Music","The Faroese chain dance, sung by a ring of dancers, has its roots in medieval ballads.","Faroese chain dance",1305240640],
     ["Nature","The islands have more sheep than people.","Faroe Islands",1384136231],
-    ["Food","Ræst, fermented and dried fish and meat, is a traditional food.","Faroese cuisine",1376955233]
+    ["Food","Ræst, fermented and dried fish and meat, is a traditional food.","Faroese cuisine",1376955233],
+    ["Daily life","Its people speak their own Nordic language, close to Icelandic.","Faroese language",1386476595],
+    ["Heritage","The cathedral ruins at Kirkjubøur date from about 1300.","Kirkjubøur",1378284402],
+    ["Places","Gásadalur had only 11 residents in 2020; until a tunnel was blasted in 2004, the only way in was over the mountains.","Gásadalur",1373582481],
+    ["Language","Its language was not written for 300 years, until a standard spelling was published in 1854.","Faroese language",1386476595],
+    ["History","During the British occupation in 1940, a stairway was built from the beach up to the village of Gásadalur.","Gásadalur",1373582481],
+    ["Language","In 1823 the Danish Bible Society printed the Gospel of Matthew with its language on the left and Danish on the right.","Faroese language",1386476595]
   ],
   "238": [
     ["Animals","Five species of penguin breed on the Falkland Islands.","Falkland Islands",1384031203],
@@ -526,7 +632,12 @@ window.ATLAS_FACTS = {
     ["Sports","Rifle shooting is regarded as its national sport.","National sport",1384611106],
     ["History","Argentina and the United Kingdom fought a war over the islands in 1982.","Falklands War",1383014679],
     ["Capitals","Its capital and only town is Stanley.","Stanley, Falkland Islands",1380860490],
-    ["Money","Its Falkland Islands pound is fixed at par with the pound sterling.","Falkland Islands pound",1381359511]
+    ["Money","Its Falkland Islands pound is fixed at par with the pound sterling.","Falkland Islands pound",1381359511],
+    ["Daily life","There are many more sheep than people: about half a million sheep against about 3,600 people.","Falkland Islands",1385883221],
+    ["Animals","It is home to the world's largest breeding colonies of black-browed albatrosses.","Black-browed albatross",1379047723],
+    ["Quirky","Outside the capital, everywhere is called \"Camp\", from the Spanish campo, \"countryside\".","Falkland Islands",1385883221],
+    ["Places","Gypsy Cove near Stanley is home to Magellanic penguins.","Yorke Bay",1355728459],
+    ["Language","English is spoken with a local accent, and some words come from Spanish gaucho slang.","Falkland Islands English",1384713430]
   ],
   "239": [
     ["Nature","South Georgia supports a large colony of king penguins, along with macaroni penguins and albatrosses.","South Georgia and the South Sandwich Islands",1383893758],
@@ -535,7 +646,13 @@ window.ATLAS_FACTS = {
     ["Nature","Its beaches are home to huge colonies of king penguins.","South Georgia",1374746707],
     ["Animals","Its seas support some of the largest populations of seals and seabirds in the world.","South Georgia and the South Sandwich Islands",1383893758],
     ["Records","Only a very small, non-permanent population lives on South Georgia; the South Sandwich Islands are uninhabited.","South Georgia and the South Sandwich Islands",1383893758],
-    ["Land","The largest of the South Sandwich Islands, Montagu Island, covers about 110 km².","South Sandwich Islands",1380290183]
+    ["Land","The largest of the South Sandwich Islands, Montagu Island, covers about 110 km².","South Sandwich Islands",1380290183],
+    ["Quirky","Its only residents are scientists and museum staff.","South Georgia and the South Sandwich Islands",1383893758],
+    ["Animals","About 98% of the world's Antarctic fur seals breed there.","Antarctic fur seal",1383285734],
+    ["Places","Grytviken's whaling station is now a museum, with a little Norwegian church.","Grytviken",1381388568],
+    ["Land","Mount Paget, about 2,935 metres high, is its highest peak.","Mount Paget",1377507989],
+    ["History","James Cook circumnavigated the main island in 1775 and made the first landing.","South Georgia and the South Sandwich Islands",1383893758],
+    ["History","Argentina's claim to the main island helped trigger the 1982 war, when Argentine forces briefly occupied it.","South Georgia and the South Sandwich Islands",1383893758]
   ],
   "242": [
     ["Land","The 180° meridian passes through Fiji, but the country keeps one date by bending the International Date Line around it.","International Date Line",1384354557],
@@ -545,7 +662,11 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital, Suva, is on Viti Levu, the largest island.","Suva",1380653319],
     ["Sports","Its rugby sevens team won the country's first two Olympic gold medals, in 2016 and 2021.","Fiji national rugby sevens team",1383647129],
     ["Culture","The kava ceremony, sharing a drink made from a root, welcomes guests.","Kava",1381661185],
-    ["People","Golfer Vijay Singh, a former world number one, was born in Lautoka.","Vijay Singh",1383179415]
+    ["People","Golfer Vijay Singh, a former world number one, was born in Lautoka.","Vijay Singh",1383179415],
+    ["Animals","A crested iguana lives only on a few of its islands.","Fiji crested iguana",1381906631],
+    ["Heritage","Levuka, its first colonial capital, is a UNESCO World Heritage Site.","Levuka",1385832983],
+    ["Animals","Baby crested iguanas hatch dark green and turn bright emerald green within hours.","Fiji crested iguana",1381906631],
+    ["Animals","Crested iguanas grow up to 75 cm long, with spines up to 1.5 cm along the back.","Fiji crested iguana",1381906631]
   ],
   "246": [
     ["Culture","Finnish sauna culture was added to UNESCO's list of intangible cultural heritage in 2020.","Finnish sauna",1380697118],
@@ -558,7 +679,8 @@ window.ATLAS_FACTS = {
     ["Sports","Pesäpallo, a fast form of baseball where the ball is pitched straight up, is its national sport.","National sport",1384611106],
     ["Animals","Its national animal is the brown bear, and its national bird is the whooper swan.","List of national animals",1384556882],
     ["People","Composer Jean Sibelius, famous for Finlandia, was born in Hämeenlinna.","Jean Sibelius",1384624790],
-    ["Landmarks","Suomenlinna is a sea fortress spread over eight islands off Helsinki, six of them fortified.","Suomenlinna",1380933508]
+    ["Landmarks","Suomenlinna is a sea fortress spread over eight islands off Helsinki, six of them fortified.","Suomenlinna",1380933508],
+    ["Heritage","Old Rauma, a town of wooden houses, is a UNESCO World Heritage Site.","Old Rauma",1366155675]
   ],
   "248": [
     ["Culture","The Åland Islands belong to Finland but are self-governing, Swedish-speaking and demilitarized.","Åland",1383375054],
@@ -567,7 +689,13 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Mariehamn.","Mariehamn",1384462205],
     ["Places","The archipelago has more than 6,500 islands and skerries.","Åland",1383375054],
     ["Language","Its only official language is Swedish.","Åland",1383375054],
-    ["Food","Åland pancake, baked with semolina or rice porridge, is served with prune jam and whipped cream.","Åland pancake",1327217048]
+    ["Food","Åland pancake, baked with semolina or rice porridge, is served with prune jam and whipped cream.","Åland pancake",1327217048],
+    ["History","It was demilitarised by an agreement of 1856, after the Crimean War, and has stayed free of military forces ever since.","Åland",1385313101],
+    ["Places","Mariehamn's harbour is home to the Pommern, a four-masted barque that once carried grain from Australia.","Pommern (ship)",1326808420],
+    ["Quirky","Its coat of arms was originally meant for the Swedish island of Öland in 1560 but was given to it by mistake.","Åland",1385313101],
+    ["Land","Its only land border is on the uninhabited skerry of Märket, which it shares with Sweden.","Åland",1385313101],
+    ["History","Its autonomy dates from 1920, and it is the smallest region of Finland.","Åland",1385313101],
+    ["History","More than 380 Viking Age burial sites have been documented there.","Åland",1385313101]
   ],
   "250": [
     ["Culture","France receives more international tourist arrivals than any other country.","Tourism in France",1384109962],
@@ -598,7 +726,10 @@ window.ATLAS_FACTS = {
     ["Capitals","Its border with Brazil, 730 km long, is the longest land border France shares with any country.","Brazil–France border",1370725915],
     ["Places","A bridge over the Oyapock River, opened to the public in 2017, links it by road to Brazil.","Franco-Brazilian Binational Bridge",1370450615],
     ["Records","It is the only territory on the mainland of the Americas still under the sovereignty of a European state.","French Guiana",1384337679],
-    ["Daily life","About half of its residents live in the capital, Cayenne.","French Guiana",1384337679]
+    ["Daily life","About half of its residents live in the capital, Cayenne.","French Guiana",1384337679],
+    ["Animals","Leatherback turtles nest on its beaches at Awala-Yalimapo.","Awala-Yalimapo",1381789794],
+    ["Festivals","Its Carnival lasts weeks, with touloulous, women disguised from head to toe who invite men to dance.","Touloulou",1374563022],
+    ["Space","The Ariane rockets of the European Space Agency launch from Kourou.","Ariane (rocket family)",1381751660]
   ],
   "258": [
     ["Culture","The painter Paul Gauguin spent his last years in French Polynesia and died in the Marquesas Islands.","Paul Gauguin",1383338701],
@@ -607,7 +738,12 @@ window.ATLAS_FACTS = {
     ["Heritage","Taputapuātea, a sacred marae site on Raiatea, is a UNESCO World Heritage Site.","Taputapuatea",1382026567],
     ["Daily life","Tattooing in the Pacific takes its English word, tattoo, from the Tahitian word tatau.","Tattoo",1379853280],
     ["Food","Poisson cru, raw fish marinated in lime and coconut milk, is its signature dish.","'Ota 'ika",1371784517],
-    ["Sports","Teahupo'o, a famously heavy wave off Tahiti, hosted the surfing events of the 2024 Olympics.","Teahupoʻo",1382030751]
+    ["Sports","Teahupo'o, a famously heavy wave off Tahiti, hosted the surfing events of the 2024 Olympics.","Teahupoʻo",1382030751],
+    ["Heritage","Fakarava atoll is part of a UNESCO biosphere reserve.","Fakarava",1375767697],
+    ["Space","Its Tahiti island gave its name to the 1769 voyage of James Cook to watch the transit of Venus.","1769 transit of Venus observed from Tahiti",1384211290],
+    ["Daily life","Black pearls, farmed in lagoons, are one of its main exports.","Tahitian pearl",1381992221],
+    ["Space","Transits of Venus come in pairs eight years apart; after 1769, the next was not until 1874.","1769 transit of Venus observed from Tahiti",1384211290],
+    ["Space","Watching the 1769 transit of Venus from Tahiti was meant to measure the distance between the Earth and the Sun.","1769 transit of Venus observed from Tahiti",1384211290]
   ],
   "260": [
     ["Land","Captain Cook called the Kerguelen Islands the Islands of Desolation. Today only rotating teams of scientists live there.","Kerguelen Islands",1379376645],
@@ -616,7 +752,12 @@ window.ATLAS_FACTS = {
     ["Places","The Kerguelen Islands are among the most isolated places on Earth.","Kerguelen Islands",1379376645],
     ["Heritage","The French Austral Lands and Seas became a UNESCO World Heritage Site in 2019.","French Southern and Antarctic Lands",1378780201],
     ["Places","Port-aux-Français, a research station, is the main settlement of the Kerguelen Islands.","Port-aux-Français",1378884343],
-    ["History","Yves-Joseph de Kerguelen-Trémarec reached the Kerguelen Islands in 1772.","Kerguelen Islands",1379376645]
+    ["History","Yves-Joseph de Kerguelen-Trémarec reached the Kerguelen Islands in 1772.","Kerguelen Islands",1379376645],
+    ["Animals","King penguins breed by the hundreds of thousands on the Crozet Islands.","Crozet Islands",1384623556],
+    ["Quirky","It has no permanent residents; only scientists and soldiers stay there, for a few months at a time.","French Southern and Antarctic Lands",1385602848],
+    ["Places","Amsterdam Island is home to the very rare Amsterdam albatross.","Amsterdam albatross",1332177169],
+    ["Animals","Rabbits, sheep and reindeer introduced to Kerguelen have damaged its native plants.","Kerguelen Islands",1384976109],
+    ["Land","Grande Terre, the main island of Kerguelen, is about three-quarters the size of Corsica and is surrounded by some 300 smaller islands.","Kerguelen Islands",1384976109]
   ],
   "262": [
     ["Records","Lake Assal, about 155 m below sea level, is the lowest point in Africa and one of the saltiest lakes on Earth.","Lake Assal (Djibouti)",1366151418],
@@ -625,7 +766,12 @@ window.ATLAS_FACTS = {
     ["Money","Its franc has been pegged to the US dollar since 1949.","Djiboutian franc",1359048252],
     ["Capitals","Its capital, Djibouti City, is home to most of its people.","Djibouti City",1382209313],
     ["Language","Its official languages are French and Arabic, while Somali and Afar are widely spoken.","Djibouti",1382512249],
-    ["History","It became independent from France in 1977.","Djibouti",1382512249]
+    ["History","It became independent from France in 1977.","Djibouti",1382512249],
+    ["Daily life","Many men chew khat, a leafy stimulant, in the afternoon.","Khat",1384431505],
+    ["Space","Its position by the Bab-el-Mandeb strait makes it home to military bases of several foreign countries.","Djibouti",1386521185],
+    ["Places","Lake Abbe is dotted with limestone chimneys up to 50 metres tall that puff steam.","Lake Abbe",1366075541],
+    ["Animals","Day Forest is home to a francolin, a bird found nowhere else.","Day Forest National Park",1362720077],
+    ["Places","Moucha Island, off the capital, is surrounded by coral reefs.","Moucha Island",1364052964]
   ],
   "266": [
     ["History","About 2 billion years ago, uranium deposits at Oklo started natural nuclear chain reactions, the only known natural reactors on Earth.","Natural nuclear fission reactor",1375069858],
@@ -634,7 +780,13 @@ window.ATLAS_FACTS = {
     ["Food","Poulet nyembwe, chicken cooked in palm nut sauce, is its national dish.","National dish",1381943985],
     ["Heritage","Lopé National Park, where rainforest meets savanna, is a UNESCO World Heritage Site.","Lopé National Park",1339961458],
     ["Places","On the beaches of Loango National Park, elephants, hippos and buffalo can wander onto the sand.","Loango National Park",1362850100],
-    ["Culture","The Bwiti religion uses the iboga plant in initiation rites.","Bwiti",1363918198]
+    ["Culture","The Bwiti religion uses the iboga plant in initiation rites.","Bwiti",1363918198],
+    ["History","Albert Schweitzer built his famous hospital at Lambaréné in 1913.","Albert Schweitzer",1386281249],
+    ["Records","Around 88% of its land is covered by forest.","Gabon",1386526605],
+    ["Music","The ngombi, a harp, is played in Bwiti ceremonies.","Ngombi",1321188923],
+    ["People","Albert Schweitzer was also a fine organist and a famous interpreter of Bach.","Albert Schweitzer",1386281249],
+    ["Heritage","The oldest Stone Age tools now known in the region were found at Elarmékora, in the Lopé valley.","Lopé National Park",1339961458],
+    ["Land","The north of Lopé National Park keeps the last grass savannas formed in Central Africa during the last ice age, 15,000 years ago.","Lopé National Park",1339961458]
   ],
   "268": [
     ["Food","People in Georgia have made wine for about 8,000 years, some of the oldest evidence of winemaking anywhere.","Georgian wine",1380993064],
@@ -645,7 +797,10 @@ window.ATLAS_FACTS = {
     ["Symbols","Its flag, the Five-Cross Flag, has one large red cross and four small ones.","Flag of Georgia (country)",1370329206],
     ["Language","Its language has its own unique alphabet, Mkhedruli, with no capital letters.","Georgian scripts",1380338283],
     ["People","Joseph Stalin was born in the town of Gori in 1878.","Joseph Stalin",1384109891],
-    ["Food","Wine is made in qvevri, egg-shaped clay jars buried in the ground, a method UNESCO added to its intangible heritage list in 2013.","Kvevri",1368664621]
+    ["Food","Wine is made in qvevri, egg-shaped clay jars buried in the ground, a method UNESCO added to its intangible heritage list in 2013.","Kvevri",1368664621],
+    ["Myths","In Greek myth, Jason and the Argonauts sailed to Colchis, in its west, to take the Golden Fleece.","Colchis",1384753230],
+    ["Places","Svaneti's medieval stone towers were built to defend families.","Svaneti",1376936151],
+    ["Records","The Krubera Cave was the deepest known cave in the world, more than 2,000 metres deep.","Veryovkina Cave",1379508642]
   ],
   "270": [
     ["Land","The Gambia is the smallest country on mainland Africa. It follows the Gambia River and is surrounded by Senegal except along its short coast.","The Gambia",1383965879],
@@ -654,7 +809,13 @@ window.ATLAS_FACTS = {
     ["Food","Domoda, a peanut stew, is its national dish.","National dish",1381943985],
     ["Animals","Its national animal is the spotted hyena.","List of national animals",1384556882],
     ["Music","The kora, a 21-string harp-lute, is played by griots, hereditary musicians and storytellers.","Kora (instrument)",1382876951],
-    ["Money","Its currency is the dalasi.","Gambian dalasi",1368663224]
+    ["Money","Its currency is the dalasi.","Gambian dalasi",1368663224],
+    ["Heritage","The stone circles at Wassu, over a thousand years old, are a World Heritage Site.","Senegambian stone circles",1366156631],
+    ["Animals","Chimpanzees live on islands in its river national park, released there from the 1970s.","River Gambia National Park",1362901646],
+    ["History","Its president, Yahya Jammeh, ruled for 22 years before leaving power in 2017.","Yahya Jammeh",1384705657],
+    ["Heritage","The stone circles along its river belong to a group of about 29,000 stones and 17,000 monuments.","Senegambian stone circles",1366156631],
+    ["Heritage","Paired stones in front of some circles are called lyre-stones.","Senegambian stone circles",1366156631],
+    ["Heritage","Burial mounds near the Wassu stone circles have been dated to AD 927–1305.","Senegambian stone circles",1366156631]
   ],
   "275": [
     ["History","Jericho is one of the oldest inhabited cities in the world, settled more than 10,000 years ago.","Jericho",1384232440],
@@ -663,7 +824,12 @@ window.ATLAS_FACTS = {
     ["Heritage","Hebron's old town is a UNESCO World Heritage Site.","Hebron",1383763203],
     ["Heritage","The Church of the Nativity in Bethlehem is a UNESCO World Heritage Site.","Church of the Nativity",1383951364],
     ["Food","Knafeh from Nablus, a cheese pastry soaked in syrup, is famous across the region.","Knafeh",1383035425],
-    ["Culture","Dabke, a line dance with stamping steps, is a highlight of weddings and celebrations.","Dabke",1374466340]
+    ["Culture","Dabke, a line dance with stamping steps, is a highlight of weddings and celebrations.","Dabke",1374466340],
+    ["Daily life","Tatreez, cross-stitch embroidery on dresses, is on UNESCO's list of intangible heritage.","Traditional Palestinian clothing",1374600382],
+    ["Animals","A sunbird is its national bird.","Palestine sunbird",1381068860],
+    ["Heritage","Battir's olive terraces and ancient irrigation are a World Heritage Site.","Battir",1384584308],
+    ["Daily life","The keffiyeh, a checked scarf, is a national symbol.","Keffiyeh",1386513533],
+    ["Daily life","For about 3,000 years, traditional village dresses were cut in a similar A-line shape with triangular sleeves.","Traditional Palestinian clothing",1374600382]
   ],
   "276": [
     ["Inventions","Johannes Gutenberg introduced movable-type printing in Europe in Mainz around 1450.","Johannes Gutenberg",1383488206],
@@ -710,7 +876,12 @@ window.ATLAS_FACTS = {
     ["History","Captured by Anglo-Dutch forces in 1704, it was ceded to Great Britain “in perpetuity” by the Treaty of Utrecht in 1713.","Gibraltar",1384117524],
     ["Places","Its Rock, a limestone mountain 426 m high, was the northern of the two ancient Pillars of Hercules.","Rock of Gibraltar",1367525675],
     ["History","In referendums in 1967 and 2002, residents overwhelmingly rejected Spanish sovereignty and then shared sovereignty.","Gibraltar",1384117524],
-    ["Capitals","It is a British overseas territory at the southern tip of the Iberian Peninsula.","Gibraltar",1384117524]
+    ["Capitals","It is a British overseas territory at the southern tip of the Iberian Peninsula.","Gibraltar",1384117524],
+    ["Daily life","Its people speak Llanito, a mix of English and Andalusian Spanish.","Llanito",1381005913],
+    ["Heritage","Gorham's Cave, one of the last homes of the Neanderthals, is a UNESCO World Heritage Site.","Gorham's Cave",1362286646],
+    ["Places","St Michael's Cave, inside the Rock, is used as a concert hall.","St. Michael's Cave",1367557639],
+    ["History","Its tunnels, more than 50 km long, were dug mostly during sieges and World War II.","Tunnels of Gibraltar",1306482339],
+    ["Daily life","Calentita, a chickpea flour flatbread, is the national dish.","Gibraltarian cuisine",1373239458]
   ],
   "296": [
     ["Land","Kiribati stretches into all four hemispheres: north, south, east and west.","Kiribati",1380925512],
@@ -719,7 +890,12 @@ window.ATLAS_FACTS = {
     ["Symbols","Its flag shows a frigatebird flying over a rising sun and ocean waves.","Flag of Kiribati",1373762702],
     ["Quirky","It moved the International Date Line in 1995 so all its islands share the same day.","Kiribati",1380925512],
     ["Nature","Its Phoenix Islands Protected Area is one of the largest marine protected areas in the world.","Phoenix Islands Protected Area",1362958918],
-    ["Money","It uses the Australian dollar, alongside its own Kiribati coins.","Kiribati dollar",1378840948]
+    ["Money","It uses the Australian dollar, alongside its own Kiribati coins.","Kiribati dollar",1378840948],
+    ["Daily life","Its people sail outrigger canoes and fish from the lagoon.","Kiribati",1386225978],
+    ["History","Tarawa was the scene of one of the bloodiest battles of the Pacific War in 1943.","Battle of Tarawa",1385858945],
+    ["Land","Most of its islands rise only a couple of metres above sea level, threatened by rising seas.","Kiribati",1386225978],
+    ["Animals","Millions of seabirds nest on its Phoenix Islands.","Phoenix Islands",1372550012],
+    ["Daily life","Te maneaba, a large open meeting house, is the heart of village life.","Maneaba",1364056259]
   ],
   "300": [
     ["Land","Greece has about 6,000 islands and islets, but only around 227 are inhabited.","List of islands of Greece",1384139181],
@@ -746,7 +922,12 @@ window.ATLAS_FACTS = {
     ["Symbols","Its flag, Erfalasorput, shows a red and white circle, often read as the sun setting over the ice.","Flag of Greenland",1364641292],
     ["Capitals","Its capital, Nuuk, is the northernmost capital city in the world.","Nuuk",1382271502],
     ["Culture","Most of its people are Inuit, and Greenlandic is the official language.","Greenlandic language",1384722113],
-    ["Heritage","Ilulissat Icefjord, fed by the fast-moving Sermeq Kujalleq glacier, is a UNESCO World Heritage Site.","Ilulissat Icefjord",1375616727]
+    ["Heritage","Ilulissat Icefjord, fed by the fast-moving Sermeq Kujalleq glacier, is a UNESCO World Heritage Site.","Ilulissat Icefjord",1375616727],
+    ["Animals","Narwhals, with their long spiral tusks, live in its waters.","Narwhal",1382037057],
+    ["Sports","Its people play their own form of football, and the Arctic Winter Games include dog-sled races.","Arctic Winter Games",1383675287],
+    ["Places","Ilulissat's icefjord produces some of the largest icebergs in the Northern Hemisphere.","Ilulissat Icefjord",1375616727],
+    ["Records","Its northeastern national park, about 972,000 km², is the largest national park in the world.","Northeast Greenland National Park",1385463792],
+    ["Daily life","Dog sleds are still used for hunting and travel in the north.","Sled dog",1385873373]
   ],
   "308": [
     ["Food","Grenada is called the Spice Isle, and a nutmeg appears on its flag.","Flag of Grenada",1344631184],
@@ -755,7 +936,12 @@ window.ATLAS_FACTS = {
     ["Food","Oil down, a stew of salted meat and vegetables, is its national dish.","Oil down",1327214714],
     ["Capitals","Its capital is St. George's.","St. George's, Grenada",1384457201],
     ["History","In 1983 US-led forces invaded the island after a coup.","United States invasion of Grenada",1380427673],
-    ["History","Chocolate came to the island in 1714 with the introduction of cocoa beans.","Grenada",1384298120]
+    ["History","Chocolate came to the island in 1714 with the introduction of cocoa beans.","Grenada",1384298120],
+    ["Animals","Its national bird, a dove, is found nowhere else.","Grenada dove",1372088612],
+    ["Places","Grand Anse is a long white-sand beach near the capital.","Grande-Anse",1350520054],
+    ["Places","Mount Hartman is its only official national park, protecting the home of its national dove.","Grenada dove",1372088612],
+    ["History","An old landfill near the dove's habitat has been burning since February 2004.","Grenada dove",1372088612],
+    ["History","Its forests were already noted as degraded in 1949, a threat to its rare national dove.","Grenada dove",1372088612]
   ],
   "312": [
     ["Land","Its two main islands, Basse-Terre and Grande-Terre, form a butterfly shape seen from above.","Guadeloupe",1384680525],
@@ -765,7 +951,12 @@ window.ATLAS_FACTS = {
     ["Music","The band Kassav', formed there in 1979, is credited with pioneering zouk music.","Kassav'",1383930394],
     ["Sports","Judoka Teddy Riner, born in Les Abymes, is the only judoka to win twelve gold medals at the World Judo Championships.","Teddy Riner",1384696313],
     ["Places","Marie-Galante is nicknamed “the Big Biscuit” for its round shape and almost flat surface.","Marie-Galante",1384143854],
-    ["Language","Its Indigenous Arawakan-speaking people called it Karukera, “the island of beautiful waters”.","Guadeloupe",1384680525]
+    ["Language","Its Indigenous Arawakan-speaking people called it Karukera, “the island of beautiful waters”.","Guadeloupe",1384680525],
+    ["Festivals","Its Carnival features mas a po groups, with goatskin drums.","Guadeloupe",1386490952],
+    ["Animals","A raccoon found only on its islands lives in its forests.","Guadeloupe raccoon",1381773900],
+    ["History","It included Saint Barthélemy and Saint Martin until 2007, when they became separate after a 2003 referendum.","Guadeloupe",1386490952],
+    ["History","A skeleton found at Morel, the \"Woman of\" the island, caused a scientific stir in the 19th century.","Guadeloupe",1386490952],
+    ["History","The first African slaves arrived in 1650, after the island was sold to Charles Houël du Petit Pré.","Guadeloupe",1386490952]
   ],
   "316": [
     ["Records","Challenger Deep, the deepest known point in any ocean, lies in the Mariana Trench southwest of Guam.","Challenger Deep",1383033397],
@@ -774,7 +965,13 @@ window.ATLAS_FACTS = {
     ["Places","Legend says two lovers tied their hair together and jumped from the cliff at Two Lovers Point.","Two Lovers Point",1378920949],
     ["Capitals","Its capital is Hagåtña.","Hagåtña, Guam",1384457568],
     ["Language","Chamorro and English are its official languages.","Guam",1384282589],
-    ["Food","Kelaguen is meat or seafood cooked in lemon juice, often with coconut and hot pepper.","Kelaguen",1305824689]
+    ["Food","Kelaguen is meat or seafood cooked in lemon juice, often with coconut and hot pepper.","Kelaguen",1305824689],
+    ["Animals","A flightless rail, wiped out in the wild there by snakes, has been released on other islands.","Guam rail",1384111178],
+    ["Heritage","Latte stones, pillars with cup-shaped tops, were the foundations of Chamorro houses.","Latte stone",1250929532],
+    ["History","It was held by Japan from 1941 to 1944, when US forces retook it.","Battle of Guam (1944)",1383517375],
+    ["Places","Tumon Bay is lined with hotels.","Tumon, Guam",1377130663],
+    ["History","Ferdinand Magellan, sailing for Spain, landed on 6 March 1521, the first European to reach it.","Guam",1384282589],
+    ["Records","It is the largest island in Micronesia and the southernmost of the Mariana Islands.","Guam",1384282589]
   ],
   "320": [
     ["History","Tikal was one of the largest Maya cities. Its temples rise above the rainforest canopy.","Tikal",1382892715],
@@ -812,7 +1009,12 @@ window.ATLAS_FACTS = {
     ["Food","Pepperpot, a slow-cooked meat stew traditionally served at Christmas, is a national dish.","Guyanese pepperpot",1373727500],
     ["Festivals","Mashramani, a carnival with costumed street parades, celebrates Republic Day each February.","Mashramani",1372013898],
     ["Places","St. George's Cathedral in Georgetown is one of the tallest wooden churches in the world.","St. George's Cathedral, Georgetown",1363847572],
-    ["Sports","Its cricketers play for the West Indies team.","West Indies cricket team",1384657832]
+    ["Sports","Its cricketers play for the West Indies team.","West Indies cricket team",1384657832],
+    ["History","In 1978 over 900 people died at Jonestown, a cult settlement in its jungle.","Jonestown",1386094925],
+    ["Festivals","Phagwah, the spring festival of colours, is a national holiday.","Holi",1385704164],
+    ["Animals","The Rupununi savannahs are home to giant anteaters.","Rupununi",1351471301],
+    ["Animals","The Iwokrama Forest, a reserve of 3,716 km² in the middle of the country, lies on the Guiana Shield.","Iwokrama Forest",1364066232],
+    ["Land","The Iwokrama Forest is bordered by the Pakaraima Mountains to the west and savannahs to the southwest.","Iwokrama Forest",1364066232]
   ],
   "332": [
     ["Places","The Citadelle Laferrière, built after independence, is the largest fortress in the Americas.","Citadelle Laferrière",1383594877],
@@ -835,7 +1037,13 @@ window.ATLAS_FACTS = {
     ["Heritage","Heard Island and the McDonald Islands are a UNESCO World Heritage Site.","Heard Island and McDonald Islands",1384291341],
     ["Places","The islands are some of the most remote places on Earth, about 4,000 km from Australia.","Heard Island and McDonald Islands",1384291341],
     ["History","No one has ever lived there permanently; the first recorded landing was in 1855.","Heard Island and McDonald Islands",1384291341],
-    ["Animals","Elephant seals and penguins breed on Heard Island's beaches.","Heard Island and McDonald Islands",1384291341]
+    ["Animals","Elephant seals and penguins breed on Heard Island's beaches.","Heard Island and McDonald Islands",1384291341],
+    ["Quirky","It has no people and no harbour; visitors must land by small boat or helicopter.","Heard Island and McDonald Islands",1384891976],
+    ["Land","Big Ben, its volcano, is Australia's highest mountain outside Antarctica.","Big Ben (Heard Island)",1373162504],
+    ["Places","Its nearest neighbour is the Kerguelen Islands, about 450 km away.","Heard Island and McDonald Islands",1384891976],
+    ["Land","About 80% of its main island is covered by ice.","Heard Island and McDonald Islands",1384891976],
+    ["History","Sealers lived there in the 19th century to hunt elephant seals for their oil.","Heard Island and McDonald Islands",1384891976],
+    ["Animals","Its rockhopper and macaroni penguins number in the hundreds of thousands.","Heard Island and McDonald Islands",1384891976]
   ],
   "336": [
     ["Records","Vatican City is the smallest country in the world, covering about 0.49 km².","Vatican City",1384431202],
@@ -844,7 +1052,13 @@ window.ATLAS_FACTS = {
     ["Symbols","Its square flag carries the crossed keys of Saint Peter under the papal tiara.","Flag of Vatican City",1364129773],
     ["Language","Latin is one of its official languages.","Vatican City",1384431202],
     ["Money","Its euro coins are sought after by collectors.","Vatican euro coins",1369294856],
-    ["Places","St. Peter's Basilica is one of the largest churches in the world.","St. Peter's Basilica",1383205116]
+    ["Places","St. Peter's Basilica is one of the largest churches in the world.","St. Peter's Basilica",1383205116],
+    ["Quirky","It has the highest crime rate per person, because so few people live there and so many tourists visit.","Vatican City",1386161635],
+    ["Heritage","Its whole territory is a World Heritage Site.","Vatican City",1386161635],
+    ["Space","It runs an observatory in Arizona.","Vatican Observatory",1384395574],
+    ["Daily life","Its ATMs have instructions in Latin.","Vatican City",1386161635],
+    ["History","Its walls were built in the 9th century after an attack by Saracens in 846.","Leonine City",1368609633],
+    ["Places","Its museums hold Raphael's Rooms and the Sistine Chapel.","Vatican Museums",1377512704]
   ],
   "340": [
     ["History","The writer O. Henry coined the phrase banana republic in 1904, with Honduras in mind.","Banana republic",1381915649],
@@ -857,7 +1071,8 @@ window.ATLAS_FACTS = {
     ["Sports","The men's football team has played at three World Cups: in 1982, 2010 and 2014.","Honduras national football team",1385952202],
     ["People","Francisco Morazán, who became president of the Federal Republic of Central America, was born in Tegucigalpa in 1792.","Francisco Morazán",1378295872],
     ["Music","Punta, a dance music with African and Arawak roots, is the best-known sound of the Garífuna people; it is also known as banguity or bunda.","Punta",1381001225],
-    ["Names","Christopher Columbus named it with the Spanish word for \"depths\", after the deep waters off its northern coast.","List of country-name etymologies",1382950159]
+    ["Names","Christopher Columbus named it with the Spanish word for \"depths\", after the deep waters off its northern coast.","List of country-name etymologies",1382950159],
+    ["Places","Lake Yojoa is its largest lake.","Lake Yojoa",1366285258]
   ],
   "344": [
     ["Records","Hong Kong has more skyscrapers than any other city in the world.","Hong Kong",1383990306],
@@ -866,7 +1081,13 @@ window.ATLAS_FACTS = {
     ["Places","The Star Ferry has carried passengers across Victoria Harbour since 1888.","Star Ferry",1382910144],
     ["Places","Victoria Peak offers famous views over the harbor and skyline.","Victoria Peak",1383894571],
     ["Food","Dim sum, small dishes eaten with tea, is a big part of its food culture.","Dim sum",1381500119],
-    ["Festivals","The Cheung Chau Bun Festival ends with a race up towers covered in buns.","Cheung Chau Bun Festival",1383675407]
+    ["Festivals","The Cheung Chau Bun Festival ends with a race up towers covered in buns.","Cheung Chau Bun Festival",1383675407],
+    ["Daily life","Yum cha, drinking tea with dim sum, is a weekend ritual.","Yum cha",1386021765],
+    ["Myths","The tiger balm garden was a theme park of Chinese legends.","Tiger Balm Garden (Hong Kong)",1362678086],
+    ["Film","Bruce Lee grew up there and made his first films as a child actor.","Bruce Lee",1385760051],
+    ["Festivals","At the Mid-Autumn Festival, people light lanterns and eat mooncakes.","Mid-Autumn Festival",1384931643],
+    ["Places","Its Big Buddha on Lantau Island is reached by cable car.","The Big Buddha (Hong Kong)",1380873198],
+    ["Daily life","Its trams, nicknamed \"ding dings\", have run since 1904.","Hong Kong Tramways",1386358112]
   ],
   "348": [
     ["Records","Lake Hévíz is the largest thermal lake in the world that you can swim in.","Lake Hévíz",1382481791],
@@ -878,7 +1099,9 @@ window.ATLAS_FACTS = {
     ["Language","Its language is not Indo-European but Uralic, distantly related to Finnish and Estonian.","Hungarian language",1382812532],
     ["Money","Its old currency, the pengő, suffered the highest rate of hyperinflation ever recorded, after World War II.","Hungarian pengő",1381248739],
     ["People","Escape artist Harry Houdini was born Erik Weisz in Budapest.","Harry Houdini",1384751494],
-    ["Landmarks","The Széchenyi Chain Bridge was the first permanent bridge across the Danube in Budapest.","Széchenyi Chain Bridge",1384726575]
+    ["Landmarks","The Széchenyi Chain Bridge was the first permanent bridge across the Danube in Budapest.","Széchenyi Chain Bridge",1384726575],
+    ["Heritage","Hollókő, a village of whitewashed houses, is a UNESCO World Heritage Site.","Hollókő",1377790054],
+    ["Quirky","It has more than 1,000 hot springs, and Budapest is called the city of spas.","Budapest",1384547566]
   ],
   "352": [
     ["History","Iceland's parliament, the Althing, was founded in 930 and is one of the oldest parliaments in the world.","Althing",1382293908],
@@ -891,7 +1114,8 @@ window.ATLAS_FACTS = {
     ["Animals","Its national bird is the gyrfalcon, the largest falcon.","List of national animals",1384556882],
     ["People","Singer Björk was born and raised in Reykjavík.","Björk",1384146599],
     ["Landmarks","Hallgrímskirkja in Reykjavík was designed to resemble columns of basalt rock.","Hallgrímskirkja",1374383246],
-    ["Landmarks","Þingvellir is where the country's parliament, the Althing, first met in 930.","Þingvellir",1377506479]
+    ["Landmarks","Þingvellir is where the country's parliament, the Althing, first met in 930.","Þingvellir",1377506479],
+    ["Quirky","Babies' names must be approved by a national naming committee.","Icelandic Naming Committee",1376188031]
   ],
   "356": [
     ["Culture","India's constitution recognizes 22 scheduled languages.","Eighth Schedule to the Constitution of India",1379011697],
@@ -1000,7 +1224,11 @@ window.ATLAS_FACTS = {
     ["Food","Falafel and hummus are among its most popular foods.","Israeli cuisine",1384132121],
     ["Heritage","Tel Aviv's White City has thousands of buildings in the Bauhaus style.","White City, Tel Aviv",1378621958],
     ["People","Actor Natalie Portman was born in Jerusalem.","Natalie Portman",1384052887],
-    ["Space","Ilan Ramon, its first astronaut, died when the Space Shuttle Columbia broke up in 2003.","Ilan Ramon",1383234340]
+    ["Space","Ilan Ramon, its first astronaut, died when the Space Shuttle Columbia broke up in 2003.","Ilan Ramon",1383234340],
+    ["Heritage","The Dead Sea Scrolls, found in caves at Qumran, are some of the oldest known copies of the Hebrew Bible.","Dead Sea Scrolls",1383609622],
+    ["Inventions","Drip irrigation was developed by Simcha Blass.","Drip irrigation",1375186568],
+    ["Festivals","At Purim, children dress up and eat hamantaschen.","Purim",1383502546],
+    ["Animals","About 500 million birds fly over it on migration each year, between Europe and Africa.","Hula Valley",1386422371]
   ],
   "380": [
     ["Land","Two independent countries sit entirely inside Italy: Vatican City and San Marino.","Enclave and exclave",1379038567],
@@ -1034,7 +1262,10 @@ window.ATLAS_FACTS = {
     ["Sports","In 2005 footballer Didier Drogba made a televised plea that helped bring a ceasefire in its civil war.","Didier Drogba",1383865686],
     ["Nature","Taï National Park protects one of the last large areas of primary rainforest in West Africa.","Taï National Park",1384422312],
     ["People","Striker Didier Drogba was born in Abidjan.","Didier Drogba",1383865686],
-    ["Arts","Aya of Yop City, a series of graphic novels written by Marguerite Abouet and drawn by Clément Oubrerie, grew out of stories from her childhood here.","Aya of Yop City",1365622401]
+    ["Arts","Aya of Yop City, a series of graphic novels written by Marguerite Abouet and drawn by Clément Oubrerie, grew out of stories from her childhood here.","Aya of Yop City",1365622401],
+    ["Heritage","Grand-Bassam, its first colonial capital, is a UNESCO World Heritage Site.","Grand-Bassam",1381465443],
+    ["Daily life","Attiéké, grated and fermented cassava, is eaten with grilled fish.","Acheke",1379590242],
+    ["Places","Grand-Bassam's old Governor's Palace now holds the National Museum of Costume.","Grand-Bassam",1381465443]
   ],
   "388": [
     ["Food","Only coffee grown in Jamaica's Blue Mountains, which rise to 2,256 m, can be sold as Jamaica Blue Mountain.","Jamaican Blue Mountain Coffee",1365583156],
@@ -1044,7 +1275,11 @@ window.ATLAS_FACTS = {
     ["Animals","Its national bird is the red-billed streamertail, a hummingbird with very long tail feathers.","List of national animals",1384556882],
     ["Music","Reggae, made famous by Bob Marley, was added to UNESCO's intangible heritage list in 2018.","Reggae",1381658300],
     ["History","Port Royal, once a pirate haven, partly sank into the sea in an earthquake in 1692.","Port Royal",1378966458],
-    ["People","Bob Marley was born in the village of Nine Mile, where he is also buried.","Bob Marley",1382853717]
+    ["People","Bob Marley was born in the village of Nine Mile, where he is also buried.","Bob Marley",1382853717],
+    ["Sports","Its bobsleigh team first raced at the 1988 Winter Olympics, a story told in the film Cool Runnings.","Jamaica national bobsleigh team",1386528539],
+    ["Myths","Duppies are ghosts of folklore, and Anansi the spider is the hero of many folk tales.","Duppy",1312244388],
+    ["Places","Dunn's River Falls can be climbed by visitors in a human chain.","Dunn's River Falls",1362220125],
+    ["Daily life","Jerk, spicy meat cooked slowly over pimento wood, is its signature dish.","Jerk (cooking)",1378825010]
   ],
   "392": [
     ["Land","A 2023 recount found Japan has 14,125 islands, more than double the earlier official figure.","List of islands of Japan",1373724350],
@@ -1169,7 +1404,13 @@ window.ATLAS_FACTS = {
     ["Places","The Kuwait Towers, three blue-tiled towers, are its best-known landmark.","Kuwait Towers",1380256170],
     ["Nature","Mitribah recorded 53.9 °C in 2016, one of the highest temperatures ever reliably measured.","Mitribah",1381461545],
     ["Capitals","Its capital is Kuwait City.","Kuwait City",1382540405],
-    ["History","Iraq invaded it in 1990, which led to the Gulf War.","Iraqi invasion of Kuwait",1383243347]
+    ["History","Iraq invaded it in 1990, which led to the Gulf War.","Iraqi invasion of Kuwait",1383243347],
+    ["Daily life","Diwaniyas, men's gatherings in a reception room, are central to social and political life.","Dewaniya",1343620901],
+    ["Heritage","Failaka Island has ruins of an ancient Greek settlement founded after Alexander the Great.","Failaka Island",1385992388],
+    ["Daily life","Dishdasha, a long white robe, is worn by most men.","Thawb",1383492146],
+    ["Daily life","Some diwaniyas are relaxed evenings of card games, shisha and watching football.","Dewaniya",1343620901],
+    ["Heritage","Failaka Island had Mesopotamian-style buildings from around 2000 BC.","Failaka Island",1385992388],
+    ["Daily life","Diwaniyas are also called for election campaigns, where candidates meet voters.","Dewaniya",1343620901]
   ],
   "417": [
     ["Nature","Issyk-Kul, high in the Tian Shan mountains, rarely freezes because its water is salty, despite the cold winters around it.","Issyk-Kul",1382027097],
@@ -1178,7 +1419,13 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish is beshbarmak, “five fingers”: meat with noodles in an onion broth.","National dish",1381943985],
     ["Sports","Kok-boru, a game where riders fight over a goat carcass, is its national sport.","Buzkashi",1380932846],
     ["Capitals","Its capital is Bishkek.","Bishkek",1380854173],
-    ["Places","The Burana Tower is all that remains of an 11th-century minaret on the Silk Road.","Burana Tower",1365046757]
+    ["Places","The Burana Tower is all that remains of an 11th-century minaret on the Silk Road.","Burana Tower",1365046757],
+    ["Daily life","Kumis, fermented mare's milk, is the national drink.","Kumis",1376058376],
+    ["Heritage","Sulaiman-Too, a sacred mountain in Osh, is a UNESCO World Heritage Site.","Sulayman Mountain",1366156856],
+    ["Animals","The snow leopard lives in its Tian Shan mountains.","Snow leopard",1385002688],
+    ["Music","The komuz, a three-stringed lute, is the national instrument.","Komuz",1377196233],
+    ["Places","Song-Köl, a high mountain lake, is a summer pasture for nomad herders.","Song-Köl",1380852858],
+    ["Daily life","Kalpak, a tall white felt hat, is a national symbol.","Kalpak",1382757184]
   ],
   "418": [
     ["History","Laos is the most heavily bombed country per person in history. More than 2 million tons of bombs fell on it from 1964 to 1973.","Laos",1384427547],
@@ -1188,7 +1435,11 @@ window.ATLAS_FACTS = {
     ["Animals","Its national animal is the Asian elephant.","List of national animals",1384556882],
     ["Money","Its currency is the kip.","Lao kip",1375834868],
     ["Festivals","At Boun Pi Mai, the new year in April, people splash each other with water.","Lao New Year",1303442776],
-    ["Landmarks","Pha That Luang is a large gold-covered Buddhist stupa in Vientiane.","Pha That Luang",1367242149]
+    ["Landmarks","Pha That Luang is a large gold-covered Buddhist stupa in Vientiane.","Pha That Luang",1367242149],
+    ["Myths","The Naga, a giant serpent, is said to live in the Mekong, and fireballs rise from the river each autumn.","Naga fireball",1379333559],
+    ["Heritage","Vat Phou, a Khmer temple complex older than Angkor Wat, is a UNESCO World Heritage Site.","Vat Phou",1375639476],
+    ["Daily life","Sticky rice, eaten with the hands from small baskets, is the staple food.","Lao cuisine",1373626181],
+    ["Places","Kuang Si Falls has turquoise pools.","Kuang Si Falls",1363631484]
   ],
   "422": [
     ["History","Byblos is one of the oldest continuously inhabited cities in the world.","Byblos",1384355742],
@@ -1199,7 +1450,10 @@ window.ATLAS_FACTS = {
     ["Language","The Phoenician alphabet, from this coast, is an ancestor of the Greek, Latin and Arabic alphabets.","Phoenician alphabet",1381355880],
     ["Places","The cedar forests of Lebanon, the Cedars of God, are a UNESCO World Heritage Site.","Cedars of God",1367789378],
     ["People","Khalil Gibran, author of The Prophet, was born in the mountain town of Bsharri.","Kahlil Gibran",1378370798],
-    ["Landmarks","The Roman temples of Baalbek include the Temple of Bacchus, one of the best preserved in the world.","Baalbek",1379564091]
+    ["Landmarks","The Roman temples of Baalbek include the Temple of Bacchus, one of the best preserved in the world.","Baalbek",1379564091],
+    ["Heritage","Anjar, an 8th-century Umayyad trading town, is a UNESCO World Heritage Site.","Anjar, Lebanon",1381299556],
+    ["Myths","In Greek myth, the princess Europa was carried off from Tyre by Zeus in the form of a bull.","Europa (consort of Zeus)",1385678981],
+    ["Daily life","Mezze, many small shared dishes, is the heart of a meal.","Meze",1381414989]
   ],
   "426": [
     ["Records","Lesotho is completely surrounded by South Africa, and its lowest point, about 1,400 m, is the highest low point of any country.","Lesotho",1384373582],
@@ -1208,7 +1462,14 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish is papa, maize flour cooked into a stiff porridge.","National dish",1381943985],
     ["Culture","The Basotho blanket, originally pure wool, is worn by men in the style of a traditional animal-skin cloak.","Basotho blanket",1381548601],
     ["Sports","Pony trekking through its mountains is a popular way to travel and sightsee.","Lesotho",1384373582],
-    ["Money","Its currency, the loti, is pegged one-to-one to the South African rand.","Lesotho loti",1342183719]
+    ["Money","Its currency, the loti, is pegged one-to-one to the South African rand.","Lesotho loti",1342183719],
+    ["Heritage","Thaba Bosiu, a mountain fortress, was the stronghold of King Moshoeshoe I.","Thaba Bosiu",1369724140],
+    ["Daily life","Basotho ponies are used to travel through the mountains.","Basuto Pony",1376520003],
+    ["Places","Afriski is one of the few ski resorts in Africa.","Afriski",1384423597],
+    ["Animals","The bearded vulture of its mountains is the only known animal with a backbone whose diet is 70–90% bone.","Bearded vulture",1386457117],
+    ["Animals","The bearded vulture, also called the lammergeier, weighs up to about 7.8 kg.","Bearded vulture",1386457117],
+    ["Animals","The bearded vulture is listed as near threatened, a status it has had since 2014.","Bearded vulture",1386457117],
+    ["Animals","The bearded vulture's closest living relative is the Egyptian vulture.","Bearded vulture",1386457117]
   ],
   "428": [
     ["Places","About a third of central Riga's buildings are Art Nouveau, one of the largest collections of the style in the world.","Art Nouveau architecture in Riga",1375102841],
@@ -1218,7 +1479,11 @@ window.ATLAS_FACTS = {
     ["Festivals","At Jāņi, the midsummer festival, people wear wreaths of flowers and oak leaves and stay up through the shortest night.","Jāņi",1346549196],
     ["Symbols","Its flag is a distinctive dark carmine red, with a thin white stripe.","Flag of Latvia",1379745791],
     ["Money","It replaced its currency, the lats, with the euro in 2014.","Latvian lats",1358261296],
-    ["People","Painter Mark Rothko was born in Dvinsk, today called Daugavpils.","Mark Rothko",1384342124]
+    ["People","Painter Mark Rothko was born in Dvinsk, today called Daugavpils.","Mark Rothko",1384342124],
+    ["Daily life","Its people celebrate name days, and calendars list every name's day.","Name day",1386414517],
+    ["Myths","The Christmas tree tradition is said to have begun in Riga in 1510.","Christmas tree",1386259541],
+    ["Heritage","Riga's old town has one of the finest collections of Art Nouveau buildings in Europe.","Riga",1386408233],
+    ["Animals","White storks nest in large numbers in its countryside.","White stork",1386485213]
   ],
   "430": [
     ["History","Liberia was founded in the 1820s as a settlement for freed African Americans. Its capital, Monrovia, is named after US President James Monroe.","Liberia",1383806349],
@@ -1227,7 +1492,13 @@ window.ATLAS_FACTS = {
     ["Money","Its dollar was first issued in 1847, pegged to the US dollar at par.","Liberian dollar",1368662473],
     ["History","In the early 20th century the Firestone company invested heavily in rubber plantations there.","Liberia",1383806349],
     ["Nature","Sapo National Park shelters rare pygmy hippos.","Sapo National Park",1368794154],
-    ["Sports","Footballer George Weah, a Ballon d'Or winner, became its president in 2018.","George Weah",1381394168]
+    ["Sports","Footballer George Weah, a Ballon d'Or winner, became its president in 2018.","George Weah",1381394168],
+    ["Animals","The pygmy hippopotamus lives in its rainforests.","Pygmy hippopotamus",1385431370],
+    ["People","Ellen Johnson Sirleaf became Africa's first elected woman head of state in 2006.","Ellen Johnson Sirleaf",1383751266],
+    ["History","Between 1822 and 1861 more than 15,000 freed and free-born African Americans moved there.","Liberia",1386527591],
+    ["Records","It was Africa's first republic to gain independence and is its oldest continuously independent country.","Liberia",1386527591],
+    ["History","It declared independence on 26 July 1847.","Liberia",1386527591],
+    ["Language","English is the official language, but more than 20 indigenous languages are spoken.","Liberia",1386527591]
   ],
   "434": [
     ["History","For 90 years Libya held the record for the hottest temperature ever measured, 58 °C. Experts threw out the 1922 reading in 2012.","ʽAziziya",1379865742],
@@ -1236,7 +1507,12 @@ window.ATLAS_FACTS = {
     ["Symbols","From 1977 to 2011 its flag was plain green, with no design at all.","Flag of Libya",1383047114],
     ["Capitals","Its capital is Tripoli.","Tripoli, Libya",1376979425],
     ["Food","Bazeen, a dough of barley flour served with a stew, is a traditional dish.","Bazin (bread)",1383718133],
-    ["Heritage","Ghadames, an old oasis town, is known as the pearl of the desert.","Ghadames",1378789400]
+    ["Heritage","Ghadames, an old oasis town, is known as the pearl of the desert.","Ghadames",1378789400],
+    ["Heritage","The Acacus Mountains are full of rock paintings thousands of years old.","Acacus Mountains",1382896178],
+    ["Records","The highest air temperature ever recorded, at Al-Aziziya in 1922, was later ruled invalid.","ʽAziziya",1379865742],
+    ["Heritage","Cyrene, an ancient Greek city, is a UNESCO World Heritage Site.","Cyrene, Libya",1385447640],
+    ["History","Muammar Gaddafi ruled from 1969 to 2011.","Muammar Gaddafi",1384391702],
+    ["Quirky","Just before the famous 1922 heat record, the station's usual thermometer had been replaced by an uncalibrated one of the kind used in greenhouses.","ʽAziziya",1379865742]
   ],
   "438": [
     ["Culture","Liechtenstein uses the Swiss franc as its currency.","Liechtenstein",1384063638],
@@ -1245,7 +1521,13 @@ window.ATLAS_FACTS = {
     ["Records","It is one of only two doubly landlocked countries, along with Uzbekistan.","Landlocked country",1384120027],
     ["Records","It is Europe's fourth-smallest country.","Liechtenstein",1384063638],
     ["Places","Vaduz Castle, home of the prince, looks down on the capital.","Vaduz Castle",1384788022],
-    ["Quirky","It is one of the few countries with more registered companies than citizens.","Liechtenstein",1384063638]
+    ["Quirky","It is one of the few countries with more registered companies than citizens.","Liechtenstein",1384063638],
+    ["Quirky","It once rented out the whole country for events.","Liechtenstein",1384804100],
+    ["Places","Malbun is its ski resort.","Malbun",1385100509],
+    ["Sports","It has won more Olympic medals per person in winter sports than almost any other country, all in alpine skiing.","Liechtenstein at the Olympics",1358316931],
+    ["History","It was formed in 1719 and became fully independent in 1866.","Liechtenstein",1384804100],
+    ["People","Prince Hans-Adam II has reigned since 1989.","Liechtenstein",1384804100],
+    ["History","A 2003 referendum gave its prince the power to dismiss the government and veto laws.","Liechtenstein",1384804100]
   ],
   "440": [
     ["Culture","Lithuanian is one of the oldest Indo-European languages still spoken, close in many ways to ancient Sanskrit.","Lithuanian language",1383612700],
@@ -1255,7 +1537,11 @@ window.ATLAS_FACTS = {
     ["Festivals","Užgavėnės, the carnival before Lent, begins with an effigy of winter, usually named Morė, being burnt.","Užgavėnės",1376363017],
     ["Sports","Basketball is regarded as its national sport.","National sport",1384611106],
     ["History","In 1990 it became the first Soviet republic to declare independence.","Act of the Re-Establishment of the State of Lithuania",1375253969],
-    ["Festivals","On Joninės, the midsummer night, people search for a magical fern flower that is said to bloom only that night.","Saint Jonas's Festival",1381507262]
+    ["Festivals","On Joninės, the midsummer night, people search for a magical fern flower that is said to bloom only that night.","Saint Jonas's Festival",1381507262],
+    ["Myths","Eglė, the Queen of Serpents, married a grass snake in its best-known folk tale.","Eglė the Queen of Serpents",1386471408],
+    ["Quirky","Užupis, a district of Vilnius, declared itself an independent republic in 1997.","Užupis",1383464216],
+    ["Heritage","Kernavė, its first capital, has the oldest known medgrinda, a secret underwater road paved with wood.","Kernavė",1367157332],
+    ["History","Kernavė was first mentioned in 1279, when the Teutonic Knights besieged it.","Kernavė",1367157332]
   ],
   "442": [
     ["Records","In 2020 Luxembourg became the first country to make all public transport free.","Transport in Luxembourg",1384150499],
@@ -1264,7 +1550,13 @@ window.ATLAS_FACTS = {
     ["Food","Judd mat Gaardebounen, smoked pork collar with broad beans, is a national dish.","Judd mat Gaardebounen",1370226204],
     ["Culture","Every Whit Tuesday, thousands take part in Echternach's hopping procession, a UNESCO-listed tradition.","Dancing procession of Echternach",1383680343],
     ["Capitals","The old quarters and fortifications of its capital are a UNESCO World Heritage Site.","Luxembourg City",1384663668],
-    ["History","It is the world's only remaining sovereign grand duchy.","Luxembourg",1384633579]
+    ["History","It is the world's only remaining sovereign grand duchy.","Luxembourg",1384633579],
+    ["Language","Its people speak three languages: their own, French and German.","Luxembourgish",1385611381],
+    ["Space","SES, one of the largest satellite operators in the world, is based there.","SES (company)",1384563825],
+    ["Places","Vianden Castle is one of the largest castles west of the Rhine.","Vianden Castle",1360745356],
+    ["History","Its people voted to keep the Grand Duchess in 1919.","Luxembourg",1386462264],
+    ["History","Its county was established in 963, within the Holy Roman Empire.","Luxembourg",1386462264],
+    ["Daily life","Foreign nationals make up almost half of its population.","Luxembourg",1386462264]
   ],
   "446": [
     ["Records","Macau is one of the most densely populated places in the world.","Macau",1382435968],
@@ -1273,7 +1565,12 @@ window.ATLAS_FACTS = {
     ["Heritage","The Historic Centre of Macau, mixing Chinese and Portuguese buildings, is a UNESCO World Heritage Site.","Historic Centre of Macau",1365735839],
     ["Records","Gambling tourism is its biggest source of revenue, about half of the economy.","Gambling in Macau",1378159199],
     ["Food","Portuguese-style egg tarts are one of its best-known snacks.","Pastel de nata",1371305603],
-    ["Sports","The Macau Grand Prix is raced on a winding street circuit.","Macau Grand Prix",1379450115]
+    ["Sports","The Macau Grand Prix is raced on a winding street circuit.","Macau Grand Prix",1379450115],
+    ["Quirky","Its casinos make more money than those of Las Vegas.","Gambling in Macau",1378159199],
+    ["Daily life","Its food mixes Portuguese and Chinese cooking.","Macanese cuisine",1382435790],
+    ["Records","The bungee jump from its tower is one of the highest in the world.","Macau Tower",1371352057],
+    ["Language","Its official languages are Chinese and Portuguese.","Macau",1385158842],
+    ["Places","The A-Ma Temple gave the city its name.","A-Ma Temple",1364368167]
   ],
   "450": [
     ["Nature","About 90% of Madagascar's wildlife is found nowhere else on Earth.","Wildlife of Madagascar",1381336005],
@@ -1286,7 +1583,8 @@ window.ATLAS_FACTS = {
     ["Music","The valiha, a tube zither made from bamboo, is considered the national instrument.","Valiha",1385708083],
     ["Sports","Moraingy is a bare-fisted fighting sport from the west coast, held to music at open-air matches.","Moraingy",1336386727],
     ["People","Ranavalona I, queen from 1828 to 1861, worked to keep European powers out of the island.","Ranavalona I",1369688606],
-    ["Names","Its name is a garbled form of Mogadishu, made popular by Marco Polo.","List of country-name etymologies",1382950159]
+    ["Names","Its name is a garbled form of Mogadishu, made popular by Marco Polo.","List of country-name etymologies",1382950159],
+    ["Myths","Fady, taboos, forbid certain foods or acts in many villages.","Fady",1248833717]
   ],
   "454": [
     ["Animals","Lake Malawi has more fish species than any other lake in the world, most of them colorful cichlids.","Lake Malawi",1381099903],
@@ -1325,7 +1623,13 @@ window.ATLAS_FACTS = {
     ["Food","Mas huni, tuna mixed with grated coconut, onion, lime and chili, is its national dish and a typical breakfast.","National dish",1381943985],
     ["Capitals","Its capital, Malé, is one of the most densely populated cities in the world.","Malé",1383637974],
     ["Language","Its language, Dhivehi, is written in the Thaana script, from right to left.","Thaana",1382944838],
-    ["Money","Its currency is the rufiyaa.","Maldivian rufiyaa",1383717770]
+    ["Money","Its currency is the rufiyaa.","Maldivian rufiyaa",1383717770],
+    ["Animals","Manta rays gather in huge numbers at Hanifaru Bay.","Baa Atoll",1380016146],
+    ["Daily life","Bodu beru drumming is played at celebrations.","Boduberu",1302907964],
+    ["History","It became independent from Britain in 1965.","Maldives",1386542125],
+    ["Animals","Whale sharks live in its waters all year round.","Maldives",1386542125],
+    ["History","Arab travellers began visiting the islands around 947 CE, and Islam arrived in the 12th century.","Maldives",1386542125],
+    ["Land","Its chain of 26 atolls stretches across the equator.","Maldives",1386542125]
   ],
   "466": [
     ["Records","The Great Mosque of Djenné is the largest mud-brick building in the world. Townspeople replaster it every year.","Great Mosque of Djenné",1367241290],
@@ -1338,7 +1642,8 @@ window.ATLAS_FACTS = {
     ["People","Singer Salif Keita, the Golden Voice of Africa, was born in the village of Djoliba.","Salif Keita",1371757390],
     ["Sports","The men's football team, Les Aigles (the Eagles), finished runners-up at the Africa Cup of Nations in 1972.","Mali national football team",1383438121],
     ["Film","Yeelen, a 1987 film by Souleymane Cissé based on an old Bambara legend, won the Jury Prize at Cannes.","Yeelen",1358126996],
-    ["Names","It is named after an ancient West African kingdom; the word means \"hippopotamus\" in Bamana.","List of country-name etymologies",1382950159]
+    ["Names","It is named after an ancient West African kingdom; the word means \"hippopotamus\" in Bamana.","List of country-name etymologies",1382950159],
+    ["Heritage","The tomb of Askia in Gao is a World Heritage Site.","Tomb of Askia",1365740996]
   ],
   "470": [
     ["History","Malta's Ġgantija temples, more than 5,500 years old, are older than the pyramids of Egypt.","Ġgantija",1379287136],
@@ -1349,7 +1654,10 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital, Valletta, was built by the Knights of St John after the Great Siege of 1565.","Valletta",1381541439],
     ["Places","Mdina, a walled medieval city on a hilltop, is nicknamed the Silent City.","Mdina",1382376772],
     ["Landmarks","The Ħal Saflieni Hypogeum is an underground prehistoric burial site cut into rock.","Ħal Saflieni Hypogeum",1383223419],
-    ["Sports","In ġostra, a game played at village feasts, competitors run up a greased pole jutting out over the sea to grab a flag.","Greasy pole",1374658865]
+    ["Sports","In ġostra, a game played at village feasts, competitors run up a greased pole jutting out over the sea to grab a flag.","Greasy pole",1374658865],
+    ["Film","Popeye Village was built as a film set in 1980.","Popeye Village",1366081862],
+    ["Daily life","Pastizzi, flaky pastries filled with ricotta or peas, are a favourite snack.","Pastizz",1384960062],
+    ["Places","The Blue Grotto is a set of sea caves.","Blue Grotto (Malta)",1373037939]
   ],
   "474": [
     ["History","On 8 May 1902, Mount Pelée erupted and destroyed the city of Saint-Pierre; about 28,000 people died.","1902 eruption of Mount Pelée",1373880060],
@@ -1360,7 +1668,10 @@ window.ATLAS_FACTS = {
     ["Quirky","In 1804 the British Royal Navy commissioned Diamond Rock, an islet off its coast, as a warship: HMS Diamond Rock.","Diamond Rock",1371868984],
     ["Science","Psychiatrist and writer Frantz Fanon, author of Black Skin, White Masks, was born in Fort-de-France in 1925.","Frantz Fanon",1384665752],
     ["Language","Its name probably comes from the Indigenous name Madinina, “island of flowers”.","Martinique",1384105916],
-    ["Heritage","The volcanoes and forests of Mount Pelée and the Pitons du Carbet became a UNESCO World Heritage Site in 2023.","Martinique",1384105916]
+    ["Heritage","The volcanoes and forests of Mount Pelée and the Pitons du Carbet became a UNESCO World Heritage Site in 2023.","Martinique",1384105916],
+    ["Animals","An oriole that lives only on the island is found nowhere else.","Martinique oriole",1380695479],
+    ["Animals","Its oriole, black with a reddish-orange belly, now lives mainly in mangroves and dry forest.","Martinique oriole",1380695479],
+    ["Animals","The shiny cowbird lays its eggs in about 75% of the nests of its native oriole each year.","Martinique oriole",1380695479]
   ],
   "478": [
     ["Land","The Richat Structure, or Eye of the Sahara, is a rock formation about 40 km wide, clearly visible from orbit.","Richat Structure",1383408827],
@@ -1369,7 +1680,12 @@ window.ATLAS_FACTS = {
     ["Money","Its currency, the ouguiya, isn't decimal: one ouguiya is five khoums.","Mauritanian ouguiya",1376884633],
     ["Language","Arabic is its official language, and Hassaniya Arabic is widely spoken.","Hassaniya Arabic",1376490852],
     ["Animals","Banc d'Arguin National Park shelters huge numbers of migrating birds.","Banc d'Arguin National Park",1376198423],
-    ["History","In 1981 it became the last country in the world to abolish slavery.","Slavery in Mauritania",1383756557]
+    ["History","In 1981 it became the last country in the world to abolish slavery.","Slavery in Mauritania",1383756557],
+    ["Quirky","Its trains carry iron ore over 700 km, and people ride on top of the wagons.","Mauritania Railway",1385380294],
+    ["Daily life","Tea is served three times, each sweeter than the last.","Mauritania",1386528322],
+    ["Places","Nouakchott was built from scratch in the 1950s as the new capital.","Nouakchott",1381271266],
+    ["History","Attacks on its iron-ore railway after 1976 crippled the economy and helped bring about the coup of 1978.","Mauritania Railway",1385380294],
+    ["History","Construction of its railway began in 1960, and it is run by the state mining company SNIM.","Mauritania Railway",1385380294]
   ],
   "480": [
     ["Nature","The dodo lived only on Mauritius and was extinct by the late 1600s.","Dodo",1375347989],
@@ -1378,7 +1694,12 @@ window.ATLAS_FACTS = {
     ["Places","The Seven Coloured Earths at Chamarel are dunes of sand in several distinct colors.","Seven Coloured Earths",1362251219],
     ["Music","Sega, music and dance of the island's African heritage, is on UNESCO's intangible heritage list.","Sega (genre)",1381286249],
     ["Language","Most people speak Creole, a French-based language, at home.","Mauritian Creole",1384245310],
-    ["History","The island was uninhabited until the Dutch settled it in 1638.","Mauritius",1383425559]
+    ["History","The island was uninhabited until the Dutch settled it in 1638.","Mauritius",1383425559],
+    ["Heritage","Aapravasi Ghat, where indentured workers from India landed, is a UNESCO World Heritage Site.","Aapravasi Ghat",1365708051],
+    ["Heritage","Le Morne Brabant, a mountain where runaway slaves hid, is a World Heritage Site.","Le Morne Brabant",1366154901],
+    ["Animals","The pink pigeon, once down to about 10 birds, has been saved by breeding.","Pink pigeon",1376992558],
+    ["Places","Its underwater waterfall is an illusion of sand flowing off a shelf.","Le Morne Brabant",1366154901],
+    ["Animals","A kestrel found only on the island fell to four birds in 1974 and has since recovered.","Mauritius kestrel",1368247538]
   ],
   "484": [
     ["History","Mexico City sits on the site of Tenochtitlan, the Aztec capital built on an island in Lake Texcoco.","Tenochtitlan",1382891128],
@@ -1410,7 +1731,12 @@ window.ATLAS_FACTS = {
     ["Symbols","Its red-over-white flag looks like Indonesia's, but with a different shade of red and different proportions.","Flag of Monaco",1367034076],
     ["Capitals","It is a city-state, the second-smallest country in the world after Vatican City.","Monaco",1384370684],
     ["Places","The Monte Carlo Casino, completed in 1863, made the city famous.","Monte Carlo Casino",1382261354],
-    ["History","The Grimaldi family has ruled it since 1297.","House of Grimaldi",1384513937]
+    ["History","The Grimaldi family has ruled it since 1297.","House of Grimaldi",1384513937],
+    ["Quirky","Its citizens are not allowed to gamble in its casinos.","Monte Carlo Casino",1382261354],
+    ["People","Princess Grace, the film star Grace Kelly, married Prince Rainier in 1956.","Grace Kelly",1385823829],
+    ["Heritage","Its Oceanographic Museum, built into a cliff, was directed by Jacques Cousteau.","Oceanographic Museum of Monaco",1381444868],
+    ["History","The first casino opened on 14 December 1856 in a modest villa; the famous one on Les Spelugues was finished in 1863.","Monte Carlo Casino",1382261354],
+    ["Places","The Hôtel de Paris Monte-Carlo, beside the casino, opened in 1862.","Monte Carlo Casino",1382261354]
   ],
   "496": [
     ["Records","Mongolia is the most sparsely populated sovereign country in the world.","Mongolia",1384466382],
@@ -1422,7 +1748,9 @@ window.ATLAS_FACTS = {
     ["Myths","The death worm is said to live under the sands of the Gobi Desert.","Mongolian death worm",1381886835],
     ["Landmarks","A 40 m stainless steel statue of Genghis Khan on horseback stands east of Ulaanbaatar.","Equestrian statue of Genghis Khan",1376486239],
     ["Daily life","A ger, the round felt tent of herding families, can be taken down and loaded onto camels or yaks in an hour or two.","Yurt",1383220938],
-    ["Space","Jügderdemidiin Gürragchaa flew aboard Soyuz 39 in 1981, becoming the first person from the country in space.","Jügderdemidiin Gürragchaa",1378501050]
+    ["Space","Jügderdemidiin Gürragchaa flew aboard Soyuz 39 in 1981, becoming the first person from the country in space.","Jügderdemidiin Gürragchaa",1378501050],
+    ["Heritage","The Orkhon Valley holds the ruins of Karakorum, the capital of Genghis Khan's empire.","Orkhon Valley",1373783648],
+    ["Places","The Flaming Cliffs in the Gobi are where the first dinosaur eggs were found.","Flaming Cliffs",1278025610]
   ],
   "498": [
     ["Records","The Mileștii Mici wine cellars hold the largest wine collection in the world, in about 200 km of underground tunnels.","Mileștii Mici (winery)",1373344325],
@@ -1431,7 +1759,12 @@ window.ATLAS_FACTS = {
     ["Food","Mămăligă, a porridge of yellow maize flour, is a national dish.","National dish",1381943985],
     ["Music","The song “Dragostea din tei” by O-Zone became a worldwide hit in 2004.","Dragostea din tei",1383518522],
     ["Capitals","Its capital is Chișinău.","Chișinău",1382990772],
-    ["Culture","On 1 March, people give each other mărțișor, a red and white string, to welcome spring.","Mărțișor",1368248942]
+    ["Culture","On 1 March, people give each other mărțișor, a red and white string, to welcome spring.","Mărțișor",1368248942],
+    ["Language","Its official language is Romanian.","Moldova",1384370439],
+    ["Heritage","Soroca Fortress was built on the Dniester in the 15th century.","Soroca Fort",1374994793],
+    ["History","It became independent from the Soviet Union in 1991.","Moldova",1384370439],
+    ["Animals","Its national animal is the aurochs, shown on its coat of arms.","Coat of arms of Moldova",1353110729],
+    ["History","Most of its land was ceded to the Russian Empire in 1812 and became known as Bessarabia.","Moldova",1384370439]
   ],
   "499": [
     ["Records","The Tara River Canyon, about 1,300 m deep, is the deepest canyon in Europe.","Tara River Canyon",1383663624],
@@ -1441,7 +1774,11 @@ window.ATLAS_FACTS = {
     ["Money","It uses the euro even though it isn't a member of the eurozone.","Montenegro and the euro",1381947976],
     ["Sports","Water polo is regarded as its national sport.","National sport",1384611106],
     ["Places","The Bay of Kotor is a winding bay of the Adriatic Sea.","Bay of Kotor",1375107256],
-    ["Landmarks","Ostrog Monastery is set high up against an almost vertical rock face.","Ostrog Monastery",1379108342]
+    ["Landmarks","Ostrog Monastery is set high up against an almost vertical rock face.","Ostrog Monastery",1379108342],
+    ["Heritage","Durmitor National Park is a UNESCO World Heritage Site.","Durmitor",1381124788],
+    ["Places","Sveti Stefan is a tiny island village turned into a hotel.","Sveti Stefan",1377806147],
+    ["Language","Its name means \"black mountain\" in Venetian Italian.","Montenegro",1385607318],
+    ["Places","Lovćen's mausoleum, at the top of a mountain, holds the poet-prince Njegoš.","Lovćen",1369430249]
   ],
   "500": [
     ["Nature","Eruptions of the Soufrière Hills volcano that began in 1995 buried Plymouth, Montserrat's capital, which is now abandoned.","Montserrat",1382247675],
@@ -1450,7 +1787,13 @@ window.ATLAS_FACTS = {
     ["Capitals","Since Plymouth was abandoned, the government has worked from Brades.","Brades",1377573797],
     ["Places","An exclusion zone around the volcano still covers much of the south of the island.","Montserrat",1382247675],
     ["Symbols","Its flag shows Erin, a symbol of Ireland, holding a harp.","Flag of Montserrat",1368036353],
-    ["Animals","Its national bird, the Montserrat oriole, lives nowhere else.","Montserrat oriole",1379921144]
+    ["Animals","Its national bird, the Montserrat oriole, lives nowhere else.","Montserrat oriole",1379921144],
+    ["Animals","The mountain chicken, a giant frog, lives on the island.","Leptodactylus fallax",1376321697],
+    ["Daily life","Goat water, a goat stew, is the national dish.","Goat water",1375914185],
+    ["History","Many of its first settlers were Irish Catholics.","Montserrat",1386418969],
+    ["Names","Its Indigenous Caribs are believed to have called it Alliouagana, \"land of the prickly bush\".","Montserrat",1386418969],
+    ["History","Between 1995 and 2000 two-thirds of its people had to leave because of the volcano; fewer than 1,200 remained in 1997.","Montserrat",1386418969],
+    ["Land","It is about 16 km long and 11 km wide.","Montserrat",1386418969]
   ],
   "504": [
     ["Space","The University of al-Qarawiyyin in Fez, founded in 859, is considered the oldest continuously operating university in the world.","University of al-Qarawiyyin",1383382860],
@@ -1490,7 +1833,12 @@ window.ATLAS_FACTS = {
     ["Heritage","Bahla Fort, a vast mud-brick fortress, is a UNESCO World Heritage Site.","Bahla Fort",1365730641],
     ["Capitals","Its capital is Muscat.","Muscat",1384142684],
     ["Culture","Men's national dress is the dishdasha, a simple, ankle-length, collarless gown.","Oman",1384419606],
-    ["Symbols","The khanjar, a curved dagger, appears on its national emblem.","Khanjar",1374217131]
+    ["Symbols","The khanjar, a curved dagger, appears on its national emblem.","Khanjar",1374217131],
+    ["Heritage","The aflaj, ancient channels that carry water to villages and date palms, are a UNESCO World Heritage Site.","Aflaj Irrigation Systems of Oman",1383565461],
+    ["Places","Nizwa Fort has a huge round tower.","Nizwa Fort",1353808401],
+    ["Animals","The Arabian leopard survives in the Dhofar mountains.","Arabian leopard",1386245205],
+    ["Heritage","Its aflaj channels can run up to 12 km and reach 50 metres underground.","Aflaj Irrigation Systems of Oman",1383565461],
+    ["Heritage","Some aflaj tap mountain springs with open channels; these make up about 28% of the total.","Aflaj Irrigation Systems of Oman",1383565461]
   ],
   "516": [
     ["Nature","The Namib is considered the oldest desert in the world, dry for at least 55 million years.","Namib",1381649098],
@@ -1499,7 +1847,13 @@ window.ATLAS_FACTS = {
     ["Places","Kolmanskop is a ghost town of diamond miners, slowly being swallowed by sand.","Kolmanskop",1384653385],
     ["Science","The Hoba meteorite, which still lies where it fell, is the largest known meteorite.","Hoba meteorite",1371140530],
     ["Heritage","The rock engravings of Twyfelfontein, thousands of years old, are a UNESCO World Heritage Site.","Twyfelfontein",1377957578],
-    ["Culture","Himba women cover their skin and hair with otjize, a paste of butterfat and red ochre.","Himba people",1377934302]
+    ["Culture","Himba women cover their skin and hair with otjize, a paste of butterfat and red ochre.","Himba people",1377934302],
+    ["Places","Deadvlei, a white clay pan with dead camel thorn trees, lies among red dunes.","Deadvlei",1370767028],
+    ["Land","Fish River Canyon is one of the largest canyons in the world.","Fish River Canyon",1385303018],
+    ["Places","Etosha Pan is a huge salt pan visible from space.","Etosha Pan",1362726191],
+    ["Land","Some of its coastal dunes are 300 metres high, the second-largest in the world.","Namib",1386404214],
+    ["Land","Its coast can have more than 180 days of thick fog a year.","Namib",1386404214],
+    ["Land","Its coastal desert gets as little as 2 mm of rain a year in the driest parts, the only true desert in southern Africa.","Namib",1386404214]
   ],
   "520": [
     ["Land","Nauru is one of the smallest countries in the world, and phosphate mining stripped much of its land.","Nauru",1384053064],
@@ -1508,7 +1862,12 @@ window.ATLAS_FACTS = {
     ["Sports","Australian rules football is its national sport.","National sport",1384611106],
     ["History","Mining of phosphate rock once made it one of the richest countries per person.","Nauru",1384670336],
     ["Money","It uses the Australian dollar.","Nauru",1384670336],
-    ["Daily life","It has one of the highest obesity rates in the world.","Nauru",1384670336]
+    ["Daily life","It has one of the highest obesity rates in the world.","Nauru",1384670336],
+    ["History","Phosphate mining stripped most of the island, leaving a moonscape of coral pinnacles.","Nauru",1386504216],
+    ["Animals","A reed warbler is its only native songbird.","Nauru reed warbler",1339431474],
+    ["Places","Buada Lagoon is an inland lake.","Buada Lagoon",1382008627],
+    ["Daily life","It has no tourism to speak of, with only one small hotel.","Nauru",1386504216],
+    ["Records","With about 12,000 people, it has the world's third-smallest population.","Nauru",1386504216]
   ],
   "524": [
     ["Land","Eight of the world's 14 peaks above 8,000 m lie fully or partly in Nepal, including Everest.","Eight-thousander",1382899892],
@@ -1557,7 +1916,12 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Willemstad.","Willemstad",1384434738],
     ["History","It became a self-governing country within the Kingdom of the Netherlands on 10 October 2010.","Curaçao",1384775060],
     ["Money","It shares a currency, the Caribbean guilder, with Sint Maarten.","Caribbean guilder",1380217311],
-    ["Places","The Queen Emma Bridge, a floating pontoon bridge, swings open to let ships into the harbor.","Queen Emma Bridge",1346814406]
+    ["Places","The Queen Emma Bridge, a floating pontoon bridge, swings open to let ships into the harbor.","Queen Emma Bridge",1346814406],
+    ["Heritage","The Mikvé Israel-Emanuel synagogue, built in 1732, is the oldest synagogue in continuous use in the Americas and has a sand floor.","Curaçao Synagogue",1372359415],
+    ["Animals","Flamingos feed in the salt lakes of the west, such as Sint Willibrordus.","Curaçao",1386485304],
+    ["History","It was a center of the slave trade in the 17th century.","Curaçao",1386485304],
+    ["Language","The first book printed in Papiamentu, a catechism of 1837, was added to UNESCO's Memory of the World register in 2009.","Papiamento",1384092939],
+    ["Language","By the 19th century most school books and hymnals there were written in Papiamentu.","Papiamento",1384092939]
   ],
   "533": [
     ["Culture","Aruba's official languages are Dutch and Papiamento.","Aruba",1384316715],
@@ -1566,7 +1930,13 @@ window.ATLAS_FACTS = {
     ["Quirky","It has a dry climate and lies outside the hurricane belt.","Aruba",1384316715],
     ["Money","Its florin is pegged to the US dollar.","Aruban florin",1384346314],
     ["Capitals","Its capital is Oranjestad.","Oranjestad",1384481855],
-    ["Nature","Its divi-divi trees grow bent over by the steady trade winds.","Libidibia coriaria",1330042477]
+    ["Nature","Its divi-divi trees grow bent over by the steady trade winds.","Libidibia coriaria",1330042477],
+    ["Heritage","Arikok National Park covers nearly a fifth of the island and protects cave drawings left by the Arawak people.","Arikok National Park",1362694560],
+    ["Places","The California Lighthouse, at the island's northwest tip, is named after a ship wrecked nearby.","California Lighthouse",1381648547],
+    ["Daily life","Its people speak Papiamento.","Papiamento",1384092939],
+    ["Land","It is 32 km long and only 10 km across at its widest point.","Aruba",1384847800],
+    ["History","60 to 70 Amerindian burial grounds have been found at Malmok and Canashito.","Aruba",1384847800],
+    ["Names","The Spanish called it Isla de Oruba until 1648.","Aruba",1384847800]
   ],
   "534": [
     ["Places","Planes landing at Princess Juliana Airport pass just a few meters above the sunbathers on Maho Beach.","Princess Juliana International Airport",1384048203],
@@ -1575,7 +1945,12 @@ window.ATLAS_FACTS = {
     ["Quirky","Its island has been divided since 1648 between France and the Netherlands.","Saint Martin (island)",1378891695],
     ["Money","It uses the Caribbean guilder, introduced in 2025, shared with Curaçao.","Caribbean guilder",1380217311],
     ["Language","Dutch is an official language, but English is the most widely spoken.","Sint Maarten",1378201429],
-    ["Food","Guavaberry liqueur, made with rum, is a common Christmas drink.","Myrciaria floribunda",1377594903]
+    ["Food","Guavaberry liqueur, made with rum, is a common Christmas drink.","Myrciaria floribunda",1377594903],
+    ["Quirky","Planes fly so low over Maho Beach that people stand under them.","Maho Beach",1368565185],
+    ["Animals","Its salt pond attracts many birds.","Great Salt Pond",1357184708],
+    ["Places","Simpson Bay Lagoon is one of the largest lagoons in the Caribbean.","Simpson Bay Lagoon",1371997050],
+    ["Festivals","Its Carnival is held in April.","Sint Maarten",1378201429],
+    ["History","It was hit hard by Hurricane Irma in 2017.","Hurricane Irma",1381358983]
   ],
   "535": [
     ["Records","Mount Scenery on Saba, 870 m high, is the highest point in the whole Kingdom of the Netherlands.","Mount Scenery",1384033958],
@@ -1585,7 +1960,11 @@ window.ATLAS_FACTS = {
     ["Capitals","Bonaire, Sint Eustatius and Saba became special municipalities of the Netherlands on 10 October 2010, when the Netherlands Antilles were dissolved.","Caribbean Netherlands",1375847237],
     ["Places","Saba's only road, “The Road”, was designed by a self-taught engineer and built by hand by the islanders, starting in 1943.","Saba (island)",1379475833],
     ["Daily life","Bonaire is popular for shore diving: its fringing reefs can be reached straight from the beach.","Bonaire",1381663190],
-    ["Quirky","With most of its men away at sea for long periods, Saba became known as “The Island of Women”.","Saba (island)",1379475833]
+    ["Quirky","With most of its men away at sea for long periods, Saba became known as “The Island of Women”.","Saba (island)",1379475833],
+    ["Animals","Bonaire's salt pans are a breeding ground for thousands of flamingos.","Bonaire",1381663190],
+    ["History","Sint Eustatius was so busy trading that it was called the Golden Rock.","Sint Eustatius",1385997947],
+    ["Places","Bonaire is a famous diving destination: its whole coastline is a marine park.","Bonaire National Marine Park",1362702833],
+    ["Animals","Bonaire's marine park covers coral reefs, seagrass and mangroves down to 60 metres deep.","Bonaire National Marine Park",1362702833]
   ],
   "540": [
     ["Nature","New Caledonia's lagoons are among the largest in the world and are a UNESCO World Heritage Site.","New Caledonian barrier reef",1366155569],
@@ -1594,7 +1973,12 @@ window.ATLAS_FACTS = {
     ["Records","Its barrier reef is the longest continuous barrier reef in the world.","New Caledonian barrier reef",1366155569],
     ["Capitals","Its capital is Nouméa.","Nouméa",1382027387],
     ["Culture","The Tjibaou Cultural Centre, designed by Renzo Piano, celebrates Kanak culture.","Jean-Marie Tjibaou Cultural Centre",1371173875],
-    ["Money","It uses the CFP franc.","CFP franc",1342165875]
+    ["Money","It uses the CFP franc.","CFP franc",1342165875],
+    ["Daily life","Its people, the Kanak, live in villages ruled by chiefs.","Kanak people",1385920132],
+    ["Places","The Isle of Pines has tall columnar pines along its beaches.","Isle of Pines (island)",1379176562],
+    ["History","Its people voted against independence three times, in 2018, 2020 and 2021.","New Caledonia",1386291672],
+    ["Daily life","Bougna, food cooked in banana leaves on hot stones, is a Kanak dish.","Bougna",1338710041],
+    ["Animals","Its kagu, 55 cm long with pale grey feathers and red legs, is the only living member of its family.","Kagu",1380740123]
   ],
   "548": [
     ["Culture","On Pentecost Island, men dive from wooden towers with vines tied to their ankles, a ritual that inspired bungee jumping.","Land diving",1357615494],
@@ -1603,7 +1987,13 @@ window.ATLAS_FACTS = {
     ["Food","Laplap, grated root vegetables wrapped in banana leaves and cooked in an underground stone oven, is its national dish.","Laplap",1380342524],
     ["Symbols","Its flag shows a curled boar's tusk with two crossed namele fern leaves.","Flag of Vanuatu",1380990798],
     ["Capitals","Its capital is Port Vila, on the island of Efate.","Port Vila",1377098234],
-    ["Quirky","Hideaway Island has one of the few underwater post offices in the world.","Mele (island)",1376424180]
+    ["Quirky","Hideaway Island has one of the few underwater post offices in the world.","Mele (island)",1376424180],
+    ["Myths","On Tanna, the John Frum cargo cult awaits the return of an American messiah.","John Frum",1385795997],
+    ["Heritage","Chief Roi Mata's Domain is a World Heritage Site.","Roi Mata",1374076247],
+    ["Daily life","Kava, a drink from a pepper plant root, is drunk at nakamal bars each evening.","Nakamal",1368543334],
+    ["Animals","Its waters hold the SS President Coolidge, a huge sunken troopship popular with divers.","SS President Coolidge",1368817750],
+    ["Places","Champagne Beach on Espiritu Santo is known for its fizzing sand.","Espiritu Santo",1386042793],
+    ["Language","Bislama, an English-based creole, is its national language.","Bislama",1382680263]
   ],
   "554": [
     ["History","In 1893 New Zealand became the first self-governing country to give women the right to vote.","Women's suffrage in New Zealand",1374094914],
@@ -1626,7 +2016,12 @@ window.ATLAS_FACTS = {
     ["Food","Gallo pinto, rice and beans fried together, is its national dish. Its neighbor to the south claims it too.","Gallo pinto",1373500410],
     ["Symbols","The emblem on its flag includes a rainbow.","Flag of Nicaragua",1384649357],
     ["Capitals","Its capital is Managua.","Managua",1383178455],
-    ["Places","Masaya Volcano sometimes holds a glowing lava lake in its crater.","Masaya Volcano",1369113497]
+    ["Places","Masaya Volcano sometimes holds a glowing lava lake in its crater.","Masaya Volcano",1369113497],
+    ["Heritage","León Viejo, its first colonial capital, was abandoned after an earthquake in 1610.","León Viejo",1369368431],
+    ["Places","Ometepe, an island in its great lake, is formed by two volcanoes.","Ometepe",1380736930],
+    ["Places","Granada, founded in 1524, is one of the oldest colonial cities in the Americas.","Granada, Nicaragua",1383563185],
+    ["Daily life","Baseball, not football, is its most popular sport.","Baseball",1385882269],
+    ["Sports","Volcano boarding on Cerro Negro means sliding down black ash.","Cerro Negro",1368753047]
   ],
   "562": [
     ["Records","Almost half of Niger's people are under 15 years old.","Niger",1384401707],
@@ -1667,7 +2062,12 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Alofi.","Alofi",1375199576],
     ["Money","It uses the New Zealand dollar.","Niue",1384396100],
     ["History","Captain Cook named it Savage Island.","Niue",1384396100],
-    ["Nature","In 2004 Cyclone Heta wiped out much of the south of its capital, Alofi.","Niue",1384396100]
+    ["Nature","In 2004 Cyclone Heta wiped out much of the south of its capital, Alofi.","Niue",1384396100],
+    ["Language","Its own Polynesian language is close to Tongan.","Niuean language",1379703227],
+    ["People","Robert Rex was its first premier, from 1974 until his death 18 years later.","Niue",1386387515],
+    ["History","Its king and chiefs agreed on 19 October 1900 to come under the British crown.","Niue",1386387515],
+    ["Land","It rises in two levels: a coastal terrace and a central plateau about 60 metres above the sea.","Niue",1386387515],
+    ["Quirky","It is not a member of the United Nations, though UN bodies treat it as a state.","Niue",1386387515]
   ],
   "574": [
     ["History","Many Norfolk Islanders descend from Bounty mutineers' families who moved there from Pitcairn in 1856.","Norfolk Island",1384403060],
@@ -1676,7 +2076,12 @@ window.ATLAS_FACTS = {
     ["Places","It lies about 1,400 km east of Australia's mainland.","Norfolk Island",1384403060],
     ["Heritage","The convict settlement at Kingston is part of a UNESCO World Heritage Site.","Kingston and Arthur's Vale Historic Area",1355104914],
     ["Language","Its own creole language mixes English and Tahitian.","Norfuk language",1384040022],
-    ["Culture","Bounty Day, 8 June, marks the arrival of settlers from Pitcairn in 1856.","Bounty Day",1368743085]
+    ["Culture","Bounty Day, 8 June, marks the arrival of settlers from Pitcairn in 1856.","Bounty Day",1368743085],
+    ["Quirky","Its drivers wave to each other on the road.","Norfolk Island",1386199386],
+    ["Animals","A green parakeet lives only there.","Norfolk parakeet",1383010442],
+    ["Places","Kingston has convict-era buildings still in use.","Kingston, Norfolk Island",1378838012],
+    ["Daily life","Its people speak a mix of 18th-century English and Tahitian.","Norfuk language",1384040022],
+    ["Animals","Phillip Island, its neighbour, was stripped bare by pigs, goats and rabbits.","Phillip Island (Norfolk Island)",1264037584]
   ],
   "578": [
     ["Records","The Lærdal Tunnel, at 24.5 km, is the longest road tunnel in the world.","Lærdal Tunnel",1381555474],
@@ -1700,7 +2105,13 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital and main island is Saipan.","Saipan, Northern Mariana Islands",1383699968],
     ["Places","The Mariana Trench, the deepest part of the world's oceans, lies to the east of the islands.","Mariana Trench",1383165886],
     ["Language","Chamorro and Carolinian are spoken alongside English.","Chamorro language",1383583872],
-    ["Symbols","Its flag shows a latte stone, a stone pillar of the ancient Chamorro.","Flag of the Northern Mariana Islands",1383993269]
+    ["Symbols","Its flag shows a latte stone, a stone pillar of the ancient Chamorro.","Flag of the Northern Mariana Islands",1383993269],
+    ["Heritage","The House of Taga on Tinian has some of the largest latte stones.","House of Taga",1369492622],
+    ["Animals","The Micronesian megapode buries its eggs in warm volcanic soil.","Micronesian megapode",1379697071],
+    ["Places","The Grotto on Saipan is a famous cave dive.","Saipan, Northern Mariana Islands",1383699968],
+    ["Places","Managaha Island, off Saipan, is a small island with white beaches.","Mañagaha",1379571341],
+    ["History","At Banzai Cliff on Saipan, many Japanese civilians jumped to their deaths in 1944.","Battle of Saipan",1385748477],
+    ["Daily life","Its people are Chamorro and Refaluwasch (Carolinian).","Northern Mariana Islands",1384491008]
   ],
   "583": [
     ["History","Nan Madol, off the island of Pohnpei, is a ruined city of stone built on nearly 100 artificial islets.","Nan Madol",1378475574],
@@ -1709,7 +2120,13 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Palikir, on the island of Pohnpei.","Palikir",1373593286],
     ["Language","Many languages are spoken across its states, including Chuukese and Pohnpeian.","Chuukese language",1380066590],
     ["Places","Chuuk Lagoon, a base of the Japanese fleet in World War II, is full of sunken ships and a famous wreck dive.","Chuuk Lagoon",1381324441],
-    ["Symbols","Its flag has four white stars, one for each of its states.","Flag of the Federated States of Micronesia",1384014809]
+    ["Symbols","Its flag has four white stars, one for each of its states.","Flag of the Federated States of Micronesia",1384014809],
+    ["Daily life","Betel nut is chewed widely, and Yap has strict traditional dress.","Yap",1378308023],
+    ["Places","Pohnpei, its largest island, is one of the wettest places on Earth.","Pohnpei",1386368332],
+    ["History","It became independent from US-administered trusteeship in 1986.","Federated States of Micronesia",1385218603],
+    ["Records","Its waters cover nearly 3 million km², the 14th-largest exclusive economic zone in the world.","Federated States of Micronesia",1385218603],
+    ["History","Spain sold its islands to Germany in 1899 after losing the Spanish–American War.","Federated States of Micronesia",1385218603],
+    ["History","Pope Leo XIII was asked in 1885 to decide whether Germany or Spain ruled its islands.","Federated States of Micronesia",1385218603]
   ],
   "584": [
     ["History","The United States tested nuclear weapons at Bikini Atoll from 1946 to 1958.","Bikini Atoll",1382228544],
@@ -1718,7 +2135,12 @@ window.ATLAS_FACTS = {
     ["Records","It is made up of 29 coral atolls and 5 islands.","Marshall Islands",1384364849],
     ["Capitals","Its capital, Majuro, is a coral atoll.","Majuro",1379637373],
     ["Language","Marshallese is its national language.","Marshallese language",1373375386],
-    ["Money","It uses the US dollar.","Marshall Islands",1384364849]
+    ["Money","It uses the US dollar.","Marshall Islands",1384364849],
+    ["Quirky","Its national flag has a star with 24 points, one for each municipality.","Flag of the Marshall Islands",1384421307],
+    ["Animals","Its waters became one of the largest shark sanctuaries in 2011.","Shark sanctuary",1361884774],
+    ["Daily life","Women weave mats and fans from pandanus leaves.","Marshall Islands",1385797483],
+    ["Language","Its own Micronesian language is spoken by almost everyone.","Marshallese language",1373375386],
+    ["History","The first Europeans arrived in 1526, on a Spanish expedition that called one atoll Isla de San Bartolomé.","Marshall Islands",1385797483]
   ],
   "585": [
     ["Animals","In 2009 Palau created the world's first shark sanctuary, banning commercial shark fishing in its waters.","Palau",1382887240],
@@ -1727,7 +2149,13 @@ window.ATLAS_FACTS = {
     ["Animals","Jellyfish Lake is home to millions of golden jellyfish that migrate across it each day.","Jellyfish Lake",1373995790],
     ["Money","Palau's official currency is the United States dollar.","Palau",1382887240],
     ["Culture","In 2017 it became the first country to ask visitors for an eco-promise, the Palau Pledge, stamped into their passports.","Palau",1382887240],
-    ["History","The Battle of Peleliu was fought there in 1944.","Battle of Peleliu",1377053303]
+    ["History","The Battle of Peleliu was fought there in 1944.","Battle of Peleliu",1377053303],
+    ["Places","Its Rock Islands are hundreds of mushroom-shaped limestone islands.","Rock Islands",1379540528],
+    ["Heritage","Stone money discs were quarried there and carried to Yap by canoe.","Rai stones",1356374955],
+    ["Animals","Its saltwater crocodiles live in the mangroves.","Palau",1384880264],
+    ["Places","Ngardmau Waterfall is one of the largest waterfalls in Micronesia.","Ngardmau",1378952310],
+    ["Land","It is made up of about 340 islands with a total area of 466 km².","Palau",1384880264],
+    ["History","It was first settled around 1000 BC by migrants from Maritime Southeast Asia.","Palau",1384880264]
   ],
   "586": [
     ["Records","K2, at 8,611 m, is the second-highest mountain in the world. It sits on Pakistan's border with China.","K2",1381988190],
@@ -1754,7 +2182,13 @@ window.ATLAS_FACTS = {
     ["Food","Sancocho, a hearty stew, is its national dish.","National dish",1381943985],
     ["Culture","The pollera, a skirt and outfit with elaborate embroidery and lace, is the national folk costume.","Pollera",1384396356],
     ["Animals","Its national bird is the harpy eagle, and the golden frog is a national animal.","List of national animals",1384556882],
-    ["History","It separated from Colombia in 1903.","Panama",1383708592]
+    ["History","It separated from Colombia in 1903.","Panama",1383708592],
+    ["Heritage","The ruins of its old capital, the first Spanish city on the Pacific coast of the Americas, are a World Heritage Site.","Panamá Viejo",1364871992],
+    ["Daily life","The Guna people make molas, colourful layered cloth panels.","Mola (art form)",1373251796],
+    ["Inventions","A famous straw hat named after it actually comes from Ecuador; it got its name from canal workers who wore it.","Panama hat",1381159117],
+    ["Places","San Blas, or Guna Yala, has about 365 islands.","Guna Yala",1376350887],
+    ["History","The canal was handed over by the United States on 31 December 1999, under the 1977 treaties.","Panama",1386517864],
+    ["History","It broke away from Spain in 1821 and joined Gran Colombia.","Panama",1386517864]
   ],
   "598": [
     ["Records","Papua New Guinea has more than 800 languages, more than any other country.","Languages of Papua New Guinea",1381008890],
@@ -1767,7 +2201,8 @@ window.ATLAS_FACTS = {
     ["Music","The kundu, an hourglass-shaped drum with a head of lizard skin, appears on the national coat of arms.","Kundu (drum)",1337218628],
     ["People","Michael Somare, known as the father of the nation and its first prime minister in 1975, was born in Rabaul in 1936.","Michael Somare",1386009368],
     ["Names","The first part of its name may come from a Malay word describing the hairstyles of its people.","List of country-name etymologies",1382950159],
-    ["Festivals","At the Goroka Show, about 100 tribes gather to show off their music, dance and culture.","Goroka Show",1374927573]
+    ["Festivals","At the Goroka Show, about 100 tribes gather to show off their music, dance and culture.","Goroka Show",1374927573],
+    ["Daily life","Betel nut chewing stains teeth red.","Areca nut",1384267532]
   ],
   "600": [
     ["Culture","Most Paraguayans speak Guaraní, an Indigenous language that is official alongside Spanish.","Guarani language",1384078791],
@@ -1778,7 +2213,11 @@ window.ATLAS_FACTS = {
     ["Symbols","Its flag has a different emblem on each side: the national seal on the front, the treasury seal on the back.","Flag of Paraguay",1379459886],
     ["Capitals","Its capital is Asunción.","Asunción",1384662445],
     ["People","Novelist Augusto Roa Bastos, author of I, the Supreme, was born in Asunción.","Augusto Roa Bastos",1370134206],
-    ["Music","In the bottle dance, women in ankle-length skirts dance with glass bottles balanced on their heads.","Paraguayan bottle dance",1365359925]
+    ["Music","In the bottle dance, women in ankle-length skirts dance with glass bottles balanced on their heads.","Paraguayan bottle dance",1365359925],
+    ["Heritage","The ruined Jesuit missions of Trinidad and Jesús are a World Heritage Site.","Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangue",1373700058],
+    ["Daily life","Ñandutí, spiderweb-like lace, is its best-known craft.","Ñandutí",1376968609],
+    ["Places","The Chaco is a vast dry scrubland covering more than half its land.","Gran Chaco",1383237550],
+    ["History","The War of the Triple Alliance, 1864–1870, killed most of its men.","Paraguayan War",1384446121]
   ],
   "604": [
     ["Food","The potato was domesticated in the Andes, and Peru grows more than 3,000 varieties of it.","Potato",1383735624],
@@ -1826,7 +2265,12 @@ window.ATLAS_FACTS = {
     ["Daily life","Its people speak Pitkern, a creole that mixes English and Tahitian.","Pitkern",1381937187],
     ["Records","Henderson Island, an uninhabited coral atoll, is a UNESCO World Heritage Site.","Henderson Island (Pitcairn Islands)",1380133448],
     ["Capitals","Its only settlement, Adamstown, is its capital.","Adamstown, Pitcairn Islands",1383622925],
-    ["Names","It is named after Robert Pitcairn, the 15-year-old midshipman who first sighted it.","Pitcairn Islands",1381045534]
+    ["Names","It is named after Robert Pitcairn, the 15-year-old midshipman who first sighted it.","Pitcairn Islands",1381045534],
+    ["Quirky","Its post office sells stamps that are prized by collectors around the world.","Pitcairn Islands",1386200687],
+    ["Animals","Henderson Island has four kinds of land birds found nowhere else.","Henderson Island (Pitcairn Islands)",1380133448],
+    ["Land","It has no airport, and supply ships visit only a few times a year.","Pitcairn Islands",1386200687],
+    ["Places","Bounty Bay is the only landing place.","Pitcairn Islands",1386200687],
+    ["Daily life","Its people get around on quad bikes along dirt roads.","Pitcairn Islands",1386200687]
   ],
   "616": [
     ["Places","In the Wieliczka Salt Mine, worked since the 13th century, miners carved whole chapels and chandeliers out of salt.","Wieliczka Salt Mine",1383450685],
@@ -1872,7 +2316,12 @@ window.ATLAS_FACTS = {
     ["Music","Gumbe, a style of music with polyrhythmic drumming, is its most popular music.","Gumbe",1361546373],
     ["Capitals","Its capital, Bissau, is also its largest city and main port.","Bissau",1382133498],
     ["History","It was a Portuguese colony until it won independence in 1973–74.","Guinea-Bissau",1382142769],
-    ["Language","Guinea-Bissau Creole, whose words come mostly from Portuguese, is widely spoken.","Guinea-Bissau Creole",1354425919]
+    ["Language","Guinea-Bissau Creole, whose words come mostly from Portuguese, is widely spoken.","Guinea-Bissau Creole",1354425919],
+    ["History","Amílcar Cabral led its fight for independence.","Amílcar Cabral",1382848613],
+    ["History","It became independent from Portugal in 1973–1974 after a long war.","Guinea-Bissau",1386526963],
+    ["Names","The name of its capital was added to the country's name at independence, to tell it apart from its neighbour.","Guinea-Bissau",1386526963],
+    ["Language","Only about 2% speak Portuguese, the official language, as a first language.","Guinea-Bissau",1386526963],
+    ["History","The Mandinka arrived in the region in the 13th century and the Fulani in the 15th.","Guinea-Bissau",1386526963]
   ],
   "626": [
     ["Culture","Timor-Leste is the only sovereign country in Asia where Portuguese is an official language, alongside Tetun.","Timor-Leste",1384149580],
@@ -1881,7 +2330,13 @@ window.ATLAS_FACTS = {
     ["Heritage","Atauro Island, off the capital Dili, is being considered for eco-tourism.","Atauro",1374755665],
     ["Capitals","Its capital is Dili.","Dili",1381709153],
     ["Places","Cristo Rei of Dili, a 27 m statue of Jesus, stands on a headland near the capital.","Cristo Rei of Dili",1381694134],
-    ["Nature","Nino Konis Santana National Park protects forests, reefs and the island of Jaco.","Nino Konis Santana National Park",1362810114]
+    ["Nature","Nino Konis Santana National Park protects forests, reefs and the island of Jaco.","Nino Konis Santana National Park",1362810114],
+    ["Animals","The waters around Atauro have some of the richest coral reef fish diversity measured.","Atauro",1385988240],
+    ["Places","Mount Ramelau is its highest peak.","Tatamailau",1369722763],
+    ["Heritage","Its Lene Hara cave has paintings thousands of years old.","Lene Hara Cave",1364843999],
+    ["Daily life","Coffee is its main export.","Timor-Leste",1386548090],
+    ["Land","It includes Oecusse, an exclave on the island's northwest coast.","Timor-Leste",1386548090],
+    ["History","A UN-sponsored vote in 1999 led Indonesia to give up control of the territory.","Timor-Leste",1386548090]
   ],
   "630": [
     ["Nature","El Yunque is the only tropical rainforest in the US National Forest System.","El Yunque National Forest",1381230444],
@@ -1891,7 +2346,11 @@ window.ATLAS_FACTS = {
     ["Science","The Arecibo radio telescope was the largest single-dish telescope in the world for over 50 years.","Arecibo Telescope",1382936831],
     ["Music","Reggaeton grew out of its clubs and streets in the 1990s.","Reggaeton",1382956855],
     ["Food","Mofongo is mashed fried plantain, often with garlic and pork cracklings.","Mofongo",1381540569],
-    ["People","Baseball star Roberto Clemente was born in Carolina.","Roberto Clemente",1382239471]
+    ["People","Baseball star Roberto Clemente was born in Carolina.","Roberto Clemente",1382239471],
+    ["Animals","The coquí, a tiny frog, sings \"ko-kee\" all night.","Coquí",1372622139],
+    ["Festivals","The San Sebastián Street Festival in San Juan marks the end of the Christmas season.","San Sebastián Street Festival",1383697033],
+    ["Places","Old San Juan's streets are paved with blue cobblestones.","Old San Juan",1386264495],
+    ["Language","Spanish and English are its official languages.","Puerto Rico",1386424195]
   ],
   "634": [
     ["Places","Doha's Museum of Islamic Art was designed by the architect I. M. Pei.","Museum of Islamic Art, Doha",1382419631],
@@ -1900,7 +2359,13 @@ window.ATLAS_FACTS = {
     ["Symbols","Its maroon and white flag has nine points and is about 2.5 times as wide as it is tall.","Flag of Qatar",1380991689],
     ["Animals","Its national animal is the Arabian oryx.","List of national animals",1384556882],
     ["Sports","It hosted the FIFA World Cup in 2022, the first held in the Middle East.","2022 FIFA World Cup",1383879770],
-    ["History","Before oil, pearl diving was the backbone of its economy.","Qatar",1384638416]
+    ["History","Before oil, pearl diving was the backbone of its economy.","Qatar",1384638416],
+    ["Heritage","Al Zubarah, a ruined pearling town, is a UNESCO World Heritage Site.","Zubarah",1379659115],
+    ["Places","Its national museum, designed by Jean Nouvel, is shaped like a desert rose crystal.","National Museum of Qatar",1380301748],
+    ["Daily life","Camel races use robot jockeys.","Camel racing",1377901846],
+    ["Quirky","It has no rivers and almost no rain.","Qatar",1386543921],
+    ["Places","The Inland Sea, Khor Al Adaid, is where the desert meets the sea.","Khor Al Adaid",1376412917],
+    ["Daily life","Majlis gatherings bring men together to talk and drink coffee.","Majlis",1379541058]
   ],
   "638": [
     ["Nature","Piton de la Fournaise is one of the most active volcanoes in the world, with more than 150 recorded eruptions since the 17th century.","Piton de la Fournaise",1369602683],
@@ -1911,7 +2376,10 @@ window.ATLAS_FACTS = {
     ["Inventions","In 1841 Edmond Albius, an enslaved 12-year-old, invented a quick way to hand-pollinate vanilla orchids that is still used today.","Edmond Albius",1374599788],
     ["Sports","Aviator Roland Garros, born in Saint-Denis, made the first non-stop flight across the Mediterranean; the French Open's stadium is named after him.","Roland Garros (aviator)",1381088687],
     ["History","The island was uninhabited until French settlers and enslaved people arrived in the 17th century. Before 1848 it was called Île Bourbon.","Réunion",1383202436],
-    ["Money","It and Mayotte are the only places in the Southern Hemisphere that use the euro.","Réunion",1383202436]
+    ["Money","It and Mayotte are the only places in the Southern Hemisphere that use the euro.","Réunion",1383202436],
+    ["Places","Hell-Bourg, in the cirque of Salazie, is listed among the most beautiful villages of France.","Hell-Bourg",1364810949],
+    ["Animals","Its Bourbon vanilla was hand-pollinated.","Vanilla",1384526343],
+    ["History","Vanilla was first domesticated by the Totonac people of Mexico; it is now a famous product of the island.","Vanilla",1384526343]
   ],
   "642": [
     ["Records","Bucharest's Palace of the Parliament is the heaviest building in the world.","Palace of the Parliament",1380443279],
@@ -1979,7 +2447,12 @@ window.ATLAS_FACTS = {
     ["Places","Shell Beach lies just south of the capital, Gustavia.","Gustavia",1375961840],
     ["Language","French is its official language.","Saint Barthélemy",1383874501],
     ["Money","It uses the euro as its currency.","Saint Barthélemy",1383874501],
-    ["Capitals","It split from Guadeloupe in 2007 to become a separate overseas collectivity of France.","Saint Barthélemy",1383874501]
+    ["Capitals","It split from Guadeloupe in 2007 to become a separate overseas collectivity of France.","Saint Barthélemy",1383874501],
+    ["History","It was Swedish from 1784 to 1878, which is why its capital is named Gustavia.","Saint Barthélemy",1383874501],
+    ["Quirky","Its runway is so short that pilots need special training to land.","Gustaf III Airport",1385655068],
+    ["Animals","Its waters are a marine reserve where turtles feed.","Saint Barthélemy",1383874501],
+    ["Places","Shell Beach is covered in tiny shells instead of sand.","Saint Barthélemy",1383874501],
+    ["Land","It is a volcanic island of 25 km², fully ringed by shallow reefs.","Saint Barthélemy",1383874501]
   ],
   "654": [
     ["History","Napoleon died in exile on Saint Helena in 1821.","Saint Helena",1384458971],
@@ -1988,7 +2461,13 @@ window.ATLAS_FACTS = {
     ["Places","Its capital, Jamestown, lies in a narrow valley on the coast.","Jamestown, Saint Helena",1381553195],
     ["Money","Tristan da Cunha doesn't use the local Saint Helena pound: sterling is used directly.","Tristan da Cunha",1384505465],
     ["Records","The island of Tristan da Cunha is considered the most remote inhabited place in the world.","Tristan da Cunha",1384505465],
-    ["History","Its first airport, on Saint Helena, opened in 2016.","Saint Helena Airport",1381859973]
+    ["History","Its first airport, on Saint Helena, opened in 2016.","Saint Helena Airport",1381859973],
+    ["Animals","The wirebird is the only surviving native land bird of its main island.","Saint Helena plover",1381666175],
+    ["Space","One of its islands had a NASA tracking station for the Apollo missions.","Ascension Island",1385747685],
+    ["Daily life","On its remotest island, the main settlement is called Edinburgh of the Seven Seas.","Edinburgh of the Seven Seas",1375810259],
+    ["Land","Its southern islands sit on the Mid-Atlantic Ridge.","Tristan da Cunha",1385713848],
+    ["Quirky","Its remotest island has no airstrip; the only way to get there is by ship.","Tristan da Cunha",1385713848],
+    ["History","The first certain landing on its remotest island was made by Dutch sailors on 7 February 1643.","Tristan da Cunha",1385713848]
   ],
   "659": [
     ["History","Brimstone Hill Fortress on Saint Kitts is a UNESCO World Heritage Site.","Brimstone Hill Fortress National Park",1367732734],
@@ -1997,7 +2476,12 @@ window.ATLAS_FACTS = {
     ["Records","It is the smallest sovereign state in the Western Hemisphere.","Saint Kitts and Nevis",1384461517],
     ["Places","Nevis was the birthplace of Alexander Hamilton.","Nevis",1384403864],
     ["Capitals","Its capital is Basseterre, on Saint Kitts.","Basseterre",1383629274],
-    ["Sports","Sprinter Kim Collins won the 100 m world title in 2003.","Kim Collins",1370629496]
+    ["Sports","Sprinter Kim Collins won the 100 m world title in 2003.","Kim Collins",1370629496],
+    ["History","Alexander Hamilton, a founding father of the United States, was born on its smaller island.","Alexander Hamilton",1386358677],
+    ["Places","Its scenic railway, built to carry sugar cane, now takes visitors round the island.","St. Kitts Scenic Railway",1356087590],
+    ["Daily life","It sells citizenship to investors, the world's oldest such programme.","Saint Kitts and Nevis",1384461517],
+    ["Places","Its smaller island's peak is usually wrapped in cloud.","Nevis Peak",1379428503],
+    ["History","It became independent in 1983, the most recent British territory in the Caribbean to do so.","Saint Kitts and Nevis",1384461517]
   ],
   "660": [
     ["Culture","Anguilla's internet domain, .ai, has become a big source of income thanks to artificial intelligence companies.",".ai",1382687166],
@@ -2006,7 +2490,13 @@ window.ATLAS_FACTS = {
     ["Places","It is known for its coral reefs and beaches.","Anguilla",1384033679],
     ["Sports","Boat racing is its national sport.","Anguilla",1384033679],
     ["Capitals","Its capital is The Valley.","The Valley, Anguilla",1376962046],
-    ["Money","Its currency is the East Caribbean dollar.","Anguilla",1384033679]
+    ["Money","Its currency is the East Caribbean dollar.","Anguilla",1384033679],
+    ["Places","Shoal Bay East is a long white-sand beach often ranked among the best in the Caribbean.","Shoal Bay",1188565191],
+    ["Places","Its Heritage Collection museum tells the island's history.","Anguilla",1384033679],
+    ["Daily life","Its people number about 15,000.","Anguilla",1384033679],
+    ["Festivals","Its summer Carnival celebrates emancipation in August.","Anguilla",1384033679],
+    ["Heritage","The rock ledges of Big Spring hold more than 100 petroglyphs, many showing faces made of three dents.","Anguilla",1384033679],
+    ["History","The earliest Native American artefacts found there date to around 1300 BC.","Anguilla",1384033679]
   ],
   "662": [
     ["Nature","The Pitons, two volcanic spires rising from the sea, are a UNESCO World Heritage Site.","Pitons (Saint Lucia)",1362894682],
@@ -2015,7 +2505,13 @@ window.ATLAS_FACTS = {
     ["Animals","Its national bird is the Saint Lucia amazon, a parrot found only there.","List of national animals",1384556882],
     ["Places","Sulphur Springs is an active geothermal area inside an ancient volcano's caldera.","Qualibou",1369611871],
     ["Capitals","Its capital is Castries.","Castries",1375332329],
-    ["History","It switched between British and French rule so often that it was called the “Helen of the West”, after Helen of Troy.","Saint Lucia",1383134264]
+    ["History","It switched between British and French rule so often that it was called the “Helen of the West”, after Helen of Troy.","Saint Lucia",1383134264],
+    ["Festivals","Its Jazz Festival draws musicians from around the world each May.","Saint Lucia Jazz and Arts Festival",1369257425],
+    ["History","It changed hands between France and Britain 14 times.","Saint Lucia",1385938827],
+    ["Places","Pigeon Island, now joined to the mainland, was a British fort.","Pigeon Island (Saint Lucia)",1139379988],
+    ["Daily life","Green fig and saltfish is the national dish.","Saint Lucia",1385938827],
+    ["Language","Kwéyòl, a French-based creole, is widely spoken.","Saint Lucian Creole",1379662982],
+    ["Festivals","Jounen Kwéyòl celebrates Creole culture each October.","Jounen Kwéyòl",1303680613]
   ],
   "663": [
     ["Land","The island of Saint Martin has been divided between France and the Netherlands since 1648.","Saint Martin (island)",1378891695],
@@ -2024,7 +2520,13 @@ window.ATLAS_FACTS = {
     ["Money","Its side of the island uses the euro.","Collectivity of Saint Martin",1382327331],
     ["Language","French is the official language on its side of the island.","Collectivity of Saint Martin",1382327331],
     ["Capitals","In 2007 it left Guadeloupe to become a separate overseas collectivity of France.","Collectivity of Saint Martin",1382327331],
-    ["Land","It covers the northern part of an island shared with the Netherlands.","Collectivity of Saint Martin",1382327331]
+    ["Land","It covers the northern part of an island shared with the Netherlands.","Collectivity of Saint Martin",1382327331],
+    ["Places","Orient Bay, its most famous beach, has a nudist section.","Orient Bay",1377333602],
+    ["Land","Pic Paradis is the highest point.","Pic Paradis",1369597802],
+    ["History","Christopher Columbus is said to have named the island on 11 November 1493.","Saint Martin (island)",1386313239],
+    ["History","The 1648 Treaty of Concordia, which split the island, was signed on a hill on today's border.","Saint Martin (island)",1386313239],
+    ["Quirky","Its border with the Dutch side is the only land border shared by France and the Netherlands.","Saint Martin (island)",1386313239],
+    ["History","Its border with the Dutch side changed 16 times before settling in 1816.","Saint Martin (island)",1386313239]
   ],
   "666": [
     ["History","Saint Pierre and Miquelon is the last remaining piece of New France, France's old North American empire.","Saint Pierre and Miquelon",1384071385],
@@ -2033,7 +2535,13 @@ window.ATLAS_FACTS = {
     ["Places","These are the last remnant of New France still under French rule, off the coast of Newfoundland.","Saint Pierre and Miquelon",1384071385],
     ["Places","Its main town is Saint-Pierre, the capital.","Saint-Pierre, Saint Pierre and Miquelon",1376758903],
     ["Nature","Miquelon and Langlade, once separate islands, are joined by a sandy isthmus.","Miquelon-Langlade",1382025983],
-    ["Sports","Many islanders have Basque roots, and Basque pelota is played there.","Saint Pierre and Miquelon",1384071385]
+    ["Sports","Many islanders have Basque roots, and Basque pelota is played there.","Saint Pierre and Miquelon",1384071385],
+    ["Sports","Basque pelota is a popular sport, a heritage of Basque settlers.","Saint Pierre and Miquelon",1385459423],
+    ["Places","Île aux Marins, an abandoned fishing village, is now a museum.","Île-aux-Marins",1377600841],
+    ["Daily life","Its people number about 6,000.","Saint Pierre and Miquelon",1385459423],
+    ["Animals","Seals and whales can be seen off its coast.","Saint Pierre and Miquelon",1385459423],
+    ["History","João Álvares Fagundes named the islands the \"Eleven Thousand Virgins\" in 1520.","Saint Pierre and Miquelon",1385459423],
+    ["Land","Its main island is just 19 km from Newfoundland but 3,819 km from mainland France.","Saint Pierre and Miquelon",1385459423]
   ],
   "670": [
     ["Nature","La Soufrière volcano on Saint Vincent erupted explosively in 2021.","La Soufrière (Saint Vincent)",1369425463],
@@ -2042,7 +2550,12 @@ window.ATLAS_FACTS = {
     ["Animals","Its national bird is the Saint Vincent amazon, a parrot found only there.","List of national animals",1384556882],
     ["Places","The Tobago Cays, five small islands with coral reefs, are a protected marine park.","Tobago Cays",1374587982],
     ["Capitals","Its capital is Kingstown.","Kingstown",1380110911],
-    ["History","In 1797 the British deported thousands of Garifuna people from Saint Vincent to Central America.","Garifuna",1377944321]
+    ["History","In 1797 the British deported thousands of Garifuna people from Saint Vincent to Central America.","Garifuna",1377944321],
+    ["Places","Mustique is a private island loved by celebrities.","Mustique",1386027639],
+    ["Places","Bequia is known for its boat-building tradition.","Bequia",1382336815],
+    ["People","Princess Margaret was given land on Mustique as a wedding present in 1960 and built a villa there.","Mustique",1386027639],
+    ["Daily life","On Mustique, golf carts and ATVs are the only motor vehicles.","Mustique",1386027639],
+    ["History","Mustique grew sugar from the 1740s, worked by enslaved Africans.","Mustique",1386027639]
   ],
   "674": [
     ["History","San Marino claims to be the oldest surviving republic in the world, founded in 301.","San Marino",1384083762],
@@ -2051,7 +2564,12 @@ window.ATLAS_FACTS = {
     ["Food","Torta tre monti, “three mountains cake”, is thin wafers stuck together with chocolate or hazelnut crème.","Torta Tre Monti",1355732504],
     ["Sports","The country hosts a motorcycle Grand Prix at the Misano circuit, just across the border in Italy.","San Marino and Rimini Riviera motorcycle Grand Prix",1376548861],
     ["Capitals","Its capital, the City of San Marino, sits on Mount Titano.","City of San Marino",1380921401],
-    ["Money","It mints its own euro coins.","San Marino euro coins",1355995418]
+    ["Money","It mints its own euro coins.","San Marino euro coins",1355995418],
+    ["Quirky","It has more cars than people.","San Marino",1386384339],
+    ["Heritage","Its historic centre and Mount Titano are a World Heritage Site.","San Marino",1386384339],
+    ["Sports","Its football team is one of the lowest-ranked in the world.","San Marino national football team",1386262332],
+    ["Myths","It is said to have been founded in 301 by a Christian stonemason fleeing persecution.","Saint Marinus",1386535506],
+    ["Daily life","It is one of the world's smallest countries.","San Marino",1386384339]
   ],
   "678": [
     ["Land","The equator passes through Ilhéu das Rolas, a small island off São Tomé.","Ilhéu das Rolas",1364036173],
@@ -2060,7 +2578,13 @@ window.ATLAS_FACTS = {
     ["Science","In 1919, observations of a solar eclipse from the island of Príncipe helped confirm Einstein's theory of relativity.","Eddington experiment",1372869403],
     ["Places","Pico Cão Grande is a needle-shaped volcanic plug rising out of the forest.","Pico Cão Grande",1369598725],
     ["Capitals","Its capital is São Tomé.","São Tomé",1384721350],
-    ["Money","Its currency is the dobra.","São Tomé and Príncipe dobra",1361727746]
+    ["Money","Its currency is the dobra.","São Tomé and Príncipe dobra",1361727746],
+    ["Daily life","Cocoa was its main export, once making it the world's largest producer.","São Tomé and Príncipe",1386530141],
+    ["Animals","Its forests have many birds found nowhere else.","São Tomé and Príncipe",1386530141],
+    ["History","It became independent from Portugal in 1975.","São Tomé and Príncipe",1386530141],
+    ["Heritage","Its smaller island is a UNESCO biosphere reserve.","Príncipe",1365377757],
+    ["History","Portuguese explorers found the islands uninhabited on 21 December 1470.","São Tomé and Príncipe",1386530141],
+    ["Names","Its smaller island was renamed in 1502 after the heir to the throne of Portugal, who received the duties on its sugar.","São Tomé and Príncipe",1386530141]
   ],
   "682": [
     ["Land","Saudi Arabia has no permanent rivers.","Saudi Arabia",1384482053],
@@ -2099,7 +2623,13 @@ window.ATLAS_FACTS = {
     ["Festivals","Each family celebrates its slava, the feast day of its patron saint, passed down from father to son.","Slava (tradition)",1380406156],
     ["Science","The inventor Nikola Tesla was born to a Serbian family.","Nikola Tesla",1384403367],
     ["Festivals","EXIT, one of Europe's biggest music festivals, is held each summer in a fortress in Novi Sad.","Exit (festival)",1383678349],
-    ["People","Novak Djokovic, winner of a record 24 Grand Slam singles titles, was born in Belgrade.","Novak Djokovic",1384355068]
+    ["People","Novak Djokovic, winner of a record 24 Grand Slam singles titles, was born in Belgrade.","Novak Djokovic",1384355068],
+    ["Myths","The word vampire may come from its folklore.","Vampire",1385828707],
+    ["Festivals","The Guča Trumpet Festival draws hundreds of thousands of visitors each August.","Guča Trumpet Festival",1383681393],
+    ["Animals","Long-eared owls gather in huge numbers in Kikinda each winter.","Kikinda",1375728024],
+    ["Heritage","Studenica Monastery was founded in the late 12th century by Stefan Nemanja, who became a monk there in 1196.","Studenica Monastery",1368504489],
+    ["Heritage","King Radoslav added a splendid entrance hall to Studenica's church in 1235.","Studenica Monastery",1368504489],
+    ["Heritage","Studenica became a UNESCO World Heritage Site in 1986.","Studenica Monastery",1368504489]
   ],
   "690": [
     ["Records","The coco de mer palm of the Seychelles produces the largest seed of any plant.","Lodoicea",1381412792],
@@ -2108,7 +2638,12 @@ window.ATLAS_FACTS = {
     ["Heritage","Aldabra Atoll, home to about 100,000 giant tortoises, is a UNESCO World Heritage Site.","Aldabra",1379174799],
     ["Capitals","Its capital is Victoria, on the island of Mahé.","Victoria, Seychelles",1378255669],
     ["Language","Its official languages are Creole, English and French.","Seychelles",1384594059],
-    ["Food","Fruit bat curry is a local specialty.","Seychellois cuisine",1340424075]
+    ["Food","Fruit bat curry is a local specialty.","Seychellois cuisine",1340424075],
+    ["Heritage","Vallée de Mai, a palm forest on Praslin, is a World Heritage Site.","Vallée de Mai",1382540594],
+    ["Daily life","Its people speak a creole based on French.","Seychellois Creole",1382893762],
+    ["History","It became independent from Britain in 1976.","Seychelles",1384594059],
+    ["Animals","Bird Island hosts huge sooty tern colonies.","Bird Island, Seychelles",1363902624],
+    ["History","It was uninhabited until France claimed it in the 18th century.","Seychelles",1384594059]
   ],
   "694": [
     ["Records","The Star of Sierra Leone, found in 1972, weighed 968.9 carats, making it the fourth-largest gem-quality diamond ever found.","Star of Sierra Leone",1326338622],
@@ -2117,7 +2652,13 @@ window.ATLAS_FACTS = {
     ["Animals","Tiwai Island is home to pygmy hippos and many species of primates.","Tiwai Island",1365740955],
     ["Language","Krio, an English-based creole, is the common language.","Krio language",1379683412],
     ["Music","Palm-wine music, played on guitars, grew up there and in its neighbors.","Palm-wine music",1342096976],
-    ["Food","Cassava leaf stew is one of its best-loved dishes.","Sierra Leonean cuisine",1336390855]
+    ["Food","Cassava leaf stew is one of its best-loved dishes.","Sierra Leonean cuisine",1336390855],
+    ["Myths","The cotton tree in Freetown was a landmark for 400 years before it fell in 2023.","Cotton Tree (Sierra Leone)",1362135904],
+    ["Heritage","Bunce Island was a major slave-trading fort.","Bunce Island",1365984687],
+    ["History","Its civil war ended in 2002.","Sierra Leone Civil War",1382280000],
+    ["Places","Freetown's Cotton Tree was 40 metres tall and was pictured on the first banknotes in 1964.","Cotton Tree (Sierra Leone)",1362135904],
+    ["History","Freetown's Cotton Tree was already mature in 1787, when settlers from Britain arrived.","Cotton Tree (Sierra Leone)",1362135904],
+    ["People","Queen Elizabeth II visited Freetown's Cotton Tree after independence in 1961.","Cotton Tree (Sierra Leone)",1362135904]
   ],
   "702": [
     ["Land","Singapore has grown its land area by about 25% since the 1960s by reclaiming land from the sea.","Land reclamation in Singapore",1375794795],
@@ -2126,7 +2667,12 @@ window.ATLAS_FACTS = {
     ["Food","Chilli crab and Hainanese chicken rice are national dishes.","National dish",1381943985],
     ["Symbols","Its flag has a white crescent moon beside five white stars.","Flag of Singapore",1376625655],
     ["Daily life","Selling chewing gum has been banned since 1992.","Chewing gum sales ban in Singapore",1382344117],
-    ["Symbols","The Merlion, a creature with a lion's head and a fish's body, is its mascot.","Merlion",1367286348]
+    ["Symbols","The Merlion, a creature with a lion's head and a fish's body, is its mascot.","Merlion",1367286348],
+    ["Daily life","Hawker centres serve cheap food from many stalls, and hawker culture is on UNESCO's list.","Hawker centre",1380682077],
+    ["Heritage","Its Botanic Gardens are a UNESCO World Heritage Site.","Singapore Botanic Gardens",1386349765],
+    ["Myths","Legend says a prince named it after seeing a lion there.","Sang Nila Utama",1358733001],
+    ["Places","Gardens by the Bay has giant Supertrees.","Gardens by the Bay",1386342335],
+    ["Daily life","Chilli crab is a favourite dish.","Chilli crab",1382161703]
   ],
   "703": [
     ["Records","Slovakia makes more cars per person than any other country.","Automotive industry in Slovakia",1351271416],
@@ -2135,7 +2681,12 @@ window.ATLAS_FACTS = {
     ["Food","Bryndzové halušky, potato dumplings with sheep cheese, is a national dish.","National dish",1381943985],
     ["Symbols","The coat of arms on its flag rests on three blue hills.","Flag of Slovakia",1378073162],
     ["Capitals","Its capital, Bratislava, borders both Austria and Hungary.","Bratislava",1384318385],
-    ["Music","The fujara, a shepherd's flute 160 to 200 cm long, is on UNESCO's intangible heritage list.","Fujara",1381275579]
+    ["Music","The fujara, a shepherd's flute 160 to 200 cm long, is on UNESCO's intangible heritage list.","Fujara",1381275579],
+    ["Heritage","Vlkolínec, a village of log houses, is a World Heritage Site.","Vlkolínec",1379305894],
+    ["Myths","Jánošík is a folk hero who robbed the rich to give to the poor.","Juraj Jánošík",1371972281],
+    ["Places","Bojnice Castle looks like a fairy-tale castle.","Bojnice Castle",1382823149],
+    ["Places","The High Tatras are its highest mountains.","High Tatras",1369148332],
+    ["Heritage","Banská Štiavnica, a silver-mining town, is a World Heritage Site.","Banská Štiavnica",1374981933]
   ],
   "704": [
     ["Records","Son Doong is the largest known cave passage in the world. Where its roof has collapsed, sunlight lets trees grow inside.","Hang Sơn Đoòng",1369093718],
@@ -2163,7 +2714,12 @@ window.ATLAS_FACTS = {
     ["Culture","At Kurentovanje in Ptuj, kurenti in sheepskin with bells and wooden clubs chase away winter.","Kurentovanje",1384371648],
     ["Symbols","The coat of arms on its flag shows Mount Triglav, its highest peak.","Flag of Slovenia",1382915169],
     ["Places","A small train carries visitors deep into Postojna Cave.","Postojna Cave",1361757715],
-    ["People","Basketball star Luka Dončić was born in Ljubljana.","Luka Dončić",1384512808]
+    ["People","Basketball star Luka Dončić was born in Ljubljana.","Luka Dončić",1384512808],
+    ["Heritage","Škocjan Caves, with a huge underground canyon, are a World Heritage Site.","Škocjan Caves",1381283900],
+    ["Daily life","Beekeeping is a big tradition, and World Bee Day was its idea.","World Bee Day",1355974320],
+    ["Animals","Lipizzaner horses come from Lipica.","Lipizzan",1368228165],
+    ["Places","Predjama Castle is built into a cave mouth in a cliff.","Predjama Castle",1338052502],
+    ["Daily life","Potica, a rolled nut cake, is baked at holidays.","Potica",1363015563]
   ],
   "706": [
     ["Land","Somalia has the longest coastline of mainland Africa, about 3,300 km.","Somalia",1384464330],
@@ -2249,7 +2805,8 @@ window.ATLAS_FACTS = {
     ["Music","Emmanuel Jal, a former child soldier, became an international hip hop artist.","Emmanuel Jal",1385801582],
     ["Sports","The men's basketball team, the Bright Stars, played at its first Olympic Games in Paris in 2024 and won its opening game against Puerto Rico.","South Sudan men's national basketball team",1360415460],
     ["People","Manute Bol, a Dinka listed at up to 7 ft 7 in and one of the two tallest players in NBA history, was born in the village of Turalei.","Manute Bol",1385831453],
-    ["Festivals","Independence Day on 9 July marks the day in 2011 when it split from its northern neighbour.","July 9",1381169992]
+    ["Festivals","Independence Day on 9 July marks the day in 2011 when it split from its northern neighbour.","July 9",1381169992],
+    ["Daily life","Cattle are the main measure of wealth, and bride prices are paid in cows.","Dinka people",1382570024]
   ],
   "729": [
     ["History","Sudan has more pyramids than Egypt, built by the kings of ancient Kush.","Nubian pyramids",1383915787],
@@ -2273,7 +2830,12 @@ window.ATLAS_FACTS = {
     ["Records","A conveyor belt about 100 km long carries phosphate from the Bou Craa mine to the coast.","Bou Craa",1378504740],
     ["History","Spain controlled the territory until 1975.","Spanish Sahara",1383994886],
     ["Nature","Its coastal waters are rich in fish.","Western Sahara",1383963236],
-    ["Language","Most Sahrawis speak Hassaniya Arabic.","Western Sahara",1383963236]
+    ["Language","Most Sahrawis speak Hassaniya Arabic.","Western Sahara",1383963236],
+    ["Places","Dakhla is a top spot for kitesurfing.","Dakhla, Western Sahara",1377730936],
+    ["Daily life","Its nomads traditionally live in tents and keep camels.","Sahrawis",1385882934],
+    ["Places","Laayoune is its largest city.","Laayoune",1380803362],
+    ["History","A ceasefire between Morocco and the Polisario Front lasted from 1991 to 2020.","Polisario Front",1382785009],
+    ["Language","Hassaniya Arabic is its main spoken language.","Hassaniya Arabic",1376490852]
   ],
   "740": [
     ["Records","Rainforest covers more than 95% of Suriname, the second-highest forest cover of any country.","Suriname",1384494709],
@@ -2282,7 +2844,13 @@ window.ATLAS_FACTS = {
     ["Food","Pom, an oven dish made with the root of the arrowleaf elephant ear plant, is its national dish.","National dish",1381943985],
     ["Records","It is the smallest country in South America.","Suriname",1384494709],
     ["Capitals","The colonial center of its capital, Paramaribo, is a UNESCO World Heritage Site.","Paramaribo",1384152541],
-    ["Language","Sranan Tongo, an English-based creole, is widely spoken as a common language.","Sranan Tongo",1375147284]
+    ["Language","Sranan Tongo, an English-based creole, is widely spoken as a common language.","Sranan Tongo",1375147284],
+    ["Daily life","Its capital has a mosque and a synagogue side by side.","Paramaribo",1384152541],
+    ["Animals","Leatherback turtles nest at Galibi.","Galibi, Suriname",1375886068],
+    ["Places","Brownsberg Nature Park looks over a huge reservoir.","Brownsberg Nature Park",1362704566],
+    ["Daily life","Its people include descendants of Indians, Javanese, Africans and Chinese.","Suriname",1386544450],
+    ["History","It became independent from the Netherlands in 1975.","Suriname",1386544450],
+    ["Festivals","Keti Koti, \"broken chains\", marks the end of slavery on 1 July.","Ketikoti",1375023603]
   ],
   "748": [
     ["History","The country changed its official name from Swaziland to Eswatini in 2018.","Eswatini",1380745431],
@@ -2291,7 +2859,12 @@ window.ATLAS_FACTS = {
     ["Capitals","It has two capitals: Mbabane for government and Lobamba for the royal family and parliament.","Eswatini",1380745431],
     ["Festivals","Incwala, the most important ceremony of the year, celebrates kingship.","Incwala",1342455470],
     ["Money","Its currency, the lilangeni, is pegged to the South African rand.","Swazi lilangeni",1331225389],
-    ["Places","Sibebe Rock is the second-largest monolith in the world.","Sibebe",1376458580]
+    ["Places","Sibebe Rock is the second-largest monolith in the world.","Sibebe",1376458580],
+    ["Places","Hlane Royal National Park is its largest protected area.","Hlane Royal National Park",1362764203],
+    ["Daily life","Its people speak siSwati and English.","Swazi language",1375364681],
+    ["Animals","Rhinos are protected in Mkhaya Game Reserve.","Mkhaya Game Reserve",1378372760],
+    ["Language","Its king is called the Ngwenyama, meaning \"lion\".","King of Eswatini",1351314355],
+    ["Places","Mlilwane sanctuary lies in the Ezulwini Valley, the \"Valley of Heaven\", with traditional beehive huts to stay in.","Mlilwane Wildlife Sanctuary",1362615640]
   ],
   "752": [
     ["Records","A 2013 count found 267,570 islands in Sweden, though fewer than 1,000 of them are inhabited.","List of islands of Sweden",1362302540],
@@ -2323,7 +2896,9 @@ window.ATLAS_FACTS = {
     ["Myths","Legend says William Tell shot an apple off his son's head with a crossbow.","William Tell",1383687856],
     ["Inventions","The World Wide Web was invented at CERN, near Geneva, by Tim Berners-Lee in 1989.","World Wide Web",1383774564],
     ["People","Tennis great Roger Federer was born in Basel and learned the game at a club there.","Roger Federer",1384005766],
-    ["Landmarks","Lucerne's wooden Chapel Bridge, built in the 14th century, is among the oldest covered bridges in Europe.","Kapellbrücke",1304995471]
+    ["Landmarks","Lucerne's wooden Chapel Bridge, built in the 14th century, is among the oldest covered bridges in Europe.","Kapellbrücke",1304995471],
+    ["Quirky","Every house must have a shelter or access to one in case of nuclear war.","Fallout shelter",1379413284],
+    ["Heritage","The Albula and Bernina mountain railways together form a World Heritage Site.","Rhaetian Railway in the Albula / Bernina Landscapes",1365739493]
   ],
   "760": [
     ["History","Damascus is one of the oldest continuously inhabited cities in the world.","Damascus",1384468715],
@@ -2381,7 +2956,12 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital, Lomé, sits right on the border with Ghana.","Lomé",1384322533],
     ["Language","French is its official language, alongside many local languages such as Ewe.","Togo",1383777036],
     ["Nature","Fazao-Malfakassa is its largest national park.","Fazao Malfakassa National Park",1362748483],
-    ["Sports","Footballer Emmanuel Adebayor was named African Footballer of the Year in 2008.","Emmanuel Adebayor",1381822791]
+    ["Sports","Footballer Emmanuel Adebayor was named African Footballer of the Year in 2008.","Emmanuel Adebayor",1381822791],
+    ["Myths","Vodun is widely practised alongside Christianity and Islam.","West African Vodún",1381595659],
+    ["Land","It is a narrow strip of land, only about 50 km wide at the coast.","Togo",1386533180],
+    ["Places","Its largest lake, a lagoon near the coast, gave the country its name.","Lake Togo",1386514373],
+    ["Daily life","Fufu, pounded yam, is eaten daily.","Fufu",1386253442],
+    ["History","It was a German colony until World War I.","Togoland",1386076272]
   ],
   "776": [
     ["History","Tonga is the only Pacific island nation that was never formally colonized.","Tonga",1383173579],
@@ -2390,7 +2970,13 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish is ʻota ʻika: raw fish marinated in citrus juice and coconut milk.","National dish",1381943985],
     ["Symbols","Its red flag with a cross was designed to reflect its Christian faith.","Flag of Tonga",1379398668],
     ["Capitals","Its capital is Nuku'alofa, on Tongatapu.","Nukuʻalofa",1382043457],
-    ["Sports","Rugby union is its national sport.","Rugby union in Tonga",1349253809]
+    ["Sports","Rugby union is its national sport.","Rugby union in Tonga",1349253809],
+    ["Heritage","Ha'amonga 'a Maui, a stone trilithon, is called the Stonehenge of the Pacific.","Haʻamonga ʻa Maui",1364441268],
+    ["Daily life","Ta'ovala, mats wrapped around the waist, are worn on formal occasions.","Taʻovala",1337147052],
+    ["Daily life","Sunday is strictly observed: almost everything closes.","Tonga",1386473725],
+    ["History","It became a constitutional monarchy in 1875.","Tonga",1386473725],
+    ["Land","Its islands cover about 750 km² scattered over 700,000 km² of ocean.","Tonga",1386473725],
+    ["History","Its kings once ruled a sea empire across the South Pacific, from the 10th century onward.","Tonga",1386473725]
   ],
   "780": [
     ["Inventions","The steelpan, made from oil drums, was invented in Trinidad in the 20th century.","Steelpan",1383400273],
@@ -2400,7 +2986,11 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Port of Spain, on Trinidad.","Port of Spain",1383999435],
     ["Animals","The Caroni Swamp is the largest roosting place of the scarlet ibis, one of its national birds.","Caroni Swamp",1366460605],
     ["Arts","Writer V. S. Naipaul, born there, won the 2001 Nobel Prize in Literature.","V. S. Naipaul",1382081594],
-    ["People","Rapper Nicki Minaj was born in Port of Spain and moved to New York as a child.","Nicki Minaj",1384329835]
+    ["People","Rapper Nicki Minaj was born in Port of Spain and moved to New York as a child.","Nicki Minaj",1384329835],
+    ["Festivals","Its Carnival, held before Lent, is one of the biggest in the world.","Trinidad and Tobago Carnival",1370693441],
+    ["Daily life","Doubles, a curry street food of fried bread and chickpeas, is eaten at breakfast.","Doubles (food)",1382098547],
+    ["Animals","Leatherback turtles nest at Grande Riviere.","Grande Riviere",1377365490],
+    ["Festivals","Canboulay, from the French for \"burnt cane\", was a festival of drums, stick-fighting and dancing that fed into Carnival.","Trinidad and Tobago Carnival",1370693441]
   ],
   "784": [
     ["Records","Dubai's Burj Khalifa, at 828 m, is the tallest building in the world.","Burj Khalifa",1384122897],
@@ -2459,7 +3049,12 @@ window.ATLAS_FACTS = {
     ["Symbols","Its flag includes five traditional carpet patterns, one for each major tribe.","Flag of Turkmenistan",1376570981],
     ["Quirky","Its capital, Ashgabat, holds the record for the most white marble buildings.","Ashgabat",1383903152],
     ["Heritage","Merv was one of the great oasis cities of the Silk Road.","Merv",1381150207],
-    ["Money","Its currency is the manat.","Turkmen manat",1365031845]
+    ["Money","Its currency is the manat.","Turkmen manat",1365031845],
+    ["Heritage","Nisa, an early capital of the Parthian Empire, is a World Heritage Site.","Nisa, Turkmenistan",1364717348],
+    ["Daily life","Carpets are so important that it has a national Carpet Day.","Turkmen rug",1345119543],
+    ["Daily life","Plov, rice with meat and carrots, is the national dish.","Pilaf",1385839981],
+    ["Heritage","Kunya-Urgench, an old capital of Khwarazm, is a World Heritage Site.","Konye-Urgench",1381046045],
+    ["History","Its capital, founded in 1881, was called Poltoratsk from 1919 to 1927, after a local revolutionary.","Ashgabat",1383903152]
   ],
   "796": [
     ["Nature","The Turks Islands are named after the Turk's cap cactus that grows there.","Turks and Caicos Islands",1384497280],
@@ -2468,7 +3063,12 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Cockburn Town, on Grand Turk.","Cockburn Town",1380214279],
     ["Language","English is the main language spoken across its islands.","Turks and Caicos Islands",1384497280],
     ["Land","Its highest points, Blue Hills and Flamingo Hill, are only 48 m above sea level.","Turks and Caicos Islands",1384497280],
-    ["Food","Spiny lobster and conch are among its main natural resources.","Turks and Caicos Islands",1384497280]
+    ["Food","Spiny lobster and conch are among its main natural resources.","Turks and Caicos Islands",1384497280],
+    ["Animals","A rock iguana found only there lives on its islands.","Turks and Caicos rock iguana",1360743825],
+    ["Daily life","Conch is the national dish, served in fritters, salads and stews.","Turks and Caicos Islands",1385195288],
+    ["Space","John Glenn's capsule splashed down nearby in 1962, and he was brought to its main island.","Grand Turk Island",1380077544],
+    ["History","The lighthouse on its main island dates from 1852.","Grand Turk Lighthouse",1321049926],
+    ["History","Juan Ponce de León may have been the first European there, in 1512.","Turks and Caicos Islands",1385195288]
   ],
   "798": [
     ["Land","Its highest point is just 4.6 metres above sea level, on Niulakita, so its atolls are extremely vulnerable to rising seas.","Tuvalu",1382779350],
@@ -2478,7 +3078,11 @@ window.ATLAS_FACTS = {
     ["History","The capital atoll, Funafuti, was named Ellice's Island in 1819, and the group later became known as the Ellice Islands.","Tuvalu",1382779350],
     ["Food","Pulaka, the swamp taro grown in pits, is its national dish.","National dish",1381943985],
     ["Symbols","Its flag has nine yellow stars, one for each of its islands.","Flag of Tuvalu",1380991558],
-    ["Money","It uses the Australian dollar alongside its own coins.","Tuvaluan dollar",1376055447]
+    ["Money","It uses the Australian dollar alongside its own coins.","Tuvaluan dollar",1376055447],
+    ["Records","It is one of the smallest countries in the world, with about 11,000 people.","Tuvalu",1386359813],
+    ["Quirky","Its government is building a digital copy of the country in case rising seas cover it.","Tuvalu",1386359813],
+    ["Daily life","Te ano, a ball game, is a traditional sport.","Tuvalu",1386359813],
+    ["Animals","Its Funafuti Conservation Area protects coral reefs and turtles.","Funafuti Conservation Area",1364027880]
   ],
   "800": [
     ["Animals","About half of the world's mountain gorillas live in Uganda's Bwindi Impenetrable Forest.","Bwindi Impenetrable National Park",1362705911],
@@ -2519,7 +3123,12 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish, tavče gravče, is beans baked in a clay pan.","Tavče gravče",1347741929],
     ["Symbols","Its flag shows a yellow sun with eight rays spreading to the edges.","Flag of North Macedonia",1378847204],
     ["Capitals","Its capital is Skopje.","Skopje",1382474918],
-    ["Places","Matka Canyon, near the capital, has caves, a lake and old monasteries.","Matka Canyon",1353414998]
+    ["Places","Matka Canyon, near the capital, has caves, a lake and old monasteries.","Matka Canyon",1353414998],
+    ["Heritage","Ohrid, with its many churches, is a UNESCO World Heritage Site.","Ohrid",1379730455],
+    ["Myths","Alexander the Great's statue dominates the main square of the capital.","Skopje 2014",1386008424],
+    ["Music","Its folk dances, like the teškoto, are on UNESCO's list.","Teškoto",1373389176],
+    ["Daily life","Ajvar, a red pepper relish, is made each autumn.","Ajvar",1362029572],
+    ["Land","The Vardar, its longest river, flows south into the Aegean Sea near Thessaloniki.","Vardar",1379217684]
   ],
   "818": [
     ["Records","The Great Pyramid of Giza was the tallest human-made structure on Earth for more than 3,700 years.","Great Pyramid of Giza",1378503482],
@@ -2573,7 +3182,13 @@ window.ATLAS_FACTS = {
     ["Places","Sark, one of its islands, banned cars; people get around by tractor, bicycle and horse.","Sark",1376296919],
     ["Capitals","Its capital is St Peter Port.","Saint Peter Port",1375947933],
     ["Food","Gâche is a sweet bread made with raisins, sultanas, butter and mixed peel.","Guernsey Gâche",1332718832],
-    ["Language","Its traditional Norman language is still spoken by a few islanders.","Guernésiais",1367486874]
+    ["Language","Its traditional Norman language is still spoken by a few islanders.","Guernésiais",1367486874],
+    ["Quirky","It is not part of the United Kingdom but a Crown Dependency.","Guernsey",1381913627],
+    ["Animals","A breed of cattle known for its golden milk comes from the island.","Guernsey cattle",1338842492],
+    ["Places","Little Chapel, covered in seashells and pottery, is one of the smallest chapels in the world.","Little Chapel",1383146253],
+    ["Land","Herm and Sark are among the islands of its bailiwick.","Bailiwick of Guernsey",1383986525],
+    ["Festivals","Liberation Day, 9 May, marks the end of the German occupation in 1945.","Guernsey",1381913627],
+    ["Heritage","Neolithic farmers built the dolmens and menhirs still found there, from around 5000 BC.","Guernsey",1381913627]
   ],
   "832": [
     ["Culture","Jersey is a Crown Dependency of the British Crown, not part of the United Kingdom.","Jersey",1384311753],
@@ -2582,7 +3197,12 @@ window.ATLAS_FACTS = {
     ["History","It was occupied by Germany during World War II, from 1940 to 1945.","German occupation of the Channel Islands",1378575447],
     ["Places","The Jersey Zoo was founded by the naturalist Gerald Durrell.","Jersey Zoo",1370033984],
     ["Capitals","Its capital is St Helier.","St Helier",1378860135],
-    ["Language","Jèrriais, a form of the Norman language, is still spoken by a few islanders.","Jèrriais",1384025261]
+    ["Language","Jèrriais, a form of the Norman language, is still spoken by a few islanders.","Jèrriais",1384025261],
+    ["Heritage","La Hougue Bie is a Neolithic passage grave about 6,000 years old with a medieval chapel on top.","La Hougue Bie",1363489478],
+    ["People","Lillie Langtry, a famous actress of the 1880s, was born there.","Lillie Langtry",1380411461],
+    ["Places","Mont Orgueil castle has guarded the harbour of Gorey for 800 years.","Mont Orgueil",1365000107],
+    ["History","The German occupation tunnels are now a museum.","Hohlgangsanlage 8",1376896138],
+    ["Heritage","La Hougue Bie, used around 4000–3500 BC, is one of the largest and best-preserved passage graves in Western Europe.","La Hougue Bie",1363489478]
   ],
   "833": [
     ["History","Tynwald, the Isle of Man's parliament, claims to be the oldest continuous parliament in the world.","Tynwald",1378208069],
@@ -2591,7 +3211,12 @@ window.ATLAS_FACTS = {
     ["Sports","The Isle of Man TT, a motorcycle race on public roads, has been held since 1907.","Isle of Man TT",1384660447],
     ["Capitals","Its capital is Douglas.","Douglas, Isle of Man",1382128084],
     ["Food","Manx kippers, smoked herring, are a traditional breakfast.","Kipper",1376388849],
-    ["Symbols","Its flag shows a triskelion: three armoured legs with golden spurs.","Flag of the Isle of Man",1359160865]
+    ["Symbols","Its flag shows a triskelion: three armoured legs with golden spurs.","Flag of the Isle of Man",1359160865],
+    ["Myths","Its legendary ruler, Manannán mac Lir, wrapped it in mist to hide it from enemies.","Manannán mac Lir",1378051856],
+    ["Quirky","People say hello to the fairies when crossing the Fairy Bridge.","Fairy Bridge (Isle of Man)",1369053543],
+    ["Heritage","The Laxey Wheel, built in 1854, is the largest working waterwheel in the world.","Laxey Wheel",1382628158],
+    ["Language","Manx, its Celtic language, died out as a first language in 1974 but is being revived.","Manx language",1375631144],
+    ["Places","Peel Castle stands on a small island off the west coast.","Peel Castle",1371855977]
   ],
   "834": [
     ["Records","Kilimanjaro, at 5,895 m, is Africa's highest peak and the tallest free-standing mountain in the world.","Mount Kilimanjaro",1383678089],
@@ -2643,7 +3268,12 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Charlotte Amalie, on Saint Thomas.","Charlotte Amalie, U.S. Virgin Islands",1380219878],
     ["Nature","Snorkelers at Buck Island Reef, a national monument since 1961, can follow a marked underwater trail.","Buck Island Reef National Monument",1378475390],
     ["Money","Its currency is the US dollar.","United States Virgin Islands",1384518654],
-    ["Culture","Transfer Day, 31 March, marks the handover from Denmark to the United States in 1917.","Transfer Day",1354354877]
+    ["Culture","Transfer Day, 31 March, marks the handover from Denmark to the United States in 1917.","Transfer Day",1354354877],
+    ["Places","Trunk Bay on St John has an underwater trail.","Trunk Bay",1293339678],
+    ["Daily life","Its people speak English and a local creole.","United States Virgin Islands",1384518654],
+    ["Heritage","Christiansted's Danish buildings are a national historic site.","Christiansted National Historic Site",1362713242],
+    ["Daily life","Fungi, a cornmeal dish, is eaten with fish.","Cou-cou",1363346910],
+    ["Festivals","Its Carnival on St Thomas is held in April and May.","United States Virgin Islands",1384518654]
   ],
   "854": [
     ["Film","Ouagadougou hosts FESPACO, a pan-African film festival held every two years since 1969.","Panafrican Film and Television Festival of Ouagadougou",1379214494],
@@ -2666,7 +3296,12 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish, the chivito, is a sandwich of thin steak, mozzarella, ham, tomato and olives.","Chivito (sandwich)",1378881104],
     ["Culture","Candombe, a drumming tradition of the descendants of freed African slaves, is played on three different drums.","Candombe",1370018817],
     ["Symbols","Its flag shows the Sun of May, a golden sun with a face, in the corner.","Flag of Uruguay",1379705955],
-    ["History","The Spanish brought cattle in 1603, and cattle became the region's main source of wealth.","Uruguay",1384511787]
+    ["History","The Spanish brought cattle in 1603, and cattle became the region's main source of wealth.","Uruguay",1384511787],
+    ["Daily life","People carry mate gourds and thermos flasks everywhere.","Mate (drink)",1379966397],
+    ["Heritage","Colonia del Sacramento's old town is a World Heritage Site.","Colonia del Sacramento",1384124138],
+    ["Daily life","Asado, barbecue over wood, is a weekend ritual.","Asado",1371716249],
+    ["History","Its president José Mujica gave most of his salary away.","José Mujica",1383860597],
+    ["Places","Cabo Polonio is a village with no roads, reached by truck over the dunes.","Cabo Polonio",1377955257]
   ],
   "860": [
     ["Land","Uzbekistan is one of only two doubly landlocked countries, surrounded entirely by other landlocked countries. Liechtenstein is the other.","Landlocked country",1384120027],
@@ -2708,7 +3343,13 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Mata-Utu, on Wallis Island.","Mata Utu",1382193169],
     ["Places","Futuna, the second island, has an area of about 80 km².","Futuna (Wallis and Futuna)",1364027951],
     ["Money","Its currency is the CFP franc, also used in French Polynesia.","CFP franc",1342165875],
-    ["Nature","Volcanic crater lakes dot Wallis Island; Lalolalo is the best known.","Wallis and Futuna",1384098066]
+    ["Nature","Volcanic crater lakes dot Wallis Island; Lalolalo is the best known.","Wallis and Futuna",1384098066],
+    ["Daily life","Kava ceremonies are a key part of social life.","Wallis and Futuna",1385801921],
+    ["Heritage","Talietumu is a fortified site from the Tongan era.","Talietumu",1354911643],
+    ["Language","Its two islands each have their own Polynesian language.","Wallis and Futuna",1385801921],
+    ["History","French missionaries arrived in 1837 and converted the people to Catholicism.","Wallis and Futuna",1385801921],
+    ["History","A queen of Uvea signed the treaty that made it a French protectorate on 5 April 1887.","Wallis and Futuna",1385801921],
+    ["Daily life","Its population fell from about 14,900 in 2003 to about 11,200 in 2023.","Wallis and Futuna",1385801921]
   ],
   "882": [
     ["Culture","In 2011 Samoa skipped 30 December entirely when it moved to the other side of the International Date Line.","Samoa",1384461717],
@@ -2717,7 +3358,12 @@ window.ATLAS_FACTS = {
     ["Daily life","The traditional tattoo, the pe'a, covers a man from the waist to the knees.","Peʻa",1366283324],
     ["Capitals","Its capital is Apia, on the island of Upolu.","Apia",1375634293],
     ["Food","Palusami is taro leaves baked with coconut cream.","Lūʻau (food)",1375802474],
-    ["Sports","Rugby union is its most popular sport.","Rugby union in Samoa",1351723969]
+    ["Sports","Rugby union is its most popular sport.","Rugby union in Samoa",1351723969],
+    ["Daily life","Its people live by fa'a, a traditional way of life built around the extended family.","Faʻa Sāmoa",1383270509],
+    ["Myths","Pulemelei Mound, a huge stone platform, is the largest ancient structure in Polynesia.","Pulemelei Mound",1380335287],
+    ["Animals","The tooth-billed pigeon, a relative of the dodo, lives only there.","Tooth-billed pigeon",1382072560],
+    ["Places","Savai'i has lava fields and blowholes.","Savaiʻi",1385788194],
+    ["Heritage","Pulemelei Mound was probably built between 1100 and 1400 AD.","Pulemelei Mound",1380335287]
   ],
   "887": [
     ["Places","Shibam's mud-brick tower houses, up to eleven stories tall, earned it the nickname the Manhattan of the desert.","Shibam",1376854830],
@@ -2815,7 +3461,9 @@ window.ATLAS_FACTS = {
     ["Myths","Druk, the thunder dragon, gives its name to the country: Druk Yul, “Land of the Thunder Dragon”.","Druk",1356721979],
     ["Sports","Archery is its national sport, played at targets about 145 meters away.","National sport",1384611106],
     ["Animals","Its national animal is the takin, nicknamed the gnu goat, and its mythical national creature is the Druk.","List of national animals",1384556882],
-    ["Landmarks","Paro Taktsang, the Tiger's Nest monastery, clings to a cliff about 900 m above the valley floor.","Paro Taktsang",1382202266]
+    ["Landmarks","Paro Taktsang, the Tiger's Nest monastery, clings to a cliff about 900 m above the valley floor.","Paro Taktsang",1382202266],
+    ["Daily life","Television and the internet only arrived in 1999.","Bhutan",1386536936],
+    ["History","In the 16th century Zhabdrung Ngawang Namgyal unified its valleys into a single state.","Bhutan",1386536936]
   ],
   "050": [
     ["Nature","The Sundarbans, shared with India, is the largest mangrove forest in the world and a home of the Bengal tiger.","Sundarbans",1382863928],
@@ -2900,7 +3548,10 @@ window.ATLAS_FACTS = {
     ["Daily life","Since 2011, Viennese coffee house culture has been listed as intangible cultural heritage.","Viennese coffee house culture",1381703073],
     ["Landmarks","Schönbrunn Palace in Vienna was the summer home of the Habsburg rulers and has 1,441 rooms.","Schönbrunn Palace",1382155507],
     ["People","Composer Joseph Haydn, the father of the symphony, was born in Rohrau.","Joseph Haydn",1383473780],
-    ["Daily life","Chimney sweeps are seen as bringers of good luck, and people touch them or their buttons for luck at New Year.","Chimney sweep",1385543108]
+    ["Daily life","Chimney sweeps are seen as bringers of good luck, and people touch them or their buttons for luck at New Year.","Chimney sweep",1385543108],
+    ["Heritage","The Semmering Railway, opened in 1854, was the first mountain railway in Europe built with a standard-gauge track.","Semmering Railway",1381352800],
+    ["Space","Its first satellites, TUGSAT-1 and UniBRITE, two small astronomy satellites, were launched in 2013.","TUGSAT-1",1347955565],
+    ["Inventions","The sewing machine was pioneered by Josef Madersperger, a Tyrolean tailor, who presented his first in 1814.","Josef Madersperger",1350010574]
   ],
   "056": [
     ["Inventions","The saxophone was invented by Belgian instrument maker Adolphe Sax in the 1840s.","Adolphe Sax",1384471762],
@@ -2928,7 +3579,12 @@ window.ATLAS_FACTS = {
     ["Animals","Its national animal is the plains zebra.","List of national animals",1384556882],
     ["Heritage","The Okavango Delta became the 1,000th site on UNESCO's World Heritage List in 2014.","Okavango Delta",1382625506],
     ["Money","Its currency, the pula, means “rain”, which is precious in a dry land.","Botswana pula",1367626750],
-    ["Daily life","The mokoro, a dugout canoe pushed along with a long pole, is the traditional way to travel through the channels of the Okavango Delta.","Mokoro",1303198578]
+    ["Daily life","The mokoro, a dugout canoe pushed along with a long pole, is the traditional way to travel through the channels of the Okavango Delta.","Mokoro",1303198578],
+    ["Animals","Chobe National Park has one of the largest concentrations of elephants in Africa.","Chobe National Park",1379378506],
+    ["People","Seretse Khama, its first president, married an Englishwoman, Ruth Williams, in 1948, causing a scandal across the empire.","Seretse Khama",1384501245],
+    ["Places","The Tsodilo Hills are sacred to the San.","Tsodilo",1370375449],
+    ["Heritage","Tsodilo became a World Heritage Site in 2001 for its spiritual importance to local peoples.","Tsodilo",1370375449],
+    ["Heritage","The Laurens van der Post panel at Tsodilo is named after the writer who described it in 1958.","Tsodilo",1370375449]
   ],
   "051": [
     ["History","In 301 Armenia became the first country to adopt Christianity as its state religion.","Religion in Armenia",1376921650],
@@ -2939,7 +3595,10 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital, Yerevan, is one of the world's oldest continuously inhabited cities.","Yerevan",1384650629],
     ["Nature","Lake Sevan is one of the largest freshwater alpine lakes in Eurasia.","Lake Sevan",1379857134],
     ["Landmarks","Geghard Monastery is partly carved out of the mountain rock it stands against.","Geghard",1380715525],
-    ["Food","Lavash, a soft thin bread baked against the inside wall of a clay oven called a tonir, is on UNESCO's intangible heritage list.","Lavash",1365668943]
+    ["Food","Lavash, a soft thin bread baked against the inside wall of a clay oven called a tonir, is on UNESCO's intangible heritage list.","Lavash",1365668943],
+    ["Myths","Legend says Noah's Ark came to rest on Mount Ararat, the snow-capped peak that towers over its capital, though the mountain now lies across the border.","Mount Ararat",1386070735],
+    ["Records","The Wings of Tatev cable car, opened in 2010, was listed as the longest non-stop double-track cable car in the world.","Wings of Tatev",1381754028],
+    ["Places","Tatev Monastery stands on a cliff above a gorge.","Tatev Monastery",1383621119]
   ],
   "031": [
     ["Nature","Yanar Dag near Baku is a hillside that has burned for decades, fed by natural gas seeping from the ground.","Yanar Dagh",1375493309],
@@ -2965,7 +3624,11 @@ window.ATLAS_FACTS = {
     ["Culture","Besa, a code of honor about keeping one's word, led many families to shelter Jews during World War II.","Besa (Albanian culture)",1356560310],
     ["Symbols","Its red flag carries a black double-headed eagle.","Flag of Albania",1371838511],
     ["Capitals","Its capital is Tirana.","Tirana",1383962817],
-    ["People","Novelist Ismail Kadare was born in the stone city of Gjirokastër.","Ismail Kadare",1380107070]
+    ["People","Novelist Ismail Kadare was born in the stone city of Gjirokastër.","Ismail Kadare",1380107070],
+    ["Myths","In folk belief the kulshedra is a huge female dragon that brings drought, fought by a hero called the drangue.","Kulshedra",1378055925],
+    ["Music","Iso-polyphony, a style of singing in which a drone backs several voices, is on UNESCO's intangible heritage list.","Albanian iso-polyphony",1365159329],
+    ["Animals","Its national animal is the golden eagle, the bird on its flag.","List of national animals",1386001747],
+    ["Myths","The fight between the hero drangue and the dragon kulshedra may stand for the clash of order and chaos.","Kulshedra",1378055925]
   ],
   "044": [
     ["Places","On Big Major Cay in the Exumas, a colony of pigs swims out to meet visiting boats.","Pig Beach",1379518836],
@@ -2974,7 +3637,12 @@ window.ATLAS_FACTS = {
     ["Animals","Its national bird is the flamingo, and its national fish is the blue marlin.","List of national animals",1384556882],
     ["Capitals","Its capital is Nassau, on New Providence.","Nassau, Bahamas",1380021837],
     ["History","Christopher Columbus made his first landfall in the Americas on San Salvador in 1492.","San Salvador Island",1376767636],
-    ["Festivals","Junkanoo, a Christmas-time street parade of music and costumes, dates back to the 1700s there.","Junkanoo",1383676856]
+    ["Festivals","Junkanoo, a Christmas-time street parade of music and costumes, dates back to the 1700s there.","Junkanoo",1383676856],
+    ["Heritage","Lucayan people, a branch of the Taíno, lived here when Columbus arrived; within a few decades almost all had been taken as slaves.","Lucayan people",1386037017],
+    ["Animals","Andros Island has one of the longest barrier reefs in the world and blue holes full of marine life.","Andros, The Bahamas",1363880989],
+    ["Myths","The chickcharney is a legendary owl-like creature of Andros Island with three toes and red eyes.","Chickcharney",1381339599],
+    ["Places","Exuma's cays are famous for clear water.","Exuma",1380936370],
+    ["History","The Lucayans were the first Indigenous Americans Columbus met, in October 1492; by 1520 none were left.","Lucayan people",1386037017]
   ],
   "010": [
     ["Records","The coldest temperature ever recorded on Earth's surface, −89.2 °C, was measured at Vostok Station in 1983.","Vostok Station",1383326208],
@@ -2983,7 +3651,12 @@ window.ATLAS_FACTS = {
     ["Records","It is the coldest, driest and windiest continent.","Antarctica",1383926231],
     ["Quirky","Under the Antarctic Treaty, it is reserved for peace and science.","Antarctic Treaty System",1383986257],
     ["Places","The South Pole lies near the center of the continent.","South Pole",1381047072],
-    ["History","Roald Amundsen's team was the first to reach the South Pole, on 14 December 1911.","Amundsen's South Pole expedition",1379187111]
+    ["History","Roald Amundsen's team was the first to reach the South Pole, on 14 December 1911.","Amundsen's South Pole expedition",1379187111],
+    ["Quirky","Emilio Palma, born at Argentina's Esperanza Base in 1978, was the first person known to be born on the continent.","Emilio Palma",1385777334],
+    ["Animals","Emperor penguins breed there in the middle of winter, the males keeping the egg warm on their feet for about two months.","Emperor penguin",1377089235],
+    ["Places","McMurdo Station, on Ross Island, is the largest research base and can hold more than 1,000 people in summer.","McMurdo Station",1383436516],
+    ["Animals","Emperor penguins can dive to 535 metres and stay underwater for about 20 minutes.","Emperor penguin",1377089235],
+    ["Animals","Emperor penguins walk 50 to 120 km over the ice to reach their breeding colonies.","Emperor penguin",1377089235]
   ],
   "070": [
     ["History","The 1914 assassination of Archduke Franz Ferdinand in Sarajevo set off the chain of events that led to World War I.","Assassination of Archduke Franz Ferdinand",1380073037],
@@ -2993,7 +3666,11 @@ window.ATLAS_FACTS = {
     ["Places","The Old Bridge of Mostar, destroyed in 1993 and rebuilt, is a UNESCO World Heritage Site.","Stari Most",1382252871],
     ["Capitals","Its capital is Sarajevo.","Sarajevo",1384458120],
     ["Nature","Perućica, in Sutjeska National Park, is one of the last primeval forests in Europe.","Perućica",1362893283],
-    ["People","Ivo Andrić, author of The Bridge on the Drina and a Nobel Prize winner, was born near Travnik.","Ivo Andrić",1383774560]
+    ["People","Ivo Andrić, author of The Bridge on the Drina and a Nobel Prize winner, was born near Travnik.","Ivo Andrić",1383774560],
+    ["Heritage","The Mehmed Paša Sokolović Bridge in Višegrad, built in the 1570s, is the bridge of the novel The Bridge on the Drina.","Mehmed Paša Sokolović Bridge",1346929635],
+    ["Sports","Divers have leapt from Mostar's Old Bridge into the Neretva River for centuries.","Stari Most",1382252871],
+    ["Festivals","The film festival of its capital, founded in 1995 during the siege of the city, is one of the largest in southeastern Europe.","Sarajevo Film Festival",1377736903],
+    ["Heritage","Stećci, medieval carved tombstones scattered across the land, are on the World Heritage List.","Stećak",1374473351]
   ],
   "084": [
     ["Nature","The Great Blue Hole is a round marine sinkhole about 300 m across and 125 m deep, visible from the air as a dark blue circle.","Great Blue Hole",1379028911],
@@ -3002,7 +3679,12 @@ window.ATLAS_FACTS = {
     ["Food","Rice and beans is its national dish.","National dish",1381943985],
     ["Symbols","Two men with tools beside a mahogany tree appear on its flag, recalling the logging industry.","Flag of Belize",1380431342],
     ["Animals","Its national animal is Baird's tapir, and its national bird is the keel-billed toucan.","List of national animals",1384556882],
-    ["Capitals","Its capital, Belmopan, replaced Belize City after a hurricane in 1961.","Belmopan",1380351540]
+    ["Capitals","Its capital, Belmopan, replaced Belize City after a hurricane in 1961.","Belmopan",1380351540],
+    ["Animals","The Cockscomb Basin Wildlife Sanctuary was the world's first jaguar reserve.","Cockscomb Basin Wildlife Sanctuary",1362714945],
+    ["Daily life","Most people speak Kriol, an English-based creole, at home, along with Spanish, Garifuna and Maya languages.","Belizean Creole",1378541449],
+    ["Daily life","Rice and beans with stewed chicken is the everyday meal.","Belizean cuisine",1325350075],
+    ["Heritage","Caracol sits on the Vaca Plateau, about 500 metres up in the foothills of the Maya Mountains.","Caracol",1378735521],
+    ["Heritage","A LiDAR survey from an aircraft in 2009 mapped 200 km² around Caracol, revealing far more of the city.","Caracol",1378735521]
   ],
   "024": [
     ["Animals","The giant sable antelope, Angola's national symbol, was feared extinct during the civil war until trap cameras photographed a herd in 2004.","Giant sable antelope",1380740015],
@@ -3014,7 +3696,9 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Luanda.","Luanda",1379129982],
     ["Sports","The men's basketball team long dominated AfroBasket, the continent's championship, taking its 11th title in 13 tournaments in 2013.","Angola men's national basketball team",1367346864],
     ["People","Agostinho Neto, a poet and doctor, became the first president at independence in 1975.","Agostinho Neto",1382196128],
-    ["Names","Its name comes from ngola, the title of the kings of Ndongo, which the Portuguese mistook for a place name.","List of country-name etymologies",1382950159]
+    ["Names","Its name comes from ngola, the title of the kings of Ndongo, which the Portuguese mistook for a place name.","List of country-name etymologies",1382950159],
+    ["Heritage","Mbanza Kongo, the capital of the old Kingdom of Kongo, was named a UNESCO World Heritage Site in 2017.","M'banza-Kongo",1378750831],
+    ["Land","The Namib Desert reaches into its southwest, where Iona National Park meets the Atlantic.","Iona National Park",1362767327]
   ],
   "090": [
     ["History","The Battle of Guadalcanal, fought here in 1942–43, was a turning point of the Pacific war in World War II.","Guadalcanal campaign",1381511461],
@@ -3023,7 +3707,13 @@ window.ATLAS_FACTS = {
     ["Money","As late as 1882, local trade was still carried on with coins of shell beads.","Shell money",1383262644],
     ["Language","Pijin, a creole of English, is the most widely spoken language.","Pijin",1365770991],
     ["Nature","Marovo Lagoon is the largest double-barrier enclosed lagoon in the world.","Marovo Lagoon",1304506721],
-    ["Music","Panpipe ensembles are a famous part of its traditional music.","Music of the Solomon Islands",1365514448]
+    ["Music","Panpipe ensembles are a famous part of its traditional music.","Music of the Solomon Islands",1365514448],
+    ["History","John F. Kennedy's boat PT-109 sank near Gizo in 1943.","Patrol torpedo boat PT-109",1373755907],
+    ["History","The Spanish navigator Álvaro de Mendaña was the first European to visit, in 1568.","Solomon Islands",1386433936],
+    ["Land","It is made up of six major islands and more than 1,000 smaller ones.","Solomon Islands",1386433936],
+    ["History","People have lived there since at least about 30,000 BC.","Solomon Islands",1386433936],
+    ["History","It became independent in 1978.","Solomon Islands",1386433936],
+    ["History","The Lapita people, known for their pottery, began arriving around 1200–800 BC.","Solomon Islands",1386433936]
   ],
   "096": [
     ["Records","The Sultan's palace, Istana Nurul Iman, is the largest residential palace in the world, with more than 1,700 rooms.","Istana Nurul Iman",1378586759],
@@ -3032,7 +3722,13 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish, ambuyat, is a starchy, bland paste made from the trunk of the sago palm.","Ambuyat",1371477585],
     ["Money","Its dollar and Singapore's are interchangeable at par, under an agreement dating from 1967.","Brunei dollar",1376343032],
     ["Capitals","Its capital is Bandar Seri Begawan.","Bandar Seri Begawan",1372862410],
-    ["Nature","Ulu Temburong National Park protects untouched rainforest.","Ulu Temburong National Park",1362944759]
+    ["Nature","Ulu Temburong National Park protects untouched rainforest.","Ulu Temburong National Park",1362944759],
+    ["Heritage","The Omar Ali Saifuddien Mosque stands beside an artificial lagoon with a replica of a 16th-century royal barge.","Omar Ali Saifuddien Mosque",1367479153],
+    ["Animals","The proboscis monkey, with its long dangling nose, lives in its mangroves.","Proboscis monkey",1379340219],
+    ["People","Sultan Hassanal Bolkiah has ruled since 1967, one of the longest reigns of any living monarch.","Hassanal Bolkiah",1386192977],
+    ["Places","Its Jame' Asr Hassanil Bolkiah Mosque has 29 golden domes.","Jame' Asr Hassanil Bolkiah Mosque",1366833311],
+    ["Records","It is the only sovereign state entirely on the island of Borneo.","Brunei",1386537186],
+    ["History","The surviving crew of Magellan's expedition visited in 1521.","Brunei",1386537186]
   ],
   "NCyprus": [
     ["Places","Varosha, a beach district of Famagusta, was fenced off and empty from 1974 until parts of it reopened in 2020.","Varosha, Famagusta",1377153382],
@@ -3041,7 +3737,12 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is the northern part of Nicosia, divided since 1974.","North Nicosia",1383247105],
     ["Places","Bellapais Abbey, a Gothic monastery ruin, overlooks Kyrenia.","Bellapais Abbey",1366820526],
     ["Money","It uses the Turkish lira.","Northern Cyprus",1382843355],
-    ["Nature","Wild donkeys roam the Karpas Peninsula.","Karpas Peninsula",1378185668]
+    ["Nature","Wild donkeys roam the Karpas Peninsula.","Karpas Peninsula",1378185668],
+    ["Heritage","Salamis, an ancient Greek city, lies near Famagusta.","Salamis, Cyprus",1381480433],
+    ["Places","Kyrenia's harbour is lined with old stone houses.","Kyrenia",1379193090],
+    ["Places","Famagusta's walls were built by the Venetians.","Famagusta",1377989014],
+    ["History","UN Security Council Resolution 541 called its 1983 declaration of independence invalid.","Northern Cyprus",1385924344],
+    ["Daily life","Its economy is held back by an international embargo on its ports.","Northern Cyprus",1385924344]
   ],
   "Somaliland": [
     ["History","The cave paintings at Laas Geel, thousands of years old, show cattle and herders in vivid color.","Laas Geel",1370299507],
@@ -3050,7 +3751,12 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital is Hargeisa.","Hargeisa",1380785861],
     ["Money","It uses its own currency, the Somaliland shilling.","Somaliland shilling",1384330954],
     ["Land","Its claimed territory covers about 176,120 km², with around 6.2 million people.","Somaliland",1384635215],
-    ["Capitals","It was the British protectorate of British Somaliland until 1960.","Somaliland",1384635215]
+    ["Capitals","It was the British protectorate of British Somaliland until 1960.","Somaliland",1384635215],
+    ["Daily life","Camels are a symbol of wealth.","Somaliland",1385873229],
+    ["Language","Its official languages are Arabic and English, alongside the main spoken language.","Somaliland",1385873229],
+    ["Animals","Its mountains are home to a rare wild ass, ancestor of the donkey.","Somali wild ass",1382451039],
+    ["History","Its parliament is a mix of elected members and elders.","Somaliland",1385873229],
+    ["History","On 26 December 2025, Israel became the first UN member to recognise it as an independent state.","Somaliland",1385873229]
   ],
   "Kosovo": [
     ["History","Kosovo declared independence from Serbia in 2008.","Kosovo",1384336377],
@@ -3059,7 +3765,12 @@ window.ATLAS_FACTS = {
     ["Food","Flia, many crêpe-like layers brushed with cream and baked under a metal lid, takes up to four hours to make.","Flia",1375392336],
     ["Records","It has one of the youngest populations in Europe.","Demographics of Kosovo",1382071321],
     ["Capitals","Its capital is Pristina.","Pristina",1382493291],
-    ["Sports","Judoka Majlinda Kelmendi won its first Olympic gold medal in 2016.","Majlinda Kelmendi",1379005621]
+    ["Sports","Judoka Majlinda Kelmendi won its first Olympic gold medal in 2016.","Majlinda Kelmendi",1379005621],
+    ["Heritage","The Patriarchate of Peć, a group of medieval Serbian churches, is a World Heritage Site.","Patriarchate of Peć (monastery)",1368435857],
+    ["Places","Prizren's old town lies below a fortress.","Prizren",1386234982],
+    ["Heritage","Gračanica Monastery was built in 1321.","Gračanica Monastery",1379078640],
+    ["Daily life","Flija, a layered pancake baked under a lid with hot coals, is its signature dish.","Flia",1384970081],
+    ["Places","The Rugova Gorge is popular with climbers.","Rugova Canyon",1369519001]
   ],
   "016": [
     ["Nature","The National Park of American Samoa is the only US national park south of the equator.","National Park of American Samoa",1378471804],
@@ -3068,7 +3779,12 @@ window.ATLAS_FACTS = {
     ["Quirky","People born there are US nationals, not US citizens.","American Samoa",1383297332],
     ["Records","It is the southernmost territory of the United States.","American Samoa",1383297332],
     ["Capitals","Its seat of government is Pago Pago.","Pago Pago, American Samoa",1384725399],
-    ["Language","Samoan and English are its official languages.","American Samoa",1383297332]
+    ["Language","Samoan and English are its official languages.","American Samoa",1383297332],
+    ["Myths","Tagaloa, the creator god of Polynesian legend, is said to have made these islands as stepping stones.","Tagaloa",1381252115],
+    ["Sports","It has produced more NFL players per person than anywhere else.","American Samoa",1386304621],
+    ["Places","Rainmaker Mountain, above Pago Pago harbour, traps clouds and makes the harbour one of the wettest in the Pacific.","Pago Pago, American Samoa",1385798857],
+    ["Animals","Its national marine sanctuary protects coral reefs.","National Marine Sanctuary of American Samoa",1381216419],
+    ["Land","About 90 percent of its land is covered by rainforest.","American Samoa",1386304621]
   ],
   "086": [
     ["Places","Diego Garcia, the largest island in the Chagos Archipelago, hosts a joint UK–US military base.","Diego Garcia",1384248898],
@@ -3077,7 +3793,12 @@ window.ATLAS_FACTS = {
     ["Records","It has no permanent native population today, only military and contract personnel.","British Indian Ocean Territory",1383773725],
     ["Land","The Great Chagos Bank is the largest atoll structure in the world.","Great Chagos Bank",1382144758],
     ["Capitals","In 2025 Britain signed a treaty to hand the islands to Mauritius, keeping a lease on Diego Garcia.","Chagos Archipelago sovereignty dispute",1384239181],
-    ["Money","Its official currency is the pound sterling, but the US dollar is used on Diego Garcia.","British Indian Ocean Territory",1383773725]
+    ["Money","Its official currency is the pound sterling, but the US dollar is used on Diego Garcia.","British Indian Ocean Territory",1383773725],
+    ["Land","Diego Garcia is a V-shaped coral atoll with a lagoon in the middle.","Diego Garcia",1385962951],
+    ["Animals","Its islands host huge colonies of seabirds.","Chagos Archipelago",1384225435],
+    ["Heritage","At Cannon Point on Diego Garcia, two six-inch guns have pointed out to sea since 1942.","Diego Garcia",1385962951],
+    ["History","For 150 years its plantations produced coconut oil and copra.","Diego Garcia",1385962951],
+    ["History","In 2019 the International Court of Justice advised that the United Kingdom should end its rule \"as rapidly as possible\".","Diego Garcia",1385962951]
   ],
   "060": [
     ["History","Bermuda is the oldest remaining British overseas territory, settled in 1609.","Bermuda",1384222114],
@@ -3086,7 +3807,13 @@ window.ATLAS_FACTS = {
     ["Places","The Bermuda Triangle, named after it, is a region of ocean with legends of vanishing ships and planes.","Bermuda Triangle",1384121787],
     ["Daily life","Bermuda shorts, worn with knee socks, are accepted as business dress.","Bermuda shorts",1346893893],
     ["Capitals","Its capital is Hamilton.","Hamilton, Bermuda",1384457555],
-    ["Money","Its dollar is pegged at par to the US dollar.","Bermudian dollar",1359048009]
+    ["Money","Its dollar is pegged at par to the US dollar.","Bermudian dollar",1359048009],
+    ["Heritage","St. George's, founded in 1612, is the oldest continuously inhabited English town in the New World.","St. George's, Bermuda",1374937192],
+    ["Animals","The cahow, a seabird thought extinct for 300 years, was rediscovered there in 1951.","Bermuda petrel",1385430661],
+    ["Land","Its beaches are pink, coloured by the crushed shells of tiny red sea creatures called foraminifera.","Bermuda",1385836034],
+    ["Daily life","Gombey dancers in masks and tall peacock-feather headdresses dance through the streets at Boxing Day.","Gombey",1368380186],
+    ["History","Its House of Assembly dates from 1620, one of the oldest legislatures in the world.","Bermuda",1385836034],
+    ["Land","It is made up of 181 islands, though the main ones are joined by bridges.","Bermuda",1385836034]
   ],
   "092": [
     ["Places","The Baths on Virgin Gorda are a maze of giant granite boulders on the beach.","The Baths",1373871676],
@@ -3095,7 +3822,12 @@ window.ATLAS_FACTS = {
     ["Capitals","Its capital, Road Town, is on Tortola.","Road Town",1380238027],
     ["Language","English is its official language, though it is a British territory using the US dollar.","British Virgin Islands",1382404863],
     ["History","Columbus named the islands after Saint Ursula and her 11,000 legendary companions.","British Virgin Islands",1382404863],
-    ["Music","Fungi, played by bands with many homemade instruments, is its traditional music.","Fungi (music)",1323357396]
+    ["Music","Fungi, played by bands with many homemade instruments, is its traditional music.","Fungi (music)",1323357396],
+    ["Myths","Norman Island is said to have inspired Robert Louis Stevenson's Treasure Island.","Norman Island",1368400692],
+    ["Animals","The Anegada rock iguana lives only on Anegada and is critically endangered.","Cyclura pinguis",1360644657],
+    ["Myths","In 1750, mutineers from a Spanish treasure galleon are said to have hidden 55 chests of silver coins there.","Norman Island",1368400692],
+    ["Places","The Bight, a large harbour on Norman Island, is one of the most sheltered anchorages in the area.","Norman Island",1368400692],
+    ["History","In 1815 Jost Van Dyke had a population of 428, of whom 371 were enslaved.","Jost Van Dyke",1376734718]
   ],
   "052": [
     ["History","Barbados became a republic in 2021, replacing the British monarch as head of state.","Barbados",1384221369],
@@ -3104,7 +3836,12 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish is cou-cou, a cornmeal and okra mash, served with flying fish.","Cou-cou",1363346910],
     ["Symbols","Its flag shows the head of a broken trident.","Flag of Barbados",1372688340],
     ["Capitals","Its capital is Bridgetown.","Bridgetown",1375155845],
-    ["Sports","Cricketer Garfield Sobers is often called the greatest all-rounder in history.","Garfield Sobers",1382015389]
+    ["Sports","Cricketer Garfield Sobers is often called the greatest all-rounder in history.","Garfield Sobers",1382015389],
+    ["Festivals","Crop Over, a summer festival that began as a celebration of the end of the sugar cane harvest, ends with Grand Kadooment Day.","Crop Over",1382682492],
+    ["Places","Harrison's Cave is a crystallised limestone cave explored by tram.","Harrison's Cave",1383246961],
+    ["Daily life","Cricket is a national passion.","Barbados",1386389352],
+    ["Places","Bathsheba's rock formations are battered by Atlantic surf.","Bathsheba, Barbados",1377754063],
+    ["Language","Bajan is its English-based creole.","Bajan language",1383857337]
   ],
   "048": [
     ["Nature","Bahrain's Tree of Life is a lone mesquite tree that has survived for about 400 years in the desert.","Tree of Life (Bahrain)",1356919570],
@@ -3113,7 +3850,12 @@ window.ATLAS_FACTS = {
     ["Heritage","Qal'at al-Bahrain, an ancient harbor and capital, is a UNESCO World Heritage Site.","Qal'at al-Bahrain",1369726340],
     ["Records","It is the third-smallest country in Asia.","Bahrain",1384361922],
     ["Capitals","Its capital is Manama.","Manama",1384755412],
-    ["Sports","In 2004 it hosted the first Formula One race in the Middle East.","Bahrain Grand Prix",1382204381]
+    ["Sports","In 2004 it hosted the first Formula One race in the Middle East.","Bahrain Grand Prix",1382204381],
+    ["Heritage","Pearling, a trail of oyster beds, merchant houses and a fort in Muharraq, is a UNESCO World Heritage Site.","Bahrain Pearling Trail",1366152452],
+    ["Myths","Some say the Garden of Eden was in ancient Dilmun, here.","Dilmun",1386172133],
+    ["Daily life","It was the first place in the Gulf to strike oil, in 1932.","Bahrain",1386535988],
+    ["Places","A grand gateway built in 1949 leads into the old market of Manama.","Bab Al Bahrain",1369725698],
+    ["History","Ancient Dilmun was very prosperous in the first 300 years of the second millennium BC.","Dilmun",1386172133]
   ],
   "IndianOceanTer": [
     ["Animals","An estimated 43.7 million red crabs once lived on Christmas Island; each year they migrate to the sea to lay their eggs.","Christmas Island red crab",1383974947],
@@ -3122,7 +3864,13 @@ window.ATLAS_FACTS = {
     ["Capitals","Flying Fish Cove is the main settlement of Christmas Island.","Flying Fish Cove",1370710978],
     ["History","Christmas Island was transferred from Singapore to Australia in 1958.","Christmas Island",1383117952],
     ["Language","Many people on the Cocos Islands speak Cocos Malay.","Cocos (Keeling) Islands",1383690796],
-    ["Animals","Abbott's booby, a rare seabird, nests only on Christmas Island.","Abbott's booby",1382381282]
+    ["Animals","Abbott's booby, a rare seabird, nests only on Christmas Island.","Abbott's booby",1382381282],
+    ["History","The Clunies-Ross family ruled one of its island groups as a private estate from 1827 until 1978.","Clunies-Ross family",1385056886],
+    ["Quirky","Its internet domain, .cx, is used for both the one island and its neighbours.","Christmas Island",1386447115],
+    ["Animals","Robber crabs, the largest land crabs in the world, can climb trees.","Christmas Island",1386447115],
+    ["Places","Its Home Island village has a museum about the islands' history.","Home Island",1364350702],
+    ["History","Its western islands were discovered in 1609 by the English captain William Keeling, who gave them one of their names.","Cocos (Keeling) Islands",1386454380],
+    ["History","Britain annexed its western islands in 1857; they became part of Australia in 1955.","Cocos (Keeling) Islands",1386454380]
   ],
   "028": [
     ["Places","Antigua is said to have 365 beaches, one for every day of the year.","Antigua and Barbuda",1384205899],
@@ -3131,7 +3879,12 @@ window.ATLAS_FACTS = {
     ["Food","Fungee, a cornmeal dish, eaten with pepperpot stew, is its national dish.","National dish",1381943985],
     ["Sports","The cricket star Viv Richards was born there, and its main stadium is named after him.","Viv Richards",1384060390],
     ["Capitals","Its capital is St. John's, on Antigua.","St. John's, Antigua and Barbuda",1384371729],
-    ["History","It became independent from Britain in 1981.","Antigua and Barbuda",1384205899]
+    ["History","It became independent from Britain in 1981.","Antigua and Barbuda",1384205899],
+    ["Festivals","Its Carnival, held each summer, celebrates the end of slavery in 1834.","Antigua Carnival",1360611821],
+    ["Festivals","Its Carnival lasts 13 days and ends on Carnival Tuesday, the first Tuesday in August.","Antigua Carnival",1360611821],
+    ["History","On 1 August 1834 it was the only British colony in the Caribbean where slaves were freed unconditionally.","Antigua Carnival",1360611821],
+    ["Festivals","Stilt dancers called Moko Jumbies, or Long Ghosts, were part of its old Christmas festival.","Antigua Carnival",1360611821],
+    ["Festivals","Its first official Carnival was held on 1 August 1957, replacing the old Christmas festival.","Antigua Carnival",1360611821]
   ],
   "020": [
     ["Culture","Andorra has two heads of state: the Bishop of Urgell in Spain and the President of France.","Andorra",1384304648],
@@ -3140,7 +3893,12 @@ window.ATLAS_FACTS = {
     ["Food","Its national dish is escudella i carn d'olla, a soup made with meat and vegetables.","National dish",1381943985],
     ["Money","It uses the euro and began minting its own euro coins in 2014.","Andorra and the euro",1369037415],
     ["Places","About 8 million tourists visit each year.","Andorra",1384736236],
-    ["Capitals","Its capital, Andorra la Vella, is the highest capital city in Europe.","Andorra la Vella",1383008640]
+    ["Capitals","Its capital, Andorra la Vella, is the highest capital city in Europe.","Andorra la Vella",1383008640],
+    ["Heritage","The Madriu-Perafita-Claror Valley, a glacial valley of shepherds' huts and terraced fields, is a UNESCO World Heritage Site.","Madriu-Perafita-Claror Valley",1366512204],
+    ["Places","Caldea, in Escaldes-Engordany, is one of the largest spa complexes in southern Europe, fed by natural hot springs.","Caldea",1324389705],
+    ["Daily life","It has no sales tax on many goods, drawing shoppers from France and Spain.","Andorra",1384796794],
+    ["Festivals","Meritxell Day, 8 September, honours its patron saint.","Our Lady of Meritxell",1319570654],
+    ["History","Its constitution was adopted in 1993.","Andorra",1384796794]
   ],
   "SiachenGlacier": [
     ["Records","The Siachen Glacier is the highest battleground on Earth, with troops stationed above 6,000 m.","Siachen Glacier",1376903985],
@@ -3149,6 +3907,11 @@ window.ATLAS_FACTS = {
     ["Places","The glacier lies in the Karakoram range.","Siachen Glacier",1376903985],
     ["Land","Its meltwater feeds the Nubra River.","Siachen Glacier",1376903985],
     ["Language","Its name is said to mean a place with an abundance of roses.","Siachen Glacier",1376903985],
-    ["Records","More soldiers there have died from the weather and the altitude than from fighting.","Siachen conflict",1384417485]
+    ["Records","More soldiers there have died from the weather and the altitude than from fighting.","Siachen conflict",1384417485],
+    ["Records","It is the highest battlefield in the world, at up to about 6,000 metres.","Siachen conflict",1384417485],
+    ["History","Indian troops took the heights in 1984 in Operation Meghdoot.","Operation Meghdoot",1381034574],
+    ["Places","The Saltoro Ridge runs along its western edge.","Saltoro Mountains",1370451171],
+    ["Records","Its base camp is about 3,600 metres above sea level.","Siachen Glacier",1376903985],
+    ["Animals","Snow leopards live in the mountains around it.","Siachen Glacier",1376903985]
   ]
 };

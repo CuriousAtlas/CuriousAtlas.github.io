@@ -9,7 +9,7 @@ This folder is a complete, public copy of Curious Atlas that runs on any static 
 | `index.html` | The page |
 | `atlas.js` | The app: globe, Explore, Quiz, Daily, Passport |
 | `vendor.js` | The map-drawing libraries (parts of d3 and topojson), trimmed to what the app uses |
-| `facts.js` | 2,607 facts about 248 places (at least 7 each) in 27 topics, each linked to the exact Wikipedia version it came from |
+| `facts.js` | 3,370 facts about 248 places (at least 12 each) in 27 topics, each linked to the exact Wikipedia version it came from |
 | `countries-info.js`, `countries-extra.js` | Flags, capitals, area, continent, population; currencies and official languages |
 | `countries-50m.json`, `countries-110m.json` | Country borders (Natural Earth): the standard map and a lighter one used while the globe spins |
 | `detail-<continent>.json` | The detailed map for deep zoom (small islands), one file per continent, loaded only for the part of the world someone zooms in on |
