@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-703wBn82s9IgZMu7ubHEreS/FrcVcjFLaN3sN0K0wnA=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-le07LIArcKla78unqfm2uiF/bGFe49IfBF80DSwmZjU=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Curious Atlas</title>
@@ -1005,6 +1005,7 @@ html { overflow-x: clip; }
 .dareex { padding: 8px 10px; border-radius: 10px; background: color-mix(in srgb, var(--pr1) 8%, transparent); }
 .darenew { display: block; margin: 0 0 6px; font: 600 0.86rem/1.35 var(--font-display); color: var(--ink); }
 .darenew b { color: var(--pr1); }
+.darenew .dshort { display: none; }
 /* A notice across the top: storage blocked, an old browser, an update, or something went wrong. */
 .sitenote { position: relative; z-index: 30; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 10px; padding: 10px 14px; border-radius: 14px; border: 1px solid #e0a52a; background: color-mix(in srgb, #ffd36b 14%, var(--sw-raise, #1a0b26)); color: var(--ink); font: 500 0.9rem/1.35 var(--font-display); }
 .sitenote[hidden] { display: none; }
@@ -1164,7 +1165,9 @@ body.seasoned #qsteps { display: none; }
 /* Explore: Another country and Copy link stay pinned to the bottom of the panel too. */
 #explore-view > .actions:has(#next) { position: sticky; bottom: 0; z-index: 6; margin: 0 -24px -20px; padding: 14px 24px 18px; background: linear-gradient(transparent, var(--sw-raise) 30%); }
 @media (max-width: 860px) {
-  #explore-view > .actions:has(#next) { margin: 0 -16px -14px; padding: 10px 16px calc(12px + env(safe-area-inset-bottom, 0px)); }
+  /* Phones: a solid bar with a thin top edge, so a fact scrolling under it is hidden cleanly instead
+     of showing half-faded behind the buttons. */
+  #explore-view > .actions:has(#next) { margin: 0 -16px -14px; padding: 10px 16px calc(12px + env(safe-area-inset-bottom, 0px)); background: var(--sw-raise); border-top: 1px solid var(--sw-edge); box-shadow: 0 -8px 16px -10px rgba(0, 0, 0, 0.45); }
 }
 /* Party: the explanation folds away; on phones, joining with a code comes right after your name. */
 .vintro summary { cursor: pointer; font: 600 0.9rem var(--font-display); color: var(--muted); }
@@ -1300,7 +1303,7 @@ body:not(.playing) .timer.ontop, body:not(.playing) .nextdock { display: none; }
 /* While the bar is up, the power meter (and its "Choose your power-up" button) sits just above it. */
 .globe-wrap:has(#qdock:not([hidden])) .power.ondock { bottom: calc(var(--docktop, 70px) + 8px); }
 .nextdock #qnext kbd { margin-left: 8px; padding: 1px 5px; border-radius: 5px; background: rgba(0, 0, 0, 0.18); font: 600 0.7rem var(--font-mono); }
-.dockbet { flex: 1 1 auto; min-width: 0; display: flex; }
+.dockbet { flex: 1 1 0; min-width: 0; display: flex; } /* basis 0: a long first-time note wraps inside, never pushes Next to a new row */
 .dockbet:empty { display: none; }
 .nextdock .betbox, .nextdock .betbox.hot { flex: 1; min-width: 0; margin: 0; padding: 6px 10px; gap: 4px; border: 0; border-radius: 14px; background: none; box-shadow: none; }
 .nextdock .betbox.hot .bethead b { color: var(--pick); text-shadow: 0 0 8px var(--pick-glow); }
@@ -1322,6 +1325,7 @@ body:not(.playing) .timer.ontop, body:not(.playing) .nextdock { display: none; }
   .nextdock .betbox .bethead { font-size: 0.75rem; }
   .nextdock .betbox .bethead .pinnote-label { font-size: 0.7rem; letter-spacing: 0.06em; }
   .nextdock .dlong { display: none; }
+  .nextdock .dshort { display: inline; }
   .nextdock .betbox .bethead b { font-size: 0.82rem; }
   .nextdock .betbox .darenew { font-size: 0.74rem; line-height: 1.3; }
   .nextdock .betbox .allin { min-height: 32px; padding: 4px 10px; font-size: 0.8rem; }
@@ -2430,7 +2434,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwo5sofw";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwoan2eh";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
