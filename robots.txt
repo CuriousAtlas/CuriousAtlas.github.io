@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://curiousatlas.github.io/sitemap.xml
+Sitemap: https://geo-dojo.github.io/sitemap.xml
