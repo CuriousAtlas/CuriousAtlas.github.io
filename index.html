@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-PFAUMfeQx3lGdNf+5JgPPp+HH3R0/PCqfaGYT0S0o0k=' 'sha256-fDOOqhWmOkt5x/AKTPsXIsAriM2eDpu1hQzTGNoVUAg='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5rV8fsiLrxZePbXL6D19ysefa81j5qNZTa/qBoFV4/Y=' 'sha256-bVIQGTImBVfXmwDYXVRmJAym8L08Kew3Qujsfw+2oig=' 'sha256-2e+7EBBDpnpdhnJfCvIxd9k2IoceksuUNRK+Wfo5+nY='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Curious Atlas</title>
+<title>Geo Dojo</title>
 <meta name="description" content="A neon globe geography game: thousands of sourced facts about every country, with quick rounds, a daily challenge, Survival, journeys and a passport to fill.">
 <meta name="theme-color" content="#0c1518">
-<meta property="og:title" content="Curious Atlas">
+<meta property="og:title" content="Geo Dojo">
 <meta property="og:description" content="A neon globe geography game: thousands of sourced facts about every country, with quick rounds, a daily challenge, Survival, journeys and a passport to fill.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://curiousatlas.github.io/share.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Curious Atlas: a neon globe beside the words Find countries from clues on a neon globe">
+<meta property="og:image:alt" content="Geo Dojo: a neon globe beside the words Find countries from clues on a neon globe">
 <link rel="canonical" href="https://curiousatlas.github.io/">
 <meta property="og:url" content="https://curiousatlas.github.io/">
 <meta name="twitter:card" content="summary_large_image">
@@ -1408,7 +1408,10 @@ body.playing .timer.ontop { right: 92px; }
 /* The Perfect stamp lands under the strip; the step cue sits under it too. */
 .perfectstamp { top: 84px; }
 /* The result of the answer, at the top of the Next bar. */
-.dockres { flex-basis: 100%; margin: -2px 4px 2px; font: 700 1rem var(--font-display); color: var(--good); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dockres { flex-basis: 100%; margin: -2px 4px 2px; font: 700 1rem var(--font-display); color: var(--good); white-space: nowrap; display: flex; align-items: center; min-width: 0; }
+/* The sentence shortens with "…" when the bar is narrow; the points and the Perfect tag never do. */
+.dockres .dtx { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.dockres b, .dockres .ptag { flex: none; }
 .dockres[hidden] { display: none; }
 .dockres.no { color: var(--wrong); }
 .dockres b { color: var(--ink); margin-right: 6px; }
@@ -1905,6 +1908,34 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
 .look-rosequartz { --border-w: 1.4; --ocean: #2a0f1e; --ocean-edge: #e8a06a; --grat: rgba(255, 200, 210, 0.08); --m1: #f7b7c9; --m2: #f3a3ba; --m3: #fbd0dc; --m4: #ee9bb0; --m5: #f9c4d2; --m6: #f0adc0; --land-stroke: #b9774a; --river: #ffe3ea; --lake: #3c1429; --glow: rgba(255, 170, 190, 0.45); }
 .look-diamond { --border-w: 1.1; --ocean: #030712; --ocean-edge: #7fd4ff; --grat: rgba(200, 235, 255, 0.1); --m1: #eaf6ff; --m2: #bfe3ff; --m3: #ffffff; --m4: #d6eeff; --m5: #a9d8ff; --m6: #f4fbff; --land-stroke: #7fd4ff; --river: #ffffff; --lake: #0a1a30; --glow: rgba(160, 220, 255, 0.6); }
 .look-gold { --border-w: 1.6; --ocean: #070b1f; --ocean-edge: #c9a227; --grat: rgba(255, 215, 120, 0.07); --m1: #d4a93a; --m2: #c79a2e; --m3: #e0b84a; --m4: #b98c26; --m5: #dcb042; --m6: #caa03a; --land-stroke: #3a2a05; --river: #f2d77a; --lake: #0e1638; --glow: rgba(255, 200, 80, 0.45); }
+.look-inkwash { --border-w: 1.5; --ocean: #22272b; --ocean-edge: #e9e2d0; --grat: rgba(233, 226, 208, 0.07); --m1: #ece4d0; --m2: #e3d9c2; --m3: #f1eadb; --m4: #dcd0b6; --m5: #e8dfca; --m6: #d6c9ad; --land-stroke: #15171a; --river: #5c6670; --lake: #2c3237; --glow: rgba(233, 226, 208, 0.25); }
+.look-nightlights { --border-w: 1.4; --ocean: #02040a; --ocean-edge: #ffb347; --grat: rgba(255, 190, 90, 0.05); --m1: #10131c; --m2: #131722; --m3: #0e111a; --m4: #151a26; --m5: #111520; --m6: #0f1219; --land-stroke: #ffb347; --river: #ffd27a; --lake: #05070f; --glow: rgba(255, 170, 60, 0.45); }
+.look-satellite { --border-w: 0.8; --ocean: #0a2a4f; --ocean-edge: #6fa8dc; --grat: rgba(255, 255, 255, 0.05); --m1: #4f7a3a; --m2: #8a7a4a; --m3: #6b8f45; --m4: #a08a5a; --m5: #3f6b35; --m6: #b59a64; --land-stroke: rgba(255, 255, 255, 0.35); --river: #4f8fd0; --lake: #0d3460; --glow: rgba(110, 170, 230, 0.35); }
+.look-greatwave { --border-w: 1.4; --ocean: #0d1f4a; --ocean-edge: #f1e6c8; --grat: rgba(241, 230, 200, 0.1); --m1: #f1e6c8; --m2: #e6d6ad; --m3: #f6eed8; --m4: #dcc99b; --m5: #ece0bd; --m6: #d3bf8f; --land-stroke: #1b2f6b; --river: #ffffff; --lake: #15295c; --glow: rgba(241, 230, 200, 0.35); }
+.look-lacquer { --border-w: 1.6; --ocean: #1a0505; --ocean-edge: #e8402a; --grat: rgba(232, 64, 42, 0.07); --m1: #161616; --m2: #1d1d1d; --m3: #121212; --m4: #222222; --m5: #1a1a1a; --m6: #0f0f0f; --land-stroke: #e8402a; --river: #e0b84a; --lake: #2a0808; --glow: rgba(232, 64, 42, 0.45); }
+/* Belts (47-arcade.js): the line on the Play screen and end card, and the new-belt card. */
+.beltline { display: flex; align-items: center; gap: 10px; padding: 8px 12px; margin: 6px 0 10px; border-radius: 14px; border: 1px solid var(--sw-edge); background: rgba(255, 255, 255, 0.03); }
+.beltline[hidden] { display: none; }
+.beltbar { flex: none; position: relative; width: 34px; height: 10px; border-radius: 3px; background: var(--belt); box-shadow: 0 0 8px rgba(255, 255, 255, 0.18); }
+.beltbar::after { content: ""; position: absolute; left: 13px; top: -3px; width: 8px; height: 16px; border-radius: 2px; background: var(--belt); filter: brightness(0.82); }
+.beltbar.none { outline: 1px dashed var(--muted); box-shadow: none; } .beltbar.none::after { display: none; }
+.beltbar.black, .bigbelt.black { outline: 1px solid var(--sw-hot, #ff3fd2); }
+.beltname { display: grid; gap: 1px; min-width: 0; } .beltname b { font: 700 0.92rem var(--font-display); }
+.beltname small { font: 500 0.68rem var(--font-mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+.beltprog { flex: 1; min-width: 50px; height: 6px; border-radius: 99px; background: var(--rule); overflow: hidden; }
+.beltprog i { display: block; height: 100%; background: linear-gradient(90deg, #7ff9ff, #ff3fd2); }
+.beltbox { width: min(440px, 100%); text-align: center; max-height: calc(100vh - 32px); overflow-y: auto; }
+.beltbox h3 { font-size: 2rem; }
+.bigbelt { position: relative; width: 180px; height: 24px; margin: 12px auto 46px; border-radius: 6px; background: var(--belt); box-shadow: 0 0 24px rgba(255, 255, 255, 0.25); }
+.bigbelt::before, .bigbelt::after { content: ""; position: absolute; top: 16px; width: 22px; height: 42px; border-radius: 4px; background: var(--belt); filter: brightness(0.85); }
+.bigbelt::before { left: 66px; transform: rotate(14deg); } .bigbelt::after { right: 66px; transform: rotate(-14deg); }
+.beltmaps { list-style: none; margin: 8px 0 14px; padding: 0; display: grid; gap: 8px; text-align: left; }
+.beltmaps li { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 14px; border: 1px solid var(--sw-edge); }
+.beltmaps .sw { flex: none; width: 60px; height: 60px; } .beltmaps .sw svg { width: 100%; height: 100%; display: block; }
+.beltmaps b { display: block; font: 700 1rem var(--font-display); } .beltmaps small { font: 400 0.82rem/1.35 var(--font-body); color: var(--muted); }
+.beltbox .actions { justify-content: center; }
+@media (prefers-reduced-motion: no-preference) { .bigbelt { animation: beltin 0.6s cubic-bezier(0.2, 1.4, 0.4, 1) both; } }
+@keyframes beltin { from { transform: scale(0.4); opacity: 0; } }
 
 /* High scores: Global and Personal lists, a tab per board. */
 .hitabs, .hiboards { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 4px; }
@@ -1956,13 +1987,14 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
 <body>
 <div class="tutcard" id="tutcard" hidden></div>
 <div class="tutcard" id="skincard" hidden></div>
+<div class="tutcard" id="beltcard" hidden></div>
 <div class="coach" id="coach" role="status" hidden></div>
 <div class="termtip" id="termtip" role="tooltip" hidden></div>
 <div class="app">
   <div class="sitenote" id="sitenote" role="status" hidden></div>
   <header>
     <div class="brand">
-      <h1>Curious<span>.</span>Atlas</h1>
+      <h1>Geo<span>.</span>Dojo</h1>
       <p id="sub">Field notes from around the world</p>
     </div>
     <label class="search" for="q">
@@ -2136,6 +2168,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
           <div>
             <div class="eyebrow"><span class="tag">Quiz</span><span id="qsetupnote"></span></div>
             <h2>Play</h2>
+            <div class="beltline" id="qbelt" hidden></div>
           </div>
           <div class="tiles" id="qtiles" role="group" aria-label="Ways to play">
             <button type="button" class="tile quick" id="playquick" aria-expanded="false" aria-controls="qquick"><span class="ticon" aria-hidden="true">▶</span><b>Quick round</b><small id="tquick"></small></button>
@@ -2157,7 +2190,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
             <p class="goldenstrip" id="qgolden" hidden></p>
           </div>
           <div class="pgroup friendbox" id="qfriends" hidden></div>
-          <div class="hometip" id="qhometip" role="note" hidden><p><b>Keep Curious Atlas handy:</b> on iPhone, tap <b>Share</b> and then <b>Add to Home Screen</b>. On Android, open the browser menu and tap <b>Add to Home screen</b>. It'll sit on your home screen like an app.</p><button type="button" class="linkbtn" id="qhometipx">Got it</button></div>
+          <div class="hometip" id="qhometip" role="note" hidden><p><b>Keep Geo Dojo handy:</b> on iPhone, tap <b>Share</b> and then <b>Add to Home Screen</b>. On Android, open the browser menu and tap <b>Add to Home screen</b>. It'll sit on your home screen like an app.</p><button type="button" class="linkbtn" id="qhometipx">Got it</button></div>
           <!-- Phones: the less-used sections fold behind one "More" row (open and without its row on wider screens). -->
           <details class="more" id="qmore">
             <summary>More<small>How to play, journeys, shared treasure, league, high scores, scoring, challenge codes, vibration, sources</small></summary>
@@ -2207,7 +2240,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
             <h4>The basics</h4>
             <ul>
               <li><b>Country:</b> 50 points for naming it. <b>Pin:</b> up to 50, more the closer it lands.</li>
-              <li><b>Perfect:</b> the right country with your pin inside it earns a +10 bonus, multiplied like the rest. Perfects raise your rank, from Tourist to Atlas.</li>
+              <li><b>Perfect:</b> the right country with your pin inside it earns a +10 bonus, multiplied like the rest. Perfects earn belts, from White to Black, and each belt wins a new map.</li>
               <li><b>Streak:</b> each right answer in a row multiplies the next one by 1.5, up to ×4. Two-choice rounds (higher or lower, north or south) are answered with one tap, no pin: they pay 40 for the name and count half a step.</li>
               <li><b>Clues</b> are optional. Each takes a percentage off that question's points. After Eliminate a wrong answer, Eliminate another clears a second one for a bigger cut.</li>
             </ul>
@@ -2331,6 +2364,7 @@ body.tutoring #cuebubble { display: none; } /* the guide says the same thing */
             <h2 id="qfinal"></h2>
             <p class="verdict" id="qverdict"></p>
             <div class="newach" id="qnewach" hidden></div>
+            <div class="beltline" id="qendbelt" hidden></div>
             <div class="dots" id="qdots" aria-hidden="true"></div>
             <div id="qnudges"></div>
           <div class="actions">
@@ -2434,7 +2468,7 @@ for (const [k, f] of [["m50", "countries-50m.json"], ["m110", "countries-110m.js
 }
 </script>
 <script src="vendor.js"></script>
-<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwogd37o";</script>
+<script>window.ATLAS_STANDALONE = true; window.ATLAS_BUILD = "mwqi1bf3";</script>
 <script src="facts.js"></script>
 <script src="countries-info.js"></script>
 <script src="countries-extra.js"></script>
@@ -2447,7 +2481,7 @@ if ("serviceWorker" in navigator && location.protocol !== "file:") {
       // A new version was published: once it has downloaded, offer a reload to switch to it.
       reg.addEventListener("updatefound", () => {
         const w = reg.installing;
-        if (w) w.addEventListener("statechange", () => { if (w.state === "installed" && navigator.serviceWorker.controller && window.atlasSiteNote) window.atlasSiteNote("update", "<b>A new version of Curious Atlas is ready.</b>", [["Reload", () => location.reload()], ["Later", () => { const el = document.getElementById("sitenote"); if (el) el.hidden = true; }]]); });
+        if (w) w.addEventListener("statechange", () => { if (w.state === "installed" && navigator.serviceWorker.controller && window.atlasSiteNote) window.atlasSiteNote("update", "<b>A new version of Geo Dojo is ready.</b>", [["Reload", () => location.reload()], ["Later", () => { const el = document.getElementById("sitenote"); if (el) el.hidden = true; }]]); });
       });
     }).catch(() => {});
   });

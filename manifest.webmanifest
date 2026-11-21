@@ -1,6 +1,6 @@
 {
-  "name": "Curious Atlas",
-  "short_name": "Atlas",
+  "name": "Geo Dojo",
+  "short_name": "Geo Dojo",
   "description": "A globe of sourced country facts, with quizzes, a daily challenge and a passport.",
   "start_url": "./",
   "scope": "./",

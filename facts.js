@@ -726,7 +726,7 @@ window.ATLAS_FACTS = {
     ["Film","The Cannes Film Festival awards its top prize, the Palme d'Or, each May.","Cannes Film Festival",1383387213],
     ["Quirky","Counting its overseas territories, it uses 12 different time zones, more than any other country.","Time in France",1349654400],
     ["People","Napoleon Bonaparte was born in Ajaccio, on the island of Corsica, in 1769.","Napoleon",1386167676],
-    ["Landmarks","The Eiffel Tower was built as the entrance arch to the 1889 World's Fair.","Eiffel Tower",1384328455],
+    ["Landmarks","The Eiffel Tower was built as the centrepiece of the 1889 World's Fair.","Eiffel Tower",1384328455],
     ["Music","Singer Édith Piaf, famous for La Vie en rose and nicknamed the Little Sparrow, was born in Paris in 1915.","Édith Piaf",1381479542],
     ["Music","The electronic duo Daft Punk, famous for performing in robot helmets, formed in Paris in 1993.","Daft Punk",1385755609],
     ["Sports","The 24 Hours of Le Mans, first run in 1923, is the world's oldest endurance car race still held today.","24 Hours of Le Mans",1382779200],

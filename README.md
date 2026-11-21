@@ -1,6 +1,6 @@
-# Curious Atlas: the version you can host yourself
+# Geo Dojo: the version you can host yourself
 
-This folder is a complete, public copy of Curious Atlas that runs on any static web host. No server, database or account is needed.
+This folder is a complete, public copy of Geo Dojo that runs on any static web host. No server, database or account is needed.
 
 ## What's included
 
